@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 import os
-from task import pubmed_task, pubmed_task_small, nicta_task, dri_task, art_task, art_task_small, generic_task, \
+from task import cs_abstruct_task, pubmed_task, pubmed_task_small, nicta_task, dri_task, art_task, art_task_small, generic_task, \
     GEN_DRI_TASK, GEN_PMD_TASK, GEN_NIC_TASK, GEN_ART_TASK
 import re
 import matplotlib
@@ -122,6 +122,7 @@ def get_all_tasks():
     result = []
     result.append(pubmed_task(train_batch_size=-1, max_docs=-1))
     result.append(pubmed_task_small(train_batch_size=-1, max_docs=-1))
+    result.append(cs_abstruct_task(train_batch_size=-1, max_docs=-1))
     result.append(nicta_task(train_batch_size=-1, max_docs=-1))
     result.append(dri_task(train_batch_size=-1, max_docs=-1))
     result.append(art_task(train_batch_size=-1, max_docs=-1))
