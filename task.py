@@ -11,8 +11,8 @@ from utils import log
 PUBMED_LABELS = ["mask", "BACKGROUND", "CONCLUSIONS", "METHODS", "OBJECTIVE", "RESULTS"]
 PUBMED_LABELS_PRES = ["mask", "BACKGROUND", "OBJECTIVE", "METHODS", "RESULTS", "CONCLUSIONS"]
 
-CS_ABSTRUCT_LABELS = ["background", "method", "result", "objective", "other"]
-CS_ABSTRUCT_LABELS_PRES = ["background", "method", "result", "objective", "other"]
+CS_ABSTRUCT_LABELS = ["mask", "background", "method", "result", "objective", "other"]
+CS_ABSTRUCT_LABELS_PRES = ["mask", "background", "method", "result", "objective", "other"]
 
 NICTA_LABELS = ["mask", "outcome", "background", "intervention", "study design", "other", "population"]
 NICTA_LABELS_PRES = ["mask", "background", "intervention", "study design", "population", "outcome", "other"]
