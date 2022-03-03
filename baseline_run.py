@@ -35,7 +35,7 @@ config = {
     "lr_epoch_decay": 0.9,
     "batch_size":  32,
     "max_seq_length": 128,
-    "max_epochs": 20,
+    "max_epochs": 15,
     "early_stopping": 5,
 
 }
@@ -55,15 +55,15 @@ def create_generic_task(task_name):
 #task = create_task(pubmed_task_small)
 #task = create_task(nicta_task)
 #task = create_task(dri_task)
-#task = create_task(art_task)
+task = create_task(art_task)
 #task = create_task(art_task_small)
 #task = create_generic_task(GEN_DRI_TASK)
 #task = create_generic_task(GEN_PMD_TASK)
 #task = create_generic_task(GEN_NIC_TASK)
-task = create_generic_task(GEN_ART_TASK)
+#task = create_generic_task(GEN_ART_TASK)
 
 # ADAPT: Set to False if you do not want to save the best model
-save_best_models = False
+save_best_models = True
 
 # ADAPT: provide a different device if needed
 device = get_device(0)

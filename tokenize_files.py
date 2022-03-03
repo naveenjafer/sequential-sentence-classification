@@ -4,6 +4,7 @@
 from transformers import BertTokenizer
 
 BERT_VOCAB = "bert_model/scibert_scivocab_uncased/vocab.txt"
+#BERT_VOCAB = "yihanlin/scibert_scivocab_uncased"
 MAX_SEQ_LENGTH = 128
 
 
@@ -35,6 +36,11 @@ def tokenize():
 
     print("DRI")
     tokenize_file("datasets/DRI/full_clean.txt", "datasets/DRI/full_scibert.txt", tokenizer)
+    
+    print("CSAbstruct")
+    tokenize_file("datasets/CSAbstruct/train_clean.txt", "datasets/CSAbstruct/train_scibert.txt", tokenizer)
+    tokenize_file("datasets/CSAbstruct/dev_clean.txt", "datasets/CSAbstruct/dev_scibert.txt", tokenizer)
+    tokenize_file("datasets/CSAbstruct/test_clean.txt", "datasets/CSAbstruct/test_scibert.txt", tokenizer)
 
     print("ART")
     tokenize_file("datasets/ART/full_clean.txt", "datasets/ART/full_scibert.txt", tokenizer)
