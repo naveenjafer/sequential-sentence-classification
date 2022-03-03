@@ -11,6 +11,8 @@ from utils import log
 PUBMED_LABELS = ["mask", "BACKGROUND", "CONCLUSIONS", "METHODS", "OBJECTIVE", "RESULTS"]
 PUBMED_LABELS_PRES = ["mask", "BACKGROUND", "OBJECTIVE", "METHODS", "RESULTS", "CONCLUSIONS"]
 
+CS_ABSTRUCT_LABELS = ["background", "method", "result", "objective", "other"]
+CS_ABSTRUCT_LABELS_PRES = ["background", "method", "result", "objective", "other"]
 
 NICTA_LABELS = ["mask", "outcome", "background", "intervention", "study design", "other", "population"]
 NICTA_LABELS_PRES = ["mask", "background", "intervention", "study design", "population", "outcome", "other"]
@@ -29,12 +31,15 @@ DRI_TASK = "DRI"
 PUBMED_TASK = "pubmed-20k"
 NICTA_TASK = "nicta_piboso"
 ART_TASK = "ART"
+CS_ABSTRUCT_TASK = "CSAbstruct"
 
 GEN_DRI_TASK = "DRI_generic"
 GEN_PMD_TASK = "PMD_generic"
 GEN_NIC_TASK = "NIC_generic"
 GEN_ART_TASK = "ART_generic"
 
+def cs_abstruct_task(train_batch_size, max_docs):
+    return Task(CS_ABSTRUCT_TASK, CS_ABSTRUCT_LABELS, train_batch_size, 1, max_docs, short_name="CSAbstruct", labels_pres=CS_ABSTRUCT_LABELS_PRES )
 
 def generic_task(task_name, train_batch_size, max_docs):
     return Task(task_name, GEN_LABELS,
