@@ -38,7 +38,9 @@ GEN_PMD_TASK = "PMD_generic"
 GEN_NIC_TASK = "NIC_generic"
 GEN_ART_TASK = "ART_generic"
 
-def cs_abstruct_task(train_batch_size, max_docs):
+def cs_abstruct_task(train_batch_size, max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        CS_ABSTRUCT_TASK = folderNameOverride
     return Task(CS_ABSTRUCT_TASK, CS_ABSTRUCT_LABELS, train_batch_size, 1, max_docs, short_name="CSAbstruct", labels_pres=CS_ABSTRUCT_LABELS_PRES )
 
 def generic_task(task_name, train_batch_size, max_docs):
@@ -46,36 +48,48 @@ def generic_task(task_name, train_batch_size, max_docs):
                 train_batch_size, 1,  max_docs, short_name=task_name,
                 labels_pres=GEN_LABELS_PRES)
 
-def dri_task(train_batch_size, max_docs):
+def dri_task(train_batch_size, max_docs, folderNameOverride):
     # 10-fold cross validation
+    if folderNameOverride != None:
+        DRI_TASK = folderNameOverride
     return Task(DRI_TASK, DRI_LABELS,
                  train_batch_size, 10,  max_docs, short_name="DRI",
                 labels_pres=DRI_LABELS_PRES)
 
-def art_task(train_batch_size, max_docs):
+def art_task(train_batch_size, max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        ART_TASK = folderNameOverride
     # 9-fold cross validation, Accuracy-Metric
     return Task(ART_TASK, ART_LABELS,
                  train_batch_size, 9,  max_docs,
                 dev_metric="acc", short_name="ART", labels_pres=ART_LABELS_PRES)
 
-def art_task_small(train_batch_size,  max_docs):
+def art_task_small(train_batch_size,  max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        ART_TASK = folderNameOverride
     # 9-fold cross validation, Accuracy-Metric
     return Task(ART_TASK + "_small", ART_LABELS,
                  train_batch_size,  9,  max_docs,
                 dev_metric="acc", portion_training_data=1.0/3.0,
                 task_folder_name=ART_TASK, short_name="mART", labels_pres=ART_LABELS_PRES)
 
-def pubmed_task(train_batch_size,  max_docs):
+def pubmed_task(train_batch_size,  max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        PUBMED_TASK = folderNameOverride
     return Task(PUBMED_TASK, PUBMED_LABELS,
                  train_batch_size,  1,  max_docs, short_name="PMD", labels_pres=PUBMED_LABELS_PRES)
 
-def pubmed_task_small(train_batch_size,  max_docs):
+def pubmed_task_small(train_batch_size,  max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        PUBMED_TASK = folderNameOverride
     return Task(PUBMED_TASK + "_small", PUBMED_LABELS,
                  train_batch_size,  1,  max_docs,
                 portion_training_data=1.0/20.0, task_folder_name=PUBMED_TASK, short_name="mPMD", labels_pres=PUBMED_LABELS_PRES)
 
 
-def nicta_task(train_batch_size,  max_docs):
+def nicta_task(train_batch_size,  max_docs, folderNameOverride):
+    if folderNameOverride != None:
+        NICTA_TASK = folderNameOverride
     return Task(NICTA_TASK, NICTA_LABELS,
                  train_batch_size,  1,  max_docs, short_name="NIC", labels_pres=NICTA_LABELS_PRES)
 

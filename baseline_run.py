@@ -2,17 +2,23 @@ import time
 import gc
 from datetime import datetime
 from os import makedirs
+import sys
 
 import torch
 
 from eval_run import eval_and_save_metrics
 from utils import get_device, ResultWriter, log
-from task import pubmed_task, nicta_task, NICTA_LABELS, PUBMED_LABELS, dri_task, art_task, NICTA_TASK, DRI_TASK, \
+from task import cs_abstruct_task, pubmed_task, nicta_task, NICTA_LABELS, PUBMED_LABELS, dri_task, art_task, NICTA_TASK, DRI_TASK, \
     ART_TASK, pubmed_task_small, art_task_small, GEN_DRI_TASK, GEN_PMD_TASK, GEN_NIC_TASK, GEN_ART_TASK, generic_task
 
 from train import SentenceClassificationTrainer
 from models import BertHSLN
 import os
+
+try:
+    folderNameOverride = sys.argv[1]
+except:
+    folderNameOverride = None
 
 # BERT_VOCAB = "bert-base-uncased"
 # BERT_MODEL = "bert-base-uncased"
@@ -35,7 +41,7 @@ config = {
     "lr_epoch_decay": 0.9,
     "batch_size":  32,
     "max_seq_length": 128,
-    "max_epochs": 15,
+    "max_epochs": 70,
     "early_stopping": 5,
 
 }
@@ -43,7 +49,7 @@ config = {
 
 MAX_DOCS = -1
 def create_task(create_func):
-    return create_func(train_batch_size=config["batch_size"], max_docs=MAX_DOCS)
+    return create_func(train_batch_size=config["batch_size"], max_docs=MAX_DOCS, folderNameOverride=folderNameOverride)
 
 def create_generic_task(task_name):
     return generic_task(task_name, train_batch_size=config["batch_size"], max_docs=MAX_DOCS)
@@ -55,7 +61,8 @@ def create_generic_task(task_name):
 #task = create_task(pubmed_task_small)
 #task = create_task(nicta_task)
 #task = create_task(dri_task)
-task = create_task(art_task)
+#task = create_task(art_task)
+task = create_task(cs_abstruct_task)
 #task = create_task(art_task_small)
 #task = create_generic_task(GEN_DRI_TASK)
 #task = create_generic_task(GEN_PMD_TASK)
@@ -105,6 +112,6 @@ for restart in range(restarts):
 log("Training finished.")
 
 log("Calculating metrics...")
-eval_and_save_metrics(run_results)
+eval_and_save_metrics(run_results, folderNameOverride)
 log("Calculating metrics finished")
 

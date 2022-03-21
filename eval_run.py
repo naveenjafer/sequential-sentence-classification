@@ -62,10 +62,10 @@ def plot_confusion_matrix(cm, classes,
     return ax
 
 
-def load_best_results(run_path, task):
+def load_best_results(run_path, task, folderNameOverride):
     '''Loads the relevant metrics for a certain task with the best dev set performance.'''
     results = []
-    for best_metrics in load_best_dev_metrics(run_path, task):
+    for best_metrics in load_best_dev_metrics(run_path, task, folderNameOverride):
         epoch = best_metrics["epoch"]
 
         results.append([
@@ -79,9 +79,9 @@ def load_best_results(run_path, task):
     return results
 
 
-def load_best_dev_metrics(run_path, task_name):
+def load_best_dev_metrics(run_path, task_name, folderNameOverride):
     '''Loads the results with the best dev set performance for the given task.'''
-    dev_metric = get_task(task_name).dev_metric
+    dev_metric = get_task(task_name,folderNameOverride).dev_metric
     results = []
     for fn in sorted(list(glob.glob(f'{run_path}/*.jsonl'))):
         with open(fn, "r") as f:
@@ -118,15 +118,15 @@ def load_best_dev_metrics(run_path, task_name):
 def create_generic_task(task_name):
     return generic_task(task_name, train_batch_size=1, max_docs=-1)
 
-def get_all_tasks():
+def get_all_tasks(folderNameOverride):
     result = []
-    result.append(pubmed_task(train_batch_size=-1, max_docs=-1))
-    result.append(pubmed_task_small(train_batch_size=-1, max_docs=-1))
-    result.append(cs_abstruct_task(train_batch_size=-1, max_docs=-1))
-    result.append(nicta_task(train_batch_size=-1, max_docs=-1))
-    result.append(dri_task(train_batch_size=-1, max_docs=-1))
-    result.append(art_task(train_batch_size=-1, max_docs=-1))
-    result.append(art_task_small(train_batch_size=-1, max_docs=-1))
+    result.append(pubmed_task(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(pubmed_task_small(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(cs_abstruct_task(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(nicta_task(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(dri_task(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(art_task(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
+    result.append(art_task_small(train_batch_size=-1, max_docs=-1, folderNameOverride=folderNameOverride))
 
     result.append(create_generic_task(GEN_DRI_TASK))
     result.append(create_generic_task(GEN_PMD_TASK))
@@ -136,8 +136,8 @@ def get_all_tasks():
     return result
 
 
-def get_task(taskname):
-    for t in get_all_tasks():
+def get_task(taskname, folderNameOverride):
+    for t in get_all_tasks(folderNameOverride):
         if t.task_name == taskname:
             return t
     return None
@@ -167,9 +167,9 @@ def calc_f1(cm):
     return f1
 
 
-def load_confusion_matrix(run_path, task_name, absolute=True):
+def load_confusion_matrix(run_path, task_name, folderNameOverride, absolute=True):
     cms = []
-    for best_dev_results in load_best_dev_metrics(run_path, task_name):
+    for best_dev_results in load_best_dev_metrics(run_path, task_name, folderNameOverride):
 
         if absolute:
             cm = best_dev_results["test_metrics"]["confusion_abs"]
@@ -186,7 +186,7 @@ def load_confusion_matrix(run_path, task_name, absolute=True):
     return cm_avg
 
 
-def eval_and_save_metrics(path):
+def eval_and_save_metrics(path, folderNameOverride):
     '''
     Calculates averaged metrics across folds resp. restarts for all tasks in the run and saves
     them in results.csv and f1_per_label.csv.
@@ -196,7 +196,7 @@ def eval_and_save_metrics(path):
     tasks_in_run = load_tasks_in_run(path)
     task_metrics = []
     for task in tasks_in_run:
-        task_results = load_best_results(path, task)
+        task_results = load_best_results(path, task, folderNameOverride)
         means = np.round(np.mean(np.array(task_results) * 100, axis=0), 2)
         stds = np.round(np.std(np.array(task_results) * 100, axis=0), 3)
         r = [task + " mean"] + means.tolist()
@@ -210,18 +210,18 @@ def eval_and_save_metrics(path):
 
     f1_per_class = []
     for t in tasks_in_run:
-        task_cm_abs = load_confusion_matrix(path, t, absolute=True)
-        task_cm_rel = load_confusion_matrix(path, t, absolute=False)
+        task_cm_abs = load_confusion_matrix(path, t, folderNameOverride, absolute=True, )
+        task_cm_rel = load_confusion_matrix(path, t, folderNameOverride, absolute=False)
         plot_confusion_matrix(
             task_cm_rel,
-            get_task(t).labels[1:],
+            get_task(t, folderNameOverride).labels[1:],
             title=t,
             normalize=True,
             filename=os.path.join(path, f'{t}_cm.pdf'))
         f1s = calc_f1(task_cm_abs)
         for i, f1 in enumerate(f1s):
-            label_name = get_task(t).labels[1:][i]
-            label_order = get_task(t).labels_pres.index(label_name)
+            label_name = get_task(t, folderNameOverride).labels[1:][i]
+            label_order = get_task(t, folderNameOverride).labels_pres.index(label_name)
             f1_per_class.append([t, label_order, label_name.title(), f1])
 
     f1_per_label_df = pd.DataFrame(f1_per_class, columns=["task", "order", "label", "F1"])
