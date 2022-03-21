@@ -1,0 +1,14 @@
+Our algorithm consists of two main steps: skeleton embedding and skin attachment.
+Skeleton embedding computes the joint positions of the skeleton inside the character by minimizing a penalty function.
+
+ To make the optimization problem computationally feasible, we first embed the skeleton into a discretization of the character’s interior and then refine this embedding using continuous optimization.
+
+The skin attachment is computed by assigning bone weights based on the proximity of the embedded bones smoothed by a diffusion equilibrium equation over the character’s surface.
+
+Our design decisions relied on three criteria, which we also used to evaluate our system.
+
+ For this, we designed a maximum-margin supervised learning method to combine a set of hand-constructed penalty functions.
+
+We evaluate Pinocchio with respect to the three criteria stated in the introduction: generality, quality, and performance.
+
+We have presented the first method for automatically rigging an unfamiliar character for skeletal animation. We have shown that using this method, Pinocchio can animate a wide range of characters.

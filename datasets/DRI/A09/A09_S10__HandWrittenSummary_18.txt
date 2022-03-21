@@ -1,0 +1,9 @@
+We introduce a method for extending SSD that enhances its range of modeling capabilities at very little cost, and in a manner optimized for real time graphics hardware.
+
+ We illustrate our method by rendering a very large finite element model (which took several hundred hours to compute) at interactive rates on a PC with negligible cost to the main CPU.
+
+Using commodity graphics hardware, EigenSkin enables the simulation of subtle nonlinear surface deformations of geometrically complex models at little more than the cost of rendering.
+
+ Our results confirm that the EigenSkin method is an effective tool for character skinning when compressed hardware renderable approximations are required for an articulated character’s nonlinear quasi-static deformations.
+
+EigenSkin works best when SSD corrections are localized, providing independence between different parts of the mesh, and are stable (i.e., corrections vary slowly over posespace), allowing accurate and efficient interpolation.

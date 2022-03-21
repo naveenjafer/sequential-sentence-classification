@@ -1,0 +1,1291 @@
+Problem	To examine whether socioeconomic position ( SEP ) was associated with change in cardiovascular risk factors and meeting treatment targets for cardiovascular risk factors among individuals with screen-detected Type @ DM at six-year follow-up .
+Method	The study population was @ people with Type @ DM identified from at stepwise diabetes screening programme in general practice during @-@ in the ADDITION-Denmark study .
+Method	The ADDITION-study was performed as a randomised trial but the two randomisation groups were analysed as one cohort in this study .
+Method	Cardiovascular risk factors were measured at baseline and repeated at follow-up ( mean : @ -LSB- @ -RSB- years ) .
+Method	Information on SEP , redeemed antihypertensive and lipid-lowering treatment were obtained from Danish registers .
+Method	Multivariate analyses were performed to estimate change in cardiovascular risk factors and difference in meeting treatment targets .
+Result	The change in HbA@c , cholesterol , blood pressure and BMI were virtually the same across educational level , income level , occupational status or cohabiting status .
+Result	Overall , the ability to meet treatment targets for HbA@c , cholesterol and blood pressure was not modified by SEP-group .
+Result	A higher proportion of people with lower educational level or lower income level in the intensive care redeemed anti-hypertensive treatment compared to people with higher educational or income levels .
+Conclusion	Screen-detection and early treatment onset did not introduce socioeconomic inequality in metabolic control in people with screen-detected Type @ DM at six-year follow-up .
+
+Problem	To assess the effects of short-term resistance training and pulsed electromagnetic fields on bone metabolism and joint function in patients with haemophilia with osteoporosis .
+Method	A randomized , controlled , patient and blood sample assessor-blinded , six-week trial , three times weekly .
+Method	Hospital outpatients with severe haemophilia A and osteoporosis .
+Method	Forty-eight patients were randomly assigned to resistance training ( RT , n = @ ) , combined resistance training with pulsed electromagnetic fields ( RTPEMF , n = @ ) , pulsed electromagnetic fields ( PEMF , n = @ ) and control ( n = @ ) groups .
+Method	The RT group received @-@ minutes of resistance exercises and placebo pulsed electromagnetic fields .
+Method	The RTPEMF group received the same exercises with lower repetition and @ minutes of pulsed electromagnetic fields .
+Method	The PEMF group was exposed to @ minutes of pulsed electromagnetic fields ( @ Hz and @ Gauss ) .
+Method	Bone-specific alkaline phosphatase , N-terminal telopeptide of type @ collagen , and joint function , using the modified Colorado Questionnaire , were measured before and after the programme .
+Result	The absolute change of bone-specific alkaline phosphatase was significant in the RT and RTPEMF groups compared with the control group ( @ @ , @ @ , and -@ @ U/L , respectively ) .
+Result	The absolute changes in the total score for joint function were significant for knees , ankles , and elbows in the RT group ( @ @ , @ @ , and @ @ , respectively ) and the RTPEMF group ( @ @ , @ @ , and @ @ , respectively ) compared to the PEMF and control groups .
+Result	This value was significant for knee joints in the PEMF group compared to the control group ( @ @ and @ @ , respectively ) .
+Conclusion	Resistance training is effective for improving bone formation and joint function in severe haemophilia A patients with osteoporosis .
+
+Background	Patients suffering from mild-to-moderate medial compartment knee osteoarthritis may be treated with an unloader knee orthosis .
+Background	However , compliance has been shown to be an issue with such devices .
+Problem	The aim of this study was to identify the effects of a new design of knee unloader orthosis on specific gait parameters in patients with mild-to-moderate medial knee osteoarthritis .
+Method	The gait of seven patients was assessed in two conditions : without an orthosis and when wearing a new design of unloader knee orthosis .
+Method	Gait analysis was performed to determine alterations to the adduction moment , speed of walking , step length , cadence and knee sagittal plane range of motion during ambulation for the two test conditions .
+Result	The knee adduction moment was significantly reduced ( p = @ ) , and the speed of walking significantly increased ( p < @ ) when wearing the orthosis .
+Result	However , a reduction in knee range of motion ( p = @ ) and an increase in step length ( p < @ ) were observed with the orthosis donned .
+Result	Cadence was not significantly altered ( p = @ ) .
+Conclusion	The use of a new design of unloader knee orthosis as a conservative treatment approach for patients with mild-to-moderate medial compartment osteoarthritis appears warranted .
+Conclusion	Various conservative modalities have been used to reduce pain and improve function in medial compartment osteoarthritis .
+Conclusion	A new design of an unloader knee orthosis has been developed and is shown to have immediate benefits in patients with mild medial knee osteoarthritis .
+
+Problem	Oxidative stress and systemic inflammation are highly prevalent in patients undergoing maintenance hemodialysis ( MHD ) and are linked to excess cardiovascular risk .
+Problem	This study examined whether short-term supplementation with pomegranate juice and extract is safe and well tolerated by MHD patients .
+Problem	The secondary aim was to assess the effect of pomegranate supplementation on oxidative stress , systemic inflammation , monocyte function , and blood pressure .
+Method	Prospective , randomized , crossover , pilot clinical trial ( NCT@ ) .
+Method	The study was conducted from March to October @ in outpatient dialysis facilities in the Seattle metropolitan area .
+Method	Twenty-four patients undergoing MHD ( men , @ % ; mean age , @years ) were randomly assigned to receive pomegranate juice or extract during a @-week intervention period .
+Method	After a washout period , all patients received the alternative treatment during a second @-week intervention period .
+Method	Patients assigned to receive pomegranate juice received @mL of juice before each dialysis session .
+Method	Patients assigned to receive pomegranate extract were given @,@ mg of extract daily .
+Method	The main outcome measures were safety and tolerability of pomegranate juice and extract .
+Method	Additional secondary outcomes assessed included serum lipids , laboratory biomarkers of inflammation ( C-reactive protein and interleukin @ ) and oxidative stress ( plasma F@ isoprostanes and isofurans ) , monocyte cytokine production , and predialysis blood pressure .
+Result	Both pomegranate juice and extract were safe and well tolerated by study participants .
+Result	Over the study period , neither treatment had a significant effect on lipid profiles , plasma C-reactive protein , interleukin @ , F@-isoprostane or isofuran concentrations , predialysis systolic or diastolic blood pressure nor changed the levels of monocyte cytokine production .
+Conclusion	Both pomegranate juice and extract are safe and well tolerated by patients undergoing MHD but do not influence markers of inflammation or oxidative stress nor affect predialysis blood pressure .
+
+Problem	This research was conducted to examine changes in self self-efficacy , ( the perception/belief that one can competently cope with a challenging situation ) in multiple sclerosis clients following a series of massage therapy treatments .
+Method	This small practical trial investigated the effects of a pragmatic treatment protocol using a prospective randomized pretest posttest waitlist control design .
+Method	Self-Efficacy scores were obtained before the first treatment , mid-treatment series , after the last treatment in the series , four weeks after the final treatment and again eight weeks after the final treatment had been received .
+Method	The intervention involved a series of weekly one hour therapeutic massage treatments conducted over eight weeks and a subsequent eight week follow up period .
+Method	All treatments were delivered by supervised student therapists in the final term of their two year massage therapy program .
+Method	Self-Efficacy -LSB- SE -RSB- was the outcome for the study , measured using the Multiple Sclerosis Self-Efficacy survey -LSB- MSSE -RSB- .
+Method	Descriptive statistics for SE scores were assessed and inferential analysis involved the testing of between group differences at each of the measurement points noted above .
+Result	Statistically significant improvement in self-efficacy was noted between treatment ( n = @ ) and control ( n = @ ) groups at mid treatment series ( t = @ ; p < @ ) , post treatment series ( t = @ ; p < @ ) and at four week follow up ( t = @ ; p < @ ) .
+Result	At the eight week follow up self-efficacy scores had decreased and there was no statistically significant difference between groups ( t = @ ; p < @ ) .
+Conclusion	Study results support previous findings indicating that massage therapy increases the self-efficacy of clients with multiple sclerosis , potentially resulting in a better overall adjustment to the disease and an improvement in psycho-emotional state .
+Conclusion	The increase in self-efficacy after @ weeks of treatment suggests that positive response occurs more rapidly that was previously demonstrated .
+Conclusion	The improvement in self-efficacy endured @ weeks after the end of the treatment series , which suggests that massage therapy may have longer term effects on self-efficacy that were not previously noted .
+Conclusion	Lack of inter group difference at the eight week follow up reinforces the notion that on-going treatment is required in order to maintain the positive changes observed .
+
+Problem	Olfactory loss impairs the patient 's quality of life .
+Problem	In individualized therapies , olfactory drug effects gain clinical importance .
+Problem	Molecular evidence suggests that among drugs with potential olfactory effects is ( @ ) - tetrahydrocannabinol ( THC ) , which is approved for several indications , including neuropathic pain or analgesia in cancer patients .
+Problem	The present study aimed at assessing the olfactory effects of THC to be expected during analgesic treatment .
+Method	The effects of @mg oral THC on olfaction were assessed in a placebo-controlled , randomized cross-over study in healthy volunteers .
+Method	Using an established olfactory test ( Sniffin ' Sticks ) , olfactory thresholds , odour discrimination and odour identification were assessed in @ subjects at baseline and @h after THC administration .
+Result	( @ ) - Tetrahydrocannabinol impaired the performance of subjects ( n = @ ) in the olfactory test .
+Result	Specifically , olfactory thresholds were increased and odour discrimination performance was reduced .
+Result	This resulted in a significant drop in composite threshold , discrimination , identification ( TDI ) olfactory score by @ points ( from @ @ to @ @ , @ % confidence interval for differences THCvs .
+Result	placebo , -@ to -@ , P = @ ) , which is known to be a subjectively perceptible impairment of olfactory function .
+Conclusion	Considering the resurgence of THC in medical use for several pathological conditions , the present results indicate that THC-based analgesics may be accompanied by subjectively noticeable reductions in olfactory acuity .
+Conclusion	In particular , for patients relying on their sense of smell , this might be relevant information for personalized therapy strategies .
+
+Problem	Acute lymphoblastic leukemia ( ALL ) is the most common pediatric cancer .
+Problem	Monitoring minimal residual disease ( MRD ) by using real-time quantitative polymerase chain reaction ( RQ-PCR ) provides information for patient stratification and individual risk-directed treatment .
+Problem	Cooperative studies have documented that measurement of blast clearance from the bone marrow during and after induction therapy identifies patient populations with different risk of relapse .
+Problem	We explored the possible contribution of measurements of MRD during the course of treatment .
+Method	We used RQ-PCR to detect MRD in @ unselected patients treated in Italy in the International Collaborative Treatment Protocol for Children and Adolescents With Acute Lymphoblastic Leukemia ( AIEOP-BFM ALL @ ) .
+Method	The trial took place in AIEOP centers during postinduction chemotherapy .
+Method	Results were categorized as negative , low positive ( below the quantitative range -LSB- < @ @ ( -@ ) -RSB- ) , or high positive ( @ @ ( -@ ) ) .
+Method	Patients with at least one low-positive or high-positive result were assigned to the corresponding subgroup .
+Result	Patients who tested high positive , low positive , or negative had significantly different cumulative incidences of leukemia relapse : @ % , @ % , and @ % , respectively ( P < @ ) .
+Result	Two thirds of positive cases were identified within @ months after induction-consolidation therapy , suggesting that this time frame may be most suitable for cost-effective MRD monitoring , particularly in patients who did not clear their disease at the end of consolidation .
+Conclusion	These findings provide further insights into the dynamic of MRD and the ongoing effort to define molecular relapse in childhood ALL .
+
+Problem	Anorexia nervosa ( AN ) is a severe illness with high rates of relapse .
+Problem	Exposure and Response Prevention for AN ( AN-EXRP ) is a new approach that specifically addresses maladaptive eating behavior by targeting eating-related fear and anxiety .
+Problem	The aim of this study was to evaluate AN-EXRP as an adjunctive strategy to improve eating behavior during weight restoration , at a pivotal moment when treatment goals shift toward relapse prevention .
+Method	A randomized controlled trial was conducted to compare AN-EXRP with a comparison condition , Cognitive Remediation Therapy ( CRT ) .
+Method	Hospitalized patients with AN ( n = @ ) who had achieved weight restoration to a BMI > @ kg/m ( @ ) received @ sessions of either AN-EXRP or CRT .
+Method	Outcome was assessed by change in caloric intake in an objective assessment of eating behavior .
+Result	The average test meal caloric intake of participants who received AN-EXRP increased from @ kcal at baseline to @ kcal post-treatment , while that of participants who received CRT decreased from @ kcal at baseline to @ kcal post-treatment -LSB- t ( @ ) = @ , p = @ -RSB- .
+Result	Improvement in intake was significantly associated with improvement in eating-related anxiety ( Spearman 's = @ , p = @ ) .
+Conclusion	These data demonstrate that AN-EXRP , compared to a credible comparison intervention , is associated with better caloric intake in a laboratory meal over time in AN .
+Conclusion	Additional studies are required to determine whether incorporation of these techniques into a longer treatment program leads to enduring and clinically significant change .
+
+Background	Soft-tissue augmentation with fillers is an aesthetic procedure for restoring age-related volume loss .
+Problem	To compare neocollagenesis and elastin production stimulated by Radiesse ( calcium hydroxylapatite ; CaHA , Merz Pharmaceuticals GmbH ) and a hyaluronic acid-based filler ( HA ; Juvderm VOLUMA ) .
+Method	Twenty-four women , aged @-@ , participated in this split-face , comparative study .
+Method	Punch biopsies were taken @ and @ months after supraperiostal injection of each filler into the ipsilateral or contralateral postauricular area .
+Method	Samples were analyzed for collagens type I and III , elastin , Ki-@ , and inflammatory and angiogenic markers .
+Result	At month @ , collagen type III was greater with CaHA vs HA ( P = @ ) .
+Result	By month @ , type I staining was higher with CaHA vs HA ( P = @ ) , whereas type III was lower with CaHA than HA ( P = @ ) .
+Result	Staining for elastin , Ki-@ and angiogenesis was greatest with CaHA at both timepoints .
+Result	Inflammatory markers increased most with HA treatment .
+Conclusion	CaHA resulted in more active , physiologic remodeling of the extracellular matrix than HA by stimulating a two-step process whereby collagen type I gradually replaced type III .
+Conclusion	Increased elastin stimulated by CaHA also indicates active remodeling .
+Conclusion	The results of this study suggest that , in the first @ months after treatment , by reconstituting tissue homeostasis without inducing inflammation suggests CaHA has more desirable characteristics for a dermal filler than HA .
+
+Problem	This study evaluated the effectiveness of a stress management intervention combining individual cognitive behavioral therapy ( CBT ) with a brief workplace intervention on self-reported measures of sleep and cognitive functioning among patients on sick leave due to work-related stress complaints .
+Method	Participants were patients referred to the regional Department of Occupational Medicine .
+Method	Inclusion criteria were ( i ) sick leave due to work-related stress complaints and ( ii ) a diagnosis of adjustment disorder/reactions to stress or mild depression .
+Method	Participants ( N = @ ) were randomized to either an intervention ( N = @ ) or control ( N = @ ) group .
+Method	The intervention comprised six sessions with a psychologist and the offer of a small workplace intervention .
+Method	Questionnaires were answered at baseline and after @ , and @ months .
+Result	Symptoms were significantly reduced over time in both groups but there was no significant treatment effect on sleep or cognitive outcomes at any time point .
+Result	From @-@ months , there was a tendency for larger improvements in the intervention group with regards to sleep and cognitive failures in distraction .
+Result	Although neither was significant , the results came close to significance depicting a small effect size ( Cohen 's d ) on sleep complaints and distractions ( but not memory ) .
+Conclusion	The specific intervention was not superior to the control condition in reducing symptoms of sleep problems and cognitive difficulties at any time point during the @-month follow-up period .
+Conclusion	Substantial improvements in symptoms over time were seen in both groups .
+
+Background	Patients who underwent primary inguinal hernia repair still report a high rate of postoperative pain after operation due to the effect of mesh fixation by suture.An alternative is the use of human fibrin glue .
+Background	We compared the two techniques .
+Method	@ patients randomly underwent primary inguinal hernia Lichtenstein repair fixing the mesh by suture or by human fibrin glue ( HFG ) ; in both cases the mesh was fixed to the posterior wall of the inguinal canal and to the inguinal ligament .
+Result	No significant differences were recorded between the two groups in terms of complications , while the sutureless technique reduces the operative time and the postoperative pain .
+Conclusion	A widespread technique for the treatment of inguinal hernia is the application of a mesh using Lichtenstein procedure .
+Conclusion	The prosthesis can be fixed by traditional suture or using a new method of sutureless fixation with adhesive materials that shows an excellent local tolerability and lack of adverse effects and contraindications .
+
+Background	Families express a need for guidance in helping their loved ones with anorexia nervosa ( AN ) .
+Background	Guided self-help interventions can offer support to caregivers .
+Method	One hundred seventy-eight adult AN patients and their caregivers were recruited from @ UK treatment centres .
+Method	Families were randomized to carers ' assessment , skills and information sharing ( C ) intervention + treatment as usual ( TAU ) or TAU alone .
+Method	Feedback forms were sent at @months post-discharge and , if not returned , at @months .
+Method	One hundred two ( @ % ) patient forms ( n = @TAU ; n = @C ) and @ ( @ % ) caregiver forms ( n = @TAU ; n = @C ) were returned .
+Method	Two researchers coded data blind , using thematic analysis .
+Result	( i ) Caregivers and patients express a need for post-discharge support .
+Result	( ii ) Patients identify helpful and unhelpful support strategies , useful for developing future interventions .
+Result	( iii ) Patients could identify positive caregiver behaviour changes targeted in intervention .
+Result	( iv ) Guided self-help may benefit caregiver and sufferer , post-discharge .
+Conclusion	Caregiver interventions can be a useful tool that will improve the cost effectiveness of inpatient treatment by enhancing the well-being of caregivers and patients .
+
+Problem	To evaluate blood pressure ( BP ) control utilizing the International Society on Hypertension in Blacks ( ISHIB ) cardiovascular risk reduction toolkit in an African American community with uncontrolled hypertension .
+Method	This is a randomized controlled pilot study conducted in two Baltimore community-based physicians ' offices assigned adults ( @-@ years ) with uncontrolled hypertension ( systolic blood pressure -LSB- SBP -RSB- @ mm Hg ; diastolic blood pressure -LSB- DBP -RSB- @ mm Hg ) .
+Method	The study compares usual care to a community-based intervention .
+Method	In the usual care group , the patients ' BP was managed by the treating physician based on their normal office patient care protocol .
+Method	In the intervention group , usual care was provided but , a community health worker also gave comprehensive education and assessment to the patients based on the ISHIB IMPACT cardiovascular toolkit during study initiation and follow-up visits .
+Method	The main outcome of study was change in BP from baseline to six months .
+Method	A secondary outcome was the proportion of patients achieving BP < @ / < @ mm Hg at six months .
+Result	Fifty-four African American patients were enrolled ; @ completed six months of follow-up ( usual care , n = @ ; intervention , n = @ ) .
+Result	At six months the mean ( @ % CI ) change from baseline in SBP was significantly greater in the intervention group vs the usual care group : -@ ( -@ to -@ ) mm Hg vs -@ ( -@ to @ ) mm Hg ( P < @ ) .
+Result	Mean ( @ % CI ) change in DBP from baseline to six months was significantly greater for the intervention group vs the usual care group : -@ ( -@ to -@ ) mm Hg vs -@ ( -@ to -@ ) mm Hg ( P = @ ) .
+Result	Median change in BP was significantly greater for SBP in the intervention group compared with the usual care group ( P = @ ) , but not for DBP ( P = @ ) .
+Result	The proportion of patients achieving BP < @ / < @ at six months was @ % ( @/@ ) in the intervention group vs @ % ( @/@ ) in the usual care group ( P = @ ) .
+Conclusion	This pilot study on the ISHIB IMPACT toolkit in managing uncontrolled hypertension in the African American community suggests better control of systolic BP and a tendency to better hypertension control with the community-based intervention .
+Conclusion	The findings support further studies in clinical settings serving African American hypertensive patients to assess effectiveness of approaches for improving BP control and related outcomes .
+
+Problem	Our study indicates a prototype blood-based variant Creutzfeldt-Jakob disease ( vCJD ) assay has sufficient sensitivity and specificity to justify a large study comparing vCJD prevalence in the United Kingdom with a bovine spongiform encephalopathy-unexposed population .
+Problem	In a clinical diagnostic capacity , the assay 's likelihood ratios dramatically change an individual 's pretest disease odds to posttest probabilities and can confirm vCJD infection .
+Problem	To determine the diagnostic accuracy of a prototype blood test for vCJD and hence its suitability for clinical use and for screening prion-exposed populations .
+Method	Retrospective , cross-sectional diagnostic study of blood samples from national blood collection and prion disease centers in the United States and United Kingdom .
+Method	Anonymized samples were representative of the US blood donor population ( n = @ ) , healthy UK donors ( n = @ ) , patients with nonprion neurodegenerative diseases ( n = @ ) , patients in whom a prion disease diagnosis was likely ( n = @ ) , and patients with confirmed vCJD ( n = @ ) .
+Method	Presence of vCJD infection determined by a prototype test ( now in clinical diagnostic use ) that captures , enriches , and detects disease-associated prion protein from whole blood using stainless steel powder .
+Result	The assay 's specificity among the presumed negative American donor samples was @ % ( @ % CI , @ % -@ % ) and was confirmed in a healthy UK cohort ( @ % specificity ; @ % CI , @ % -@ % ) .
+Result	Of potentially cross-reactive blood samples from patients with nonprion neurodegenerative diseases , no samples tested positive ( @ % specificity ; @ % CI , @ % -@ % ) .
+Result	Among National Prion Clinic referrals in whom a prion disease diagnosis was likely , @ patients with sporadic CJD tested positive ( @ % specificity ; @ % CI , @ % -@ % ) .
+Result	Finally , we reconfirmed but could not refine our previous sensitivity estimate in a small blind panel of samples from unaffected individuals and patients with vCJD ( @ % sensitivity ; @ % CI , @ % -@ % ) .
+Conclusion	In conjunction with the assay 's established high sensitivity ( @ % ; @ % CI , @ % -@ % ) , the extremely high specificity supports using the assay to screen for vCJD infection in prion-exposed populations .
+Conclusion	Additionally , the lack of cross-reactivity and false positives in a range of nonprion neurodegenerative diseases supports the use of the assay in patient diagnosis .
+
+Background	Transenteral ( TE ) administration of a bowel cleanser prior to colonoscopy avoids the discomfort associated with drinking a large volume of unpalatable cleanser .
+Problem	To explore patient comfort , preference for future colonoscopy , the efficacy and adverse events associated with TE bowel preparation .
+Method	Bowel preparation is traditionally practised using polyethylene glycol ( PEG ) + ascorbic acid ( ASC ) , which was the treatment used in the control group ( peroral group ; PO group ) .
+Method	In the study group ( TE group ) , PEG + ASC were administered directly to the third portion of the duodenum through a scope immediately after completing upper gastrointestinal endoscopy .
+Result	A higher proportion of subjects in the TE group graded their degree of comfort as very or rather comfortable ( @ % in the PO group , @ % in the TE group ; p = @ ) and had greater preference for future colonoscopy ( @ % in the PO group , @ % in the TE group ; p = @ ) , compared with the PO group .
+Result	The TE group had non-inferiority in efficacy compared with the PO group ( non-inferiority margin -@ % ; lower limit of @ % confidence interval for difference between success rates -@ % , when using the Aronchick Scale , and -@ % when using the Ottawa Scale ) .
+Result	Nausea or vomiting were more prevalent during preparation in the PO group ( @ vs. @ % ; p = @ ) , and dizziness was more common in the TE group ( @ vs. @ % ; p = @ ) .
+Conclusion	TE preparation was found to be more comfortable than the traditional peroral method and not inferior in efficacy .
+Conclusion	The adverse events rate was acceptable .
+
+Background	A substantial minority of adolescents suffer from depression and it is associated with increased risk of suicide , social and educational impairment , and mental health problems in adulthood .
+Background	A recently conducted randomized controlled trial in England evaluated the effectiveness of a manualized universally delivered age-appropriate CBT programme in school classrooms .
+Background	The cost-effectiveness of the programme for preventing low mood and depression for all participants from a health and social care sector perspective needs to be determined .
+Method	A trial-based cost-effectiveness analysis based on a cluster-randomized controlled trial ( trial registration -- ISRCTN @ ) comparing classroom-based CBT with usual school provision of Personal Social and Health Education .
+Method	Per-student cost of intervention was estimated from programme records .
+Method	The study was undertaken in eight mixed-sex U.K. secondary schools , and included @,@ school children aged @ to @ years ( in the two trial arms evaluated in the cost-effectiveness analysis ) .
+Method	The main outcome measures were individual self-reported data on care costs , Quality-Adjusted Life-Years ( QALYs , based on the EQ-@D health-related quality-of-life instrument ) and symptoms of depression ( Short Mood and Feelings Questionnaire ) at baseline , @ and @ months .
+Result	Although there was lower quality-adjusted life-years over @ months ( -@ QALYs per person , @ % confidence interval -@ to -@ , p = @ ) with CBT , this is a ` clinically ' negligible difference , which was not found in the complete case analyses .
+Result	There was little evidence of any between-arm differences in SMFQ scores ( @ , @ % CI -@ to @ , p = @ ) , or costs ( @ , @ % CI -@ to @ , p = @ ) per person for CBT versus usual school provision .
+Conclusion	Our analysis suggests that the universal provision of classroom-based CBT is unlikely to be either more effective or less costly than usual school provision .
+
+Background	The high prevalence of physical inactivity has led to a search for novel and feasible interventions that will enhance physical activity , especially among the least physically active individuals .
+Background	This randomized controlled trial aimed to determine the effectiveness of a value-based intervention to promote a physically more active lifestyle among physically inactive adults .
+Background	The framework of the study was based on Acceptance and Commitment Therapy ( ACT ) .
+Method	Physically inactive participants aged @ to @years ( n = @ ) were randomly allocated to a feedback ( FB , n = @ ) or an acceptance - and commitment-based group ( ACT+FB , n = @ ) .
+Method	Both groups received written feedback about their objectively measured physical activity and were offered a body composition analysis .
+Method	In addition , the participants in the ACT+FB group attended six group sessions and were given a pedometer for self-monitoring their physical activity during the nine-week intervention .
+Method	The primary outcome was physical activity .
+Method	In addition , participants ' cognitions related to exercise and physical activity were evaluated at baseline and at three - and six-month follow-ups .
+Method	The changes in mean physical activity level were analysed using multilevel random regression and rank order stability , using the structural equation model .
+Result	Participants in both groups increased their objectively measured and self-reported physical activity with high individual differences .
+Result	No difference was observed in the change of physical activity level between the FB and ACT+FB groups over time .
+Result	However , the cognitions related to physical activity and exercise improved more in the ACT+FB group than in the FB group .
+Result	In addition , after re-analyzing the data among the non-depressive participants , higher stability was observed in objectively measured physical activity at the individual level between the three - and six-month follow-ups in the ACT+FB group as compared to FB group .
+Conclusion	Acceptance - and commitment-based group intervention , combined with the self-monitoring of physical activity , was beneficial in supporting the cognition related to exercise and physical activity , and brought more stability to the individual level physical activity behaviour change , especially among the non-depressive participants .
+
+Problem	We compared the recovery profile of propofol and sevoflurane when used for maintenance of anesthesia in elective day care operative procedures .
+Method	One hundred ASA physical status I and II patients , aged between @ and @ years , were randomly assigned to receive either propofol-nitrous oxide or sevoflurane-nitrous oxide maintenance of anesthesia .
+Method	Early and intermediate recovery in terms of cognitive and ambulatory functions was recorded .
+Method	Psychomotor testing , in the form of Trieger dot test and digit symbol substitution test , were performed before surgery and in the post-anesthesia care unit at @ min , @ min , @ h , @ h , and @ h following nitrous oxide switch-off to evaluate intermediate recovery .
+Result	There were no significant differences in recovery of early cognitive functions between the two groups , except that patients in the sevoflurane group were more responsive at around @ min following nitrous oxide switch-off and `` recalled address '' earlier than patients in the propofol group .
+Result	There was no significant difference in between the two groups with regard to `` home-readiness . ''
+Conclusion	Recovery from sevoflurane anesthesia , especially with regard to cognitive functions , may be slightly faster than from propofol , but the difference is not sufficiently significant to affect the time to `` home-readiness '' in patients undergoing day care surgery .
+
+Background	Breech presentation occurs in up to @ % of pregnancies at term and may be an indication for caesarean delivery .
+Background	External cephalic version can be effective in repositioning the fetus in a cephalic presentation , but may be painful for the mother .
+Background	Our aim was to assess the efficacy of remifentanil versus placebo for pain relief during external cephalic version .
+Method	A randomized , double-blind , controlled trial that included women at @-@ weeks of gestation with non-cephalic presentations was performed .
+Method	Women were randomized to receive either a remifentanil infusion at @ g/kg/min and demand boluses of @ g/kg , or saline placebo .
+Method	The primary outcome was the numerical rating pain score ( @-@ ) after external cephalic version .
+Result	Sixty women were recruited , @ in the control group and @ in the remifentanil group .
+Result	There were significant differences in pain scores at the end of the procedure ( control @ @ vs. remifentanil @ @ , P = @ ) but not @ min later ( P = @ ) .
+Result	The overall success rate for external cephalic version was @ % with no significant differences between groups ( remifentanil group @ % vs. control group @ % , P = @ ) .
+Result	In the remifentanil group , there was one case of nausea and vomiting , one of drowsiness and three cases of fetal bradycardia .
+Result	In the control group , there were three cases of nausea and vomiting , one of dizziness and nine cases of fetal bradycardia .
+Conclusion	Intravenous remifentanil with bolus doses on demand during external cephalic version achieved a reduction in pain and increased maternal satisfaction .
+Conclusion	There were no additional adverse effects , and no difference in the success rate of external cephalic version or the incidence of fetal bradycardia .
+
+Problem	Social cognition and interaction training ( SCIT ) has shown promise in improving consumers ' social cognition and functioning , in both inpatient and outpatient settings .
+Problem	This randomized controlled trial examined the effectiveness of SCIT among persons with serious mental illness living in community settings in Israel .
+Method	Fifty-five participants in social-mentoring services were assigned randomly to SCIT with social mentoring or to social mentoring only .
+Method	Emotion recognition , theory of mind , attributional bias , and social functioning were assessed at baseline ( February @ ) and about six months later , upon completion of the intervention .
+Result	Interactions between time of measurement and group were significant for theory of mind and social engagement .
+Result	Emotion recognition by the SCIT group improved significantly , but the time group interaction for this variable was not significant .
+Conclusion	This study provides preliminary evidence that SCIT plus social mentoring improves social cognition and functioning among persons with severe mental illness who are living in the community .
+
+Background	In a phase @ study , the inhibition of the interleukin-@A receptor improved signs and symptoms of psoriatic arthritis .
+Background	We sought to evaluate the efficacy and safety of secukinumab , an anti-interleukin-@A monoclonal antibody , in such patients .
+Method	In this double-blind , phase @ study , @ patients with psoriatic arthritis were randomly assigned in a @:@:@ ratio to receive intravenous secukinumab ( at a dose of @ mg per kilogram ) at weeks @ , @ , and @ , followed by subcutaneous secukinumab at a dose of either @ mg or @ mg every @ weeks , or placebo .
+Method	Patients in the placebo group were switched to subcutaneous secukinumab at a dose of @ mg or @ mg at week @ or @ , depending on clinical response .
+Method	The primary end point was the proportion of patients with an American College of Rheumatology @ ( ACR@ ) response at week @ , defined as a @ % improvement from baseline in the number of tender and swollen joints and at least three other important domains .
+Result	ACR@ response rates at week @ were significantly higher in the group receiving secukinumab at doses of @ mg ( @ % ) and @ mg ( @ % ) than in those receiving placebo ( @ % ) ( P < @ for both comparisons with placebo ) .
+Result	Secondary end points , including the ACR@ response and joint structural damage , were significantly better in the secukinumab groups than in the placebo group .
+Result	Improvements were sustained through @ weeks .
+Result	Infections , including candida , were more common in the secukinumab groups .
+Result	Throughout the study ( mean secukinumab exposure , @ days ; mean placebo exposure , @ days ) , four patients in the secukinumab groups had a stroke ( @ per @ patient-years ; @ % confidence interval -LSB- CI -RSB- , @ to @ ) , and two had a myocardial infarction ( @ per @ patient-years ; @ % CI , @ to @ ) , as compared with no patients in the placebo group .
+Conclusion	Secukinumab was more effective than placebo in patients with psoriatic arthritis , which validates interleukin-@A as a therapeutic target .
+Conclusion	Infections were more common in the secukinumab groups than in the placebo group .
+Conclusion	The study was neither large enough nor long enough to evaluate uncommon serious adverse events or the risks associated with long-term use .
+Conclusion	( Funded by Novartis Pharma ; ClinicalTrials.gov number , NCT@ . )
+
+Background	The present randomized , two-period , cross-over bioequivalence study compared two soft capsules of etoposide ( test and reference formulations ) , in treating @ advanced lung cancer patients .
+Method	The pharmacokinetic parameters were determined based on the concentrations of etoposide , using HPLC with fluorescence detector .
+Method	In each of the two study periods , a single dose of test or reference product was administered .
+Method	The pharmacokinetic parameters assessed included area under the plasma concentration-time curve ( AUC ( @-@h ) ) from @ to @ hours , AUC ( @-T ) from time zero to infinity , the peak plasma concentration of the drug ( C ( max ) ) , time to achieve C ( max ) , and the elimination half-life .
+Result	Comparison of the test and reference products containing etoposide showed that geometric mean ratios ( @ % confidence interval ( CI ) ) of AUC ( @-T ) , AUC ( @ - ) , and C ( max ) were @ % ( @ - @ % ) , @ % ( @ - @ % ) , and @ % ( @ - @ % ) , respectively .
+Result	Both AUC and C ( max ) ratio @ % CI of test and reference formulations were within its acceptable range for bioequivalence .
+Result	The values of tmax and t@/@ were not found to have a statistically significant difference between the test and the reference drug ( p > @ ) .
+Result	No adverse events occurred in this bioequivalence study .
+Conclusion	The two etoposide soft capsules ( the test and reference formulations ) were bioequivalent .
+
+Problem	To determine women 's satisfaction with pain relief using patient controlled analgesia with remifentanil compared with epidural analgesia during labour .
+Method	Multicentre randomised controlled equivalence trial .
+Method	@ hospitals in the Netherlands .
+Method	Women with an intermediate to high obstetric risk with an intention to deliver vaginally .
+Method	To exclude a clinically relevant difference in satisfaction with pain relief of more than @ % , we needed to include @ women .
+Method	Because of missing values for satisfaction this number was increased to @ before any analysis .
+Method	We used multiple imputation to correct for missing data .
+Method	Before the onset of active labour consenting women were randomised to a pain relief strategy with patient controlled remifentanil or epidural analgesia if they requested pain relief during labour .
+Method	Primary outcome was satisfaction with pain relief , measured hourly on a visual analogue scale and expressed as area under the curve ( AUC ) , thus providing a time weighted measure of total satisfaction with pain relief .
+Method	A higher AUC represents higher satisfaction with pain relief .
+Method	Secondary outcomes were pain intensity scores , mode of delivery , and maternal and neonatal outcomes .
+Method	Analysis was done by intention to treat .
+Method	The study was defined as an equivalence study for the primary outcome .
+Result	@ women were randomised , of whom @ were allocated to patient controlled remifentanil and @ to epidural analgesia .
+Result	Baseline characteristics were comparable .
+Result	Pain relief was ultimately used in @ % ( @/@ ) in the remifentanil group and @ % ( @/@ ) in the epidural analgesia group ( relative risk @ , @ % confidence interval @ to @ ) .
+Result	Cross over occurred in @ % ( @/@ ) and @ % ( @/@ ) of women , respectively .
+Result	Of women primarily treated with remifentanil , @ % ( @/@ ) converted to epidural analgesia , while in women primarily treated with epidural analgesia @ % ( @/@ ) converted to remifentanil .
+Result	The area under the curve for total satisfaction with pain relief was @ in the remifentanil group versus @ in the epidural analgesia group ( mean difference -@ , @ % confidence interval -@ to @ ) .
+Result	For who actually received pain relief the area under the curve for satisfaction with pain relief after the start of pain relief was @ in the remifentanil group versus @ in the epidural analgesia group ( mean difference -@ , -@ to -@ ) .
+Result	The rate of caesarean section was @ % in both groups .
+Result	Oxygen saturation was significantly lower ( SpO@ < @ % ) in women who used remifentanil ( relative risk @ , @ to @ ) .
+Result	Maternal and neonatal outcomes were comparable between both groups .
+Conclusion	In women in labour , patient controlled analgesia with remifentanil is not equivalent to epidural analgesia with respect to scores on satisfaction with pain relief .
+Conclusion	Satisfaction with pain relief was significantly higher in women who were allocated to and received epidural analgesia .
+
+Problem	Low vitamin D status is linked to increased mortality and morbidity in patients who are critically ill .
+Problem	It is unknown if this association is causal .
+Problem	To investigate whether a vitamin D@ treatment regimen intended to restore and maintain normal vitamin D status over @ months is of health benefit for patients in ICUs .
+Method	A randomized double-blind , placebo-controlled , single-center trial , conducted from May @ through September @ at @ ICUs that included a medical and surgical population of @ critically ill adult white patients with vitamin D deficiency ( @ ng/mL ) assigned to receive either vitamin D@ ( n = @ ) or a placebo ( n = @ ) .
+Method	Vitamin D@ or placebo was given orally or via nasogastric tube once at a dose of @,@ IU followed by monthly maintenance doses of @,@ IU for @ months .
+Method	The primary outcome was hospital length of stay .
+Method	Secondary outcomes included , among others , length of ICU stay , the percentage of patients with @-hydroxyvitamin D levels higher than @ ng/mL at day @ , hospital mortality , and @-month mortality .
+Method	A predefined severe vitamin D deficiency ( @ ng/mL ) subgroup analysis was specified before data unblinding and analysis .
+Result	A total of @ patients were included in the final analysis ( @ in the vitamin D@ group and @ in the placebo group ) .
+Result	The median ( IQR ) length of hospital stay was not significantly different between groups ( @ days -LSB- IQR , @-@ @ -RSB- for vitamin D@ vs @ days -LSB- IQR , @-@ @ -RSB- for placebo ; P = @ ) .
+Result	Hospital mortality and @-month mortality were also not significantly different ( hospital mortality : @ % -LSB- @ % CI , @ % -@ % -RSB- for vitamin D@ vs @ % -LSB- @ % CI , @ % -@ % -RSB- for placebo ; hazard ratio -LSB- HR -RSB- , @ -LSB- @ % CI , @-@ @ -RSB- ; P = @ ; @-month mortality : @ % -LSB- @ % CI , @ % -@ % -RSB- for vitamin D@ vs @ % -LSB- @ % CI , @ % -@ % -RSB- for placebo ; HR , @ -LSB- @ % CI , @-@ @ -RSB- ; P = @ ) .
+Result	For the severe vitamin D deficiency subgroup analysis ( n = @ ) , length of hospital stay was not significantly different between the @ study groups : @ days ( IQR , @-@ @ ) for vitamin D@ vs @ days ( IQR , @-@ @ ) for placebo .
+Result	Hospital mortality was significantly lower with @ deaths among @ patients ( @ % -LSB- @ % CI , @ % -@ % -RSB- ) for vitamin D@ compared with @ deaths among @ patients ( @ % -LSB- @ % CI , @ % -@ % -RSB- ) for placebo ( HR , @ -LSB- @ % CI , @-@ @ -RSB- , P for interaction = @ ) , but not @-month mortality ( @ % -LSB- @ % CI , @ % -@ % -RSB- for vitamin D@ vs @ % -LSB- @ % CI , @ % -@ % -RSB- for placebo ; HR , @ -LSB- @ % CI , @-@ @ -RSB- , P for interaction = @ ) .
+Conclusion	Among critically ill patients with vitamin D deficiency , administration of high-dose vitamin D@ compared with placebo did not reduce hospital length of stay , hospital mortality , or @-month mortality .
+Conclusion	Lower hospital mortality was observed in the severe vitamin D deficiency subgroup , but this finding should be considered hypothesis generating and requires further study .
+
+Problem	To evaluate effects of different treatments on patients with osteoporotic vertebral fracture after percutaneous kyphoplasty in pain and function .
+Method	From March @ to March @,@ patients ( @ vertebrae ) with thoracic and lumbar vertebral osteoporotic fracture were randomly divided into three groups ( control group , treatment group and comprehensive group ) , @ cases in each group , and all patients were treated by PKP .
+Method	Control group were treated with calcium and calcitriol after operation , treatment group added salmon calcitonin see calcimar based on control group , comprehensive group added incrementality waist musculi dorsi function exercise based on treatment group .
+Method	VAS , ODI scores and BMD before operation , @ d , @ weeks , @ month , @ months and @ months after operation were detected and compared .
+Result	All operation were performed successfully ,@ cases ( @ vertebrae ) in control group , @ cases ( @ vertebrae ) in treatment group and @ cases ( @ vertebrae ) were obtained complete following up , there was no significant meaning in following time among three groups ( P > @ ) .
+Result	Postoperative VAS and ODI scores at @ d , @ weeks and @ month among three groups were lower than that of before operation ( P < @ ) .
+Result	Compared with control group , postoperative VAS score at @ d , @ weeks and @ month were decreasedin treatment group and comprehensive group , but there was no significant meaning in ODI scores ( P > @ ) .
+Result	At @ and @ months after operation , there was no significant differences in VAS and ODI between control group and treatment group ( P > @ ) , while VAS score in comprehensive group decreased much than other two groups , decreased continuously ( P < @ ) .
+Result	At @ months after operation , BMD among three groups were increased more than preoperative , and BMD in comprehensive group was more obviously than that of in control and treatment group .
+Conclusion	PKP , an effective method for the treatment of thoracic and lumbar vertebral osteoporotic fracture , could improve short-term clinical effects by adding calcitonin with calcium supplements and activated vitamin D. Waist musculi dorsi function exercise could improve long-term clinical effects of PKP and improve quality of life .
+
+Background	Long-term oral anticoagulant treatment is obligatory in patients with atrial fibrillation ( AF , score of CHADSVASc@ ) .
+Background	When these patients undergo percutaneous coronary intervention with a drug-eluting stent ( PCI-eS ) , there is also an indication for aspirin and clopidogrel treatment , according to the ESC Guidelines .
+Background	However , triple therapy has been known to increase the risk of bleeding complications .
+Background	Unfortunately , there is little prospective data available to resolve this issue .
+Background	Therefore , it is imperative that an optimal therapy for AF patients with indications of both anticoagulation and antiplatelet intervention to prevent thrombotic complications without increasing the risk of bleeding is found .
+Problem	This prospective , randomized , multicenter study is going to assess the hypothesis that in persistent or permanent AF patients ( score of CHADSVASc@ ) after PCI-eS , the combination therapy of oral anticoagulation ( warfarin ) and ticagrelor ( @ mg/bid ) could reduce the risk of bleeding events .
+Method	A multicenter , active-controlled , open-label , randomized trial is to be performed to evaluate dual antithrombotic therapy ( ticagrelor + warfarin ) in persistent or permanent AF patients ( score of CHADSVASc@ ) after PCI-eS versus the combination of triple antithrombosis ( clopidogrel + aspirin + warfarin ) .
+Method	The primary endpoint is the overall bleeding up to @ months , according to TIMI criteria and classifications .
+Method	The secondary endpoints are the major bleeding events up to @ months , according to TIMI criteria .
+Method	The sample size is estimated at @ .
+Conclusion	This study is intended to provide information about the safety characteristics of warfarin and ticagrelor in persistent or permanent AF patients after PCI-eS .
+Conclusion	No prospective randomized study has been conducted on the issue of antithrombotic therapy using warfarin and ticagrelor in these patients .
+Conclusion	Therefore , the MANJUSRI trial will help to explore and determine a new potential therapeutic regimen for AF patients after PCI-eS .
+
+Problem	We investigated whether objectively measured sedentary time was associated with markers of inflammation in adults with newly diagnosed type @ diabetes .
+Result	We studied @ adults ( @ men , @ women , mean age @ @ ) who had been recruited to the Early ACTivity in Diabetes ( Early ACTID ) randomised controlled trial .
+Result	C-reactive protein ( CRP ) , adiponectin , soluble intracellular adhesion molecule-@ ( sICAM-@ ) , interleukin-@ ( IL-@ ) , and accelerometer-determined sedentary time and moderate-vigorous physical activity ( MVPA ) were measured at baseline and after six-months .
+Result	Linear regression analysis was used to investigate the independent cross-sectional and longitudinal associations of sedentary time with markers of inflammation .
+Result	At baseline , associations between sedentary time and IL-@ were observed in men and women , an association that was attenuated following adjustment for waist circumference .
+Result	After @ months of follow-up , sedentary time was reduced by @ @ h per day in women , with the change in sedentary time predicting CRP at follow-up .
+Result	Every hour decrease in sedentary time between baseline and six-months was associated with @ % ( @ , @ ) lower CRP .
+Result	No changes in sedentary time between baseline and @ months were seen in men .
+Conclusion	Higher sedentary time is associated with IL-@ in men and women with type @ diabetes , and reducing sedentary time is associated with improved levels of CRP in women .
+Conclusion	Interventions to reduce sedentary time may help to reduce inflammation in women with type @ diabetes .
+
+Background	Treating schizophrenia patients who fail to respond to antipsychotics is a major challenge , and the percentage of treatment-resistant patients is estimated to be @-@ % .
+Background	Recent studies indicate that yokukansan ( YKS ; D@ and @HT@A partial agonist and @HT@A and glutamate antagonist ) to be safe and useful in treating behavioral and psychological symptoms associated with dementia and other neuropsychiatric conditions .
+Background	We aimed at evaluating both the efficacy and safety of YKS in patients with treatment-resistant schizophrenia .
+Method	This randomized , multicenter , double-blind , placebo-controlled study was conducted between May @ and August @ .
+Method	One hundred twenty antipsychotic-treated inpatients from @ psychiatric hospitals in Japan were included .
+Method	Patients were randomized to adjuvant treatment with YKS @ g/day or placebo .
+Method	During a @-week follow-up , psychopathology was assessed using the Positive and Negative Syndrome Scale ( PANSS ) with five factors -LSB- excitement/hostility ( P@ , P@ , G@ , and G@ ) , depression/anxiety ( G@ , G@ , G@ , G@ , and G@ ) , cognition ( P@ , N@ , N@ , G@ , G@ , G@ , G@ , G@ , and G@ -RSB- , positive ( P@ , P@ , P@ , P@ , and G@ ) , and negative ( N@ , N@ , N@ , N@ , N@ , G@ , and G@ -RSB- -RSB- .
+Method	Other assessments included , Clinical Global Impression-Severity ( CGI-S ) , Global Assessment of Functioning ( GAF ) , and Drug-Induced Extrapyramidal Symptoms Scale ( DIEPSS ) .
+Method	The primary efficacy outcome was the change in PANSS five-factor scores .
+Method	The secondary outcomes were changes in the scores of CGI-S .
+Method	The analysis was made on a modified intention to treat basis with the help of a last observation carried forward method .
+Result	YKS showed a tendency of superiority to placebo in reducing total all PANSS five-factor scores in treatment-resistant schizophrenia , but the difference was not statistically significant in total , depression/anxiety , cognition , positive , and negative factors .
+Result	However , compared to the placebo group , the YKS group showed statistically significant improvements in the PANSS excitement/hostility factor scores ( p < @ ) .
+Result	No substantial side effects were recorded .
+Conclusion	The results of the present study indicate YKS to be a potential adjunctive treatment strategy for treatment-resistant schizophrenia , particularly to improve excitement/hostility symptoms .
+
+Problem	To evaluate the efficacy and safety of etanercept plus Tripterygium wilfordii polyglycoside ( TWP ) in elderly patients with active rheumatoid arthritis ( RA ) .
+Method	Totally @ elderly patients with active RA were randomly assigned to the treatment group ( @ cases ) and the control group ( @ cases ) .
+Method	All patients received subcutaneous injection of etanercept , @ mg each time , twice per week .
+Method	The dosage was reduced to once per week @ months later .
+Method	Patients in the treatment group took TWP Tablet ( @ mg each time , three times per day ) , while those in the control group took methotrexate ( MTX ) , @ mg each time , once per week .
+Method	The whole course lasted for @ weeks .
+Method	Patients ' rest pain , tender joint number , swollen joint number , health assessment questionnaire ( HAQ ) , patients ' global assessment , physicians ' global assessment , erythrocyte sediment rate ( ESR ) , C reactive protein ( CRP ) , rheumatic factor were assessed at week @ , @ , @ , @ , and @ .
+Method	The curative effect was statistically evaluated by the United States Institute of Rheumatology ACR@ , ACR@ , and ACR@ improvement criteria .
+Method	Meanwhile , any adverse event was recorded and evaluated .
+Result	Totally @ completed the trial , and @ dropped off ( @ in the treatment group and @ in the control group ) .
+Result	Compared with the control group , there was no statistical difference in ACR@ , ACR@ , or ACR@ in the treatment group ( P > @ ) .
+Result	Compared with before treatment in the same group , there was some improvement in tender joint number , swollen joint number , visual analogue scale ( VAS ) for patients ' global assessment , VAS for physicians ' global assessment , ESR , CRP , and HAQ between the two groups , showing statistical difference ( P < @ ) .
+Result	Compared with the control group in the same phase , there was no statistical difference in the treatment group ( P > @ ) .
+Result	There was no statistical difference in the occurrence of adverse events between the two groups .
+Conclusion	Etanercept plus TWP could achieve equivalent therapeutic effect to that of Etanercept plus MTX .
+Conclusion	The two regimens could improve clinical signs , symptoms , and QOL related to RA .
+Conclusion	They were well tolerated in the treatment of elderly patients with active RA .
+
+Problem	To evaluate the safety of the fixed combination of ibuprofen and famotidine compared with ibuprofen alone from two @-week , multicenter , double-blind trials designed to evaluate the comparative incidence of endoscopically documented upper gastrointestinal ulcers and a @-week double-blind extension study .
+Method	Safety was analyzed by pooling data from the two double-blind trials and the follow-on study .
+Method	Safety was assessed by monitoring the incidence , causality , and severity of adverse events ( AEs ) .
+Result	In the pivotal efficacy and safety trials , discontinuation rates due to any cause and dyspepsia were significantly lower for the ibuprofen/famotidine combination versus ibuprofen alone .
+Result	Other than dyspepsia , gastrointestinal and cardiovascular AEs of special interest were similar .
+Result	Events judged to be treatment related were significantly lower with the ibuprofen/famotidine combination ( @ % vs. @ % ) .
+Result	In the safety extension population , there were no differences in the discontinuation rates and the reporting of AEs or serious AEs ( SAEs ) between the two groups .
+Result	Gastrointestinal-related events were similar between the groups .
+Result	Incidence of cardiovascular-related AEs of special interest were @ % ( ibuprofen/famotidine ) and @ % ( ibuprofen ) ( p = @ ) , possibly due to a higher number of rheumatoid arthritis patients in the combination group .
+Result	Of these , @ % were reports of hypertension ( @ % ibuprofen/famotidine vs. @ % ibuprofen ) .
+Result	Three cases of hypertension in the ibuprofen/famotidine group were considered treatment related .
+Result	The probability of a cardiovascular event decreased during days @-@ of treatment and remained low with continued treatment .
+Conclusion	One-year safety data from two pivotal trials and a long-term extension study indicate that the ibuprofen/famotidine combination demonstrates a favorable gastrointestinal safety profile and more patients continued on therapy compared to ibuprofen alone .
+Conclusion	No new safety signals have been identified .
+Conclusion	These data offer additional evidence supporting a new therapeutic option to improve gastrointestinal safety and adherence for patients who require long-term ibuprofen .
+
+Background	During spinal surgery , intraoperative monitoring of motor-evoked potentials ( MEPs ) is a useful means of assessing the intraoperative integrity of corticospinal pathways .
+Background	However , MEPs are known to be particularly sensitive to the suppressive effects of inhalational halogenated anesthetic agents .
+Problem	To investigate the effects of increasing end-tidal concentrations of desflurane and sevoflurane anesthesia in a background of propofol and remifentanil with multipulse cortical stimulation on intraoperative monitoring of MEPs .
+Method	In this randomized crossover trial , @ consecutive patients ( @ in each arm ) undergoing major spine surgery , under a background anesthetic of propofol ( @ to @ mcg/kg/min ) and remifentanil ( @ to @ mcg/kg/min ) , were randomly assigned to receive the sequence of inhalational agents studied : either DES-SEVO ( desflurane followed by sevoflurane ) ; or SEVO-DES ( sevoflurane followed by desflurane ) .
+Method	Multiples ( @ , @ , and @ ) of minimum alveolar concentration ( MAC ) of desflurane and sevoflurane were administered .
+Method	After a washout period of @ minutes using high fresh oxygen/air flows , each of the patients then received the other gas as the second agent .
+Method	Cortical stimulation was achieved with a train of @ equivalent square pulses , each @ ms in duration , delivered at @ ms intervals .
+Method	MEP recordings were made in the upper limb ( UL ) from first dorsal interosseus and lower limb ( LL ) from tibialis anterior with subdermal needle electrodes .
+Result	At @ MAC desflurane , there was no statistical significant difference in transcranial-evoked MEP amplitudes from the baseline in both UL and LL stimulation .
+Result	However , this was not the case for sevoflurane for which even a low concentration at @ MAC significantly depressed MEP amplitudes of LL ( but not UL ) from baseline value .
+Result	Desflurane at @ and @ MAC depresses LL MEP to @ % and @ % of baseline , respectively ( P < @ ) , whereas sevoflurane at @ , @ , and @ MAC depresses LL MEP to @ % , @ % , and @ % of baseline , respectively ( P < @ ) .
+Result	There was no difference in latency of the responses at any MAC .
+Conclusion	Inhalational anesthetic agents ( sevoflurane > desflurane ) suppress MEP amplitudes in a dose-dependent manner .
+Conclusion	The use of @ MAC of desflurane ( but not sevoflurane ) provided good MEP recordings acceptable for clinical interpretation for both upper and LLs .
+Conclusion	The LL appears to be more sensitive to anesthetic-induced depression compared with the UL .
+Conclusion	All patients studied had normal neurological examination hence , these results may not be applicable to those with preexisting deficits .
+
+Problem	Adjunctive-to-insulin therapy with sodium-glucose cotransporter @ ( SGLT@ ) inhibition may improve glycemic control in type @ diabetes ( T@D ) .
+Method	We evaluated the glycemic efficacy and safety of empagliflozin @ mg daily in @ patients treated for @ weeks in a single-arm open-label proof-of-concept trial ( NCT@ ) .
+Result	Mean A@C decreased from @ @ % ( @ @ mmol/mol ) to @ @ % ( @ @ mmol/mol ) ( P < @ ) , fasting glucose from @ @ to @ @ mmol/L ( P = @ ) , symptomatic hypoglycemia ( < @ mmol/L ) from @ to @ events per patient per day ( P = @ ) , and daily insulin dose from @ @ to @ @ units/day ( P < @ ) .
+Result	Mean urinary excretion of glucose increased from @ @ to @ @ g/day ( P < @ ) .
+Result	Weight decreased from @ @ to @ @ kg ( P < @ ) , and waist circumference decreased from @ @ to @ @ cm ( P < @ ) .
+Conclusion	This proof-of-concept study strongly supports a randomized clinical trial of adjunctive-to-insulin empagliflozin in patients with T@D .
+
+Problem	Clinical studies evaluating the effects of medications on - cell function in type @ diabetes ( T@DM ) are compromised by an inability to determine the actual baseline degree of - cell dysfunction independent of the reversible dysfunction induced by hyperglycemia ( glucotoxicity ) .
+Problem	Short-term intensive insulin therapy ( IIT ) is a strategy for eliminating glucotoxicity before randomization .
+Problem	This study determined whether liraglutide can preserve - cell function over @ weeks in early T@DM following initial elimination of glucotoxicity with IIT .
+Method	In this double-blind , randomized , placebo-controlled trial , @ patients with T@DM of @ @ years ' duration and an A@C of @ @ % ( @ @ mmol/mol ) completed @ weeks of IIT before randomization to daily subcutaneous liraglutide or placebo injection , with serial assessment of - cell function by Insulin Secretion-Sensitivity Index-@ ( ISSI-@ ) on oral glucose tolerance test performed every @ weeks .
+Result	The primary outcome of baseline-adjusted ISSI-@ at @ weeks was higher in the liraglutide group than in the placebo group ( @ @ vs. @ @ , P = @ ) .
+Result	Baseline-adjusted HbA@c at @ weeks was lower in the liraglutide group ( @ @ % vs. @ @ % , P = @ ) ( @ @ vs. @ @ mmol/mol ) .
+Result	At each quarterly assessment , > @ % of participants on liraglutide had an HbA@c @ % ( @ mmol/mol ) and glucose tolerance in the nondiabetic range .
+Result	Despite this level of glycemic control , no difference was found in the incidence of hypoglycemia between the liraglutide and placebo groups ( P = @ ) .
+Result	Two weeks after stopping treatment , however , the beneficial effect on ISSI-@ of liraglutide versus placebo was entirely lost ( @ @ vs. @ @ , P = @ ) .
+Conclusion	Liraglutide provides robust enhancement of - cell function that is sustained over @ weeks in early T@DM but lost upon cessation of therapy .
+
+Problem	To investigate the effects of conservative therapy applied before arthroscopic subacromial decompression on the clinical outcome in patients with stage @ shoulder impingement syndrome .
+Method	Sixty-eight patients having stage @ shoulder impingement syndrome and treated with arthroscopic subacromial decompression were included in the study .
+Method	We divided these patients into @ groups , whereby @ ( @ % ) patients received conservative therapy before arthroscopic subacromial decompression and @ ( @ % ) patients did not receive conservative therapy .
+Method	We compared both groups in terms of the the Constant , UCLA , and VAS scores for shoulder pain before and after arthroscopic subacromial decompression .
+Result	Constant , UCLA , and VAS scores were statistically significantly improved in both groups after arthroscopic subacromial decompression ( P < @ ) .
+Result	Constant , UCLA , and VAS scores before arthroscopic subacromial decompression were statistically better in Group @ than in Group @ ( P < @ ) .
+Result	No statistically significant difference was found between the groups in terms of Constant , UCLA , and VAS scores after arthroscopic subacromial decompression ( P > @ ) .
+Conclusion	Conservative therapy applied in patients with stage @ shoulder impingement syndrome before arthroscopic subacromial decompression does not have a positive contribution on the clinical outcome after arthroscopic subacromial decompression .
+
+Problem	Applied Kinesiology ( AK ) is a diagnostic technique widely used within the Integrative Medical community .
+Problem	In essence , it posits that a question can be mentally held in a person 's mind , sometimes while they are holding a substance like a vitamin , or a food sample , and by measuring relative muscular weakness an answer as to whether the substance or the condition represented by the question is good for that person can be obtained .
+Problem	This AK is presumed to have a diagnostic capability .
+Problem	That being presumed , this study asks the following questions : ( @ ) Is there a difference in muscular strength when an individual holds a substance that is inimical to life processes ( a poison solution ) , as compared to a substance that is essential for life ( normal saline ) ?
+Problem	( @ ) Is this effect a transaction involving input from both the person being measured and the kinesiologist doing the measurement or is it only the person being measured ?
+Problem	( @ ) As an extension of question @ , is the result the same when different kinesiologists take the measurement or when no kinesiologist is involved ?
+Problem	( @ ) Does belief , expectation , gender , or time cognition play a role in determining response ?
+Method	To answer these questions , which would help to define the parameters of the AK process , @ participants were tested during three trials each , first by one kinesiologist , then by another , and finally , with no kinesiologist present by grip strength indicated using a hand dynamometer .
+Method	Grip strength being a self-administered AK test of relative muscular strength .
+Method	For each trial , a pair of randomly numbered sealed vials , each pair in a randomly numbered plastic bag , were used as the objects of the trial .
+Method	In each bag , one vial contained saline solution while the other was filled with a slightly smaller amount of saline solution to which had been added ionic hydroxylamine hydrochloride ( NH@OH ) ( + ) , producing a toxic solution of @mg/ml .
+Method	Each trial consisted of a separate muscle test for each vial .
+Method	All present at the trials were blind as to which vial contained the toxin .
+Method	And all who prepared the vials were blind to the trials .
+Method	The force used by the kinesiologists in each of their trials was measured via a pressure pad system .
+Method	The hand dynamometer trials were conducted with no kinesiologist present .
+Result	Of the @ sets of trials , the toxic vial was identified correctly in @ of them ( @ % ) , resulting in a one-tailed exact binomial P-value of @ .
+Result	Results for two of the kinesiologists were almost exactly at chance .
+Result	For the third kinesiologist , there was a one-tailed exact binomial P-value of @ ( unadjusted for multiple testing ) .
+Result	Results for the dynamometer were also almost exactly at chance .
+Result	Testing whether there was a significant difference in proportions for whom the AK test worked based on belief about whether it would work resulted in non-significant ( @ ) values of @ ( P = @ ) for the trials with one kinesiologist and @ ( P = @ ) for the hand dynamometer trials .
+Result	The final variable examined was gender .
+Result	While there was no significant difference in performance for males and females for the trials of the male kinesiologist or the hand dynamometer , the combined data for the two female kinesiologists did reveal a difference .
+Result	Of the @ sessions with females , only @ were successful ( @ % ) , while for the @ sessions with males , @ were successful ( @ % ) , resulting in a ( @ ) statistic of @ , P = @ .
+Result	However , given all of the ( @ ) tests performed in this section , the results must be interpreted with caution because of multiple testing .
+Result	Results indicate belief in whether the AK test will work was not significantly related to whether it actually did work .
+Result	A ( @ ) test of the relationship between time perception and correct vial choice showed no significant relationships .
+Result	The ( @ ) statistic for the relationship using the hand dynamometer data was @ , P = @ .
+Conclusion	The data in this study , particularly when seen in the larger context of a review of the literature from the AK field itself by Klinkoski and Leboeuf ( @ ) , which considered @ papers published between @ and @ by the International College of Applied Kinesiology , and the survey by Hall , Lewith , Brien , and Little ( @ ) , using standard evaluation criteria -LSB- quality assessment tool for studies of diagnostic accuracy included in systematic reviews ( QUADAS ) , Standards for Reporting of Diagnostic Studies ( STARD ) , JADAD , and Consolidated Standards of Reporting Trials ( CONSORT ) -RSB- , for research methodology , as well as six prior non-clinical studies by Radin ( @ ) , Quintanar and Hill ( @ ) , Braud ( @ ) , Arnett et al. ( @ ) , Ludtke ( @ ) , and Kendler and Keating ( @ ) , all together suggest the following : The research published by the Applied Kinesiology field itself is not to be relied upon , and in the experimental studies that do meet accepted standards of science , Applied Kinesiology has not demonstrated that it is a useful or reliable diagnostic tool upon which health decisions can be based .
+
+Problem	To compare the relative effectiveness of methotrexate and mycophenolate mofetil for noninfectious intermediate uveitis , posterior uveitis , or panuveitis .
+Method	Multicenter , block-randomized , observer-masked clinical trial .
+Method	Eighty patients with noninfectious intermediate , posterior , or panuveitis requiring corticosteroid-sparing therapy at Aravind Eye Hospitals in Madurai and Coimbatore , India .
+Method	Patients were randomized to receive @ mg weekly oral methotrexate or @ g twice daily oral mycophenolate mofetil and were monitored monthly for @ months .
+Method	Oral prednisone and topical corticosteroids were tapered .
+Method	Masked examiners assessed the primary outcome of treatment success , defined by achieving the following at @ and @ months : ( @ ) @ + anterior chamber cells , @ + vitreous cells , @ + vitreous haze and no active retinal/choroidal lesions in both eyes , ( @ ) @ mg of prednisone and @ drops of prednisolone acetate @ % a day , and ( @ ) no declaration of treatment failure because of intolerability or safety .
+Method	Additional outcomes included time to sustained corticosteroid-sparing control of inflammation , change in best spectacle-corrected visual acuity , resolution of macular edema , adverse events , subgroup analysis by anatomic location , and medication adherence .
+Result	Forty-one patients were randomized to methotrexate and @ to mycophenolate mofetil .
+Result	A total of @ patients ( @ methotrexate , @ mycophenolate mofetil ) contributed to the primary outcome .
+Result	Sixty-nine percent of patients achieved treatment success with methotrexate and @ % with mycophenolate mofetil ( P = @ ) .
+Result	Treatment failure from adverse events or tolerability was not different by treatment arm ( P = @ ) .
+Result	There were no differences between treatment groups in time to corticosteroid-sparing control of inflammation ( P = @ ) , change in best spectacle-corrected visual acuity ( P = @ ) , or resolution of macular edema ( P = @ ) .
+Conclusion	There was no statistically significant difference in corticosteroid-sparing control of inflammation between patients receiving methotrexate or mycophenolate mofetil .
+Conclusion	However , there was a @ % difference in treatment success favoring methotrexate .
+
+Problem	Inserting a nasogastric tube ( NGT ) in intubated patients may be difficult because they can not follow swallowing instructions , resulting in a high rate of first-attempt failure .
+Problem	We introduce a simple technique for inserting an orogastric tube in an emergency department ( ED ) .
+Method	Fifty-six patients in the ED , who were intubated and required NGT insertion , were randomly allocated to @ groups .
+Method	We inserted the NGT using a conventional technique from the nostril ( control group ) and an endotracheal tube ( ET ) - assisted technique from the mouth ( ET group ) .
+Method	The procedures ' success rate , insertion duration , and complications were compared between the groups .
+Result	There was a significantly higher overall success rate in the ET group than the control group ( @ % vs @ % , P < @ ) .
+Result	Endotracheal tube group showed @ % first-attempt success rate , but @ % of the control group failed at first attempt .
+Result	Mean duration of the first trial was not significantly different between the ET and control groups ( @ vs @ seconds , P = @ ) , but total time for successful insertion was longer in the control group than the ET group ( @ vs @ seconds , P < @ ) .
+Result	There was less NGT kinking and more mucosal bleeding in the ET group than in the control group ( @ % vs @ % , P = @ ; @ % vs @ % , P = @ , respectively ) .
+Conclusion	Endotracheal tube-assisted orogastric tube insertion technique showed a higher rate of successful insertion and shorter total duration .
+Conclusion	With this result , ET-assisted orogastric tube insertion would be useful in ED .
+
+Problem	We conducted a randomised , double blind , placebo controlled trial to assess the efficacy and safety of cilostazol , a selective inhibitor of phosphodiesterase @ , in patients with vasospastic angina ( VSA ) .
+Background	Cilostazol has been shown to induce vascular dilatation , but its efficacy in patients with VSA is unknown .
+Method	Between October @ and July @ , @ patients with confirmed VSA who had @ angina episodes/week despite amlodipine therapy ( @mg/day ) were randomly assigned to receive either cilostazol ( up to @mg/day ) or placebo for @weeks .
+Method	All patients were given diaries to record the frequency and severity of chest pain ( @-@ grading ) .
+Method	The primary endpoint was the relative reduction of the weekly incidence of chest pain .
+Result	Baseline characteristics were similar between the two groups .
+Result	Among @ evaluable patients ( @ in the cilostazol group , @ in the placebo group ) , the primary endpoint was significantly greater in the cilostazol group compared with the placebo group ( -@ % vs -@ % , respectively , p = @ ) .
+Result	The secondary endpoints , including a change in the frequency of chest pain ( -@ vs -@ , respectively , p = @ ) , a change in the chest pain severity scale ( -@ vs -@ , respectively , p = @ ) , and the proportion of chest pain-free patients ( @ % vs @ % , respectively , p = @ ) also significantly favoured cilostazol .
+Result	Headache was the most common adverse event in both groups ( @ % vs @ % , respectively , p = @ ) .
+Conclusion	Cilostazol is an effective therapy for patients with VSA uncontrolled by conventional amlodipine therapy , and has no serious side effects .
+
+Background	Cardiac arrest causes ischaemic brain injury .
+Background	Arterial carbon dioxide tension ( PaCO@ ) is a major determinant of cerebral blood flow .
+Background	Thus , mild hypercapnia in the @ h following cardiac arrest may increase cerebral blood flow and attenuate such injury .
+Background	We describe the Carbon Control and Cardiac Arrest ( CCC ) trial .
+Method	The CCC trial is a pilot multicentre feasibility , safety and biological efficacy randomized controlled trial recruiting adult cardiac arrest patients admitted to the intensive care unit after return of spontaneous circulation .
+Method	At admission , using concealed allocation , participants are randomized to @ h of either normocapnia ( PaCO@ @ to @ mmHg ) or mild hypercapnia ( PaCO@ @ to @ mmHg ) .
+Method	Key feasibility outcomes are recruitment rate and protocol compliance rate .
+Method	The primary biological efficacy and biological safety measures are the between-groups difference in serum neuron-specific enolase and S@b protein levels at @ h , @ h and @ h. Secondary outcome measure include adverse events , in-hospital mortality , and neurological assessment at @ months .
+Conclusion	The trial commenced in December @ and , when completed , will provide clinical evidence as to whether targeting mild hypercapnia for @ h following intensive care unit admission for cardiac arrest patients is feasible and safe and whether it results in decreased concentrations of neurological injury biomarkers compared with normocapnia .
+Conclusion	Trial results will also be used to determine whether a phase IIb study powered for survival at @ days is feasible and justified .
+
+Problem	Inhibition of dipeptidyl peptidase @ ( DPP@ ) is thought to intensify the physiological effects of the incretin hormones .
+Problem	We investigated the effects of DPP@ inhibition on plasma levels of glucose-dependent insulinotropic polypeptide ( GIP ) , glucagon-like peptide @ ( GLP@ ) , incretin effect , glucose tolerance , gastrointestinal-mediated glucose disposal ( GIGD ) and gastric emptying in healthy subjects .
+Method	A randomised , controlled and open-labelled study .
+Method	Ten healthy subjects ( six women ; age , @ years ( means.e.m . )
+Method	; BMI , @kg/m ( @ ) ; fasting plasma glucose , @ mmol/l and HbA@c , @mmol/mol ( @ % ) ) were randomised to two-paired study days comprising a @-h @g oral glucose tolerance test ( OGTT ) with paracetamol ( A ) and an isoglycaemic intravenous ( i.v. ) glucose infusion ( B ) , with ( A@ + B@ ) and without ( A@ + B@ ) preceding administration of the DPP@ inhibitor sitagliptin .
+Result	Isoglycaemia was obtained in all subjects on the paired study days .
+Result	Significant increases in fasting levels and OGTT-induced responses of active GLP@ and GIP were seen after DPP@ inhibition .
+Result	No significant impact of DPP@ inhibition on fasting plasma glucose ( @ vs @ mmol/l , P = @ ) , glucose tolerance ( area under the curve ( AUC ) for plasma glucose , @ vs @mmol/lmin , P = @ ) or peak plasma glucose during OGTT ( @ vs @ mmol/l , P = @ ) was observed .
+Result	Neither incretin effect ( @ % ( without DPP@ inhibitor ) vs @ % ( with DPP@ inhibitor ) , P = @ ) , glucagon responses ( @ vs @pmol/lmin , P = @ ) , GIGD ( @ vs @ % , P = @ ) nor gastric emptying ( Tmax for plasma paracetamol : @ vs @min , P = @ ) changed following DPP@ inhibition .
+Conclusion	These results suggest that acute increases in active incretin hormone levels do not affect glucose tolerance , GIGD , incretin effect , glucagon responses or gastric emptying in healthy subjects .
+
+Problem	To compare the efficacy of @ mg and @ mg doxazosin XL treatments in patients with benign prostatic hyperplasia-related lower urinary tract symptoms and determine the efficiency of @ mg in those patients with inadequate response to @ mg .
+Method	A total of @ patients were included in this study .
+Method	Of the patients , @ were randomized to receive @ mg doxazosin XL ( group @ ) , and @ were randomized to receive @ mg ( group @ ) treatments .
+Method	After @ month of treatment , @ patients in group @ whose quality of life ( QoL ) score was unchanged or had deteriorated were switched to @ mg doxazosin XL treatment ( group @b ) .
+Result	The mean age was @ years .
+Result	After @ month of treatment , the mean alteration in the International Prostate Symptom Score was @ and @ ( P = @ ) , for the maximum urinary flow rate ( Q ( max ) ) , it was @ and @ mL/s ( P = @ ) , and for the QoL score it was @ and @ ( P = @ ) in groups @ and @ , respectively .
+Result	For group @b , during the period in which the patients were receiving @ and @ mg doxazosin XL treatments ; the International Prostate Symptom Score changes were @ and @ ( P < @ ) , the Q ( max ) changes were @ and @ mL/s ( P < @ ) , and the QoL changes were @ and @ ( P < @ ) in groups @ and @ , respectively .
+Conclusion	With no changes in side effects , @ mg doxazosin XL treatment is an efficient choice for patients who did not have an adequate response to @ mg doxazosin XL treatment .
+
+Problem	Given the limited sensitivity and specificity of prostate-specific antigen ( PSA ) , its widespread use as a screening tool has raised concerns for the overdiagnosis of low-risk and the underdiagnosis of high-grade prostate cancer .
+Problem	To improve early-detection biopsy decisions , the National Cancer Institute conducted a prospective validation trial to assess the diagnostic performance of the prostate cancer antigen @ ( PCA@ ) urinary assay for the detection of prostate cancer among men screened with PSA .
+Method	In all , @ men ( mean age , @ years ) from @ centers scheduled for a diagnostic prostate biopsy between December @ and June @ were enrolled .
+Method	The primary outcomes were to assess whether PCA@ could improve the positive predictive value ( PPV ) for an initial biopsy ( at a score > @ ) and the negative predictive value ( NPV ) for a repeat biopsy ( at a score < @ ) .
+Result	For the detection of any cancer , PPV was @ % ( @ % CI , @ % to @ % ) in the initial biopsy group , and NPV was @ % ( @ % CI , @ % to @ % ) in the repeat biopsy group .
+Result	The addition of PCA@ to individual risk estimation models ( which included age , race/ethnicity , prior biopsy , PSA , and digital rectal examination ) improved the stratification of cancer and of high-grade cancer .
+Conclusion	These data independently support the role of PCA@ in reducing the burden of prostate biopsies among men undergoing a repeat prostate biopsy .
+Conclusion	For biopsy-naive patients , a high PCA@ score ( > @ ) significantly increases the probability that an initial prostate biopsy will identify cancer .
+
+Background	Reductions in drinking among individuals randomised to control groups in brief alcohol intervention trials are common and suggest that asking study participants about their drinking may itself cause them to reduce their consumption .
+Background	We sought to test the hypothesis that the statistical artefact regression to the mean ( RTM ) explains part of the reduction in such studies .
+Method	@ participants in a cohort study of alcohol consumption in New Zealand provided data at baseline and again six months later .
+Method	We use graphical methods and apply thresholds of @ , @ , @ and @ in AUDIT scores to explore RTM .
+Result	There was a negative association between baseline AUDIT scores and change in AUDIT scores from baseline to six months , which in the absence of bias and confounding , is RTM .
+Result	Students with lower baseline scores tended to have higher follow-up scores and conversely , those with higher baseline scores tended to have lower follow-up scores .
+Result	When a threshold score of @ was used to select a subgroup , the observed mean change was approximately half of that observed without a threshold .
+Result	The application of higher thresholds produced greater apparent reductions in alcohol consumption .
+Conclusion	Part of the reduction seen in the control groups of brief alcohol intervention trials is likely to be due to RTM and the amount of change is likely to be greater as the threshold for entry to the trial increases .
+Conclusion	Quantification of RTM warrants further study and should assist understanding assessment and other research participation effects .
+
+Background	A number of studies have evaluated the effects of subcutaneous drainage during digestive surgery .
+Background	All of the previous studies assessed the usefulness of active-suctioning drain , including two randomized controlled studies which found no benefit for the placement of active-suctioning drains in digestive surgery .
+Background	The utility of passive drainage has not been evaluated previously .
+Background	The purpose of this study was to evaluate the efficacy of subcutaneous passive drainage system for preventing surgical site infections during major colorectal surgery .
+Method	A total of @ patients who underwent major colorectal surgery were enrolled in this study .
+Method	Patients were randomly assigned to receive subcutaneous passive drainage or no drainage .
+Method	The primary outcome measured was the incidence of superficial surgical site infections .
+Method	The secondary outcomes measured were the development of hematomas , seromas , and wound dehiscence .
+Result	Finally , a total of @ patients ( @ underwent passive drainage , and @ underwent no drainage ) were included in the analysis after randomization .
+Result	There was a significant difference in the incidence of superficial surgical site infections between patients assigned to the passive drainage and no drainage groups ( @ % vs @ % , respectively , P = @ ) .
+Result	There were no cases that developed a hematoma , seroma , or wound dehiscence in either group .
+Result	A subgroup analysis revealed that male gender , age @ years , diabetes mellitus , American Society of Anesthesiologists ( ASA ) status @ , blood loss @ ml , and open access were factors that were associated with a beneficial effect of subcutaneous passive drainage .
+Conclusion	Subcutaneous passive drainage provides benefits over no drainage in patients undergoing major colorectal surgery .
+
+Problem	The long-term efficacy and safety of responsive direct neurostimulation was assessed in adults with medically refractory partial onset seizures .
+Method	All participants were treated with a cranially implanted responsive neurostimulator that delivers stimulation to @ or @ seizure foci via chronically implanted electrodes when specific electrocorticographic patterns are detected ( RNS System ) .
+Method	Participants had completed a @-year primarily open-label safety study ( n = @ ) or a @-year randomized blinded controlled safety and efficacy study ( n = @ ) ; @ participants transitioned into an ongoing @-year study to assess safety and efficacy .
+Result	The average participant was @ ( @ ) years old with epilepsy for @ ( @ ) years .
+Result	The median preimplant frequency of disabling partial or generalized tonic-clonic seizures was @ seizures a month .
+Result	The median percent seizure reduction in the randomized blinded controlled trial was @ % at @ year and @ % at @ years ( p < @ , generalized estimating equation ) and ranged from @ % to @ % over postimplant years @ through @ in the long-term study .
+Result	Improvements in quality of life were maintained ( p < @ ) .
+Result	The most common serious device-related adverse events over the mean @ years of follow-up were implant site infection ( @ % ) involving soft tissue and neurostimulator explantation ( @ % ) .
+Conclusion	The RNS System is the first direct brain responsive neurostimulator .
+Conclusion	Acute and sustained efficacy and safety were demonstrated in adults with medically refractory partial onset seizures arising from @ or @ foci over a mean follow-up of @ years .
+Conclusion	This experience supports the RNS System as a treatment option for refractory partial seizures .
+Method	This study provides Class IV evidence that for adults with medically refractory partial onset seizures , responsive direct cortical stimulation reduces seizures and improves quality of life over a mean follow-up of @ years .
+
+Background	Evidence exists for the effectiveness of cognitive behaviour therapy for psychosis with moderate effect sizes , but the evidence for cognitive behaviour therapy specifically for distressing voices is less convincing .
+Background	An alternative symptom-based approach may be warranted and a body of literature has explored distressing voices from an interpersonal perspective .
+Background	This literature has informed the development of relating therapy and findings from a case series suggested that this intervention was acceptable to hearers and therapists .
+Method	An external pilot randomized controlled trial ( RCT ) comparing outcomes for @ patients receiving @hours ( weekly sessions of one hour ) of relating therapy and their usual treatment with @ patients receiving only their usual treatment .
+Method	Participants will be assessed using questionnaires at baseline , @weeks ( post-intervention ) , and @weeks ( follow-up ) .
+Conclusion	Expected outcomes will include a refined study protocol and an estimate of the effect size to inform the sample size of a definitive RCT .
+Conclusion	If evidence from a fully powered RCT suggests that relating therapy is effective , the therapy will extend the range of evidence-based psychological therapies available to people who hear distressing voices .
+
+Background	Formula-fed ( FF ) infants often have harder stools and higher stool concentrations of fatty acid soaps compared to breastfed infants .
+Background	Feeding high sn-@ palmitate or the prebiotic oligofructose ( OF ) may soften stools , reduce stool soaps , and decrease fecal calcium loss .
+Method	We investigated the effect of high sn-@ palmitate alone and in combination with OF on stool palmitate soap , total soap and calcium concentrations , stool consistency , gastrointestinal ( GI ) tolerance , anthropometrics , and hydration in FF infants .
+Method	This double-blind trial randomized @ healthy term infants @-@ days old to receive Control formula ( n = @ ) , formula containing high sn-@ palmitate ( sn-@ ; n = @ ) , or formula containing high sn-@ palmitate plus @ g/L OF ( sn-@ + OF ; n = @ ) .
+Method	A non-randomized human milk ( HM ) - fed group was also included ( n = @ ) .
+Method	The primary endpoint , stool composition , was determined after @ days of feeding , and was assessed using ANOVA accompanied by pairwise comparisons .
+Method	Stool consistency , GI tolerance and hydration were assessed at baseline , day @ ( GI tolerance only ) and day @ .
+Result	Infants fed sn-@ had lower stool palmitate soaps compared to Control ( P = @ ) ; while those fed sn-@ + OF had reduced stool palmitate soaps compared to both Control and sn-@ ( both P < @ ) .
+Result	Stool total soaps and calcium were lower in the sn-@ + OF group than either Control ( P < @ ) or sn-@ ( P < @ ) .
+Result	The HM-fed group had lower stool palmitate soaps , total soaps and calcium ( P < @ for each comparison ) than all FF groups .
+Result	The stool consistency score of the sn-@ + OF group was lower than Control and sn-@ ( P < @ ) , but higher than the HM-fed group ( P < @ ) .
+Result	GI tolerance was similar and anthropometric z-scores were < @ SD from the WHO growth standards in all groups , while urinary hydration markers were within normal range for all FF infants .
+Conclusion	Increasing sn-@ palmitate in infant formula reduces stool palmitate soaps .
+Conclusion	A combination of high sn-@ palmitate and OF reduces stool palmitate soaps , total soaps and calcium , while promoting softer stools .
+
+Problem	We assessed the impact of hot flashes and various forms of hormone therapy on health-related quality of life and sexual well-being in recently postmenopausal women .
+Method	We prospectively interviewed @ healthy women about hot flashes and health-related quality of life ( using the Women 's Health Questionnaire and the McCoy Female Sexuality Questionnaire ) , menopause-related symptoms , and general health .
+Method	The women were classified into those with ( n = @ ) and without ( n = @ ) hot flashes and treated for @ months with transdermal estradiol ( @ mg/d ) , oral estradiol ( @ mg/d ) with or without medroxyprogesterone acetate ( @ mg/d ) , or placebo .
+Result	At baseline , hot flashes contributed most strongly to poor sleep ( correlation coefficient r = -@ , P < @ ) , somatic symptoms such as muscle pains ( r = -@ , P < @ ) , menstrual cycle-resembling complaints ( r = -@ , P < @ ) , anxiety and fears ( r = -@ , P < @ ) , decreased memory and concentration ( r = -@ , P = @ ) , and sexual behavior ( r = -@ , P = @ ) .
+Result	The different hormone therapy regimens alleviated hot flashes equally effectively and were therefore combined into a single group for further analysis .
+Result	In women with baseline flashes , hormone therapy use significantly improved the scores for sleep ( @ -LSB- @ -RSB- vs @ -LSB- @ -RSB- , hormone therapy vs placebo , P = @ , at @ mo ) , memory and concentration capacity ( @ -LSB- @ -RSB- vs @ -LSB- @ -RSB- , P < @ , at @ mo ) , and anxiety and fears ( @ -LSB- @ -RSB- vs @ -LSB- @ -RSB- , P = @ , at @ mo ) .
+Result	Hormone therapy use showed no significant impact on these variables in women without baseline flashes .
+Conclusion	Hot flashes contribute differently to various variables affecting health-related quality of life shortly after menopause .
+Conclusion	Estradiol or an estradiol-medroxyprogesterone acetate combination similarly alleviates hot flashes and improves health-related quality of life in relation to elimination of hot flashes .
+Conclusion	Hormone therapy use does not confer any detectable quality-of-life benefit over placebo in women without disturbing baseline flashes .
+
+Problem	We compared the outcomes of patients treated with everolimus-eluting stents ( EES ) versus paclitaxel-eluting stents ( PES ) at @ years from the large-scale randomized SPIRIT IV trial .
+Background	SPIRIT IV is the largest randomized trial comparing the outcomes of EES and PES .
+Background	The present report represents the final long-term follow-up analysis from this study .
+Method	A total of @,@ patients were randomized @:@ to EES or PES , stratified by presence of diabetes mellitus and lesion characteristics .
+Method	Prespecified subgroups were compared for interaction with stent allocation .
+Method	The primary end point was target lesion failure ( TLF ) ( the composite of cardiac death , target vessel-related myocardial infarction -LSB- MI -RSB- , or ischemia-driven target lesion revascularization ) .
+Result	At @ years , TLF occurred in @ % versus @ % of EES - and PES-treated patients ( hazard ratio -LSB- HR -RSB- @ -LSB- @-@ @ -RSB- , P = @ ) .
+Result	The incidence of death or MI was @ % versus @ % , respectively ( HR @ -LSB- @-@ @ -RSB- , P = @ ) , and there was a @ % reduction in stent thrombosis ( Academic Research Consortium definite or probable definition ) with EES ( @ % vs @ % , HR @ -LSB- @-@ @ -RSB- , P = @ ) .
+Result	The difference in target lesion revascularization at @ years did not reach statistical significance ( @ % vs @ % , respectively , HR @ -LSB- @-@ @ -RSB- , P = @ ) .
+Result	There was no significant interaction between treatment allocation and any of the subgroups , including diabetes .
+Conclusion	When compared with PES , EES provides durable and significant reduction in TLF , especially due to its enhanced safety profile , with lower rates of death or MI and stent thrombosis up to @ years .
+
+Problem	Antidepressant response varies between patients , possibly due to differences in the rate cytochrome P@ enzymes metabolise antidepressants into inactive compounds .
+Problem	Drug metabolism rates are influenced by common variants in the genes encoding these enzymes .
+Problem	However , it remains unclear whether treatment outcomes can be predicted by either CYP@ genotype or antidepressant serum concentration .
+Method	In GENDEP ( a pharmacogenetic study of depressed individuals treated with either escitalopram or nortriptyline ) , serum concentrations of antidepressants and their primary metabolite were measured after eight weeks treatment and variants in CYP@D@ and CYP@C@ were genotyped .
+Result	Amongst patients taking escitalopram ( n = @ ) , the genotype CYP@C@ was significantly associated with escitalopram serum concentrations and desmethylescitalopram : escitalopram ratio .
+Result	For those taking nortriptyline ( n = @ ) , the CYP@D@ genotype was significantly associated with nortriptyline and @-hydroxynortriptyline serum concentrations and @-hydroxynortriptyline : nortrip-tyline ratio .
+Result	CYP@ genotypes conferring greater enzyme activity were linked to lower drug serum concentrations and higher metabolite : drug ratios .
+Result	Nonetheless , no significant association was found between either CYP@ genotype or antidepressant serum concentration and treatment response .
+Conclusion	While there is a significant relationship between the CYP@ genotype and serum concentrations of escitalopram and nortriptyline , the genotypes are not predictive of differences in treatment response for either drug .
+Conclusion	Furthermore , differences in antidepressant serum concentrations are not associated with variability in treatment response .
+
+Background	New technologies could facilitate changes in lifestyle and improve public health .
+Background	However , no large randomized , controlled studies providing scientific evidence of the benefits of their use have been made .
+Background	The aims of this study are to develop and validate a smartphone application , and to evaluate the effect of adding this tool to a standardized intervention designed to improve adherence to the Mediterranean diet and to physical activity .
+Background	An evaluation is also made of the effect of modifying habits upon vascular structure and function , and therefore on arterial aging .
+Method	A randomized , double-blind , multicenter , parallel group clinical trial will be carried out .
+Method	A total of @ subjects under @years of age from the EVIDENT trial will be included .
+Method	Counseling common to both groups ( control and intervention ) will be provided on adaptation to the Mediterranean diet and on physical activity .
+Method	The intervention group moreover will receive training on the use of a smartphone application designed to promote a healthy diet and increased physical activity , and will use the application for three months .
+Method	The main study endpoints will be the changes in physical activity , assessed by accelerometer and the @-day Physical Activity Recall ( PAR ) interview , and adaptation to the Mediterranean diet , as evaluated by an adherence questionnaire and a food frequency questionnaire ( FFQ ) .
+Method	Evaluation also will be made of vascular structure and function based on central arterial pressure , the radial augmentation index , pulse velocity , the cardio-ankle vascular index , and carotid intima-media thickness .
+Conclusion	Confirmation that the new technologies are useful for promoting healthier lifestyles and that their effects are beneficial in terms of arterial aging will have important clinical implications , and may contribute to generalize their application in favor of improved population health .
+
+Problem	It is well established through randomized trials that oral antibiotics given with or without a mechanical bowel preparation ( MBP ) prior to colorectal procedures reduce complications , while MBP given alone provides no benefit .
+Problem	We aimed to characterize trends surrounding bowel preparation in children and determine whether contemporary practice is evidence-based .
+Method	Retrospective analysis of patients undergoing colorectal procedures at @ children 's hospitals ( @/@/@ -@ / @/@ ) was performed .
+Method	Patients were analyzed for diagnosis , pre-admission status , and inpatient bowel preparation .
+Method	Bowel preparation was considered evidence-based if oral antibiotics were utilized with or without a MBP .
+Result	@ % of all patients were pre-admitted ( n = @,@ ) , and the most common diagnoses were anorectal malformations ( @ % ) , inflammatory bowel disease ( @ % ) , and Hirschsprung 's Disease ( @ % ) .
+Result	The most common preparation approaches were MBP alone ( @ % ) , MBP + oral antibiotics ( @ % ) , and oral antibiotics alone ( @ % ) , although significant variation was found in hospital-specific rates for each approach ( MBP alone : @-@ @ % , MBP + oral antibiotics : @-@ @ % , orals alone : @-@ @ % , p < @ ) .
+Result	Only @ % of all patients received an evidence-based preparation ( range by hospital : @-@ @ % , p < @ ) , and this rate decreased significantly during the five-year study period ( @ % in @ vs. @ % in @ , p < @ ) .
+Conclusion	According to the best available clinical evidence , less than a quarter of all children pre-admitted for elective colorectal procedures receive a bowel preparation proven to reduce infectious complications .
+
+Problem	The purpose of this multicenter , open label , randomized phase III study was to determine whether ixabepilone resulted in improved overall survival ( OS ) compared with commonly used single-agent chemotherapy ( doxorubicin or paclitaxel ) in women with locally advanced , recurrent , or metastatic endometrial cancer with at least one failed prior platinum-based chemotherapeutic regimen .
+Method	Patients were randomized @:@ to ixabepilone ( @mg/m ( @ ) ) , or either paclitaxel ( @mg/m ( @ ) ) or doxorubicin ( @mg/m ( @ ) ) , every @days .
+Method	Patients that had previously received an anthracycline were randomized to ixabepilone or paclitaxel ; all other patients were randomized to ixabepilone or doxorubicin .
+Method	An interim analysis of futility for OS was planned .
+Result	At the time of database lock , @ patients were randomized to receive ixabepilone ( n = @ ) or control ( n = @ ) ; nine patients in the control arm were not treated .
+Result	The interim analysis of futility for OS ( @ events ) favored the control chemotherapy arm ( hazard ratio = @ -LSB- @ % confidence interval : @-@ @ -RSB- , stratified log rank test P = @ ) , indicating that the study would not meet its primary objective .
+Result	The study was discontinued based on the interim OS results .
+Result	The frequency of adverse events was comparable between the treatment arms .
+Conclusion	The study did not meet its primary objective of improving OS in the ixabepilone arm compared to the control chemotherapy arm .
+Conclusion	A favorable risk/benefit ratio was not observed for ixabepilone versus control at the time of the interim analysis .
+Conclusion	The safety results were consistent with the known safety profiles of ixabepilone and control .
+
+Background	Burnout syndrome is an important health problem that affects many professionals and must be addressed globally , with both organizational measures and personal interventions .
+Background	Burnout of health professionals can be prevented in order to avoid personal , familial , and social consequences , as well as repercussions for patients .
+Method	This work describes a protocol for a controlled , pragmatic , randomized clinical trial in @ parallel groups : intervention and control .
+Method	All health professionals from @ health care centers will form the intervention group , and all health professionals from @ different health care centers will form the control group .
+Method	The intervention group will receive @ hours of training at their work place .
+Method	The Maslach 's burnout inventory , the Cuestionario de Desgaste Profesional Mdico or the Cuestionario de Desgaste Profesional de Enfermera , and the @-item Goldberg 's General Health Questionnaire , validated for our setting , will be used as measurement tools .
+Method	Change in the average scores from the Maslach 's burnout inventory emotional exhaustion scale will be compared between the intervention and control groups , measured as intention-to-treat , and the intervention will be considered effective if a minimum decrease of @ % is achieved .
+Conclusion	Due to the deleterious consequences of burnout syndrome for people suffering from it and for the organization where they work , it is necessary to evaluate the effectiveness of certain interventions for its prevention .
+Conclusion	Organizational measures are important for preventing burnout syndrome , but so is providing professionals with coping strategies , as this group intervention intends to do .
+
+Background	Two randomized intraoperative radiation therapy trials for early-stage breast cancer were recently published .
+Background	The ELIOT Trial used electrons ( IOERT ) , and the TARGIT-A Trial Update used @-kV X-rays ( IORT ) .
+Background	These studies were compared for similarities and differences .
+Background	The results were analyzed and used to determine which patients might be suitable for single-dose treatment .
+Method	The primary sources of data were the ELIOT Trial and TARGIT-A Trial , as well as a comprehensive analysis of the peer-reviewed literature of accelerated partial breast irradiation ( APBI ) using @-kV X-rays or electrons .
+Method	Studies published or presented prior to March @ were analyzed for efficacy , patient restrictions , complications , and outcome .
+Result	With a median follow-up of @ years , the @-year recurrence rates for ELIOT versus EBRT patients were @ and @ % , respectively , p = @ .
+Result	A low-risk ELIOT group was identified with a @-year recurrence rate of @ % .
+Result	With a median follow-up of @months , the @-year recurrence rates for the TARGIT-A versus EBRT patients were @ and @ % , respectively , p = @ .
+Conclusion	With @ years of median follow-up , IOERT appears to have a subset of low risk women for whom IOERT is acceptable .
+Conclusion	With @months of median follow-up the results of IORT with @-kV devices are promising , but longer follow-up data are required .
+Conclusion	At the current time , single-fraction IOERT or IORT patients should be treated under strict institutional protocols .
+
+Problem	Uncontrolled intervention studies , including studies involving breast cancer survivors , have demonstrated improvements in vasomotor symptoms ( VMS ) after stellate ganglion blockade ( SGB ) with a local anesthetic .
+Problem	This study presents the first randomized sham-controlled trial of SGB for the treatment of VMS .
+Method	Participants included @ postmenopausal women , aged @ to @ years , with moderate to severe VMS .
+Method	The study was a randomized sham-controlled trial comparing the effects of SGB versus sham injection on the frequencies of total and moderate to severe VMS , as measured by daily diaries .
+Method	Image-guided SGB was performed with @ mL of @ % bupivacaine .
+Method	Sham injection of saline was performed in subcutaneous tissues in the neck .
+Method	VMS were recorded at baseline and for @ months thereafter .
+Method	Objective VMS were recorded using ambulatory sternal skin conductance monitoring during a @-hour period at baseline and on @-month follow-up .
+Result	There were no significant group differences in overall VMS frequency , but the frequency of moderate to very severe VMS was reduced more in the active group compared with the sham treatment group ( event rate ratio , @ ; @ % CI , @-@ @ ; P < @ ) .
+Result	The frequency of objective VMS was also reduced to a greater degree in the SGB group than in the sham group ( event rate ratio , @ ; @ % CI , @-@ @ ; P < @ ) .
+Result	There were no study-related serious adverse events .
+Conclusion	SGB may provide effective treatment of VMS in women who seek nonhormonal treatments because of safety concerns and personal preference .
+Conclusion	The finding that SGB significantly reduces objectively measured VMS provides further evidence of efficacy .
+Conclusion	A larger trial is warranted to confirm these findings .
+
+Background	Hypertension treatments include sodium restriction , pharmacological management , and lifestyle modifications .
+Background	Although many cases of hypertension can be controlled by medication , individuals may experience side effects or incur out-of-pocket expenses , and some may not comply with the treatment regimen .
+Background	Although some previous studies have shown a favorable effect for qigong on hypertension , well-designed , rigorous trials evaluating the effect of qigong on hypertension are scarce .
+Problem	This study aimed to evaluate the effect of qigong on prehypertension and mild hypertension and to calculate a sample size for a subsequent randomized , clinical trial ( RCT ) .
+Method	Participants were randomized to a qigong group or an untreated control group .
+Method	This study was conducted at the Oriental Medical Center of Dongeui University , in the Republic of Korea .
+Method	Participants were individuals between the ages of @ and @ y with systolic blood pressure ( SBP ) between @ and @ mm Hg and/or diastolic blood pressure ( DBP ) between @ and @ mm Hg .
+Method	The qigong group attended qigong classes @ / wk and performed qigong at home at least @ / wk .
+Method	Participants in the control group did not receive any intervention for hypertension .
+Method	Outcome measures for this study were ( @ ) changes in blood pressure ( BP ) ; ( @ ) quality of life ( QOL ) using @ surveys : the Medical Outcomes Study ( MOS ) @-item short form ( SF-@ ) ( Korean version ) and the Measure Yourself Medical Outcome Profile @ ( MYMOP@ ) ; and ( @ ) hormone levels .
+Result	Of @ participants , @ were randomly assigned to the qigong group , and @ were assigned to the control group .
+Result	After @ wk , significant differences were observed between the qigong and the control groups regarding changes in SBP ( P = @ ) and DBP ( P = @ ) .
+Result	Among the categories of the MYMOP@ questionnaire , only wellbeing was significantly different between the @ groups ( P = @ ) .
+Result	The qigong group showed a significantly greater improvement in the physical component score of the SF-@ compared with the control group ( P = @ ) .
+Result	Regarding changes in hormone levels , there was no significant difference between the qigong and the control groups .
+Result	This pilot study demonstrates that regarding sample size , a RCT evaluating the effect of qigong on hypertension should include @ participants based on DBP and @ participants based on SBP in each group , thus allowing for a loss to follow-up rate of @ % .
+Conclusion	The results indicate that qigong may be an effective intervention in reducing BP in prehypertension and mild hypertension .
+Conclusion	Further studies should include an appropriate sample size and methodology to determine the mechanism of qigong on BP .
+
+Problem	To observe the difference in the analgesic effect on primary dysmenorrheal between acupuncture and sham acupuncture at Sanyinjiao ( SP @ ) during menstrual pain and evaluate the impact of psychological effect on acupuncture analgesia .
+Method	Sixty subjects were randomized into an acupuncture group and a sham acupuncture group , @ cases in each one .
+Method	The conventional acupuncture and sham acupuncture were applied to Sanyinjiao ( SP @ ) on bilateral sides when menstrual pain began to attack and needles were retained for @ min each time .
+Method	Three menstrual cycles were required .
+Method	The visual analogue scale ( VAS ) was adopted to determine the scores before and @ h , @ h , @ h , @ h and @ h after acupuncture during menstrual pain in each cycle separately .
+Result	In the acupuncture group , VAS score at each time point after acupuncture was reduced as compared with that at the previous one during menstrual pain in each menstrual cycle , indicating the significant difference ( all P < @ ) .
+Result	In the sham acupuncture group , the scores in @ h and @ h of acupuncture were reduced as compared with the previous one , indicating the significant difference ( all P < @ ) .
+Result	After acupuncture , VAS score at each time point in the acupuncture group was lower than that in the sham acupuncture group ( all P < @ ) .
+Conclusion	The conventional acupuncture at Sanyinjiao ( SP @ ) achieves the significant analgesic effect on primary dysmenorrheal .
+Conclusion	The psychological placebo effect of sham acupuncture has no obvious impact on acupuncture analgesia .
+
+Problem	Little is known about whether probiotics can affect outcomes of patients with cirrhosis and hepatic encephalopathy ( HE ) .
+Problem	We assessed the efficacy of a probiotic preparation in preventing the recurrence of HE ( primary outcome ) and reducing the number of hospitalizations and severity of liver disease in patients with cirrhosis .
+Method	We performed a double-blind trial at a tertiary care hospital in India .
+Method	Patients with cirrhosis who had recovered from an episode of HE during the previous month were assigned randomly ( using computer-generated allocation ) to groups given a probiotic preparation ( VSL # @ , @ @ ( @ ) bacteria ; CD Pharma India Private Limited , New Delhi , India ) ( n = @ ) or placebo ( n = @ ) daily for @ months .
+Result	There was a trend toward a reduction in the development of breakthrough HE among patients receiving the probiotic ( @ % in the probiotic group vs @ % in the placebo group ; hazard ratio -LSB- HR -RSB- , @ ; @ % confidence interval -LSB- CI -RSB- , @-@ @ ; P = @ ) .
+Result	Fewer patients in the probiotic group were hospitalized for HE ( @ % vs @ % , respectively ; HR , @ ; @ % CI , @-@ @ ; P = @ ) or for complications of cirrhosis ( @ % ) than in the placebo group ( @ % ) ( HR , @ ; @ % CI , @-@ @ ; P = @ ) .
+Result	Child-Turcotte-Pugh and model for end-stage liver disease scores improved significantly from baseline to @ months in the probiotic group , but not in the placebo group .
+Result	There were no adverse events related to VSL # @ .
+Conclusion	Over a @-month period , daily intake of VSL # @ significantly reduced the risk of hospitalization for HE , as well as Child-Turcotte-Pugh and model for end-stage liver disease scores , in patients with cirrhosis .
+Conclusion	ClinicalTrials.gov number : NCT@ .
+
+Problem	Discontinuation of bisphosphonate therapy after @ to @ years is increasingly considered , but methods to monitor fracture risk after discontinuation have not been established .
+Problem	To test methods of predicting fracture risk among women who have discontinued alendronate therapy after @ to @ years .
+Method	The prospective Fracture Intervention Trial Long-term Extension ( FLEX ) study randomized postmenopausal women aged @ to @ years previously treated with @ to @ years of alendronate therapy to @ more years of alendronate or placebo from @ through @ ; the present analysis includes only the placebo group .
+Method	Hip and spine dual-energy x-ray absorptiometry ( DXA ) were measured when placebo was begun ( FLEX baseline ) and after @ to @ years of follow-up .
+Method	Two biochemical markers of bone turnover , urinary type @ collagen cross-linked N-telopeptide ( NTX ) and serum bone-specific alkaline phosphatase ( BAP ) , were measured at FLEX baseline and after @ and @ years .
+Method	Symptomatic spine and nonspine fractures occurring after the follow-up measurement of DXA or bone turnover .
+Result	During @ years of placebo , @ of @ women ( @ % ) experienced @ or more symptomatic fractures ; @ had fractures after @ year .
+Result	One-year changes in hip DXA , NTX , and BAP were not related to subsequent fracture risk , but older age and lower hip DXA at time of discontinuation were significantly related to increased fracture risk ( lowest tertile of baseline femoral neck DXA vs other @ tertiles relative hazard ratio , @ -LSB- @ % CI , @-@ @ -RSB- ; total hip DXA relative hazard ratio , @ -LSB- @ % CI , @-@ @ -RSB- ) .
+Conclusion	Among postmenopausal women who discontinue alendronate therapy after @ to @ years , age and hip BMD at discontinuation predict clinical fractures during the subsequent @ years .
+Conclusion	Follow-up measurements of DXA @ year after discontinuation and of BAP or NTX @ to @ years after discontinuation are not associated with fracture risk and can not be recommended .
+
+Problem	There are limited comparative studies on classic and new-generation antihistamines that affect sleep quality and mood .
+Problem	The purpose of this study was to determine and compare the effects of classic and new-generation antihistamines on sleep quality , daytime sleepiness , dream anxiety , and mood .
+Method	Ninety-two patients with chronic pruritus completed study in the dermatology outpatient clinic .
+Method	Treatments with regular recommended therapeutic doses were administered .
+Method	The effects of antihistaminic drugs on mood , daytime sleepiness , dream anxiety , and sleep quality were assessed on the first day and @ month after .
+Result	Outpatients who received cetirizine and hydroxyzine treatments reported higher scores on the depression , anxiety , and fatigue sub-scales than those who received desloratadine , levocetirizine , and rupatadine .
+Result	Pheniramine and rupatadine were found to be associated with daytime sleepiness and better sleep quality .
+Result	UKU side effects scale scores were significantly elevated among outpatients receiving pheniramine .
+Result	Classic antihistamines increased daytime sleepiness and decreased the sleep quality scores .
+Result	New-generation antihistamines reduced sleep latency and dream anxiety , and increased daytime sleepiness and sleep quality .
+Conclusion	Both antihistamines , significantly increased daytime sleepiness and nocturnal sleep quality .
+Conclusion	Daytime sleepiness was significantly predicted by rupadatine and pheniramine treatment .
+Conclusion	Cetirizine and hydroxyzine , seem to have negative influences on mood states .
+Conclusion	Given the extensive use of antihistamines in clinical settings , these results should be more elaborately examined in further studies .
+
+Problem	The goal of this study was to assess the effects of training primary care providers ( PCPs ) to use Motivational Interviewing ( MI ) when treating depressed patients on providers ' MI performance and patients ' expressions of interest in depression treatment ( `` change talk '' ) and short-term treatment adherence .
+Method	This was a cluster randomized trial in urban primary care clinics ( @ intervention , @ control ) .
+Method	We recruited @ PCPs ( @ intervention , @ control ) and @ English-speaking patients with newly diagnosed depression ( @ intervention , @ control ) .
+Method	MI training included a baseline and up to @ refresher classroom trainings , along with feedback on audiotaped patient encounters .
+Method	We report summary measures of technical ( rate of MI-consistent statements per @ minutes during encounters ) and relational ( global rating of `` MI Spirit '' ) MI performance , the association between MI performance and number of MI trainings attended ( @ , @ , @ , or @ ) , and rates of patient change talk regarding depression treatments ( physical activity , antidepressant medication ) .
+Method	We report PCP use of physical activity recommendations and antidepressant prescriptions and patients ' short-term physical activity level and prescription fill rates .
+Result	Use of MI-consistent statements was @ % higher for MI-trained versus control PCPs ( P = @ ) .
+Result	PCPs attending all @ MI trainings ( n = @ ) had @ % higher use of MI-consistent statements ( P < @ ) and were over @ times more likely to show beginning proficiency in MI Spirit ( P = @ ) relative to control PCPs .
+Result	Although PCPs ' use of physical activity recommendations and antidepressant prescriptions was not significantly different by randomization arm , patients seen by MI-trained PCPs had more frequent change talk ( P = @ ) .
+Result	Patients of MI-trained PCPs also expressed change talk about physical activity @ times more frequently ( P = @ ) and reported more physical activity ( @ vs @ days in the week after the visit ; P = @ ) than their counterparts visiting untrained PCPs .
+Result	Change talk about antidepressant medication and fill rates were similar by randomization arm ( P > @ for both ) .
+Conclusion	MI training resulted in improved MI performance , more depression-related patient change talk , and better short-term adherence .
+
+Background	Employing waiting list control designs in psychological and behavioral intervention research may artificially inflate intervention effect estimates .
+Background	This exploratory randomized controlled trial tested this proposition in a study employing a brief intervention for problem drinkers , one domain of research in which waiting list control designs are used .
+Method	All participants ( N = @ ) were provided with brief personalized feedback intervention materials after being randomly allocated either to be told that they were in the intervention condition and that this was the intervention or to be told that they were in the waiting list control condition and that they would receive access to the intervention in four weeks with this information provided in the meantime .
+Result	A total of @ participants ( @ % ) were followed-up after @weeks .
+Result	Between-group differences were found in one of four outcomes ( proportion within safe drinking guidelines ) .
+Result	An interaction was identified between experimental manipulation and stage of change at study entry such that participant change was arrested among those more ready to change and told they were on the waiting list .
+Conclusion	Trials with waiting list control conditions may overestimate treatment effects , though the extent of any such bias appears likely to vary between study populations .
+Conclusion	Arguably they should only be used where this threat to valid inference has been carefully assessed .
+
+Background	New-generation drug-eluting coronary stents have reduced the risk of coronary events , especially in patients with complex disease or lesions .
+Background	To what extent different stent platforms , polymers , and antiproliferative drugs affect outcomes , however , is unclear .
+Background	We investigated the safety and efficacy of a third-generation stent by comparing a highly biocompatible durable-polymer-coated zotarolimus-eluting stent with a biodegradable-polymer-coated biolimus-eluting stent .
+Method	This open-label , randomised , multicentre , non-inferiority trial was done at three sites across western Denmark .
+Method	All patients who presented with stable coronary artery disease or acute coronary syndromes and at least one coronary artery lesion ( more than @ % stenosis ) from March , @ , to August , @ , were assessed for eligibility .
+Method	Patients were randomly assigned in a @:@ ratio to receive either the durable-polymer zotarolimus-eluting stent or the biodegradable-polymer biolimus-eluting stent .
+Method	The primary endpoint was a composite of safety ( cardiac death and myocardial infarction not clearly attributable to a non-target lesion ) and efficacy ( target-lesion revascularisation ) at @ months , analysed by intention to treat .
+Method	The trial was powered to assess non-inferiority of durable-polymer zotarolimus-eluting stent compared with the biodegradable-polymer biolimus-eluting stent with a predetermined non-inferiority margin of @ .
+Method	This trial is registered with ClinicalTrials.gov , number NCT@ .
+Result	Of @ screened , @ patients with @ lesions were assigned to receive the durable-polymer zotarolimus-eluting stent and @ patients with @ lesions to receive the biodegradable-polymer biolimus-eluting stent .
+Result	@ ( @ % ) and @ ( @ % ) patients , respectively , met the primary endpoint ( absolute risk difference @ , upper limit of one-sided @ % CI @ % ; p = @ ) .
+Result	The individual components of the primary endpoint did not differ significantly between stent types at @ months .
+Conclusion	The durable-polymer-coated zotarolimus-eluting stent was non-inferior to the biodegradable-polymer-coated biolimus-eluting stent in unselected patients .
+
+Background	Vaccine effectiveness is usually determined in randomized controlled trials ( RCT ) and if effective , additional information , e.g. on cost-effectiveness , is required to allow evidence-based decision making .
+Background	A prerequisite for proper health economic modelling is the availability of good quality data on health care resources use , health outcomes and quality-of-life ( QoL ) data .
+Background	The `` Collecting health outcomes and economic data on hospitalized Community Acquired Pneumonia ( CHO-CAP ) -- a prospective cohort study '' is executed alongside the Community Acquired Pneumonia Immunization Trial with Adults ( CAPiTA trial ) to capture health outcomes and economic data of elderly hospitalized with CAP and matched controls without CAP .
+Method	CAPiTA is a placebo-controlled double-blind RCT evaluating the effectiveness of a @-valent conjugated pneumococcal vaccine in preventing vaccine-type pneumococcal CAP in @,@ elderly in the Netherlands .
+Method	Participants of CAPiTA , who consented and provided information on health status ( EQ-@D ) and socio-demographic background at the time of vaccination , constitute the source population of CHO-CAP and are eligible for the nested matched cohort study .
+Method	CHO-CAP patients hospitalized with CAP form the `` diseased '' cohort and the `` non-diseased '' cohort consists of unaffected persons ( i.e. no CAP ) .
+Method	Observations in the diseased cohort and in matched controls from the non-diseased cohort are used to determine excess costs and QoL changes attributable to CAP.Based on an estimated @,@ CAPiTA participants being hospitalized with CAP and an assumed CHO-CAP participation rate of @ % of all CAPiTA participants ( @,@ ) , @ CAP episodes are expected among CHO-CAP participants ( the `` diseased '' cohort ) .
+Method	For each patient with CAP , two non-diseased CHO-CAP subjects will be selected from the CHO-CAP cohort , with matching for age , gender and EQ-@D baseline-score .
+Method	Data on healthcare and non-healthcare resources use , quality-of-life ( using EQ-@D and SF-@ questionnaires ) and selected health outcomes will be collected at @ , @ , @ and @ months after hospitalization for CAP.The CHO-CAP study was approved by the Central Committee on Research involving Human Subjects in the Netherlands .
+Conclusion	With an expected @ CAP episodes this study will be one of the biggest prospectively studied cohorts of hospitalized elderly with CAP with regard to resources use and Qol data .
+Conclusion	Strengths of this study further include collection of out-of-pocket costs of patients and productivity losses of both patients and their caregivers and the follow-up period of up to one year post-discharge .
+Conclusion	This study is therefore expected to add more in-depth knowledge on the short and longer term outcomes of pneumonia in elderly .
+
+Background	Interparental violence is both common and harmful and impacts children 's lives directly and indirectly .
+Background	Direct effects refer to affective , behavioral , and cognitive responses to interparental violence and psychosocial adjustment .
+Background	Indirect effects refer to deteriorated parental availability and parent-child interaction .
+Background	Standard Trauma Focused Cognitive Behavioral Therapy may be insufficient for children traumatized by exposure to interparental violence , given the pervasive impact of interparental violence on the family system .
+Background	HORIZON is a trauma focused cognitive behavioral therapy based group program with the added component of a preparatory parenting program aimed at improving parental availability ; and the added component of parent-child sessions to improve parent-child interaction .
+Method	This is a multicenter , multi-informant and multi-method randomized clinical trial study with a @ by @ factorial experimental design .
+Method	Participants ( N = @ ) are children ( @-@ years ) , and their parents , who have been exposed to interparental violence .
+Method	The main aim of the study is to test the effects of two parental components as an addition to a trauma focused cognitive behavioral based group therapy for reducing children 's symptoms .
+Method	Primary outcome measures are posttraumatic stress symptoms , and internalizing and externalizing problems in children .
+Method	The secondary aim of the study is to test the effect of the two added components on adjustment problems in children and to test whether enhanced effects can be explained by changes in children 's responses towards experienced violence , in parental availability , and in quality of parent-child interaction .
+Method	To address this secondary aim , the main parameters are observational and questionnaire measures of parental availability , parent-child relationship variables , children 's adjustment problems and children 's responses to interparental violence .
+Method	Data are collected three times : before and after the program and six months later .
+Method	Both intention-to-treat and completer analyses will be done .
+Conclusion	The current study will enhance our understanding of the efficacy interparental violence-related parental components added to trauma focused cognitive behavioral group program for children who have been exposed to IPV .
+Conclusion	It will illuminate mechanisms underlying change by considering multiple dimensions of child responses , parenting variables and identify selection criteria for participation in treatment .
+
+Problem	This study sought to investigate the association of beta-blocker therapy at discharge with clinical outcomes in patients with ST-segment elevation myocardial infarction ( STEMI ) after primary percutaneous coronary intervention ( PCI ) .
+Background	Limited data are available on the efficacy of beta-blocker therapy for secondary prevention in STEMI patients .
+Method	Between November @ , @ and September @ , @ , @,@ patients were enrolled in nationwide , prospective , multicenter registries .
+Method	Among these , we studied STEMI patients undergoing primary PCI who were discharged alive ( n = @,@ ) .
+Method	We classified patients into the beta-blocker group ( n = @,@ ) and no-beta-blocker group ( n = @,@ ) according to the use of beta-blockers at discharge .
+Method	Propensity-score matching analysis was also performed in @,@ patient triplets .
+Method	The primary outcome was all-cause death .
+Result	The median follow-up duration was @ days ( interquartile range : @ to @ days ) .
+Result	All-cause death occurred in @ patients ( @ % ) of the beta-blocker group versus @ patients ( @ % ) of the no-beta-blocker group ( p < @ ) .
+Result	After @:@ propensity-score matching , beta-blocker therapy was associated with a lower incidence of all-cause death ( @ % vs. @ % , adjusted hazard ratio : @ , @ % confidence interval : @ to @ , p = @ ) .
+Result	The association with better outcome of beta-blocker therapy in terms of all-cause death was consistent across various subgroups , including patients with relatively low-risk profiles such as ejection fraction > @ % or single-vessel disease .
+Conclusion	Beta-blocker therapy at discharge was associated with improved survival in STEMI patients treated with primary PCI .
+Conclusion	Our results support the current American College of Cardiology/American Heart Association guidelines , which recommend long-term beta-blocker therapy in all patients with STEMI regardless of reperfusion therapy or risk profile .
+
+Background	Animal studies have shown that methylphenidate ( MPH ) and fluoxetine ( FLX ) have different effects on dopaminergic and serotonergic system in the developing brain compared to the developed brain .
+Background	The effects of Psychotropic drugs On the Developing brain ( ePOD ) study is a combination of different approaches to determine whether there are related findings in humans .
+Method	Animal studies were carried out to investigate age-related effects of psychotropic drugs and to validate new neuroimaging techniques .
+Method	In addition , we set up two double-blind placebo controlled clinical trials with MPH in @ boys ( @-@ years ) and @ young men ( @-@ years ) suffering from ADHD ( ePOD-MPH ) and with FLX in @ girls ( @-@ years ) and @ young women ( @-@ years ) suffering from depression and anxiety disorders ( ePOD-SSRI ) .
+Method	Trial registration numbers are : Nederlands Trial Register NTR@ and NTR@ .
+Method	A cross-sectional cohort study on age-related effects of these psychotropic medications in patients who have been treated previously with MPH or FLX ( ePOD-Pharmo ) is also ongoing .
+Method	The effects of psychotropic drugs on the developing brain are studied using neuroimaging techniques together with neuropsychological and psychiatric assessments of cognition , behavior and emotion .
+Method	All assessments take place before , during ( only in case of MPH ) and after chronic treatment .
+Conclusion	The combined results of these approaches will provide new insight into the modulating effect of MPH and FLX on brain development .
+
+Problem	To evaluate the efficacy of a short-term intravenous infusion of levosimendan in patients with heart failure due to acute myocardial infarction ( AMI ) .
+Method	This was a randomized , single-center , single-blind study that included @ patients .
+Method	Patients were randomly divided into @ groups : @ received levosimendan ( n = @ ) and the other received placebo ( n = @ ) .
+Method	The study included multiple primary end points ( death , myocardial ischemia or worsening heart at the @ month follow-up ) and used a composite outcome .
+Result	The primary end point rate in the levosimendan group was lower than that in placebo group ( @ vs. @ % , HR @ , @ % CI @-@ @ , p = @ ) .
+Result	Moreover , the mortality rate at @ months was similar between the @ groups ( @ vs. @ % , HR @ , @ % CI @-@ @ , p = @ ) .
+Result	There was a higher incidence of myocardial ischemia in the levosimendan group at @ days than in the placebo group ( @ vs. @ % , HR @ , p = @ ) , but between @ and @ days , it was significantly lower in the levosimendan group than in the placebo group ( @ vs. @ % , HR @ , p = @ ) .
+Conclusion	Short-term intravenous infusion of levosimendan appears to be more effective than placebo for treating patients with heart failure complicated by AMI .
+
+Background	Checklists may help reduce discharge errors ; however , current paper checklists have limited functionality .
+Background	In @ a best-practice discharge checklist using the electronic health record ( EHR ) was developed and evaluated at Stanford University Medical Center ( Stanford , California ) in a cluster randomized trial to evaluate its usage , user satisfaction , and impact on physicians ' work flow .
+Method	The study was divided into four phases .
+Result	In Phase I , on the survey ( N = @ ) , most of the participants ( @ % ) reported using memory to remember discharge tasks .
+Result	On a @-@ scale , perception of checklists as being useful was strong ( mean , @ ; standard deviation -LSB- SD -RSB- , @ ) , as was interest in EHR checklists ( @ , @ ) .
+Result	In Phase II , the checklist consisted of @ tasks categorized by admission , hospitalization , and discharge-planning .
+Result	In Phase III , the checklist was implemented as an EHR `` smart-phrase '' allowing for automatic insertion .
+Result	In Phase IV , in a trial with @ participating physicians , @ EHR checklist users reported higher usage than @ paper users ( @ versus @ , p = @ ) , as well as higher checklist integration with work flow ( @ versus @ , p = @ ) , usefulness of checklist ( @ versus .
+Result	@ , p = @ ) , discharge confidence ( @ versus @ , p = @ ) , and discharge efficiency ( @ versus @ , p = @ ) .
+Result	Increasing EHR checklist use was correlated with usefulness ( r = @ , p < @ ) , confidence ( r = @ , p < @ ) , and efficiency ( r = @ , p < @ ) .
+Conclusion	The EHR checklist reminded physicians to complete discharge tasks , improved confidence , and increased process efficiency .
+Conclusion	This is the first study to show that medicine residents use `` memory '' as the most common method for remembering discharge tasks .
+Conclusion	These data reinforce the need for a formalized tool , such as a checklist , that residents can rely on to complete important discharge tasks .
+
+Background	Conflicting blood pressure-lowering effects of catheter-based renal artery denervation have been reported in patients with resistant hypertension .
+Background	We compared the ambulatory blood pressure-lowering efficacy and safety of radiofrequency-based renal denervation added to a standardised stepped-care antihypertensive treatment ( SSAHT ) with the same SSAHT alone in patients with resistant hypertension .
+Method	The Renal Denervation for Hypertension ( DENERHTN ) trial was a prospective , open-label randomised controlled trial with blinded endpoint evaluation in patients with resistant hypertension , done in @ French tertiary care centres specialised in hypertension management .
+Method	Eligible patients aged @-@ years received indapamide @ mg , ramipril @ mg ( or irbesartan @ mg ) , and amlodipine @ mg daily for @ weeks to confirm treatment resistance by ambulatory blood pressure monitoring before randomisation .
+Method	Patients were then randomly assigned ( @:@ ) to receive either renal denervation plus an SSAHT regimen ( renal denervation group ) or the same SSAHT alone ( control group ) .
+Method	The randomisation sequence was generated by computer , and stratified by centres .
+Method	For SSAHT , after randomisation , spironolactone @ mg per day , bisoprolol @ mg per day , prazosin @ mg per day , and rilmenidine @ mg per day were sequentially added from months two to five in both groups if home blood pressure was more than or equal to @/@ mm Hg .
+Method	The primary endpoint was the mean change in daytime systolic blood pressure from baseline to @ months as assessed by ambulatory blood pressure monitoring .
+Method	The primary endpoint was analysed blindly .
+Method	The safety outcomes were the incidence of acute adverse events of the renal denervation procedure and the change in estimated glomerular filtration rate from baseline to @ months .
+Method	This trial is registered with ClinicalTrials.gov , number NCT@ .
+Result	Between May @ , @ , and Oct @ , @ , @ patients were screened for eligibility , @ of those were randomly assigned to treatment ( @ patients in each group , intention-to-treat population ) and @ analysed because of patients with missing endpoints ( @ in the renal denervation group , @ in the control group , modified intention-to-treat population ) .
+Result	The mean change in daytime ambulatory systolic blood pressure at @ months was -@ mm Hg ( @ % CI -@ to -@ ) in the renal denervation group and -@ mm Hg ( -@ to -@ ) in the group receiving SSAHT alone , a baseline-adjusted difference of -@ mm Hg ( -@ to -@ ; p = @ ) .
+Result	The number of antihypertensive drugs and drug-adherence at @ months were similar between the two groups .
+Result	Three minor renal denervation-related adverse events were noted ( lumbar pain in two patients and mild groin haematoma in one patient ) .
+Result	A mild and similar decrease in estimated glomerular filtration rate from baseline to @ months was observed in both groups .
+Conclusion	In patients with well defined resistant hypertension , renal denervation plus an SSAHT decreases ambulatory blood pressure more than the same SSAHT alone at @ months .
+Conclusion	This additional blood pressure lowering effect may contribute to a reduction in cardiovascular morbidity if maintained in the long term after renal denervation .
+
+Background	Nondisabling cerebrovascular events represent the largest group of cerebrovascular disease with a high risk of recurrent stroke .
+Background	A recent trial demonstrated that dual-antiplatelet therapy ( clopidogrel and aspirin ) , compared with aspirin monotherapy , reduced the risk of recurrent stroke and was not associated with increased risk of hemorrhagic events .
+Background	Apixaban , a new oral anticoagulant , has been proven to be as safe and effective as traditional anticoagulants while carrying significantly less risk of intracranial hemorrhage .
+Background	Patients with transient ischemic attack ( TIA ) / minor stroke might benefit from apixaban treatment ; therefore , an adequately powered randomized study is needed .
+Result	The ADANCE -LSB- Apixaban Versus Dual-antiplatelet Therapy ( Clopidogrel and Aspirin ) in Acute Non-disabling Cerebrovascular Events -RSB- study is a randomized , double-blind clinical trial with a target enrollment of @,@ patients .
+Result	A @-day regimen of apixaban or of clopidogrel with aspirin followed by clopidogrel on days @ through @ will be administered to randomized participants with acute TIA or minor ischemic stroke .
+Result	The primary efficacy endpoint is the percentage of patients with any new stroke ( ischemic or hemorrhage ) , including fatal stroke , at day @ .
+Result	Study visits will be performed on the day of randomization , and at days @ , @ , and @ .
+Conclusion	The novel oral anticoagulant apixaban has been widely used with fewer adverse effects than traditional anticoagulants .
+Conclusion	We designed the ADANCE trial to observe the effects of apixaban on recurrent stroke after TIA or minor stroke .
+Conclusion	The results should better guide the selection of anticoagulant or dual-antiplatelet therapy for patients with acute TIA or minor ischemic stroke .
+
+Problem	To determine the pathological mechanism and prevent heart-renal syndrome after heart valve replacement surgery .
+Method	A total of @ patients were admitted for selective valve replacement , and divide into @ groups randomly : a control group ( Con , n = @ ) , a remote ischemic perconditioning ( RIPerC ) group ( n = @ ) and a remote ischemic postconditioning ( RIPostC ) group ( n = @ ) .
+Method	The serum creatinine ( SCr ) , blood urea nitrogen ( BUN ) , serum heme oxygennase-@ ( HO-@ ) , serum iron and urinary neutrophil gelatinase associated lipocalin ( NGAL ) level in the @ groups were compared preoperatively and @ , @ , @ , @ h after aortic cross-release .
+Result	Compared with the preoperative level , the SCr , BUN , urinary NGAL , serum iron ( @ and @ h ) and serum HO-@ values were significantly increased after the heart valve replacement surgery in the control patients , RIPreC and RIPostC groups ( P < @ ) .
+Result	Compared with the control group , the serum HO-@ was significantly increased at @ , @ , @ , @ h after the heart valve replacement surgery in both the RIPerC and RIPostC groups ( P < @ ) ; the SCr , BUN , urinary NGAL and serum iron values were decreased at @ , @ , @ , @ h after the heart valve replacement surgery in both the RIPerC and RIPostC groups ( P > @ ) .
+Conclusion	Abnormal change in urinary NGAL , serum iron and HO-@ can be used as early warning indicators of acute kidney injury when cardio-renal syndrome occurrs among patients under heart valve replacement surgery .
+Conclusion	Remote ischemic conditioning plays a preventive role in the occurrence of cardio-renal syndrome and renal protection .
+
+Background	Discharge anticoagulation counseling is important for ensuring patient comprehension and optimizing clinical outcomes .
+Background	As pharmacy resources become increasingly limited , the impact of informational videos on the counseling process becomes more relevant .
+Problem	To evaluate differences in pharmacist time spent counseling and patient comprehension ( measured by the Oral Anticoagulation Knowledge -LSB- OAK -RSB- test ) between informational videos and traditional face-to-face ( oral ) counseling .
+Method	This prospective , open , parallel-group study at an academic medical center randomized @ individuals-@ warfarin-nave ( `` New Start '' ) and @ with prior warfarin use ( `` Restart '' ) - to receive warfarin discharge education by video or face-to-face counseling .
+Method	`` Teach-back '' questions were used in both groups .
+Result	Although overall pharmacist time was reduced in the video counseling group ( P < @ ) , an interaction between prior warfarin use and counseling method ( P = @ ) suggests the difference between counseling methods was smaller in New Start participants .
+Result	Following adjustment , mean total time was reduced @ ( @ % CI = @-@ @ ) minutes ( adjusted P < @ ) in Restart participants and @ ( -@ to @ ) minutes ( adjusted P = @ ) in New Start participants receiving video counseling .
+Result	Postcounseling OAK test scores did not differ .
+Result	Age , gender , socioeconomic status , and years of education were not predictive of total time or OAK test score .
+Conclusion	Use of informational videos coupled with teach-back questions significantly reduced pharmacist time spent on anticoagulation counseling without compromising short-term patient comprehension , primarily in patients with prior warfarin use .
+Conclusion	Study results demonstrate that video technology provides an efficient method of anticoagulation counseling while achieving similar comprehension .
+
+Problem	To evaluate changes in corneal epithelial and stromal thickness after corneal collagen cross-linking ( CXL ) in eyes with keratoconus and postoperative corneal ectasia using spectral-domain optical coherence tomography ( SD-OCT ) .
+Method	Anterior segment SD-OCT ( RTVue-@ ; Optovue , Inc. , Fremont , CA ) was used to compare regional corneal epithelial and stromal thickness in eyes with keratoconus and ectasia before CXL and @ and @ months after CXL .
+Method	The anterior surface of the cornea , epithelium-Bowman 's layer interface , and posterior reflective surface were used as anatomical landmarks to measure epithelial and stromal thickness , respectively .
+Method	Regional thickness was assessed centrally and at @ points @ mm apart across the central @ mm of the corneal vertex in the horizontal and vertical meridians .
+Result	Thirty-one eyes from @ patients were evaluated , including @ eyes ( @ patients ) with keratoconus and @ eyes ( @ patients ) with ectasia .
+Result	Preoperatively , a highly irregular epithelial thickness profile and distribution was observed in both groups .
+Result	After CXL , epithelial thickness was significantly thinner @ and @ mm below and @ mm above the corneal apex ( @ @ m ; range : @ to @ m ) , and @ and @ mm nasal and @ mm temporal to the corneal apex ( @ @ m ; range : @ to @ m ) compared to preoperative values ( P < @ for all measurements ) .
+Result	Epithelial thickness standard deviations were significantly lower ( by @ to @ m ) @ months after CXL , compared to ranges before CXL in both the vertical and horizontal meridians for keratoconus and ectasia ( P = @ ) .
+Result	No significant differences were found between epithelial remodeling in keratoconus and corneal ectasia ( P = @ ) .
+Result	No significant or consistent stromal changes were found for either group .
+Conclusion	Significant epithelial remodeling occurs after CXL in eyes with keratoconus and corneal ectasia , creating a similar , more regularized thickness profile in all meridians in the early postoperative period .
+Conclusion	This pattern of remodeling may facilitate interpretation of corneal curvature and thickness changes after CXL and may be related to visual acuity after CXL .
+
+Background	Poor sleep is prevalent in patients with systemic inflammatory disorders , including rheumatoid arthritis , and , in addition to fatigue , pain , depression and inflammation , is associated with an increased risk of co-morbidity and all-cause mortality .
+Background	Whereas non-pharmacological interventions in patients with rheumatoid arthritis have been shown to reduce pain and fatigue , no randomized controlled trials have examined the effect of non-pharmacological interventions on improvement of sleep in patients with rheumatoid arthritis .
+Background	The aim of this trial was to evaluate the efficacy of an intermittent aerobic exercise intervention on sleep , assessed both objectively and subjectively in patients with rheumatoid arthritis .
+Method	A randomized controlled trial including @ patients with rheumatoid arthritis randomly assigned to an exercise training intervention or to a control group .
+Method	The intervention consists of @ session intermittent aerobic exercise training on a bicycle ergometer three times a week .
+Method	Patients are evaluated according to objective changes in sleep as measured by polysomnography ( primary outcome ) .
+Method	Secondary outcomes include changes in subjective sleep quality and sleep disturbances , fatigue , pain , depressive symptoms , physical function , health-related quality of life and cardiorespiratory fitness .
+Conclusion	This trial will provide evidence of the effect of intermittent aerobic exercise on the improvement of sleep in patients with rheumatoid arthritis , which is considered important in promotion of health and well-being .
+Conclusion	As such , the trial meets a currently unmet need for the provision of non-pharmacological treatment initiatives of poor sleep in patients with rheumatoid arthritis .
+
+Problem	The aim of this study was to investigate the effects of shock wave therapy on gait pattern in children with hemiplegic cerebral palsy .
+Method	Fifteen children were assigned to the study group , whose members received shock wave therapy ( @ shots/muscle , frequency of @Hz , energy of @ mJ/mm , one session/wk ) .
+Method	Another @ were assigned to the control group , whose members participated in a conventional physical therapy exercise program for @ successive months .
+Method	Baseline and posttreatment assessments were performed using the Modified Ashworth Scale to evaluate spasticity degrees and using a three-dimensional gait analysis to evaluate gait parameters .
+Result	Children in the study group showed a significant improvement when compared with those in the control group ( P < @ ) .
+Result	The Modified Ashworth scores after treatment were @ ( @ ) and @ ( @ ) for the control and study groups , respectively .
+Result	The gait parameters ( stride length , cadence , speed , cycle time , and stance phase percentage ) after treatment were @ m , @ steps/min , @ m/sec , @ sec , and @ % and @ m , @ steps/min , @ m/sec , @ sec , and @ % for the control group and the study group , respectively .
+Conclusion	Shock wave therapy may be a useful tool for improving spasticity and gait pattern in children with hemiplegic cerebral palsy .
+
+Problem	To evaluate whether using long-axis or short-axis view during ultrasound-guided internal jugular and subclavian central venous catheterization results in fewer skin breaks , decreased time to cannulation , and fewer posterior wall penetrations .
+Method	Prospective , randomized crossover study .
+Method	Urban emergency department with approximate annual census of @,@ .
+Method	Emergency medicine resident physicians at the Denver Health Residency in Emergency Medicine , a postgraduate year @-@ training program .
+Method	Resident physicians blinded to the study hypothesis used ultrasound guidance to cannulate the internal jugular and subclavian of a human torso mannequin using the long-axis and short-axis views at each site .
+Result	An ultrasound fellow recorded skin breaks , redirections , and time to cannulation .
+Result	An experienced ultrasound fellow or attending used a convex @-@ MHz transducer during cannulation to monitor the needle path and determine posterior wall penetration .
+Result	Generalized linear mixed models with a random subject effect were used to compare time to cannulation , number of skin breaks and redirections , and posterior wall penetration of the long axis and short axis at each cannulation site .
+Result	Twenty-eight resident physicians participated : eight postgraduate year @ , eight postgraduate year @ , five postgraduate year @ , and seven postgraduate year @ .
+Result	The median ( interquartile range ) number of total internal jugular central venous catheters placed was @ ( interquartile range , @-@ ) and subclavian was six catheters ( interquartile range , @-@ ) .
+Result	The median number of previous ultrasound-guided internal jugular catheters was @ ( interquartile range , @-@ ) , and ultrasound-guided subclavian catheters were three ( interquartile range , @-@ ) .
+Result	The long-axis view was associated with a significant decrease in the number of redirections at the internal jugular and subclavian sites , relative risk @ ( @ % CI , @-@ @ ) and relative risk @ ( @ % CI , @-@ @ ) , respectively .
+Result	There was no significant difference in the number of skin breaks between the long axis and short axis at the subclavian and internal jugular sites .
+Result	The long-axis view for subclavian was associated with decreased time to cannulation ; there was no significant difference in time between the short-axis and long-axis views at the internal jugular site .
+Result	The prevalence of posterior wall penetration was internal jugular short axis @ % , internal jugular long axis @ % , subclavian short axis @ % , and subclavian long axis @ % .
+Result	The odds of posterior wall penetration were significantly less in the subclavian long axis ( odds ratio , @ ; @ % CI , @-@ @ ) .
+Conclusion	The long-axis view for the internal jugular was more efficient than the short-axis view with fewer redirections .
+Conclusion	The long-axis view for subclavian central venous catheterization was also more efficient with decreased time to cannulation and fewer redirections .
+Conclusion	The long-axis approach to subclavian central venous catheterization is also associated with fewer posterior wall penetrations .
+Conclusion	Using the long-axis view for subclavian central venous catheterization and avoiding posterior wall penetrations may result in fewer central venous catheter-related complications .
+
+Problem	To compare clinical and morphological results of treatment of ischemic stroke in three groups of patients which differed by the forms and duration of an antioxidant therapy .
+Method	A randomized clinical trial was performed in @ vascular centers of the Russian Federation in @-@ .
+Method	It included @ patients with ischemic stroke in the carotid territory .
+Method	Patients were randomized into @ groups to receive different regimens of antioxidant therapy as an adjunct to standard therapy : control group ( ascorbic acid ; @ patients ) ; cytoflavin ( @ ml per day for @ days ; @ patients ) ; cytoflavin ( the dose was decreased to @ ml per day from @th to @th day ) ( @ patients ) .
+Method	Patient 's condition was assessed in @ , @ and @ day by a complex of clinical , laboratory and instrumental methods .
+Conclusion	The analysis of CT in @th and @th day revealed a significant @,@-@ ,@ - fold decrease in the cerebral ischemic lesion in both groups treated with cytoflavin with no significant morphologic changes in the ascorbic acid group .
+Conclusion	The percentage of patients with ischemic lesion , increased during days @-@ , was @-fold higher in the ascorbic acid group compared to cytoflavin groups .
+Conclusion	Morphologic changes were correlated with clinical variables and outcome .
+Conclusion	In patients with @ points on NIH scale on admission , prolonged @ day cytoflavin therapy was associated with a more prominent improvement of neurologic , functional and cognitive status compared to @-day cytoflavin infusion .
+Conclusion	No differences in clinical variables were observed in patients with mild symptoms ( < @ points on NIH scale on admission ) receiving cytoflavin for @ and @ days .
+
+Problem	To compare the effects of volume-controlled ventilation ( VCV ) and pressure-controlled volume-guaranteed ( PCV-VG ) mode during one-lung ventilation ( OLV ) on circulation , pulmonary function and lung injury .
+Method	@ February to @ March in Ningbo No@ .
+Method	Hospital cardiothoracic surgery , @ patients aged @ to @ years ( ASA grade II-III ) undergoing elective thoracoscopic lobectomy were randomly divided into VCV group and PCV-VG group , with @ cases in each group .
+Method	After anesthesia induction and endotracheal intubation , endobronchial blocker was inserted to start OLV .
+Method	Heart rate ( HR ) , mean arterial pressure ( MAP ) , measured tidal volume ( TV ) , peak airway pressure ( Ppeak ) , airway resistance ( Raw ) , chest compliance ( Cdyn ) and the end-tidal carbon dioxide pressure ( PetCO ( @ ) ) were recorded at the time point of @ minutes after turning to the lateral position , @ minutes and @ minutes after OLV , and @ minutes after the resumption of two lung ventilation .
+Method	In the meanwhile , arterial blood gas analysis was conducted to measure indicators of pH , oxygen tension ( PaO ( @ ) ) and carbon dioxide partial pressure ( PaCO ( @ ) ) .
+Method	Blood was drawn before induction , @ hour after OLV and @ hour after the end of surgery , and the concentration of interleukin-@ ( IL-@ ) and tumor necrosis factor-alpha ( TNF - ) were detected by enzyme-linked immunosorbent assay ( ELISA ) .
+Result	HR , MAP , TV , PetCO ( @ ) , pH and PaCO ( @ ) in two groups at the time point of @ minutes after turning to the lateral position , @ minutes and @ minutes after OLV , and @ minutes after the resumption of two lung ventilation showed no significant difference ( P > @ ) .
+Result	At the point of @ minutes after turning to the lateral position and @ minutes after two lung ventilation , Ppeak and Cdyn of two groups were significantly different ( P < @ ) ( Ppeak :@ @ cmH ( @ ) O , @ @ cmH ( @ ) O for VCV group and @ @ cmH ( @ ) O , @ @ cmH ( @ ) O for PCV-VG group ; Cdyn : @ @ ml/cmH ( @ ) O , @ @ ml/cmH@O for VCV group and @ @ ml/cmH ( @ ) O , @ @ ml/cmH ( @ ) O for PCV-VG group ) .
+Result	Compared with VCV group , PCV-VG group showed a lower Ppeak @ minutes and @ minutes after OLV -LSB- ( @ @ cmH ( @ ) O ) vs ( @ @ cmH ( @ ) O ) and ( @ @ cmH ( @ ) O ) vs ( @ @ cmH ( @ ) O ) with a higher Cdyn at the same point ( @ @ ml/cmH ( @ ) O ) vs ( @ @ ml/cmH ( @ ) O ) and @ @ ml/cmH ( @ ) O ) vs ( @ @ ml/cmH ( @ ) O ) -RSB- ( P < @ ) .
+Result	Compared with VCV group,IL-@ and TNF - of PCV-VG group @ hour after OLV and @ hour after the end of surgery were significantly lower ( P < @ ) ( IL-@ : @ @ vs @ @ pg/ml and @ @ vs @ @ pg/ml ; TNF - : @ @ vs @ @ pg/ml and @ @ vs. @ @ pg/ml ) .
+Conclusion	During one-lung ventilation in thoracoscopic lobectomy , PCV-VG mode has a competitive advantage over VCV mode in terms of pulmonary function and lung protection .
+
+Problem	To compare the effects of trimethoprim-sulfamethoxazole vs placebo in reducing the risk of recurrences of Toxoplasma gondii retinochoroiditis .
+Method	Single-center , prospective randomized double-masked clinical trial .
+Method	A total of @ patients from Campinas , Brazil , with active recurrent Toxoplasma gondii retinochoroiditis were included .
+Method	The initially active toxoplasmosis lesions were successfully treated in all cases using trimethoprim-sulfamethoxazole ( @ mg/@ mg ) twice daily for @ days .
+Method	Subsequently , @ patients dropped out of the study .
+Method	The remaining patients were randomized to Group @ ( trimethoprim/sulfamethoxazole tablet every @ days ) or Group @ ( identical placebo tablet every @ days ) .
+Method	Randomization was @:@ , was stratified by sex , and used block sizes of @ .
+Method	The primary outcome was recurrent toxoplasmosis retinochoroiditis within @ year , and the secondary outcome was a @-year change in best-corrected visual acuity ( BCVA ) ( ETDRS chart ) .
+Result	The incidence of recurrent toxoplasmosis retinochoroiditis within @ months was @ of @ ( @ % ) and @ of @ ( @ % ) in the trimethoprim-sulfamethoxazole and placebo groups , respectively ( P = @ ) .
+Result	Visual acuity improvements in the @ groups were similar .
+Result	No treatment-limiting toxicity was observed .
+Conclusion	Trimethoprim/sulfamethoxazole therapy resulted in a @ % reduction in the recurrence of Toxoplasma gondii retinochoroiditis over @ year of treatment .
+
+Background	In patients with metastatic breast cancer that is positive for human epidermal growth factor receptor @ ( HER@ ) , progression-free survival was significantly improved after first-line therapy with pertuzumab , trastuzumab , and docetaxel , as compared with placebo , trastuzumab , and docetaxel .
+Background	Overall survival was significantly improved with pertuzumab in an interim analysis without the median being reached .
+Background	We report final prespecified overall survival results with a median follow-up of @ months .
+Method	We randomly assigned patients with metastatic breast cancer who had not received previous chemotherapy or anti-HER@ therapy for their metastatic disease to receive the pertuzumab combination or the placebo combination .
+Method	The secondary end points of overall survival , investigator-assessed progression-free survival , independently assessed duration of response , and safety are reported .
+Method	Sensitivity analyses were adjusted for patients who crossed over from placebo to pertuzumab after the interim analysis .
+Result	The median overall survival was @ months ( @ % confidence interval -LSB- CI -RSB- , @ to not reached ) in the group receiving the pertuzumab combination , as compared with @ months ( @ % CI , @ to @ ) in the group receiving the placebo combination ( hazard ratio favoring the pertuzumab group , @ ; @ % CI , @ to @ ; P < @ ) , a difference of @ months .
+Result	This analysis was not adjusted for crossover to the pertuzumab group and is therefore conservative .
+Result	Results of sensitivity analyses after adjustment for crossover were consistent .
+Result	Median progression-free survival as assessed by investigators improved by @ months in the pertuzumab group ( hazard ratio , @ ; @ % CI , @ to @ ) .
+Result	Pertuzumab extended the median duration of response by @ months , as independently assessed .
+Result	Most adverse events occurred during the administration of docetaxel in the two groups , with long-term cardiac safety maintained .
+Conclusion	In patients with HER@-positive metastatic breast cancer , the addition of pertuzumab to trastuzumab and docetaxel , as compared with the addition of placebo , significantly improved the median overall survival to @ months and extended the results of previous analyses showing the efficacy of this drug combination .
+Conclusion	( Funded by F. Hoffmann-La Roche and Genentech ; CLEOPATRA ClinicalTrials.gov number , NCT@ . )
+
+Background	Health-related and disease-specific quality of life ( HRQoL ) has been increasingly valued as relevant clinical parameter in cystic fibrosis ( CF ) clinical care and clinical trials .
+Background	HRQoL measures should assess - among other domains - daily functioning from a patient 's perspective .
+Background	However , validation studies for the most frequently used HRQoL questionnaire in CF , the Cystic Fibrosis Questionnaire ( CFQ ) , have not included measures of physical activity or fitness .
+Background	The objective of this study was , therefore , to determine the cross-sectional and longitudinal relationships between HRQoL , physical activity and fitness in patients with CF.
+Method	Baseline ( n = @ ) and @-month follow-up data ( n = @ ) from patients with CF ( age @ years , FEV@ @ % ) were analysed .
+Method	Patients participated in two multi-centre exercise intervention studies with identical assessment methodology .
+Method	Outcome variables included HRQoL ( German revised multi-dimensional disease-specific CFQ ( CFQ-R ) ) , body composition , pulmonary function , physical activity , short-term muscle power , and aerobic fitness by peak oxygen uptake and aerobic power .
+Result	Peak oxygen uptake was positively related to @ of @ HRQoL scales cross-sectionally ( r = @-@ @ ) .
+Result	Muscle power ( r = @-@ @ ) and peak aerobic power ( r = @-@ @ ) were positively related to @ scales each , and reported physical activity to @ scale ( r = @ ) .
+Result	Changes in HRQoL-scores were directly and significantly related to changes in reported activity ( r = @-@ @ ) , peak aerobic power ( r = @-@ @ ) , and peak oxygen uptake ( r = @-@ @ ) in @ scales each .
+Result	Established associates of HRQoL such as FEV@ or body mass index correlated positively with fewer scales ( all @ < r < @ ) .
+Conclusion	HRQoL was associated with physical fitness , especially aerobic fitness , and to a lesser extent with reported physical activity .
+Conclusion	These findings underline the importance of physical fitness for HRQoL in CF and provide an additional rationale for exercise testing in this population .
+
+Problem	The risks and benefits of initiating antiretroviral treatment ( ART ) at high CD@ cell counts have not been reliably quantified .
+Problem	The Strategic Timing of AntiRetroviral Treatment ( START ) study is a randomized international clinical trial that compares immediate with deferred initiation of ART for HIV-positive individuals with CD@ cell counts above @cells/L .
+Problem	We describe the demographics , HIV-specific characteristics and medical history of this cohort .
+Method	Data collected at baseline include demographics , HIV-specific laboratory values , prior medical diagnoses and concomitant medications .
+Method	Baseline characteristics were compared by geographical region , gender and age .
+Result	START enrolled @ HIV-positive participants from @ sites in @ countries .
+Result	The median age is @ years -LSB- interquartile range ( IQR ) @-@ years -RSB- , @ % are female , and @ % self-identify as white , @ % as black , @ % as Latino/Hispanic , @ % as Asian and @ % as other .
+Result	The route of HIV acquisition is reported as men who have sex with men in @ % of participants , heterosexual sex in @ % , injecting drug use in @ % and other/unknown in @ % .
+Result	Median time since HIV diagnosis is @ year ( IQR @-@ @ years ) and the median CD@ cell count and HIV RNA values at study entry are @cells/L ( IQR @-@cells / L ) and @,@ HIV RNA copies/mL ( IQR @-@ ,@ copies/mL ) , respectively .
+Conclusion	START has enrolled a diverse group of ART-nave individuals with high CD@ cell counts who are comparable to the HIV-positive population from the regions in which they were enrolled .
+Conclusion	The information collected with this robust study design will provide a database with which to evaluate the risks and benefits of early ART use for many important outcomes .
+
+Problem	Despite positive effects of incretins on insulin secretion , little is known about the effect of exercise on these hormones .
+Problem	Metformin can affect incretin concentrations and is prescribed to a large proportion of people with diabetes .
+Problem	We , therefore , examined the effects of aerobic exercise and/or metformin on incretin hormones .
+Method	Ten participants with type @ diabetes were recruited for this randomized crossover study .
+Method	Metformin or placebo was given for @ days , followed by the alternate treatment for @ days .
+Method	On the last @ days of each condition , participants were assessed during a non-exercise day and a subsequent exercise day .
+Method	Aerobic exercise took place in the morning and blood samples were taken in the subsequent hours ( before and after lunch ) .
+Result	Aerobic exercise did not increase total plasma glucagon-like peptide-@ ( GLP-@ ) or glucose-dependent insulinotropic polypeptide ( GIP ) in the pre - or post-lunch periods ( all p > @ ) .
+Result	GLP-@ was higher in the pre-lunch ( p = @ ) and post-lunch ( p = @ ) periods of the metformin conditions compared with the placebo .
+Result	Total plasma GIP was higher in the pre-lunch period ( p = @ ) , but not in the post-lunch period ( p = @ ) , with metformin compared with placebo .
+Conclusion	In contrast to our hypothesis , aerobic exercise did not acutely increase total GLP-@ and GIP levels in patients with type @ diabetes .
+Conclusion	Metformin , independent of exercise , significantly increased total plasma GLP-@ and GIP concentrations in these patients .
+
+Background	In many facilities , drains are routinely inserted after thyroidectomy with the aim of preventing hematoma formation and accumulation of seroma .
+Background	The continued use of drains may be based more on tradition rather than proven scientific evidence .
+Problem	To assess the benefit of drain use after thyroidectomy by determining ; length of hospital stay , post operative pain and wound sepsis .
+Method	This was a randomized controlled trial , carried out at a tertiary national referral hospital ( Mulago , Kampala ) .
+Method	Over a @ month period in @ , we recruited @ patients .
+Method	Socio-demographic information and clinical parameters were recorded .
+Method	Outcomes measures were evaluated .
+Method	Data were double entered into epidata version @ and analyzed using STATA version @ .
+Method	Ethical approval was secured .
+Result	Mean age of participants was @ and @ years in drain and no drain arm respectively .
+Result	Most participants were female .
+Result	Mean duration of hospital stay after thyroidectomy was significantly higher among the drain arm as compared with the no drain arm -LSB- @ ( @ ) vs @ ( @ ) days ( p = @ ) -RSB- .
+Result	One patient ( drain arm ) had wound infection .
+Result	The pain score on the postoperative day was statistically higher among in the drain arm than the no drain arm -LSB- @ vs @ ( p = @ ) -RSB- .
+Conclusion	Not inserting a drain post operatively after thyroid surgery was associated with short hospital stay and less operative pain .
+Conclusion	Results of this study do not support routine drainage after thyroid surgery .
+
+Problem	Current US healthcare delivery systems do not adequately address healthcare demands .
+Problem	Physicians are integral but rarely emphasize prevention as a primary tool to change health outcomes .
+Problem	Home visitation is an effective method for changing health outcomes in some populations .
+Problem	The Florida International University Herbert Wertheim College of Medicine Green Family Foundation NeighborhoodHELP service-learning program assigns medical students to be members of interprofessional teams that conduct household visits to determine their healthcare needs .
+Method	We performed a prospective evaluation of @ households randomly assigned to one of two groups : visitation from a student team ( intervention group ) or limited intervention ( control group ) .
+Method	The program design allowed randomly selected control households to replace intervention-group households that left the program of their own volition .
+Method	All of the households were surveyed at baseline and after @ year of participation in the study .
+Result	After @ year in the program and after adjustment for confounders , intervention group households proved more likely ( P @ ) than control households to have undergone physical examinations , blood pressure monitoring , and cervical cytology screenings .
+Result	Cholesterol screenings and mammograms were borderline significant ( P = @ and P = @ , respectively ) .
+Conclusion	This study supports the value of home visitation by interprofessional student teams as an effective way to increase the use of preventive health measures .
+Conclusion	The study underscores the important role interprofessional student teams may play in improving the health of US communities , while students concurrently learn about primary prevention and primary care .
+
+Problem	To investigate the efficacy and safety of ulipristal acetate ( UPA ) for long-term treatment of symptomatic uterine fibroids .
+Method	Repeated intermittent open-label UPA courses , each followed by randomized double-blind norethisterone acetate ( NETA ) or placebo .
+Method	European clinical gynecology centers .
+Method	Two hundred and nine women with symptomatic fibroids including heavy menstrual bleeding .
+Method	Patients received up to four @-month courses of UPA @ mg daily , immediately followed by @-day double-blind treatment with NETA ( @ mg daily ) or placebo .
+Method	Amenorrhea , fibroid volume , endometrial histology .
+Result	After the first UPA course , amenorrhea occurred in @ % of women , with median onset ( from treatment start ) of @ days ( interquartile range , @-@ days ) .
+Result	Median fibroid volume change was -@ % ( interquartile range , -@ % ; -@ % ) .
+Result	Amenorrhea rates were @ % , @ % , and @ % for the @ , @ , and @ women who received treatment courses @ , @ , and @ , respectively .
+Result	Median times to amenorrhea were @ , @ , and @ days for treatment courses @ , @ , and @ , respectively .
+Result	Median fibroid volume changes from baseline were -@ % , -@ % , and -@ % after treatment courses @ , @ , and @ , respectively .
+Result	All endometrial biopsies showed benign histology without hyperplasia ; NETA did not affect fibroid volume or endometrial histology .
+Conclusion	Repeated @-month UPA courses effectively control bleeding and shrink fibroids in patients with symptomatic fibroids .
+
+Problem	To characterize subgroups of subjects with schizophrenia from the Ziprasidone Observational Study of Cardiac Outcomes ( ZODIAC ) trial who either completed or attempted suicide and those who did not .
+Method	The ZODIAC , conducted between February @ and March @ , was an open-label , randomized , large simple trial of patients with schizophrenia ( N = @,@ ) followed up for @ year by unblinded investigators providing usual care in @ countries ; the primary outcome measure was nonsuicide mortality .
+Method	Every report on a completed or attempted suicide was independently adjudicated using a predefined algorithm .
+Method	Primary analysis for the current report examined the association between completed or attempted suicides and the baseline variables using descriptive statistics and multivariate logistic regression models .
+Method	Usage of `` hard '' or `` soft '' methods for attempted or completed suicide and distribution of suicide-related events by geographical region were also summarized .
+Result	Overall incidences of subjects who either completed ( @/@ ,@ ) or attempted ( @/@ ,@ ) suicide were low , as were rates per person-time on assigned treatment analysis ( @ for completed and @ for attempted suicides per @ person-years of exposure ) .
+Result	The highest suicide-related mortality was seen among subjects recently diagnosed with schizophrenia .
+Result	Among all potential baseline risk factors for completed suicide examined , the variables most associated with completed suicide were history of suicide attempts ( OR = @ ; @ % CI , @-@ @ ) and usage of antidepressant medication ( OR = @ ; @ % CI , @-@ @ ) .
+Result	History of > @ hospitalizations in the past ( OR = @ ; @ % CI , @-@ @ ) and history of suicide attempts ( OR = @ ; @ % CI , @-@ @ ) were the variables most associated with attempted suicide among potential baseline risk factors for suicide attempts .
+Conclusion	Our results , obtained in a large prospective randomized study , confirm current clinical understanding regarding completed or attempted suicide in schizophrenia and the associated risk factors .
+
+Problem	To compare the clinical outcomes of wavefront-guided and wavefront-optimized laser in situ keratomileusis ( LASIK ) .
+Method	Prospective , randomized , fellow-eye-controlled study .
+Method	The setting was a single academic institution .
+Method	The study population included @ eyes of @ patients with myopia with and without astigmatism .
+Method	One eye of each patient was randomized to undergo wavefront-guided LASIK by the AMO Visx CustomVue S@ IR excimer laser system ; the fellow eye received wavefront-optimized LASIK by the Alcon Allegretto Wave Eye-Q @ Hz excimer laser system .
+Method	Corneal flaps were constructed using the Intralase FS @ Hz femtosecond laser .
+Method	Patients were followed at postoperative months @ , @ , @ , and @ .
+Method	The study 's main outcome measures were uncorrected visual acuity , stability of refractive correction , contrast sensitivity , and wavefront aberrometry .
+Result	After @ months , LASIK eyes had achieved visual acuity of @/@ @ or better ( @ eyes , @ % ) in the wavefront-guided group compared to those receiving wavefront-optimized treatment ( @ eyes , @ % ) ( P = @ ) .
+Result	Average spherical equivalent refractions were -@ @ diopters in wavefront-guided eyes whereas in wavefront-optimized eyes the refractions were -@ @ diopters at @ months .
+Result	Wavefront-guided eyes also achieved better best-corrected visual acuity at both the @ % and @ % contrast levels ( P = @ and P = @ , respectively ) .
+Result	There were no differences in levels of residual astigmatism ( P = @ ) or in higher order aberrations ( P = @ ) .
+Conclusion	Both wavefront-guided and wavefront-optimized treatments are able to correct myopia safely and effectively in eyes with and without astigmatism .
+Conclusion	However , wavefront-guided treatment platforms appear to offer significant advantages in terms of residual refractive error , uncorrected distance acuity and contrast sensitivity .
+
+Background	Dengue infection is the most common mosquito-borne viral disease worldwide , but no suitable antiviral drugs are available .
+Background	We tested the - glucosidase inhibitor celgosivir as a treatment for acute dengue fever .
+Method	To establish eligibility for inclusion in a phase @b , randomised , double-blind , placebo-controlled , proof-of-concept trial , individuals aged @-@ years who had had a fever ( @C ) for less than @ h , met at least two criteria indicating probable dengue infection , and had a positive result on a dengue point-of-care test kit or PCR assay were referred for screening at a centre in Singapore between July @ , @ , and March @ , @ .
+Method	Using a web-based system , we randomly assigned patients who met full inclusion criteria after screening ( @:@ ; random permuted block length four ) to celgosivir ( initial @ mg loading dose within @ h of randomisation , followed by @ mg every @ h for a total of nine doses ) or matched placebo .
+Method	Patients and the entire study team were masked to group assignment .
+Method	The primary endpoints were mean virological log reduction ( VLR ) from baseline for days @ , @ , and @ , and area under the fever curve ( AUC ) for a temperature above @C from @ h to @ h. Efficacy analyses were by intention to treat .
+Method	This study is registered with ClinicalTrials.gov , number NCT@ .
+Result	We screened @ patients and randomly assigned @ ( @ to celgosivir , @ to placebo ) .
+Result	Mean VLR was greater in the celgosivir group ( -@ , SD @ ) than in the placebo group ( -@ , @ ) , but the difference was non-significant ( -@ , @ % CI -@ to @ ; one-sided p = @ ) .
+Result	The mean AUC was also higher in the celgosivir group ( @ , SD @ ) than in the placebo group ( @ , @ ) , but again the difference was non-significant ( @ , @ % CI @-@ ; one-sided p = @ ) .
+Result	We noted similar incidences of adverse events between groups .
+Conclusion	Although generally safe and well tolerated , celgosivir does not seem to reduce viral load or fever burden in patients with dengue .
+
+Background	The effects of dietary fatty acid supplementation on lipoprotein fatty acid composition have rarely been described .
+Method	Sixty-one overweight and obese adults with dyslipidemia and insulin resistance were randomized to placebo , @g/day extended-release nicotinic acid ( ERN ) , @g/day prescription omega-@ fatty acid ethyl ester ( P-OM@ ) , or combination therapy for @ weeks .
+Method	Lipoprotein fatty acid composition was analyzed by gas chromatography pre - and post-treatment .
+Result	Treatment with P-OM@ or combination , but not ERN , increased proportions of eicosapentaenoic acid , docosahexaenoic acid , and docosapentaenoic acid , and reduced those for arachidonic acid in all lipoprotein fractions , with greatest impact in the high-density lipoprotein fraction .
+Result	P-OM@-induced changes in eicosapentaenoic acid within low-density lipoproteins and very low-density lipoproteins were associated with beneficial effects on mean arterial pressure and pulse pressure .
+Conclusion	P-OM@ supplementation , with or without ERN , was associated with differentially altered lipoprotein fatty acid composition and improved blood pressure parameters .
+
+Problem	It has been hypothesized that the development of diabetic polyneuropathy ( DPN ) is due to swelling of the nerve , as well as thickening and stiffening of the surrounding ligaments , causing chronic compression of nerves .
+Problem	We aimed to examine the effect of surgical decompression of the tibial nerve on the mean cross-sectional area ( CSA ) .
+Method	We performed a randomized controlled trial of @ subjects with painful DPN diagnosed using the Diabetic Neuropathy Score .
+Method	A computer randomized for the surgery arm of the study .
+Method	A control group consisting of @ healthy subjects was included .
+Method	An experienced sonographer measured the CSA and thickness-to-width ( T/W ) ratio of the tibial nerve , as well as the thickness of the flexor retinaculum .
+Result	CSA is significantly larger in patients with painful DPN ( @ @ mm ( @ ) ) than in control subjects ( @ @ mm ( @ ) ) , P = @ .
+Result	The T/W ratio in patients with painful DPN is @ and in control subjects @ , P = @ .
+Result	Patients with DPN have a significantly thicker retinaculum ( @ mm ) than control subjects ( @ mm ) , P < @ .
+Result	Mean follow-up was @ weeks ( range @-@ ) .
+Result	Difference between baseline and follow-up in the operated leg was @ mm ( @ ) and in the control leg @ mm ( @ ) , P = @ .
+Conclusion	Decompression of the tibial nerve does not result in a significant difference between baseline and follow-up in CSA using ultrasound between the operated and control leg .
+Conclusion	Ultrasound measurements show a significantly increased CSA , a significantly thicker retinaculum , and a significantly increased T/W ratio in patients with painful DPN compared with healthy control subjects .
+Conclusion	Clinical trial reg .
+Conclusion	no .
+Conclusion	NTR@ , www.trialregister.nl .
+
+Background	Blockade of platelet activation and aggregation can inhibit metastasis in preclinical models and is associated with cancer prevention .
+Background	To test whether disruption of platelet function with clopidogrel and aspirin would decrease the number of circulating tumor cells ( CTCs ) in patients with metastatic breast cancer , a randomized phase II study was performed .
+Method	Patients with metastatic breast cancer who were not currently receiving cytotoxic chemotherapy were eligible .
+Method	Patients were randomized to receive either clopidogrel and aspirin or to a control group receiving no treatment .
+Method	Phlebotomy was performed at baseline , at @ and @ weeks , and monthly thereafter to obtain specimens to assess CTC , platelet aggregation , and thrombin activity .
+Method	The primary end point was the proportion of patients with detectable CTCs at @ month .
+Result	Forty-eight patients were enrolled and @ were evaluable at @month .
+Result	Baseline CTC numbers were @ in @ % and @ in @ % of patients .
+Result	Despite adequate platelet function inhibition in the treatment group , the proportion of patients with detectable CTCs was similar between the clopidogrel/aspirin and control groups at baseline ( P = @ ) and @ weeks ( P = @ ) , showing no treatment effect .
+Result	Measured endogenous thrombin potential did not correlate with CTC number .
+Result	No bleeding-related serious adverse events ( SAEs ) occurred .
+Conclusion	The baseline CTC numbers were lower than expected , decreasing the ability to detect an impact of platelet inhibition on CTCs .
+Conclusion	Clopidogrel and aspirin were well tolerated .
+Conclusion	Future studies evaluating the potential therapeutic role of antiplatelet therapy in breast cancer remain of interest , and they may be informed by theseresults .
+
+Background	This study investigates measures of mindfulness meditation ( MM ) as a mental practice , in which a resting but alert state of mind is maintained .
+Background	A population of older people with high stress level participated in this study , while electroencephalographic ( EEG ) and respiration signals were recorded during a MM intervention .
+Background	The physiological signals during meditation and control conditions were analyzed with signal processing .
+Method	EEG and respiration data were collected and analyzed on @ novice meditators after a @-week meditation intervention .
+Method	Collected data were analyzed with spectral analysis , phase analysis and classification to evaluate an objective marker for meditation .
+Result	Different frequency bands showed differences in meditation and control conditions .
+Result	Furthermore , we established a classifier using EEG and respiration signals with a higher accuracy ( @ % ) at discriminating between meditation and control conditions than a classifier using the EEG signal only ( @ % ) .
+Conclusion	Support vector machine ( SVM ) classifier with EEG and respiration feature vector is a viable objective marker for meditation ability .
+Conclusion	This classifier should be able to quantify different levels of meditation depth and meditation experience in future studies .
+
+Problem	Low-intensity pulsed ultrasound ( LIPUS ) has been used successfully to accelerate healing of fresh fractures and non-unions .
+Problem	It also improved callus maturation with distraction osteogenesis in animal trials .
+Problem	However , only few clinical studies are available to support its widespread use for the latter indication in humans .
+Method	Twenty-one patients undergoing callus distraction for posttraumatic tibial defects were randomized into two groups : the trial group ( @ men ; mean age @ years ) which received @ minutes LIPUS daily during treatment and the control group ( six men and three women ; mean age @ years ) without LIPUS treatment .
+Method	The Ilizarov ring fixator was used in all cases .
+Method	Results were examined clinically and radiologically , analysing callus maturation with a computer-assisted measurement .
+Result	Patients in the LIPUS group needed a mean of @ days to consolidate every @ cm of new bone in comparison to @ days in the control group .
+Result	The healing index was therefore shortened by @ days/cm in the LIPUS group .
+Result	This means that callus maturation was @ % faster in the LIPUS group .
+Result	The fixator time was shortened by @ days in the LIPUS group .
+Result	The overall daily increase in radiographic callus density was @ % more in the LIPUS group than in the control group .
+Conclusion	LIPUS treatment is an effective non-invasive adjuvant method to enhance callus maturation in distraction osteogenesis .
+Conclusion	With the help of this treatment , the healing time and the duration of external fixation can be reliably shortened .
+
+Problem	Survivors of cervical cancer experience quality-of-life ( QOL ) disruptions that persist years after treatment .
+Problem	This study examines the effect of a psychosocial telephone counseling ( PTC ) intervention on QOL domains and associations with biomarkers .
+Method	We conducted a randomized clinical trial in survivors of cervical cancer , who were @ and less than @ months from diagnosis ( n = @ ) , to compare PTC to usual care ( UC ) .
+Method	PTC included five weekly sessions and a @-month booster .
+Method	Patient-reported outcomes ( PROs ) and biospecimens were collected at baseline and @ and @ months after enrollment .
+Method	Changes in PROs over time and associations with longitudinal change in cytokines as categorical variables were analyzed using multivariable analysis of variance for repeated measures .
+Result	Participant mean age was @ years ; @ % of women were Hispanic , and @ % were non-Hispanic white .
+Result	Adjusting for age and baseline scores , participants receiving PTC had significantly improved depression and improved gynecologic and cancer-specific concerns at @ months compared with UC participants ( all P < @ ) ; significant differences in gynecologic and cancer-specific concerns ( P < @ ) were sustained at @ months .
+Result	Longitudinal change in overall QOL and anxiety did not reach statistical significance .
+Result	Participants with decreasing interleukin ( IL ) -@ , IL-@ , IL-@ , and IL-@ had significantly greater improvement in QOL than those with increasing cytokine levels .
+Conclusion	This trial confirms that PTC benefits mood and QOL cancer-specific and gynecologic concerns for a multiethnic underserved population of survivors of cancer .
+Conclusion	The improvement in PROs with decreases in T-helper type @ and counter-regulatory cytokines supports a potential biobehavioral pathway relevant to cancer survivorship .
+
+Background	Endovascular repair of abdominal aortic aneurysm ( AAA ) has recently been made a class I indication in the treatment of AAA .
+Background	In comparison to the conventional open surgical treatment , endovascular AAA repair ( EVAR ) is associated with equivalent long-term morbidity and mortality rates .
+Background	Vascular surgeons perform majority of EVAR .
+Background	There are no reports for the long-term results of this intervention performed by interventional cardiologists .
+Background	We present one of the first reports of periprocedural and long-term outcomes of EVAR performed by interventional cardiologists .
+Method	Retrospective chart review on patients with attempted EVAR between September @ and January @ was performed .
+Method	Included cases were all consecutive patients who had attempted EVAR by interventional cardiologists .
+Result	During the study period EVAR was attempted in @ patients , with @ % being women .
+Result	The mean age was @ years ( range @-@ ) .
+Result	The endovascular graft placement was successful in @ % ( @/@ ) of patients .
+Result	Procedure failures were more common in women ( @ of @ vs @ of @ , P = @ ) .
+Result	The @-day mortality was @ % ( @ of @ ) .
+Result	In patients with successful EVAR the mean follow-up was @ months and mean length of hospital stay was @ days .
+Result	Major periprocedural complications were noted in @ % patients ( @ of @ ) .
+Result	During follow-up , six patients ( @ % ) required re-intervention and additional @ patients died with no aneurysm related deaths .
+Conclusion	EVAR primarily performed by interventional cardiologists demonstrates high periprocedural and long-term success rates .
+Conclusion	A higher EVAR failure rate has been observed in women .
+
+Problem	The primary objective of this study was to compare Aquacel ( ConvaTec , Skillman , New Jersey ) , Allevyn ( Smith & Nephew , St Petersburg , Florida ) , and Mediskin I ( Mlnlycke , Health Care AB , Gothenburg , Sweden ) in the treatment of split-thickness skin graft donor sites .
+Method	This study was performed as a prospective randomized , @-arm , clinical study .
+Method	A clinical study performed at a hand and plastic surgery department with burn unit .
+Method	The study included @ adults with a total of @ donor sites , which were on the thigh , not reharvested , and ranged between @ - and @-cm area .
+Method	Subjects were randomly assigned to treatment with Aquacel , Allevyn , or Mediskin I.
+Method	The donor site was assessed on postoperative days @ , @ , and @ for healing , infection , pain , impact on everyday life , ease of use , and cost .
+Result	The obtained results demonstrate significantly faster re-epithelialization for patients treated with Aquacel or Mediskin I compared with Allevyn .
+Result	Regarding infections , there were no significant differences between the groups .
+Result	Patients wearing Aquacel experienced significantly less pain changing the dressing and less impact on everyday life than the patients wearing Allevyn .
+Result	Aquacel was shown to be significantly easier for the caregiver to use than Allevyn and Mediskin I.
+Result	There is a significant difference in cost of treatment between the dressings , whereas Mediskin I is the most expensive .
+Conclusion	The authors ' results support the use of Aquacel in the treatment of split-thickness skin graft donor sites .
+Conclusion	Aquacel has a low cost per unit , is user friendly , gives short healing time , and minimizes patient discomfort .
+
+Background	Although whole-body vibration ( WBV ) has sparked tremendous research interest in neurorehabilitation , the cardiovascular responses to WBV in people with stroke remain unknown .
+Problem	The aim of this study was to determine the acute effects of different WBV protocols on oxygen consumption ( Vo@ ) , heart rate ( HR ) , rate of perceived exertion ( RPE ) , blood pressure ( BP ) , and rate-pressure product ( RPP ) during the performance of @ different exercises among people with chronic stroke ( time since onset @ months ) .
+Method	A repeated-measures design was used .
+Method	Each of the @ participants experienced all @ WBV protocols in separate sessions : ( @ ) no WBV , ( @ ) low-intensity WBV ( peak acceleration = @ unit of gravity of Earth -LSB- g -RSB- ) , and ( @ ) high-intensity WBV ( @ g ) .
+Method	The order in which they encountered the WBV protocols was randomized , as was the order of exercises performed during each session .
+Method	Oxygen consumption , HR , and RPE were measured throughout the study .
+Method	Blood pressure and RPP were measured before and after each session .
+Result	Low-intensity and high-intensity WBV induced significantly higher Vo@ by an average of @ and @ mL/kg/min , respectively , compared with the control condition .
+Result	These protocols also increased HR by an average of @ bpm .
+Result	The @ WBV protocols induced higher RPE than the control condition during static standing exercise only .
+Result	Although the diastolic and systolic BP and RPP were increased at the end of each exercise session , the addition of WBV had no significant effect on these variables .
+Conclusion	The results are generalizable only to ambulatory and community-dwelling people with chronic stroke .
+Conclusion	Addition of high - and low-intensity WBV significantly increased the Vo@ and HR , but the increase was modest .
+Conclusion	Thus , WBV should not pose any substantial cardiovascular hazard in people with chronic stroke .
+

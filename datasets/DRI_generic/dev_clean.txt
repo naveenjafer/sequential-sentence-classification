@@ -1,0 +1,788 @@
+Problem	Many textiles do not noticeably stretch under their own weight.
+Problem	Unfortunately, for better performance many cloth solvers disregard this fact.
+Result	We propose a method to obtain very low strain along the warp and weft direction using Constrained Lagrangian Mechanics and a novel fast projection method.
+Result	The resulting algorithm acts as a velocity filter that easily integrates into existing simulation code.
+Background	Our eyes are very sensitive to the behavior of fabrics, to the extent that we can identify the kind of fabric simply from its shape and motion [Griffiths and Kulke 2002].
+Background	One important fact is that most fabrics do not stretch under their own weight.
+Problem	Unfortunately, for many popular cloth solvers, a reduction of permissible stretching is synonymous with degradation in performance: for tractable simulation times one may settle for an unrealistic 10% or more strain (compare 1% and 10%, Figure 1 ).
+Result	Our work alleviates this problem by introducing a numerical solver that excels at timestepping quasi-inextensible surfaces (stretching below 1%).
+Method	The solver builds on a framework of Constrained Lagrangian Mechanics (CLM) [Marsden 1999].
+Background	Warp and weft, the perpendicular sets of strands that make up a textile, are prohibited from stretching by enforcing constraint equations, not by integrating spring forces.
+Result	We present numerical evidence supporting the observation that a constraint-based method is inherently well-suited to operate in the quasi-inextensible regime.
+Background	In contrast, for this regime spring-based methods are known to experience a range of difficulties, leading to the adoption of various strain limiting [Provot 1995] and strain rate limiting algorithms.
+Background	We are motivated by the work of Bridson et al. [2002], who viewed strain limiting as one of multiple velocity filtering passes (another being collision handling).
+Result	The velocity filter paradigm enables the design of modular systems with mix-and-match flexibility.
+Result	We prove that the implicit method’s nonlinear equations correspond to a minimization problem (§4.2): this result motivates a fast projection method for enforcing inextensibility (§4.3).
+Result	We describe an implementation of fast projection as a simple and efficient velocity filter, as part of a framework that decouples timestepping, inextensibility, and collision passes (§4.4).
+Result	Consequently, the fast projection method easily incorporates with a code’s existing bending, damping, and collision models, to yield accelerated performance (§5).
+Background	For brevity, we review work on stretch resistance; for broad surveys on cloth simulation see [House and Breen 2000; Choi and Ko 2005].
+Background	The most general approach is to treat cloth as an elastic material [Terzopoulos et al. 1987; Breen et al. 1994; Eberhardt et al. 1996; Baraff and Witkin 1998; Choi and Ko 2002].
+Background	To reduce visible stretching, elastic models typically adopt large elastic moduli or stiff springs, degrading numerical stability [Hauth et al. 2003].
+Background	To address the stiffness of the resulting differential equations, Baraff and Witkin [1998] proposed implicit integration, allowing for large, stable timesteps; adaptive timestepping was required to prevent over-stretching.
+Background	Eberhardt [2000] and Boxerman et al. [2003] adopted implicit-explicit (IMEX) formulations, which treat only a subset of forces implicitly.
+Method	Our method is closely related to the IMEX approach, in the sense that stretching forces are singled out for special treatment.
+Background	These works, and many of their sequels, improved performance by allowing some perceptible stretch of the fabric.
+Background	In the quasiinextensible regime, however, implicit methods encounter numerical limitations [Volino and Magnenat-Thalmann 2001; Boxerman 2003; Hauth et al. 2003]: the condition number of the implicit system grows with the elastic material stiffness, forcing iterative solvers to perform many iterations; additionally, timestepping algorithms such as Backward Euler and BDF2 introduce undesirable numerical damping when the system is stiff [Boxerman 2003].
+Background	Given a stiff differential equation, an alternative to implicit integration is to reduce the stiff component and reformulate it as a constraint [Hairer et al. 2002].
+Background	In the smooth setting, the penalty-force and constraint-based approaches are equivalent in the limit of an infinitely stiff penalty term [Bercovier and Pat 1984].
+Background	While simple to implement, this approach suffers from poor convergence since each displacement may stretch other incident springs.
+Background	Therefore, Provot’s method is used in cases where tight tolerances are not required, e.g., [Desbrun et al. 1999; Meyer et al. 2001; Fuhrmann et al. 2003].
+Background	Bridson et al. [2002; 2003] used Provot’s approach in conjunction with strain rate limiting, bounding the rate of change of spring length per timestep to 10% of the current length.
+Background	Müller et al. [2006] used a non-linear Gauss-Seidel approach to enforce inextensibility on each constraint separately.
+Background	Bridson et al. observed that iterative strain limiting algorithms behave essentially as Jacobi or Gauss-Seidel solvers.
+Background	In this light, it is not surprising that for finely-discretized quasi-inextensible fabrics, iterative constraint enforcement requires a prohibitive number of iterations (see §5).
+Background	The Lagrange multiplier approach alleviates the difficulties associated with poor numerical conditioning and artificial damping.
+Background	House et al. later encountered difficulties in handling collision response within the proposed framework [2000].
+Method	By building on the velocity-filter paradigm, our method handles both inextensibility and complex collisions.
+Background	House et al. formulated constraints as in [Witkin et al. 1990], which is subject to numerical drift that may be exacerbated by the discontinuities introduced during collision response.
+Background	Drift may be attenuated using constraint-restoring springs, but the authors reported difficulty in adjusting the spring coefficients.
+Background	We postulate that one reason for their difficulties with drift was consequent to the linearization of the constraint equation, which permitted higher order errors to accumulate over time.
+Method	Our method does not linearize the constraint equations, and therefore it is not subject to drift.
+Background	Recently, Tsiknis [2006] proposed triangle-based strain limiting together with a global stitching step for stable constraint enforcement.
+Background	Hong et al. [2005] used a linearized implicit formulation in order to improve stability of constrained dynamics.
+Background	This allowed for larger timesteps and reduced the need for springs to maintain the cloth on the constraint manifold.
+Background	Both of these approaches enforce inextensibility only for strain exceeding 10%.
+Background	In summary, when the tolerance for stretching is very small, modeling stretch response with spring-based or strain-limiting approaches is costly and even intractable; constraint-based methods present a promising alternative.
+Background	Woven fabrics are not a continuous material, rather they are a complex mechanical network of interleaving yarn [Breen et al. 1994].
+Background	Since the constituent yarn is often quasi-inextensible, the material’s warp and weft directions do not stretch perceptibly.
+Background	In imposing inextensibility on all edges of a triangle mesh, one quickly runs into parasitic stiffness in the bending modes, or locking [Zienkiewicz and Taylor 1989], since locally-convex regions of a triangle mesh are rigid under isometry.
+Method	Instead, we consider warpweft aligned quadrilateral meshes with a sparse number of triangles (quad-dominant meshes).
+Method	Subtracting constraints from positional DOFs leaves nearly zero DOFs for a triangulation.
+Method	In the case of a quadrangulation, O(n) DOFs remain, and we see that in a flat configuration they correspond to the normal direction at each vertex.
+Method	Furthermore, under general mesh positions, the constraints are linearly independent, with a full-rank Jacobian treatable by a direct solver (§4).
+Method	Since shearing modes excite only a mechanical interaction of warp and weft, and not a stretching of yarn, fabric does indeed shear perceptibly.
+Method	Therefore, we model shear using non-stiff stretch springs applied on both diagonals of each quad.
+Method	The complete model of in-plane deformation is compatible with an existing code’s quador triangle-based treatment of bending and collisions.
+Method	With this simple formulation of inextensibility constraints in place, what is needed is an efficient method for enforcing constraints.
+Method	Given a quadrilateral mesh with n vertices and m edges, the numerical integration algorithm for constrained dynamics can be developed directly from the augmented Lagrange equation [Marsden 1999], L(x, v) = 1 v T Mv −V (x) − C(x) T λ , 2 where x(t) is the time-varying 3n-vector of vertex positions, v(t) = x(t) is its time derivative, M is the 3n × 3n mass matrix, and V (x) is the stored energy (e.g., bending, shear, and gravity).
+Method	C(x) is the m-vector of constraints, with the i th entry corresponding to the violation of inextensibility of the i th edge, as computed by (1); λ is the m-vector of Lagrange multipliers.
+Method	The term −∇C(x) T λ may be viewed as the constraint-maintaining force, where the factors −∇C(x) T and λ determine the direction and scaling for the force, respectively.
+Method	∇C(x) is a rectangular matrix whose dimensions are m × 3n.
+Method	For simulation, we must discretize (3) and (4) in time using one of various schemes, each with benefits and drawbacks.
+Method	One may choose differing explicit or implicit schemes for the potential and the constraint forces (similarly, potential forces are split and separately discretized in [Ascher et al. 1997]).
+Background	One widely-used family of discretizations includes SHAKE and RATTLE, which extend the (unconstrained) Verlet scheme [Hairer et al. 2002] by considering a constraint force direction, −∇C(x) T , evaluated at the beginning of the timestep.
+Method	Unfortunately, enforcing length-preserving constraints with SHAKE fails for four common geometric configurations, which we refer to as (Q1)–(Q4) and depict in Figure 2 .
+Method	This figure is a reproduction from [Barth et al. 1994], which discusses these drawbacks in SHAKE but does not offer a solution.
+Method	If the constraint direction, −∇C(x) T , is evaluated at the beginning of the timestep, x n , as in SHAKE, then no scaling, λ , of the constraint direction yields a satisfied end-of-timestep constraint, C(x n+1 ) = 0.
+Method	Numerically, for (Q2)–(Q4) this observation manifests as a singular Jacobian in Newton’s method.
+Method	These four cases correspond to rapid change in edge length or orientation; in practice, they occur often.
+Method	Consider evaluating the constraint direction, −∇C(x) T , at the end of the timestep.
+Method	We observe (and prove in Appendix A) that this resolves (Q1), (Q2) and (Q4); (Q3) remains, but is automatically remedied by decreasing the timestep.
+Method	Consider the ICD timestep, which treats potential forces explicitly 1 : v n+1 = v n − hM −1 ∇V (x n ) + ∇C(x n+1 ) T λ n+1 , x n+1 = x n + hv n+1 , C(x n+1 ) = 0 .
+Method	Define x 0 n+1 =x n +hv n −h 2 M −1 ∇V (x n ), i.e., x n+1 0 is the position at the end of an unconstrained timestep; define δ x n+1 = x n+1 − x 0 n+1 , i.e., δ x n+1 is the correction of the unconstrained step.
+Method	Next, eliminate v n+1 by rewriting the above system as two equations, F( δ x n+1 , λ n+1 ) = 0 and C(x n+1 ) = 0, in the free variables δ x n+1 and λ n+1 , keeping in mind that x n+1 is a linear function in δ x n+1 , and defining F( δ x n+1 , λ n+1 ) = δ x n+1 + h 2 M −1 ∇C(x n+1 ) T λ n+1 .
+Method	F( δ x n+1 , λ n+1 ) and C(x n+1 ) are the residuals of the discretization of (3) and (4), respectively.
+Method	C measures the deviation from the constraint manifold (in our case, the extensibility of the material).
+Method	To implement ICD, we solve for the roots of F and C up to a desired tolerance using Newton’s method.
+Method	Solving for an ICD step is costly, because there are many unknowns (≈ 5n), and each Newton step requires the solution of an indefinite linear system, whose matrix is costly to assemble.
+Method	In §4.3, we develop an approximation to ICD that addresses these drawbacks without sacrificing constraint accuracy or robustness.
+Method	Consider for a moment an alternative approach to constrained integration in two steps: (a) step forward only the potential forces to arrive at the unconstrained position, x n+1 0 ; (b) enforce the constraints by projecting onto the constraint manifold M = {x n+1 |C(x n+1 ) = 0}.
+Background	Methods of this form are known as manifold-projection methods [Hairer et al. 2002].
+Method	To define a specific method, we must choose a projection operator.
+Method	In the method we refer to as SAP, we write the projection of the unconstrained point onto the constraint manifold as x n+1 0 + δ x n+1 , so that the projected point extremizes the objective function W ( δ x n+1 , λ n+1 ) = 1 ( δ x n+1 ) T M( δ x n+1 ) + C(x n+1 ) T λ n+1 , 2h 2 with respect to the free variables δ x n+1 and λ n+1 .
+Method	Simply put, we choose the point on the constraint manifold closest to x n+1 0 .
+Method	To define closest, we need a measure of distance.
+Method	Take M as the physical mass matrix (usually arising from a finite-basis representation of x and a surface mass density).
+Method	Then the choice ( δ x n+1 ) T M( δ x n+1 ) corresponds to the L 2 norm of the mass-weighted displacement of the mesh as it moves from x 0 n+1 to x n+1 .
+Method	We use · to denote the Euclidean norm in R 3 .
+Method	We can interpret these roots from the SAP view as follows: C(x n+1 ) = 0 corresponds to finding some point on the constraint manifold.
+Method	C(x n+1 ) = 0 with F( δ x n+1 , λ n+1 ) = 0 corresponds to finding the closest point on the constraint manifold.
+Method	To solve SAP, one might extremize W ( δ x n+1 , λ n+1 ) using Newton’s method: each iteration would improve upon a guess for the shortest step, δ x n+1 that projects x n+1 0 onto the constraint manifold.
+Method	Fast projection starts at x n+1 0 , and takes a sequence of steps, δ x n+1 j , j = 1, 2, . . ., toward the constraint manifold, with each step as short as possible.
+Method	Therefore, we omit the superscripts (n + 1), which refer to time, in order to emphasize the subscripts, j, which refer to a specific iteration of fast projection, e.g., we write the input position, x n+1 0 , as x 0 , and progressively closer approximations to the constrained position as x 1 , x 2 , .
+Method	Formally, the ( j + 1) th step of fast projection, x j+1 = x j + δ x j+1 , extremizes the objective function        W ( δ x j+1 , δ λ j+1 ) = 2h 1 2 ( δ x j+1 ) T M( δ x j+1 ) + C(x j+1 ) T δ λ j+1 ,        with respect to the step increment, δ x j+1 , and the auxiliary variable δ λ j+1 .
+Method	Substituting (5) into (6), we eliminate δ x j+1 and solve a linear system in δ λ j+1 :
+Method	Since the linear system matrix involves M −1 , the assembly of this system is most efficient for diagonal (e.g., lumped) mass matrices.
+Method	Finally, we compute the increment (5) to obtain x j+1 = x j + δ x j+1 .
+Method	As with ICD/SAP, a fast projection step requires a linear solve.
+Method	However, fast projection’s system, (7), is smaller (≈ 2n × 2n compared to ≈ 5n × 5n), positive definite (compared to indefinite) and sparser.
+Method	As a result it is considerably cheaper to evaluate, assemble, and solve than its ICD/SAP counterpart.
+Method	Fast projection finds a manifold point, x n+1 , that is close, but not closest, to the unconstrained point, x 0 n+1 .
+Method	Referring to the Corollary, we conclude that fast projection exactly solves C = 0 while it approximates F = 0.
+Method	One important question is whether the fast projection’s error in F is acceptable.
+Method	Compare a sequence of fast projection iterations to ICD/SAP’s sequence of Newton iterations.
+Result	The first iteration of these methods is identical.
+Result	At the end of this first iteration, F, C ∈ O(h 2 ).
+Result	Additional fast projection iterations seek C → 0, and since C ∈ O(h 2 ), increments in x are O(h 2 ), therefore F remains in O(h 2 ).
+Method	Observe that F ∈ O(h 2 ) is considered acceptable in many contexts, e.g., [Baraff and Witkin 1998; Choi and Ko 2002] halt the Newton process after a single iteration.
+Method	To verify this claim, we measured F throughout the ballet dancer sequence.
+Result	As recorded in Figure 3 , the first iteration of the fast projection method eliminates first-order error.
+Result	The remaining iterations perturb F only to higher-order (often decreasing the error further).
+Method	We implement fast projection as a velocity filter, enabling easy integration into our existing cloth simulation system; refer to Algorithm 1.
+Method	Step 3 requires solving a sparse symmetric positive definite linear system; we use the PARDISO [Schenk and Gärtner 2006] solver.
+Method	Each row of ∇C(x n+1 j ) corresponds to one edge, and is computed using (2).
+Method	The right-hand side, C(x n+1 j ), is given by (1).
+Method	We describe several experiments comparing various stretchenforcement methods.
+Method	All timings are with reference to a single process on a 2.66GHz Intel Core 2 Duo.
+Method	We observe the scaling of computational cost as a function of (a) permissible strain and (b) mesh resolution.
+Method	The physical setup consists of a chain pinned at the top node and released to free fall under gravity.
+Method	The simple 1D chain resists stretching, but not bending.
+Method	In this didactic example, timings refer to MATLAB’s (sparse) direct solver.
+Result	Our method shows asymptotically better performance as permissible strain vanishes (see Figure 4a ).
+Result	Likewise, our algorithm exhibits favorable performance as mesh resolution increases (see Figure 4b ).
+Result	Using 80 vertices and 1% strain, the fast projection method achieves a 25× speedup.
+Result	Note that there exists considerable difficulty in setting spring coefficients a priori to satisfy a given strain limit.
+Result	For settings more pragmatic than a simple chain, such as the following draping experiment, we are unable (despite considerable effort) to set spring coefficients that achieve a prescribed small strain.
+Result	This explains why spring methods are often treated with strain-limiting procedures.
+Method	We evaluate how the spatial discretization and permissible strain affect performance of these four algorithms.
+Method	The setup consists of draping a cloth over a polygonal model of a sphere.
+Method	We measure strain before the collision reaction pass.
+Method	For the strain limiting algorithms (both Jacobi and Gauss-Siedel), we iterate until strain is in the permissible range.
+Method	With GaussSiedel, we apply a random permutation to reduce bias resulting from the particular edge ordering.
+Method	For SHAKE, we use the acceleration suggested in [Barth et al. 1994] to rebuild the matrix once per step or when it fails to converge.
+Result	As a consequence, the algorithm requires extremely small timesteps to converge, but each timestep is relatively inexpensive, as matrix re-assembly and re-factoring is infrequent.
+Result	ICD is able to use larger timesteps than SHAKE and still converge, however, since each timestep is substantially more expensive than a SHAKE step, the overall time is higher.
+Result	All CLM methods scale equally well, asymptotically better than the strain limiting approach, with the fast projection being the fastest.
+Result	As we refine the resolution, and allow strain of 1% ( Figure 5b ), the fast projection method outperforms the other methods.
+Method	Our experiments focus on measuring the performance of enforcing inextensibility using CLM compared to strain limiting and stiff springs.
+Result	In addition to the direct benefit of fast projection on computation times, further benefits can be reaped from the resulting inextensibility.
+Background	For example, the work of Bergou et al. [2006] assumes inextensibility in order to accelerate bending computation.
+Result	In adopting the velocity-filtering viewpoint, we gain speed, simplicity, and software modularity—all key to a practical and maintainable implementation.
+Result	However, this comes at a theoretical cost: there is no longer an efficient way to perfectly enforce both ideal inextensibility and ideal collision handling, since one filter must execute before the other, and both ideals correspond to sharp constraints.
+Result	To enforce both perfectly would require combining them in a single pass, an elegant and exciting prospect from the standpoint of theory, but one which is likely to introduce considerable complexity and convergence challenges.
+Result	Practically, we observe that this drawback does not cause artifacts in our simulation, for several reasons: first, we execute collision-handling last, to avoid glaring collision artifacts, yet we assert that empirically our strain remains negligible, as required.
+Result	Second, unlike constraint-enforcement approaches such as [Witkin et al. 1990], the inextensibility filter does not assume that the constraint is maintained at the beginning of the timestep and errors are not accumulated during the simulation.
+Result	The consequent numerical difficulties are then addressed by a combination of (a) relaxing realism by allowing 10% strain, and (b) adopting simple iterative strain and strain-rate algorithms that have poor convergence behavior.
+Result	With Constrained Lagrangian Mechanics as our alternative point of departure, we demonstrate a straightforward filter, with good convergence behavior, for enforcing inextensibility.
+Result	We provide one immediate and pragmatic approach to fast and realistic fabric simulation using CLM, and we hope that it will spur a renaissance of activity along this direction.
+Method	We briefly explain why ICD and fast projection (FP) are not troubled by configurations (Q1), (Q2), and (Q4), and are resilient to (Q3).
+Background	Facts about the behavior of SHAKE are taken from [Barth et al. 1994].
+Method	Q1 SHAKE’s force ∇C(x n ) T λ n+1 cannot reduce the single edge’s length back to l; our force ∇C(x n+1 j ) T λ n+1 can reduce that edge’s length back to l.
+Method	Q2 ∇C(x n+1 j ) and ∇C(x n ) T are both full-rank, yet SHAKE fails since ∇C(x n+1 j )M −1 ∇C(x n ) T is singular; FP uses ∇C(x n+1 j )M −1 ∇C(x n+1 j ) T , and ICD uses ∇C(x n+1 j )D∇C(x n+1 j ) T , where D is a symmetric full-rank matrix; in both cases this product is not singular.
+Method	Q3 ICD and FP may fail if ∇C(x n+1 j ) is rank-deficient; for sufficiently small timestep, h, this case is always avoidable.
+Method	Q4 ∇C(x n ) is rank-deficient, so SHAKE fails; ICD and FP do not use ∇C(x n ).
+
+Result	This paper presents a system that uses computational fluid dynamics to produce smoke, water, and other effects for traditionallyanimated films.
+Result	The system was used in over twenty scenes in the animated feature film The Prince of Egypt.
+Method	Animators use images and animation sequences to drive two-dimensional numerical simulations of the time-dependent compressible Navier-Stokes equations.
+Method	For instance, images can be used to initialize temperature fields which cause dynamic buoyancy-driven vortices to evolve.
+Result	In addition to being image-driven, the system is unique in allowing for compressibility of the fluid, and in its use of partial differential equations for texture mapping.
+Background	Compared to computer graphics, the equations of fluid motion and solution methods for them have a long history.
+Background	Equations expressing conservation of mass, momentum, and energy, often referred to as the Navier-Stokes equations, have been around since the early 1800’s.
+Background	Sir Horace Lamb’s Hydrodynamics [ 11 ], from 1932, is still regarded as one of the best sources for fundamental theorems, equations, and solutions in fluid mechanics.
+Background	The equations of motion cannot be solved analytically, except in simplified situations, and therefore need to be solved numerically.
+Background	Numerical integration methods for systems of equations predate the modern computer as well, and John von Neumann envisioned using the computer to solve the equations of motion for weather prediction in the 1940’s.
+Background	Today, the use of computers to solve the Navier-Stokes equations is widespread, with descriptions of particular models and their solutions filling the pages of journals such as Journal of Fluid Mechanics and Journal of the Atmospheric Sciences.
+Background	Although computational fluid dynamics is a fairly mature subject, the emphasis so far has been on accurately simulating physical situations for scientific purposes, rather than creating images and animations as the end goal, which has different concerns and motivations.
+Background	One simple example of this is the use of artificial compressibility, employed in the equation set presented in section 3, as a means of speeding up the calculations.
+Background	For scientific work, the non-physical compressibility effects introduced need to be rigorously justified, whereas for the creation of imagery and animation, the guiding standard is how the images look.
+Problem	When the emphasis is on the look of the final images, there are new sets of concerns about how to control and modify the simulation dynamics, and what and how to render.
+Background	These concerns move us into the territory of computer graphics, with the highly practical production environment driving the process forward.
+Background	Previous work in the graphics literature [ 2 , 4 , 6 , 7 , 9 , 12 , 13 , 14 , 16 , 19 ] has modeled various aspects of fluid behavior with an emphasis on efficiency and controllability issues.
+Background	Some of this work makes use of existing velocity fields or allows users to create their own in a variety of ways, rather than have a simulation determine the velocity field.
+Method	The emphasis in this paper is on the use of the full NavierStokes equations to solve for the dynamic velocity and temperature fields numerically.
+Background	Kass and Miller [ 9 ] solve the shallow water equations, which reduce the Navier-Stokes equations down to solving for an evolving height field for the surface of a shallow body of liquid.
+Background	Yaeger, Upson, and Myers [ 19 ], used two-dimensional timedependent vorticity equations to model the atmosphere of Jupiter.
+Background	The strongest advocacy for use of the full Navier-Stokes equations so far in the graphics literature is from Foster and Metaxas [ 7 ], who solve the three-dimensional equations of motion to model smoke.
+Background	There may be no right or wrong answer as to what level of physical modeling is appropriate, in general, but there is usually a decision making process based on the imagery needed to guide this choice.
+Background	Creative control and the level of realism desired are two of the main concerns.
+Background	The decision making process is well illustrated in [ 19 ], where the end goal, creating animations of Jupiter’s atmosphere for the film 2010, guided aspects from the equations being solved to their final rendering method.
+Method	This paper is of that same style, describing a system built at DreamWorks to support the use of fluid dynamics simulations in the creation of special effects for the animated feature film The Prince of Egypt.
+Result	Some of the unique features of the system described in this paper include: a compressible version of the equations of motion; the use of images and animations for controlling the dynamics; fast accurate texture mapping features; and finally, a complete production system.
+Result	The compressible formulation, unlike any in the graphics literature, allows for the modeling of compressible effects, such as shock waves, and also provides a mechanism for speeding up flow calculations by an order of magnitude or more.
+Result	Another unique feature of the system is the use of images and animations as input devices, which allows animators to control initial conditions, source terms, and movable internal boundaries in an easy and flexible way.
+Result	The inclusion of texture mapping differential equations, another new concept developed here, makes it possible to precalculate particle paths on a fixed grid which can be used in a straight-forward manner at render time.
+Result	The system also provides fast turn around time.
+Result	Fourth order accuracy allows animators to use coarser grids, thus saving time.
+Result	The use of two-dimensional simulations, the compressible formulation, and coarser grids, results in fast, useful simulations.
+Result	Simulations performed on a 100 by 100 grid are detailed enough for film work and can be calculated at a rate of one frame per second.
+Result	Additional production components make the overall process efficient for the animator.
+Background	Computer graphics simulations of fluid behavior are in demand in filmmaking for depicting gases, liquids, smoke, dust, fire, and other natural phenomena.
+Background	Methods for creating these simulations vary widely, depending on the requirements for realism, controllability, rendering style, and complexity.
+Method	The system employs techniques from both the scientific and computer graphics communities in order to be both efficient and accessible to animators.
+Background	Of the many ways of incorporating simulation into the creation of fluids animations, one end of the spectrum in a traditional animation environment is to use no simulation at all, and draw every frame of the animation.
+Background	This approach gives a wide range of flexibility and control, but is a tedious process with realistic limits on the complexity that can be achieved.
+Background	At the other extreme, there are many advantages to numerically solving the full equations of motion for fluids, usually referred to as the Navier-Stokes equations, to create an- imations of fluid behavior.
+Background	With simple user set-ups, the physically accurate equations take over, generating lots of high quality animation, rich in complexity and guaranteed realistic motion.
+Result	The fluid inside the letters is colder and more dense than the surrounding fluid, causing it to sink.
+Result	This is typical of the type of simulation that was used to generate smoke for The Prince of Egypt, where contours of temperature were rendered from a simulation driven by buoyant instabilities.
+Method	In addition, arbitrary forcing functions, or source terms, would be desirable to make many more situations possible, even those without any physical justification.
+Method	Users should have easy access to setting up the various flow situations.
+Method	Ideally, animators would control many aspects of the simulation dynamics and be able to incorporate the results into the final scene in a variety of ways.
+Method	The system should be able to make use of other scene elements, produce scene elements in the most convenient formats, and should be part of an efficient work flow.
+Method	A wide variety of rendering styles increases the expressive power of scene elements and their interpretation.
+Method	The equation set used was derived for a meteorology application, the study of clouds [ 10 , 18 ].
+Method	Along with the equation of state, which is an equation for one thermodynamic quantity as a function of two others, this forms a complete description of the fluid, i.e. the velocity and thermodynamic state of the fluid at any point.
+Method	Given appropriate initial conditions and boundary conditions, the equations can be used to advance the solution forward in time.
+Method	At the boundaries, a well-posed problem can be formed by specifying information for all the variables except the pressure, where the solution needs to be calculated [ 8 ].
+Method	Not only does this mean that compressibility effects can be modeled, but the equations can be solved much faster.
+Method	When an incompressible formulation is used, there is an elliptical partial differential equation involved, corresponding to an “infinite” speed of propagation of pressure waves.
+Method	This typically translates into solving a large matrix equation, usually by iterative techniques, to ensure the pressure field is consistent with the velocity field.
+Method	This is usually a time consuming part of the solution method and does not scale well as grid resolution is increased.
+Method	Using the compressible formulation means that calculation times for each time step are essentially linear in the number of grid points.
+Method	In summary, conservation of mass is expressed in the compressible equations by the mathematical statement that changes in density for a parcel of fluid are the result of divergence in the velocity field.
+Method	The equations being used here do not make that assumption and buoyancyeffects dominate the dynamics in most of the examples presented.
+Method	For instance, a situation of having a colder fluid on top of a hotter fluid is not necessarily an unstable arrangement, due to the stratified hydrostatic pressure in the atmosphere.
+Background	This concept is defined in most meteorology texts [ 3 ].
+Method	These forcing functions can be analytical functions of the other variables, such as coriolis or buoyancy terms, or can come from other sources, such as images and animations.
+Method	These terms have many interpretations, from molecular diffusion, to turbulence modeling, to numerical stability devices.
+Method	Most ODE solvers (ordinary differential equation), including the fourth order Runge-Kutta scheme employed here, require some level of diffusion to avoid nonlinear instabilities.
+Method	Equations are derived for including texture mapping information, so that particle trajectories don’t need to be computed via integration later.
+Method	The equations being solved are essentially those in [ 10 ].
+Method	The subgrid scale model is replaced by diffusion terms with constant diffusion coefficients, and the rain processes and coriolis terms are neglected.
+Method	Also, the coefficient for the sound speed is multiplied by a constant, introducing artificial compressibility, so that the time step requirement is less severe.
+Method	The primary variables being advanced forward in time are u; v; and w , which are the velocity components in the x;y; and z directions, respectively, the pressure perturbation variable, , defined in equation 9, and the potential temperature,   , defined in equation 8.
+Method	The meteorology convention of using z as the up direction is used here.
+Method	Base state variables, denoted by overbars, are time-invariant functions of z , the vertical coordinate.
+Method	A two-dimensional version of the above equations can be derived by assuming that in one of the horizontal directions there is no flow and no change in any of the variables.
+Method	Taking y to be the flowless direction, equation 2 is no longer needed, and simplifications are made to equation 4 and to the material derivative and Laplacian operators to account for zero derivatives in the y direction.
+Method	In addition to the basic equations of fluid motion, equations can be appended to the system which may or may not have feedback into the basic equations.
+Method	Equation 11 is the prototypical passive scalar equation, which models an arbitrary scalar being advected along with the fluid, and optionally diffusing through the non-negative diffusion coefficient .
+Background	(11)          Derivations of the equations of motion from first principles can be found in many textbooks for the interested reader [ 3 , 11 , 15 , 17 ].
+Method	A convenient way to record the flow field history is through the dynamic evolution of texture map information.
+Method	The idea is to initialize passive scalar variables with the original positions of the fluid parcels.
+Method	These variables would obey equation 11, and let you know the original location of the parcel at any stage in the simulation, at the fixed grid locations.
+Method	This Eulerian description is particularly useful in the rendering phase, since the texture mapping coordinate information is evenly spaced in the output image space.
+Method	Suppose we are running a two-dimensional simulation on a recttal angular texture domain map of variable, physical x dimensions , with initial L x condition by L z .
+Method	Define x x; a horizonz; 0 = x=L z x; x and z; 0 a vertical = z=L z texture .
+Method	If both map of variable, these variables z , with obey initial equation condition 11, texture then at map a later coordinates time, t , at x time x; z;t t =0 and for z the x; parcel z;t will at location contain x; the z at time t , that is, they tell where the parcel of fluid “came from.
+Method	The solution method for solving the system of equations is the fourth order Runge-Kutta scheme, using fourth order centered finite differencing for spatial derivatives on a regular grid with equal grid spacing.
+Method	At boundary points and one point away, one-sided differencing is used.
+Method	The advective terms are those not involving partial derivatives with respect to time.
+Method	The equations will now look like equation 14 where the prime in equation 14 denotes differentiation with respect to time.
+Method	The right hand side of the equations become f y .
+Method	The solution vector is initialized with values at the regularly spaced grid locations, then advanced forward in time according to the time integration scheme.
+Method	This involves evaluating the function f y at each of the grid points, making use of the solution vector in a stencil of grid points surrounding the grid point being evaluated.
+Method	First and second derivative terms are replaced by their fourth order finite difference approximations, which can be found in [ 1 ].
+Method	The overall method is globally fourth order accurate in space and time, provided that the initial conditions, boundary conditions, and forcing functions are sufficiently smooth.
+Method	The fourth order accuracy is not required for production purposes, but the effort in achieving this added accuracy is not significant, and the increased accuracy allows for the use of coarser grids.
+Method	For instance, comparing Runge-Kutta fourth order with Euler’s method, four function evaluations per time step are required for Runge-Kutta compared with one for Euler, but this is almost offset by the time steps which can be 2.82 times larger, according to equation 15.
+Method	The time step limitation for stability for the advection problem, i.e. negligible diffusion, is          (15)          where t is the time step, x is the grid spacing, n is the number of space dimensions, c is the speed of the fastest moving wave in the system, and m is a factor that accounts for the spatial differencing method.
+Method	For fourth order centered first derivatives, this factor turns out to be 1.372, compared with 1.0 for second order centered first derivatives.
+Background	Numerical methods for fluid dynamics can be found in a variety of places [ 5 , 8 ], and an extensive book list and summary of available codes can be found at http://chemengineer.miningco.com/msub74.htm .
+Background	In a traditional animation studio, most artwork and animation is two dimensional; the illusion of depth comes from the drawn or painted perspective, along with the camera moves and techniques available in the compositing software.
+Method	Many simulation and rendering techniques were used in the visual development stage of the film.
+Method	Test animation resulted from three-dimensional simulations with temperature being visualized via volume rendering, two-dimensional simulations creating velocity fields used for line integral convolution of source imagery, as well as other techniques.
+Result	By far, the biggest success was twodimensional simulations of buoyant instabilities, where the temperature field was visualized as smoke.
+Method	The plan was to use this technique to create “magical smoke” for the sequence Playing with the Big Boys, and the process was streamlined with this in mind.
+Method	The components described in sections 4.2-4.4 were built to support two-dimensional simulations which use images and animations as input.
+Method	The simulations output information at regular intervals which is later used in the compositor for rendering.
+Result	Some of the advantages of these decisions are described below.
+Result	The top element was scaled and had animating transforms to match to the motion of one of the magician’s hands.
+Result	The lower element had an animating transform to react to the sliding of one of his feet.
+Method	Individual layers allow artists to make independent decisions for colors, opacities, rendering parameters, and transforms.
+Result	Some of the lower resolution final elements used in the film were created in under two minutes, and even the highest resolution simulations could be set up using the information gathered in simulations taking only a few minutes.
+Method	Deferred rendering means that no rendering decisions need to be made at simulation time, and no simulation time is required at render time.
+Method	Artists choose rendering parameters later, e.g. to alter final timing or to animate contour levels that make the smoke slowly dissipate.
+Method	At render time, a library of potentially useful simulations is already built up, and rendering involves little more than appropriate resampling (see section 4.4).
+Method	Although the code is capable of handling more general situations, such as analytically defined forcing functions, gravitational fields, and diffusion coefficients, only a subset of the functionality is available via the user interface.
+Method	Images define the initial conditions for velocity and temperature.
+Method	Scalar variables on the interface aid the software in interpreting the images, e.g. assigning values to the black and white limits of the images.
+Method	Similarly, images and animations are employed to apply forcing terms to the momentum and energy equations.
+Method	In addition, two images are used to optionally assign profiles to the horizontal velocity and the temperature as functions of z .
+Method	This makes it easy to set up shear flows and stratified layers of density.
+Method	Using the simulation starting interface, animators can set other parameters such as the resolution, boundary condition types, output frequency, etc., and can monitor simulations in the viewer described below.
+Method	If a simulation is evolving unsatisfactorily, an animator can quickly restart it using modified images or parameter settings.
+Method	Before the simulation is run, the system performs a preprocessing step on the images, essentially resampling them and slightly smoothing them for the appropriate simulation resolution, and enforcing periodic conditions if needed.
+Method	It also calculates the initial pressure field from the temperature field, ensuring that the hydrostatic relationship is satisfied for vertical columns of fluid.
+Method	As the simulations are running, or afterward, animators can preview and optionally render the results to disk via the interface shown in figure 6 .
+Method	This previewer is a simple mapping of the temperature values to the luminance of the black and white images.
+Method	More rendering options described below are available in the compositor.
+Method	The compositor is a graph-based system (DAG) where rendering operations are “nodes” in the graph.
+Method	Values outside the linear range are clamped to “clear” or “solid.
+Method	” One node maps the results of simulations done on a rectangle with periodic sides onto a circle, as in middle of figure 8, and the other renders the rectangular temperature field.
+Method	All of the parameters, such as the timing and threshold values, have animation curves.
+Method	The rendering process involves reading the data from disk at the simulation resolution and performing resampling with a two-pass, one-dimensional cubic convolution kernel.
+Method	It is important to do periodic extensions before resampling to avoid seams at the periodic boundaries, and to do thresholding after resampling to avoid stair-step effects for magnification near the threshold values.
+Method	Inputs to this node are an image to be distorted, a simulation number, a reference time, and a current time.
+Method	The image is distorted based on the flow field evolution between the reference time and the current time, using the texture mapping data for those two times.
+Method	A single smearing uses one static flow field and a time range for the integration, provided by the user.
+Method	Each output pixel receives its color from the colors visited along a flow integration path passing through the output pixel between the two specified times.
+Method	The example times quoted below are for a single processor SGI O2 with R10K floating point chip and processor chip.
+Method	Calculation times are given for simulation time steps.
+Method	Unless the grid is extremely large, structures moving by one grid point corresponds to a reasonable speed for an animation.
+Method	For render times, the quote is for producing 640 by 480 images.
+Method	In the first example, an image defines the initial temperature distribution and drives the dynamics of the simulation.
+Method	The lettering in “SI99RAPH” is colder than the surrounding fluid, which causes it to sink.
+Method	Conservation of mass dictates that there be areas of return flow as the cold fluid sinks, creating vortices.
+Method	There is enough variation in the initial distribution such that the nonlinear equations result in pleasing graphic shapes and interesting dynamics.
+Method	This simulation was run on a 400 by 300 grid, with periodic sides.
+Result	Calculation time between time steps is 19.8 seconds, which include the texture mapping calculations.
+Result	Render time for frames such as figure 1 is 3.16 seconds per frame.
+Method	As described in section 3.2.1, texture mapping information can be calculated along with the simulation to provide rendering information.
+Method	Particle advection through the dynamically evolving velocity field is thus precalculated, eliminating the need to calculate particle trajectories at render time.
+Result	An average render time for distortions such as those depicted in figure 2 is 9.8 seconds per frame.
+Method	The second example simulates heat being introduced at the bottom of the domain creating “magical smoke” (see figure 7 ).
+Method	The initial temperature distribution is a random noise pattern with an overall average temperature which is essentially constant except in a narrow layer near the bottom, where it is hotter.
+Method	The only images that are not scaled by zero, are the images used to define the unstable profile and the random perturbations in the initial temperature.
+Method	The simulation is performed on a 960 by 321 grid, with the rendering aspect ratio adjusted to make the shapes look taller and thinner than the actual simulation, which would otherwise promote rising plumes with essentially round circulation patterns.
+Result	One time step calculation takes 36.3 seconds, and one rendered frame such as at the top of figure 7 takes 4.7 seconds to render.
+Method	In figure 8 , “magical blood” is created by a simulation driven by a random forcing function in the temperature equation, defined by one of the input images.
+Result	Using the circular rendering option and a periodic simulation domain creates a seamless texture mapping with the appearance of blood emanating from the center of the bowl.
+Result	The final composite shows the circular shape being repositioned in perspective, registered to the bowl.
+Method	Everything can be defined and rendered in one pass within the compositing package, including the animating perspective transformation.
+Method	The simulation resolution is 150 by 151.
+Result	Time step calculation time is 2.7 seconds per time step and rendering time is 1.57 seconds per frame.
+Result	This paper presents a complete production system which enables animators to access the beauty and realism embodied in the physically accurate equations of motion, the Navier-Stokes equations.
+Result	With this system, animators can express themselves by controlling the simulation dynamics through a familiar user interface—the use of images and animations.
+Result	Texture mapping features allow deferred rendering of flow distortions, with no need to recompute particle trajectories through a time-evolving velocity field.
+Result	A compressible formulation and two-dimensional simulations allow for quick turnaround time in the creative cycle of creating/modifying simulations and applying the results within the compositor to the final scene.
+Result	While this production system emphasizes the needs of a traditional animation environment, many of the concepts apply outside this context as well.
+Result	All of the equations, including the texture mapping equations, extend to three dimensions.
+Result	One of the most useful ideas presented here for three-dimensional simulations is the implementation of an artificial speed of sound through the compressible formulation of the equations.
+Background	Atmospheric researchers often use the compressible formulation because of its computational advantages over the incompressible formulation, even when using the actual speed of sound for pressure waves.
+Result	For computer graphics purposes, an artificial speed of sound of an order of magnitude less than the actual one is often justified, and provides a mechanism for dramatic speed increases.
+
+Result	We present a method to control the behavior of elastic, deformable material in a dynamic simulation.
+Result	We introduce dynamic morph targets, the equivalent in dynamic simulation to the geometric morph targets in (quasi-static) modeling.
+Result	Dynamic morph targets define the pose-dependent physical state of soft objects, including surface deformation and elastic and inertial properties.
+Method	Given these morph targets, our algorithm then derives a dynamic model that can be simulated in time-pose-space, interpolating the dynamic morph targets at the input poses.
+Method	Our method easily integrates with current modeling and animation pipelines: at different poses, an artist simply provides a set of dynamic morph targets.
+Method	Whether these input states are physically plausible is completely up to the artist.
+Result	The resulting deformable models expose fully dynamic, pose-dependent behavior, driven by the artist-provided morph targets, complete with inertial effects.
+Result	Our deformable models are computationally efficient at runtime through modal reduction and pose-space polynomial interpola-
+Result	These models can therefore be plugged into existing dynamic simulation engines, either forming interactive, deformable content in real-time games or providing secondary dynamic effects for kinematically-driven characters in feature animation films.
+Result	Finally, our method also facilitates certain time-consuming rigging procedures, by providing a physically based approach to resolve co-articulation deficiencies in traditional skinning methods, such as in shoulder regions, fully automatically.
+Problem	Animation of skin and muscular deformations of human characters and other living creatures has long been one of the most important applications of deformable modeling in computer graphics, notably in feature animation and more recently in increasingly realistic computer games and interactive medical and training applications.
+Problem	Realistic deformation is a complex and subtle phenomenon due to the tightly coupled interplay of bones and musculature governing the deformations.
+Background	Generally speaking, there are three common approaches for modeling surface deformation: purely kinematic, example-based and physically based.
+Background	Purely algorithmic approaches for skeleton-driven [Kavan and Zara 2005] and facial deformations [Pighin and Lewis 2006] are very fast, but have difficulty in capturing realistic skin deformation in areas with multiple influences.
+Background	Example-based approaches capture more realism by pose-space interpolation of desired skin shapes at different poses [Magnenat-Thalmann et al. 1988; Mohr and Gleicher 2003; Kry et al. 2002; Lewis et al. 2000].
+Background	Physically based deformation algorithms, governed by the physics of muscle motion and tendon influences, provide automatic means to achieve dynamic deformations under influence of external forces and inertial effects, but are computationally more expensive [Chadwick et al. 1989; Gourret et al. 1989; Chen and Zeltzer 1992; Scheepers et al. 1997; Wilhelms and Gelder 1997; Sifakis et al. 2005].
+Problem	Our approach seeks to bridge the gap between geometric examplebased methods and physically based approaches.
+Result	We introduce dynamic morph targets, i.e. predefined and possibly artist-authored physical descriptors of skin deformations and elastic material properties.
+Result	• A compact way of interpolating skin geometry, elastic forces, and their derivatives, all in a unified manner.
+Result	• The extension of the method to support modal reduction and therefore very efficient implementation that is linear in the number of coefficients of the force polynomial.
+Result	The main advantages of our method over previous approaches are three-fold: quality of deformations, dynamic behavior and computational efficiency.
+Method	Although our method is physically based, we avoid expensive modeling of musculature or tendon influences, and instead rely on physical constitutive models of deformable material to minimize skin pinching artifacts and bypass complex rigging requirements that are common to purely geometric approaches.
+Method	The use of such constitutive material models also enables response to external forces and inertial effects in dynamic simulations.
+Problem	Due to performance requirements, one is commonly restricted to linear or quasi-linear models that cannot model pose-dependent effects such as bulging and wrinkling.
+Method	Instead, we guide dynamic simulations by dynamic morph targets — discrete pose-space examples of skin properties and deformations.
+Background	Due to its immense importance in character animation, there has been an extensive collection of work in the area of surface deformation in the last few decades.
+Background	Here, we will primarily focus on significant work related to control of surface deformation of kinematic and dynamic characters.
+Background	Readers are referred to extensive surveys for other important work [Gibson and Mirtich 1997; Nealen et al. 2006].
+Background	Purely data-driven methods are an attractive choice for control purposes, as the input shapes provide guide examples of desired deformations.
+Background	In its most essential form, one simply interpolates between character poses in a large database [Maestri 2006], providing ample control of skin deformation to animators.
+Problem	However, many poses are required in the database to achieve good results.
+Problem	Purely data-driven methods lack a kinematic model, making them of limited use for animation and dynamic simulation.
+Background	Purely kinematic approaches such as skeletal-subspace deformation (SSD) [Magnenat-Thalmann et al. 1988] model the deformation of the skin surface by linear blending of the animated bone transformations.
+Background	This technique, also known as linear blend skinning, cannot capture complex deformations and typically has problems deforming skin near joints due to collapsing geometry (i.e. pinching), because the deformation is restricted to the subspace of the affine transformation of the joints.
+Background	Different methods have been proposed to address the problems of linear blend skinning by inserting additional joints tuned from examples [Mohr and Gleicher 2003], or employing blending of transformations instead of weights [Kavan and Zara 2005], among others.
+Background	Recent techniques have extended skinning to mesh deformations [James and Twigg 2005], motion capture data without a predefined skeleton [Park and Hodgins 2006], or interactive models [Der et al. 2006].
+Background	Unlike shape interpolation and other data-driven methods, SSD does not permit direct sculpting or control.
+Background	Instead, artists have to tweak vertex weights, giving SSD algorithms the reputation of being tedious to control.
+Background	The first work to add control in a kinematic approach is that of pose-space deformations [Lewis et al. 2000].
+Background	PSD is a hybrid method that combines SSD with morphing and employs scattered data interpolation to compute non-linear skin corrections in posespace, resulting in a kinematic model that also has artist-sculpted poses.
+Background	When dealing with large pose-spaces that have many example poses, PSD becomes memory inefficient due to the large database of surface displacements.
+Background	PSD can be extended to support per-vertex pose-space deformation (WPSD) [Kurihara and Miyata 2004; Rhee et al. 2006], largely reducing the number of required example poses.
+Background	The EigenSkin method [Kry et al. 2002] also provides a way to reduce per-vertex displacement memory footprint by computing an error-optimal set of eigenbases for approximating the original deformation model.
+Background	Other recent methods [Weber et al. 2007; Wang et al. 2007] learn example-based corrections on sparse points and assume that these corrections can be smoothly interpolated.
+Background	Pose space deformation and related example-based methods allow for direct sculpting of geometric morph targets, but are purely kinematic approaches to (quasi-)static deformation, without reference to underlying forces or mass.
+Method	Our method builds on the concept of pose-space deformation and applies it to pose-space interpolation of dynamic morph targets to achieve not only (quasi-)static deformations, but a fully dynamic model in time-pose-space.
+Background	Finally, physically based methods in graphics are based on biomechanical models of skin tissue and musculature.
+Background	In terms of efficiency versus accuracy, these methods fall into two broad categories.
+Background	The first category of algorithms aim for accuracy [Chen and Zeltzer 1992; Scheepers et al. 1997; Wilhelms and Gelder 1997; Koch et al. 1996; Zordan et al. 2004; Sifakis et al. 2005; Sueda et al. 2008] by simulating the actions of the individual muscles, bones and tendons in the skin.
+Background	Interactive physically based approaches trade accuracy for performance [Terzopoulos et al. 1987; Terzopoulos and Witkin 1988; Metaxas and Terzopoulos 1992; Picinbono et al. 2001; Capell et al. 2002; Müller and Gross 2004; Galoppo et al. 2007].
+Background	These methods use simplified (quasi-)linear elastic models that cannot capture complex non-linear behavior such as muscle bulging.
+Background	Physically based methods can only provide control through the influence of forces.
+Background	While methods that control global deformation modes have been around for a while [Witkin and Welch 1990], providing control of sculpted deformations for simulation of deformable models has only recently caught attention in graphics research.
+Background	A method for physically based rigging was proposed by [Capell et al. 2005], using pose-dependent forces to guide the shape of the character.
+Background	In contrast to our method, their approach does not support pose-dependent elastic properties and its performance is highly dependent on the resolution of the sculpted deformations.
+Background	Given an input animation, shape keyframes can be used to retarget the elastic deformations [Kondo et al. 2005] or to enhance the surface deformations with physically simulated detail using subspace constraints [Bergou et al. 2007].
+Background	The former provides good control of shapes but is restricted to a given input animation, while the latter achieves rich secondary surface detail but does not provide direct manipulation of the surface.
+Result	Our method provides the ability to sculpt the dynamic morph targets directly and produces a dynamic model that is not restricted to a given animation; our model can be plugged into any simulated environment and be subject to external forces.
+Background	Modal reduction has proven useful to increase performance in posespace deformation methods [Kry et al. 2002] as well as in physically based methods [Hauser et al. 2003; Choi and Ko 2005].
+Method	Our work exploits the technique of [Barbic and James 2005] that enables fast modal integration of St.Venant-Kirchoff elastic forces, where the performance depends mainly on the number of simulated eigenmodes, not on the resolution of the model.
+Result	This technique makes our approach suitable for real-time applications.
+Result	To the best of our knowledge, our method is the first to provide shape and surface behavior control of dynamic reduced models.
+Problem	The goal of our method is to simulate controllable non-linear deformations by interpolation of dynamic morph targets at runtime, kindred to geometric morph targets in static character modeling.
+Method	Dynamic morph targets define pose-specific soft skin behavior.
+Method	More formally, they are pairs of elastic models E i and poses s i , i.e. pairs {E i , s i } of elastic models in pose space.
+Method	Similar to geometric morph targets, dynamic morph targets associate surface and volume deformation with character pose.
+Method	In contrast to geometric morph targets, dynamic morph targets also define pose-specific elastic properties including stiffness and plasticity.
+Method	The combination of surface deformation and elastic properties defines the elastic model E i .
+Method	We represent a pose by a vector s ∈ S where posespace S ⊂ R k .
+Method	Note that our implementation uses skeletal pose, but the concept of pose can easily be extended beyond the skeletal sense; in fact any notion of state of a character can be used, such as emotional state, velocity state, contact state, or muscle activation.
+Method	Dynamic morph targets can easily be created in existing modeling packages; very similar to creating geometric morph targets.
+Method	A modeler defines a set of m poses {s 1 , s 2 , . . . , s m } of the character and sculpts desired deformations that cannot be captured with traditional skinning methods [Kavan and Zara 2005; MagnenatThalmann et al. 1988].
+Method	Elastic properties can be assigned for each pose, such that the same skin section can be defined stiff for one pose and flabby for another pose, e.g. to mimic contraction and relaxation of a muscle, or to exaggerate skin bulging.
+Method	Dynamic characters enhanced with dynamic morph targets can react to external forces just as with other common physically based deformation algorithms, but they also expose non-linear deformations and elastic behavior as imposed by the dynamic morph targets.
+Method	Dynamic morph targets are used to build a pose-dependent elastic model E(x, s).
+Method	For hyper-elastic materials, an elastic model can be defined as a material function E(u(x)) defining the internal elastic energy at material points x in function of the deformation u.
+Method	For our experiments and in correspondence with the space in which the morph targets are defined, we choose to express elastic deformation in the skeletal bind pose as has been proposed in the past [Lewis et al. 2000; Kry et al. 2002; Galoppo et al. 2007].
+Method	On the other hand, it is certainly possible to use other formulations of elastic strain to define a pose-dependent model with dynamic morph targets.
+Background	Traditionally, the elastic energy is a pose-independent material potential that causes internal elastic forces R(u) in the material.
+Method	We create a pose-dependent elastic model by taking into account the dynamic morph targets {E i , s i } as example inputs.
+Method	We use scattered data interpolation to derive an expression for the internal elastic forces R(u, s) anywhere in pose-space S, given the expressions for the elastic forces R i (u) that are imposed by the dynamic morph targets at poses s i .
+Method	However, since forces are a function of the timevarying deformation u, they cannot simply be evaluated once and then interpolated at runtime.
+Method	In our method, we have opted for elastic models for which R i (u) can be expressed as a (multivariate) polynomial function of the degrees of freedom u.
+Method	Then, the interpolation of elastic models reduces to the interpolation of polynomial coefficients.
+Background	Common examples of such elastic models are the so-called ‘completely linear’ FEM deformation model (with or without stiffness warping [Müller and Gross 2004]), or the ’seminon-linear’ St.Venant-Kirchoff model (StVK) [Barbic and James 2005; Capell et al. 2005].
+Method	We have simulated our examples with both linear and semi-non-linear elastic models.
+Result	However, because we express deformation in the skeletal bind pose, we did not see any noticeable quality difference between both elastic models in our experiments.
+Method	Therefore, we have opted for the more efficient linear elasticity to produce most of the images and videos unless otherwise noted (see Section 5).
+Method	Each polynomial R i (u) is associated with a dynamic morph target at pose s i and is uniquely defined by its set of coefficients {a k } i which we collect in a vector a i .
+Method	We can then determine the posedependent elastic force R(u, s), which is also uniquely defined by its set of coefficients a(s).
+Method	At an arbitrary pose s in pose-space, a(s) can be interpolated from the example coefficients a i .
+Method	The interpolation of polynomial coefficients yields the interpolation of force values R(u, s) at all possible deformation values u.
+Method	However, it also yields the interpolation of force derivatives, such as the ∂R(u,s) stiffness matrix .
+Method	One subtle detail remains for defining a ∂u complete interpolation of elastic models.
+Method	The rest configuration at each input pose may be different, therefore the deformation u may not be consistent across poses.
+Method	We choose a certain pose as a reference, and express the deformation of all other poses by adding the difference between rest configurations, ∆u.
+Background	Conceptually, a pose can be described in many ways, as long as it provides a description of the state of a model or character, and a metric to measure distances between poses.
+Method	In our implementation, we choose the joint configuration of an articulated character as the pose descriptor.
+Method	We define the pose descriptor s ∈ R 6k , where k is the number of joints.
+Method	Each joint contributes 6 components to s, namely the 6-dof representation of its parent-relative coordinate frame.
+Method	We define distance between two poses to be the inner product of the difference of its descriptors.
+Method	As an articulated character moves between observed configurations, its elastic model should approximate the elastic models of the input poses.
+Method	As mentioned in Section 3.2, we are looking for a way to interpolate internal elastic forces R i .
+Method	Obviously, as the character moves from one pose to the other, the internal forces change continuously but highly non-linearly.
+Method	In other words, elastic forces form a non-linear smooth field in pose-space.
+Background	Radial base functions [Powell 1987] (RBF) are a common choice for interpolating scattered data of an underlying smooth field that is non-linear.
+Method	Moreover, as our goal is to have as few input models E i as possible, RBFs are suited because they work well with sparse input data sets.
+Method	RBFs extend easily to high dimensional domains, enabling the capture of multi-joint coupling effects.
+Method	As mentioned in Section 3.2, we can determine the pose-dependent elastic forces R(u, s) by computing the polynomial coefficient vector a(s).
+Method	In our experiments, it was sufficient to use a constant vector Q for the polynomial Q(s).
+Method	We also employed the globally supported biharmonic RBF kernel φ(r) = r, since its optimal fairness allows for smoother interpolation of sparsely scattered example poses as compared to locally supported kernels [Carr et al. 2001].
+Method	In our experience, locally supported kernels such as the Gaussian RBF kernel are harder to tune and are unable to extrapolate across dynamic morph targets that are far apart in pose-space.
+Method	We also use the smoothing term from [Carr et al. 2001] to achieve smoother behavior across large gaps between input poses.
+Method	The combined system is underdetermined (m + 1 vector unknowns for m vectorial equations), but it can be solved by imposing orthogonality conditions on the weights w i [Carr et al. 2001].
+Method	By selecting modes with non-zero or large eigenvalues only, we reduce the dimension of s and define a mapping to the reduced pose descriptor s = U T s s.
+Method	Modal reduction of the pose descriptors is very effective for robustness, but is also useful when our method is used for facilitating rigging.
+Method	In highly complex areas of skin deformation such as the shoulder area, the skin is under influence of many bones for which the skinbone relationships cannot easily be determined by a human rigger or technical director.
+Method	Our system can automatically deduce these relationships and reduce them to only a few significant modes.
+Method	The number of coefficients is proportional to the number of nodes n in the finite element mesh for linear elastic models, and O(S 3 n) for StVK materials, where S is the average size of the neighborhood of a node.
+Method	Instead, we propose a way to increase performance and to reduce the dependency on the resolution of the input geometry by reducing the number of degrees of freedom, while still maintaining the non-linear behavior defined by the morph targets.
+Method	We use a reduced model u = Uq to enable dynamic simulation that is independent from the input resolution of the geometry.
+Method	When applying model reduction to (multivariate) polynomial elastic forces, it can be shown that the reduced forces are still (multivariate) polynomial elastic forces.
+Method	Here, P i , Q ij , S ijk ∈ R r are constant vector polynomial coefficients.
+Method	The polynomial coefficients can be precomputed, given the rest pose p i .
+Method	For linear materials, the Q ij and S ijk terms are all zero.
+Method	We can now combine scattered polynomial interpolation from Section 3.3 with the reduced motion equations by concatenating the reduced coefficients into a = [ P i ; Q ij ; S ijk ].
+Method	Just as in Section 3.3, each dynamic morph target defines a set of coefficients a i which can then be used to set up an interpolator for the posedependent coefficients a(s).
+Method	As described in Section 3.1, an artist begins by modeling the base model surface and a skeleton with associated SSD skinning weights, and defines a set of geometric morph targets.
+Method	Using vertex painting, he can then assign stiffness parameters such as Young’s modulus and Poisson ratio to certain parts of the skin.
+Method	This is where our preprocessing stage starts.
+Method	We do this by solving a homogeneous Poisson problem for the internal node weights, where the known surface node weights are set up as boundary conditions.
+Method	Then, for each morph target, a corresponding tetrahedral rest-pose mesh is defined (still in the skeletal bind pose).
+Method	This can be done by displacing the surface nodes of the base tetrahedral mesh with the morph target’s values.
+Method	We then relax the internal nodes by performing a physical simulation, constraining the new surface positions and using the elastic model of the base mesh.
+Method	For reduced elastic models, a modal subspace is also constructed (Section 4).
+Method	We also account for the inertial forces caused by the moving coordinate frames of the bones [Galoppo et al. 2007].
+Method	Additionally, we conceptually constrain the material points that are attached to internal bones.
+Method	This can be achieved by removing the elastic degrees of freedom that are associated with corresponding internal mesh nodes.
+Method	Hence, the positions of these points are then completely governed by the linear blend skinning transformations only.
+Method	We remove these degrees of freedom in our preprocessing step by identifying tetrahedral mesh elements that are intersected by skeletal bones.
+Method	Degrees of freedom that are associated with these elements are removed (i.e. they are ’fixed’ in the pose-space), unless they lie on the model’s boundary surface.
+Method	We describe here our implementation of the reduced equations of motion, through morph target aware subspace construction.
+Method	In the reduced model, the displacement vector u is expressed as u = Uq, where U ∈ R (3n,r) is the displacement basis matrix, and q ∈ R r is the vector of reduced displacement coordinates.
+Method	Here, U is a time-independent matrix specifying a basis of some r-dimensional (r << 3n) linear subspace of R 3n .
+Method	For each of the dynamic morph targets, we employ linear modal analysis (LMA), which provides the best deformation basis for small deformations away from the rest configuration.
+Method	Intuitively, modal basis vectors are directions into which the model can be pushed with the smallest possible increase in elastic strain energy.
+Method	The stiffness matrix K = ∂R(x) ∂x is evaluated at x 0 i , the rest configuration for input pose i, which defines a ‘goal’ deformation for the input poses.
+Method	Note that at this point, one could easily add modal derivatives, as in [Barbic and James 2005].
+Method	Avoid redundancy in the basis set, i.e. find an orthogonal set that is as compact as possible.
+Method	The characteristic deformations of all the morph targets have to be well represented.
+Method	The input deformations of each of the dynamic morph targets have to be well represented in the reduced space, otherwise the sculpted deformations can’t be simulated.
+Method	In other words, the basis has to be aware of the morph targets.
+Method	Instead, similar to [Barbic and James 2005], we can construct a low-dimensional motion subspace by applying mass-PCA.
+Method	We scale the derivatives according to the eigenvalues of the corresponding linear modes.
+Method	We select the first r principal modes to achieve the basis U .
+Method	Scaling is necessary to put greater weight on the more important low-frequency modes, which would otherwise be masked by highfrequency modes.
+Result	By using pose-space efficient polynomial interpolation to achieve pose-dependent behavior, we are able to demonstrate rich nonlinear deformation effects at relatively small extra cost compared to simple simulation of linear or semi-non-linear materials.
+Method	We have performed experiments with three different input models: a simple bulging cylinder with 4 bones (see Fig. 2 ), a shoulder model with 4 bones, and Herbert, our swimsuit model with 46 bones.
+Method	We compare a single (pose-independent) elastic model with our pose-dependent elastic model that employs multiple dynamic morph targets, both with and without modal reduction.
+Method	The first morph target is a skinny version of Herbert, in which his skin is very soft and flabby, the third target is a stiff, bulged Herbert in fetal position, while the second target has been chosen in between the first and the third.
+Result	In our video, we show Herbert’s belly deformations as he cycles between upright and fetal poses.
+Result	While the single elastic model shows little or no dynamic behavior, our pose-dependent elastic model adds a dramatic amount of realism due to the bulging behavior and inertial skin motion.
+Method	Next, we drive the skinned Herbert model with a skeletal animation and add inertial forces due to the bone’s moving frames.
+Result	As Herbert jumps off a diving board and flips through different poses, we show the advantage of our pose-dependent model from an artistic viewpoint.
+Result	With single elastic models, the belly is flabby and skinny throughout the entire simulation.
+Method	Using the aforementioned morph targets for Herbert, an animator can impose a stiff, bulged belly in balled-up poses, and softer, skinny belly behavior in upright poses.
+Result	Our video demonstrates the imposed behavior as Herbert’s belly exposes bulging and non-flabby skin when he jumps from the diving board.
+Result	Also, in Fig. 4 , we show the use of reduced models in our method achieves the same quality of desired deformations as the computationally more expensive unreduced model.
+Result	There is no need for manual tweaking of the complex mapping of joint configuration to blending weights of geometric morph targets.
+Result	In our shoulder example, we have 6 morph targets, shown in Fig. 5(a) .
+Result	The shoulder example also demonstrates our method’s ability to simulate dynamic behavior at poses away from the morph target input poses ( Fig. 5 ).
+Result	The input morph target set contains only one example of a folded elbow but we show two distinct folding scenarios in the full animation.
+Result	Both folding scenarios show severe self-intersection in the single pose-independent model due to the effect of linear blend skinning.
+Result	Our pose-dependent model resolves both automatically.
+Result	Whereas the chest seems to collapse for single elastic models, it bulges more realistically with our method.
+Method	The shoulder model has 4899 degrees of freedom.
+Result	After modal reduction, we were able to accelerate the simulation significantly by using only 19 eigenmodes ( Table 1 ) with almost no visible effect on the simulation quality ( Fig. 5 ).
+Method	We have performed all our experiments on a 2.4 GHz Intel Core 2 Duo Macbook Pro laptop (us- ing one of its two cores), with 2 GB of RAM and a NVidia GeForce 8600M GT graphics card.
+Method	All rendering was done with the opensource Blender modeling package.
+Result	All our methods achieve real-time performance due to efficient pose-space interpolation of low-complexity linear elastic forces and modal reduction of either linear or semi-nonlinear StVK forces.
+Result	Comparing our method with the performance of single (pose-independent) elastic models, it is clear from Table 1 that our method has only a marginal extra cost, due to efficient polynomial interpolation of the dynamic morph target models.
+Result	Too few input poses can cause slight popping of the animation towards the input shapes but the simulation of the pose-dependent elastic model will be stable nevertheless.
+Result	Therefore, stable results can be achieved with little effort from the artist and poses can then be added incrementally to areas of the posespace where the behavior is not satisfactory.
+Result	The effect of the number of poses on the run-time performance of the algorithm is very small as it doesn’t affect the number of degrees of freedom in the simulation (see comparison 6 vs. 9 shoulder DMTs in Table 1 ).
+Result	Our dynamic morph targets add dynamic behavior to non-linear deformations such that external and inertial forces can be applied, as shown in Fig. 2 .
+Background	The method by Capell et al. [2005] also enables deformations under influence of external forces, corresponding to the behavior in Fig. 2(b) , but does not influence the underlying properties of the elastic material.
+Result	As shown in Fig 2(c) , our method can correct such undesirable behavior by setting elastic properties for each of the individual morph targets, effectively mimicking muscle contraction.
+Result	In this paper we have presented dynamic morph targets, posedependent elastic models that allow an artist to easily author and control the geometry and elastic behavior of dynamic characters.
+Result	Dynamic morph targets avoid complex rigging requirements of purely geometric methods, and complex musculoskeletal modeling of purely physically-based methods.
+Result	By extending our basic framework to support modal reduction, we also achieve high runtime performance.
+Future Work	The current dynamic morph target framework can be enhanced with additional features to be included in the future, such as support for (contact) constraints, and an extension to weighted pose-space deformations [Kurihara and Miyata 2004] to allow for improved localized interpolation.
+
+Problem	This paper shows how statistical motion priors can be combined seamlessly with physical constraints for human motion modeling and generation.
+Method	The key idea of the approach is to learn a nonlinear probabilistic force field function from prerecorded motion data with Gaussian processes and combine it with physical constraints in a probabilistic framework.
+Method	In addition, we show how to effectively utilize the new model to generate a wide range of natural looking motions that achieve the goals specified by the users.
+Result	Unlike previous statistical motion models, our model can generate physically realistic animations that react to external forces or changes in physical quantities of human bodies and interaction environments.
+Method	We have evaluated the performance of our system by comparing against ground truth motion data and alternative methods.
+Problem	A central goal in human motion modeling and generation is to construct a generative motion model to predict how humans move.
+Problem	The problem has attracted the attention of a large number of researchers because of both its theoretical and applied consequences.
+Problem	A generative motion model, for instance, can be used to generate realistic movement for animated human characters or constrain the solution space for modeling 3D human motion in monocular video streams.
+Background	Decades of research in computer animation have explored two distinctive approaches for human motion modeling: statistical motion      modeling and physics-based motion modeling.
+Problem	Despite the efforts, accurate modeling of human motion remains a challenging task.
+Background	Statistical motion models are often represented as a set of mathematical equations or functions that describe human motion using a finite number of parameters and their associated probability distributions.
+Background	Statistical models are desirable for human motion representation because they can model any human movement as long as relevant motion data are available.
+Problem	A fundamental limitation is that they do not consider the dynamics that cause the motion.
+Problem	Therefore, they fail to predict human motion that reacts to external forces or changes in the physical quantities of human bodies and in the interaction environments.
+Problem	Moreover, when motion data are generalized to achieve new goals, the results are often physically implausible and thereby display noticeable visual artifacts such as unbalanced motions, foot sliding, and motion jerkiness.
+Problem	Physics-based motion models could overcome the aforementioned limitations by applying physics to modeling human movements.
+Problem	However, physical laws alone are often insufficient to generate natural human movement because a motion can be physically correct without appearing natural.
+Method	One way to address the problem is to define a global performance criterion based on either the smoothness of the movement or the minimization of needed controls or control rates (e.g., minimal muscle usage).
+Problem	These heuristics show promise for highly dynamic motions, but it remains challenging to model low-energy motion or highly stylized human actions.
+Problem	In addition, it is unclear if a single global performance objective such as minimal torque is appropriate to model heterogeneous human actions such as running→walking→jumping.
+Problem	In this paper, we show how statistical modeling techniques can be combined with physics-based modeling techniques to address the limitations of both techniques.
+Problem	Physical motion models and statistical motion models are complementary to each other as they capture different aspects of human movements.
+Problem	On the one hand, physical models can utilize statistical priors to constrain the motion to lie in the space of natural appearance and more significantly, learn an appropriate performance criterion to model natural-looking human actions.
+Problem	On the other hand, statistical motion models can rely on physical constraints to generate physically correct human motion that reacts to external forces, satisfies friction limit constraints, and respects physical quantities of human bodies or interaction environments.
+Method	By accounting for physical constraints and statistical priors simultaneously, we not only instill physical realism into statistical motion models but also extend physics-based modeling to a wide variety of human actions such as stylized walking.
+Method	The key idea of our motion modeling process is to learn nonlinear probabilistic force field functions from prerecorded motion data with Gaussian Process (GP) models and combine them with physical constraints in a probabilistic framework.
+Method	In our formulation, a force field function u = g(q, q)  ̇ maps kinematic states (joint poses q and joint velocities q)  ̇ to generalized forces (u).
+Result	We demonstrate the power and effectiveness of our motion model in constraint-based motion generation.
+Result	We show that we can create a natural-looking animation that reacts to changes in physical parameters such as masses or inertias of human bodies and friction properties of environments ( Figure 1(a) ) or external forces such as resistance forces ( Figure 1(b) ).
+Result	In addition, we show that a single physically valid statistical model is sufficient to create physically realistic animation for a wide range of style variations within a particular human action such as “sneaky” walking (Figure 1(c)) or transitions between heterogeneous human actions such as running→walking→jumping ( Figure 1(d) ).
+Method	We evaluate the performance of our model by comparing with ground truth data as well as alternative techniques.
+Method	We introduce a physically valid statistical motion model that combines physical laws and statistical motion priors and use it to create physically realistic animation that achieves the goals specified by the user.
+Method	Therefore, we will focus our discussion on statistical motion modeling and physics-based motion modeling as well as their applications in constraint-based motion synthesis.
+Background	Statistical models are desirable for human motion modeling and synthesis because they are often compact and can be used to generate human motions that are not in prerecorded motion data.
+Background	Thus far, a wide variety of statistical motion models have been developed; their applications include inverse kinematics [Grochow et al. 2004; Chai and Hodgins 2005], human motion synthesis and editing [Li et al. 2002; Chai and Hodgins 2007; Lau et al. 2009; Min et al. 2009], human motion style interpolation and transfer [Brand and Hertzmann 2000; Ikemoto et al. 2009; Min et al. 2010], and so forth.
+Background	Nonetheless, the motions generated by statistical motion models are often physically invalid because existing statistical motion models do not consider the forces that cause the motion.
+Background	Another limitation is that they do not react to perturbations (e.g., external forces) or changes in physical quantities such as masses and inertias of human bodies.
+Background	Physics-based motion models could overcome the limitations of statistical motion models by applying physics to modeling human movement.
+Background	However, physics-based motion modeling is a mathematically ill-posed problem because there are many ways to adjust a motion so that physical laws are satisfied, and yet only a subset of motions are natural-looking.
+Background	One way to address this limitation is by adopting the “minimal principle” strategy, which was first introduced to the graphics community by Witkin and Kass [1988].
+Background	They postulated that an individual would determine a movement in such a way as to reduce the total muscular effort to a minimum, subject to certain constraints.
+Background	Therefore, a major challenge in physics-based motion modeling is how to define an appropriate performance criterion for the “minimal principle.
+Background	” Decades of research in computer animation (e.g., [Witkin and Kass 1988; Cohen 1992; Liu et al. 1994; Fang and Pollard 2003]) introduced numerous performance criteria for human motion modeling, e.g., minimal energy, minimal torque, minimal jerk, minimal joint momentum, minimal joint acceleration, or minimal torque change.
+Background	These heuristics show promise for highly dynamic motions, but it remains very difficult to model low-energy motions and highly stylized human movements.
+Background	A number of researchers have recently explored the potential of using prerecorded motion data to improve physics-based optimization methods, including editing motion data with the help of simplified physical models [Popović and Witkin 1999], initializing optimization with reference motion data [Sulejmanpasic and Popović 2005], learning parameters of motion styles from prerecorded motion data [Liu et al. 2005], and reducing the search space for physicsbased optimization [Safonova et al. 2004; Ye and Liu 2008].
+Method	Similar to these methods, our system utilizes both motion data and physics for human motion analysis and generation, but there are two important distinctions.
+Method	First, we rely on statistical motion models rather than a predefined global performance objective (e.g., minimal muscle usage) to reduce the ambiguity of physics-based modeling.
+Method	This enables us to extend physics-based modeling to stylistic human motions such as “sneaky walking”.
+Method	Another attraction of our model is that it learns the mapping from the kinematic states to generalized forces using Gaussian process models.
+Background	Unlike reference trajectories or linear subspace models adopted in previous work, GP models are capable of modeling both stylistic variations within a particular human action and heterogeneous human behaviors.
+Method	Our research draws inspiration from the large body of literature on developing control strategies for physics-based simulation.
+Method	In particular, our nonlinear probabilistic force field functions are conceptually similar to control strategies used for physics-based simulation because both representations aim to map kinematic states to driving forces.
+Background	Thus far, researchers in physics-based simulation have explored two approaches for control design, including manually designed control strategies (e.g. [Hodgins et al. 1995]) and tracking a reference trajectory while maintaining balance [Zordan and Hodgins 2002; Sok et al. 2007; Yin et al. 2007; da Silva et al. 2008; Muico et al. 2009].
+Method	However, our approach is different in that we automatically learn nonlinear probabilistic mapping functions from large sets of motion data.
+Problem	In addition, our goal is different because we aim to generate a desired animation that matches user constraints.
+Background	Physics-based simulation approaches are not appropriate for our task because forward simulation techniques often do not provide accurate control over simulated motions.
+Method	Our approach uses Gaussian process to model a nonlinear probabilistic function that maps from kinematic states to generalized forces.
+Background	GP and its invariants (e.g., GPLVM) have recently been applied to modeling kinematic motion for many problems in computer animation, including nonlinear dimensionality reduction for human poses [Grochow et al. 2004], motion interpolation [Mukai and Kuriyama 2005], motion editing [Ikemoto et al. 2009], and motion synthesis [Ye and Liu 2010].
+Background	In particular, Ikemoto and her colleagues [2009] learned the kinematic mapping from pose information of the source motion to pose and acceleration information of the target motion and applied them to transferring a new source motion into a target motion.
+Background	Ye and Liu [2010] used GPLVM to construct a second-order dynamic model for human kinematic data and used them to synthesize kinematic walking motion after a perturbation.
+Method	Our approach is different in that we focus on modeling the relationship between kinematic data and generalized forces rather than kinematic motion data itself.
+Method	We construct a physically valid statistical model that leverages both physical constraints and statistical motion priors and utilize it to generate physically realistic human motion that achieves the goals specified by the user.
+Method	Our motion model considers both Newtonian dynamics and contact mechanics for a full-body human figure.
+Method	Therefore, we describe the Newtonian dynamics equations for full-body movement and Coulomb’s friction model for computing the forces caused by the friction between the character and the interaction environment (Section 4).
+Method	We automatically extract force field priors from prerecorded motion data (Section 5).
+Method	Our force field priors are represented by a nonlinear probabilistic function u = g(q, q)  ̇ that maps the kinematic states (q, q)  ̇ to the generalized forces u.
+Method	To achieve this goal, we precompute the generalized forces u from prerecorded kinematic motion data and apply Gaussian process to modeling the force field priors embedded in training data.
+Method	We show how to combine force field priors with physics-based dynamics models seamlessly in a probabilistic framework and how to use the new motion model to generate physically realistic animation that matches user-defined constraints (Section 6).
+Method	We formulate the constraint-based motion synthesis problem in a Maximum A Posteriori (MAP) framework and introduce an efficient gradient-based optimization algorithm to find an optimal solution.
+Method	Our dynamics models approximate human motion with a set of rigid body segments.
+Method	We describe a full-body character pose with a set of independent joint coordinates q ∈ R 48 , including absolute root position and orientation, and the relative joint angles of 18 joints.
+Method	These joints are the head, thorax, upper neck, lower neck, upper back, lower back, left and right humerus, radius, wrist, femur, tibia, and metatarsal.
+Method	The Newtonian dynamics equations for full-body movement can be described using the following equation [Jazar 2007]:
+Method	The quantities M (q), C(q, q)  ̇ and h(q) are the joint space inertia matrix, centrifugal/Coriolis and gravitational forces, respectively.
+Method	The vectors τ , f c , and f e represent joint torques, contact forces, and external forces, respectively.
+Method	The vector u represent the generalized forces, which can be either calculated from kinematic data or resultant forces of join torques, contact forces, and external forces.
+Method	Human muscles generate torques about each joint, leaving global position and orientation of the body as unactuated joint coordinates.
+Method	As a result, the movement of the global position and orientation is completely determined by contact forces f c and external forces f e .
+Background	During ground contact, the feet can only push but not pull on the ground.
+Method	To keep the body balanced, contact forces should not require an unreasonable amount of friction and the center of pressure must fall within the support polygon of the feet.
+Method	We use Coulomb’s friction model to compute the forces caused by the friction between the character and the environment.
+Method	A friction cone is defined to be the range of possible forces satisfying Coulomb’s function model for an object at rest.
+Method	We ensure the contact forces stay within a basis that approximates the cones with nonnegative basis coefficients.
+Method	The 4 × 1 vector e λ m represents nonnegative basis weights for the m-th contact force.
+Method	The contact force Jacobian J m (q) maps the instantaneous generalized joint velocities to the instantaneous world space cartesian velocities at the m-th contact point under the joint pose q.
+Method	Note that we remove the nonnegative coefficients constraints by representing the basis weights with exponential functions.
+Method	Enforcing Newtonian dynamics equations and friction limit constraints would allow us to generate physically correct motion that satisfies friction limit constraints.
+Method	However, physical constraints alone are insufficient to model natural-looking human movement because a motion can be physically correct without appearing natural.
+Method	Our system automatically extracts force field priors embedded in prerecorded motion data.
+Method	We generalize this concept by learning a nonlinear probabilistic force field u = g(q, q),  ̇ which maps kinematic states (q, q)  ̇ to generalized forces u.
+Method	Given an initial kinematic state (q 1 , q  ̇ 1 ) of a human figure, a force field can predict how humans move by sequentially advancing a Newtonian dynamics model over time.
+Method	Constructing force field priors from motion capture data, however, is difficult because current motion capture technologies cannot directly measure generalized forces.
+Method	Our solution is to compute generalized forces from prerecorded kinematic poses using the following Newtonian dynamics equation:
+Method	The joint velocities q  ̇ are computed as a backward difference between current and previous frames.
+Method	The joint accelerations q are computed as a central difference between previous frames, current frames, and next frames.
+Method	We have observed that the generalized forces computed from kinematic motion data are often very noisy because they are related to second derivatives of kinematic poses (see Figure 2 ).
+Method	We thus preprocess generalized force data as well as joint poses and velocities using physics-based trajectory optimization techniques.
+Method	Our approach follows the spacetime formulation in computer graphics literature [Witkin and Kass 1988; Cohen 1992].
+Method	Briefly, we minimize the deviation from prerecorded kinematic motion data as well as the sum of the squared torques.
+Method	This optimization is subject to foot-ground contact constraints, friction limit constraints, and the discretization of physics constraints determined by a finite difference scheme.
+Method	Our next task is to learn force field priors from the training data sets.
+Background	A force field is a nonlinear probabilistic function u = g(q, q) that maps the kinematic state (q, q)  ̇ to the generalized forces u.
+Method	We propose to use Gaussian process model to construct a force field from the training data sets.
+Method	We choose GP model because it can efficiently model nonlinear property of the force fields and its learning process involves very few manual tuning parameters.
+Method	More specifically, our GP model learns a nonlinear probabilistic function that predicts the generalized forces based on the joint pose and joint velocity (for details, see Appendix):
+Method	̇ In our implementation, we represent the root translations in the ground plane and the rotations about the up axis at the current frame with respect to the root coordinate system at the previous frame in order to eliminate the effect of absolute positions in the ground plane and the rotations about the up axis.
+Background	In practice, human motion is highly coordinated, the number of dimensions of joint poses, joint velocities, or generalized forces is often much lower than the number of dimensions of the character’ poses.
+Method	We, therefore, apply Principal Component Analysis techniques to reducing the dimensionality of both kinematic data [q n , q  ̇ n ] and generalized force data u n and employ Gaussian process to model the force fields in reduced subspaces.
+Method	We automatically determine the dimensions of subspaces by keeping 95% of the original energy.
+Method	Subspace learning not only reduces the memory space for GP modeling but also significantly speeds up the learning and evaluation process of GP models.
+Method	To simplify the visualization, we only show the top two eigen-vectors for the kinematic states (q, q)  ̇ as well as the generalized forces u.
+Method	Given an initial state (q 1 , q  ̇ 1 ), the learned force field priors pr(u|q, q)  ̇ can produce a physically realistic motion sequence by sequentially advancing a Newtonian dynamics model over time ( Figure 3(b) and Figure 3(c) ).
+Method	We now discuss how to combine force field priors with physicsbased dynamics models in a probabilistic framework and how to apply the proposed framework to generating physically realistic human motion that achieves the goals specified by the user.
+Method	We introduce a probabilistic motion model to model how humans move.
+Method	According to Bayes’ rule, we can decompose the probabilistic motion model pr(x) into the following three terms: pr(x) = pr(q 1 , q  ̇ 1 ) · pr(u t |q t , q  ̇ t ) · pr(q t+1 , q  ̇ t+1 |q t , q  ̇ t , u t ) t pr init pr f orcef ield pr physics (5) where the first term pr init represents the probabilistic density function of the initial kinematic pose and velocity.
+Method	In our experiment, we model the initial kinematic priors pr init with Gaussian mixture models.
+Method	The second term pr f orcef ield represents the force field priors described in Equation (4).
+Method	The third term pr physics measures how well the generated motion satisfies the physical constraints.
+Method	In order to evaluate the third term pr physics , we first use backward difference to compute joint velocities and use central difference to compute joint accelerations.
+Method	Based on the dynamics equation defined in Equation (1), the joint pose, joint velocities and generalized forces in the current step should completely determine the joint accelerations in the current step.
+Method	Therefore, the joint pose and velocity in the next frame are also fully determined due to finite difference approximation.
+Background	In practice, as noted by other researchers [Sok et al. 2007; Muico et al. 2009], dynamics models adopted in physics-based modeling are often inconsistent with observed data because of simplified dynamics/contact models, discretization of physics constraints, and approximate modeling of physical quantities of human bodies such as masses and inertias.
+Background	Accordingly, dynamics equations are often not satisfied precisely.
+Method	In our formulation, we assume Newtonian dynamics equations are disturbed by Gaussian noise of a standard deviation of σ physics : pr physics ∝ pr(q t |q t , q  ̇ t , u t ) ∝ exp − M ( q t ) q  ̈ t +C( q t , q  ̇ 2σ t )+h( 2 q t )−τ t − f c ( q t ,λ t )− f e 2 physics (7) where the standard deviation σ physics shows our confidence of physics-based dynamics models.
+Method	If the standard deviation is small, then the Gaussian probability distribution has a narrow peak, indicating high confidence in the physical constraints; similarly, a large standard deviation indicates low confidence.
+Method	Such a motion model would allow us to generate an infinite number of physically realistic motion instances.
+Method	In particular, we can sample the initial prior distribution pr init to obtain an initial state for joint poses and velocities and sequentially predict joint torques using the force field priors pr f orcef ield to advance the Newtonian dynamics model pr physics over time.
+Method	More importantly, we can employ the motion model pr(x) to generate physically realistic animation x that best matches the user’s input c.
+Method	Similar to [Chai and Hodgins 2007], the system allows the user to specify various forms of kinematic constraints throughout the motion or at isolated points in the motion.
+Method	Typically, the user can define a sparse set of key frames as well as contact constraints to generate a desired animation.
+Method	The user could also specify a small number of key trajectories to control fine details of a particular human action such as stylized walking.
+Method	The second term E prior is the prior distribution function defined by our physically valid statistical model in Equation (5).
+Method	The motion synthesis problem can now be solved by nonlinear optimization methods.
+Method	Given a sparse set of constraints c, the optimization computes joint poses, joint torques, and contact forces by minimizing the following objective function:
+Method	In our experiment, we set the weights for E c , E init , E f orcef ield and E physics to 1000, 1, 1 and 100, respectively 1 .
+Method	We choose a very large weight for the constraint term because we want to ensure the generated motion can match user constraints accurately.
+Method	The weight for the physical term is much larger than the statistical prior term because physical correctness has a higher priority than statistical consistency in our system.
+Method	Thus far, we have not discussed how to incorporate the learned force field priors into the motion optimization framework.
+Method	Note that in the force field modeling step, we performed dimensionality reduction analysis on both kinematic data and generalized joint torques and learned the force field priors in reduced subspaces.
+Method	One possible solution to incorporating the force field priors is to perform the optimization in the reduced subspaces.
+Method	We have implemented this idea and found that performing the optimization in the subspaces can hurt the generalization ability of our model and often cannot match user-specified constraints accurately.
+Method	To avoid this issue, we choose to perform the optimization in the original configuration space while imposing “soft” subspace constraints on both kinematic states and generalized forces.
+Method	Let B u and B s denote the subspace matrices for generalized forces u and kinematic states s = [q T , q  ̇ T ] T , respectively.
+Method	The second and third terms impose the “soft” subspace constraints for kinematic states and generalized forces, penalizing them as they deviate from the subspace representations.
+Method	In our experiment, we set the weights α 1 and α 2 to 10 and 10, respectively.
+Method	The combined motion models are desirable for human motion generation because they measure both statistical consistency and physical correctness of the motion.
+Method	With the physical term, our model can react to changes in physical parameters.
+Method	For example, when a character is pushed by an external force, e.g., elastic forces in resistance running, the external force in the physics term E physics (see Equation 7) will force the system to modify kinematic motion and joint torques as well as contact forces in order to satisfy Newtonian dynamics and contact mechanics.
+Method	However, without force field priors, the modified motion could be unnatural because there are many ways to adjust a motion so that physical laws are satisfied, and yet only a subset of motions are natural-looking.
+Method	With force field priors, our system pushes the modified motions towards regions of high probability density in order to be consistent with force field priors.
+Method	We used three different motion databases in our experiments, including walking (5227 frames), stylized walking (7840 frames), and locomotion databases (4571 frames).
+Method	We preprocessed the prerecorded motion data using spacetime optimization (Section 5.1).
+Method	The computational time for each data set was reported in Table 2 .
+Method	To speed up the learning and evaluation process of GP models, we applied PCA to reduce the dimensionality of training data and learned the GP model in a reduced subspace.
+Method	We automatically determined the dimension of the subspace by preserving 95% of the original energy.
+Method	The dimensions of the kinematic states ([q t , q  ̇ t ]) in three databases were 19, 22, and 19 respectively.
+Method	The dimensions of the generalized forces (u) were 8, 10, and 7 respectively.
+Method	We adopted sparse approximation strategies for Gaussian process modeling [Quinonero-Candela and Rasmussen 2005].
+Method	The GP learning times spent on the three training databases were 65 minutes, 138 minutes, and 55 minutes, respectively.
+Method	We follow a standard approach of representing q t and τ t using cubic B-splines.
+Method	We solved the optimization problem using sequential quadratic programming (SQP) [Bazaraa et al. 1993], where each iteration solves a quadratic programming subproblem.
+Method	We implemented the system with C++/Matlab and conducted the optimization with the Matlab optimization toolbox.
+Method	Each optimization often took from ten to thirty minutes to converge without code optimization (for details, see Table 1 ).
+Method	All the experiments were run on a 2.5GHz dual core computer with 3GB of RAM.
+Result	The performance of our optimization algorithm highly depends on the initialization of the optimization.
+Method	We evaluated the force field term with respect to joint poses because we can calculate current generalized forces using current joint poses, velocities and accelerations as shown in Equation (3).
+Method	In this step, we evaluated the force field priors in terms of joint torques and contact forces: E f orcef ield (τ, λ) = − ln pr(τ + f c (q 0 , λ) + f e )|q 0 , q  ̇ 0 ).
+Result	Each initialization step often took from less than thirty seconds to converge (for details, see Table 1 ).
+Result	This section demonstrated the benefits of combining physical constraints and statistical motion priors for human motion generation.
+Method	In addition, we evaluated the performance of our algorithm by comparing with ground truth data and results obtained by alternative methods.
+Method	For each example in our experiments, we reported the total number of animation frames, the types and number of animation constraints, and the computational times spend on the initialization and motion synthesis step.
+Result	The incorporation of physics into probabilistic motion models significantly improves the generalizability of statistical motion models.
+Result	This experiment shows that the system can generate physically realistic motion that reacts to changes in physical quantities of human bodies and interaction environments, a capability that has not been demonstrated in previous statistical motion models.
+Result	Our system can react to changes in physical quantities such as masses and inertias of human bodies.
+Method	For example, we changed the mass of the character by simulating a character wearing a 2.5 kilogram shoe.
+Result	The accompanying video shows that the simulated character maintained balance by adapting the gait and leaning the body to the right side in order to offset the additional weigh caused by the left shoe.
+Method	In this example, the user specified the start and end poses as well as foot contacts to create an animation for resistance running ( Figure 1(b) ).
+Method	The resistance forces were determined by Hooke’s law of elasticity, ranging from zero to 450N.
+Result	We observed that the character moved the upper body forward in order to offset the effect of resistance force.
+Result	We can generate an animation that reacts to changes in friction properties of environments.
+Method	We can edit an animation by changing the gravity of interaction environments.
+Result	For example, we generated “moon” walking by setting gravity at 1.62 m/s 2 .
+Result	This experiment shows that we can extend physics-based modeling techniques to stylized walking, detailed walking variations, and heterogeneous human actions with the help of statistical motion priors.
+Result	Such actions are often difficult or even impossible to generate with previous physics-based modeling techniques.
+Result	Our approach can generate physically-realistic animation for highly stylized human actions.
+Method	The training data sets for stylized walking included normal walking and ten distinct walking styles.
+Method	The system constructed a single motion model from the training data sets and used it to generate various forms of stylized walking such as “sneaky” walking and “proud” walking (Figure 1(c)).
+Method	In addition to keyframes and foot contact constraints, the user specified a sparse number of key trajectories in order to control the fine details of stylized walking.
+Method	We tested the effectiveness of our algorithm for modeling a wide range of walking variations.
+Method	We learned a single generative model from a “walking” database and used it to generate a long walking sequence.
+Result	The synthesized motion displayed a wide variety of walking variations such as walking along a straight line, walking with a sharp turn, walking with a big step, walking on a slope, climbing over an obstacle, and transitionings between different walking examples ( Figure 5 ).
+Method	Because of memory restrictions, we synthesized the whole motion sequence by sequentially computing each example from sparse constraints and stitching them into a long motion sequence.
+Method	For each example, the user specified the start and end poses of the generated motion as well as foot contact constraints throughout the whole motion sequence.
+Method	We tested the effectiveness of the physically valid statistical model on heterogeneous human actions.
+Method	We learned a single generative model from a locomotion database and used it to create a long animation sequence consisting of walking, running, jumping, and stopping, as well as their transitions (Figure 1(d)).
+Method	We assessed the quality of the generated motions by comparing with ground truth data.
+Method	We also evaluated the importance of force field priors and physical constraints for human motion generation.
+Method	We evaluated the performance of our algorithm via cross validation techniques.
+Method	More specifically, we pulled out a testing sequence in the training data, used it to extract the start and end poses and foot contact constraints, and applied the synthesis algorithm to generate motion that matches the “simulated” constraints.
+Result	We have observed that the generated motions achieve similar quality to the ground truth motion data.
+Result	This comparison shows the importance of force field priors for human motion generation.
+Method	We compared our system with standard physics-based optimization techniques [Witkin and Kass 1988] by dropping off both force field priors term E f orcef ield and initialization term E init in the objective function defined in Equation (10).
+Method	For a fair comparison, we added the minimal sum of squared joint torques into the objective function because optimizing the motion with the remaining terms (E c and E physics ) is ambiguous–there are an infinite number of physically correct motions that satisfy user constraints.
+Method	We also included joint torque limits into the optimization.
+Result	With the force field priors, our system can successfully generate physically realistic stylized walking motion.
+Result	This experiment demonstrated the importance of physical constraints to our motion model.
+Method	We dropped off the physics term in the objective function and used the remaining terms to optimize the joint poses across the entire motion sequence.
+Result	With the physics term, the character reacted appropriately to external elastic forces by leaning the body forward to compensate for the resistance forces ( Figure 6(a) ).
+Result	As expected, the character did not respond to external forces without the physics term ( Figure 6(b) ).
+Method	We computed the eigen-poses using the same set of training data and performed physics-based optimization in a reduced eigen-space similar to Safonova and her colleagues [2004].
+Method	The testing example was running→walking→jumping.
+Method	Unlike Safonova and her colleagues [2004], we did not manually select training data to construct a reduced subspace for human poses.
+Method	Instead, we used the entire locomotion database (4571 frames), which includes normal walking, running and jumping.
+Method	We automatically determined the dimension of the subspace (11 dimensions) by preserving 95% of energy of the training data.
+Method	To implement the subspace optimization algorithm, we formulated the problem in the spacetime framework and optimized the motion in the reduced subspace.
+Method	Briefly, we minimized the sum of squared torques and smoothness of the root and joint angle trajectories over time.
+Method	We also added a regularization term to penalize the deviation of eigen coefficients from zero.
+Method	Unlike Safonova and her colleagues [2004], we did not incorporate inverse kinematics as part of optimization in our implementation.
+Method	We evaluated the performance of the subspace optimization technique using the same set of animation constraints, including the start and end poses as well as trajectories of the head and two feet.
+Result	For example, the walking character did not swing the right arm properly and the walking gait appeared very stiff.
+Result	This indicates that a global subspace model for kinematic poses is not sufficient to model heterogeneous human actions.
+Result	We have also observed that the motions generated by subspace methods often cannot accurately match the trajectory and contact constraints specified by the user; this might be due to compression errors caused by reduced subspace representation.
+Result	In contrast, the GP-based statistical motion priors can accurately model spatial-temporal patterns in heterogeneous human actions and allow for generating physically realistic animation that matches userdefined constraints.
+Result	We introduce a statistical motion model for human motion analysis and generation.
+Result	Our model combines the powers of physics-based motion modeling and statistical motion modeling.
+Result	We have demonstrated the effectiveness of the new model by generating a wide variety of physically realistic motions that achieve the goals specified by the users.
+Result	The incorporation of physical constraints into statistical motion models ensures generalized motions are physically plausible, thereby removing noticeable visual artifacts (e.g., unbalanced motions and motion jerkiness) in an output animation.
+Result	Moreover, it enables us to create motions that react to changes in physical parameters.
+Result	In our experiments, we have shown that the system can generate new motions such as “resistance running”, “moon walking”, “walking on slippery surfaces”, and “walking with a heavy foot”, a capability that has never been demonstrated in any previous statistical motion synthesis methods.
+Result	Meanwhile, the use of force field priors for human motion modeling not only ensures that generated motions are natural looking but also extends physically-based modeling techniques to stylized and heterogeneous human actions.
+Result	For example, we have constructed a single generative model for modeling a wide variety of physically realistic walking variations such as normal walking, walking with a sharp turn, walking on a slope, walking with a big step, and climbing over an obstacle.
+Result	We have also shown that the system can generate physically realistic motion for stylized walking such as sneaky walking and for heterogeneous human actions such as running→walking→jumping.
+Result	Such actions are often difficult or even impossible to be synthesized by previous physics-based motion models.
+Method	We model the force field priors using Gaussian process models because GP can efficiently capture nonlinear properties of the force fields and its learning process involves very few manual tuning parameters.
+Method	However, Gaussian process needs to retain all of the training data to make predictions and therefore its computational demands grow as the square and cube respectively of the number of training examples.
+Result	The sparse approximation strategy works well for the current size of training data sets (less than 8,000 frames) but might not scale up for use in very large data sets.
+Future Work	One possibility is to learn a probabilistic regression function for force fields using parametric statistical analysis techniques such as the mixture of experts model [Jacobs et al. 1991] or its variants [Jordan 1994].
+Result	Another limitation of our system is that it cannot generate a motion that is very different from motion examples because our approach is data-driven.
+Result	In addition, the system is still unable to handle arbitrary external forces because the force field priors prevent the generated motion from moving away from prerecorded motion data.
+Method	We choose to model the force field priors based on generalized forces rather than joint torques because we can conveniently compute the generalized forces from current kinematic motion capture databases (e.g., the CMU online mocap database 2 ).
+Result	However, the learned force field priors can only predict resultant forces of join torques and contact forces.
+Result	If both joint torque data and contact force data are available, we could construct more accurate force field priors that explicitly predict joint torques or contact forces.
+Future Work	In the future, we plan to measure ground-reaction forces with force plates and use them along with the captured kinematic motion data to compute joint torques via inverse dynamics techniques.
+Method	We formulate the constraint-based motion synthesis problem in a spacetime optimization framework.
+Result	However, the optimization problem is high-dimensional and highly nonlinear; it might be subject to local minima.
+Result	We found that the initialization process is critical to the success of our optimization.
+Result	It not only speeds up the optimization process but also alleviates the local-minimum problem.
+Method	For a long sequence of animation (e.g., Figure 5 ), we need to decompose the entire optimization into a number of spacetime windows, over which subproblems can be formulated and solved using efficient nonlinear optimization techniques.
+Future Work	In the future, we plan to explore alternative techniques to address the local minimum problem.
+Future Work	One possibility is the employment of a Markov chain Monte Carlo (MCMC), which comes to its solutions by efficiently drawing samples from the posterior distribution, using a Markov chain based on the Metropolis-Hastings algorithm.
+Method	Similar to other constraint-based animation systems, our system requires the user to specify a sparse number of constraints, e.g., key frames and contact constraints, to generate a desired animation.
+Problem	However, specifying such constraints, particularly trajectory constraints and contact constraints, is not trivial for a novice user.
+Method	In our experiment, we created the 3D key frames by using our homegrown data-driven inverse kinematic system [Wei and Chai 2010a].
+Method	Trajectory and contact constraints were either directly modified from reference motion data or rotoscoped from video streams similar to the technique described by Wei and Chai [2010b].
+Future Work	In the future, we are interested in extending our system to searching the positions and timings of contact events as part of the optimization variables, thereby avoiding the necessity of contact constraints required for constraint-based motion synthesis.
+Background	Gaussian processes (GP) are a powerful, non-parametric tool for regression in high-dimensional space.
+Method	A GP can be thought of as a “Gaussian over functions”.
+Method	For our application, we have y = [q, q]  ̇ and z = u.
+Method	The goal of Gaussian processes is to learn a regression function f (·) that finds the predictive output z ∗ using a testing input y ∗ .
+Method	We assume both training and testing data points are drawn from the following noisy process:
+Method	The kernel function, k(y, y ), is a measure of the “closeness” between inputs.
+Method	The term σ n 2 I introduces Gaussian noise and plays a similar role to that of in Equation (12).
+Method	Given a set of test inputs Y ∗ , one would like to find the predictive output z ∗ .
+Method	(16) A Gaussian process is fully described by its mean and covariance functions.
+Method	These equations show that the mean function for the testing output is a linear combination of the training output z, and the weight of each input is directly related to the correlation between the testing input Y ∗ and the training input Y .
+Method	Meanwhile, the uncertainty for every predictive output (i.e. covariance function) is also estimated.
+Method	In this paper, we choose the squared exponential function as our kernel function:
+Method	The diagonal matrix W contains the length scales for each input dimension.
+Method	The value of W ii is inversely proportional to the importance of the i-th input dimension.
+Method	The parameters of the kernel function θ = [W, σ f , σ n ] can be automatically learned by maximizing the log likelihood of the training outputs given the inputs: θ max = arg max θ log pr(z|Y, θ).
+
