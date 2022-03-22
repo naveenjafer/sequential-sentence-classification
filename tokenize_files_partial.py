@@ -17,7 +17,7 @@ def tokenize_file(in_file, out_file, tokenizer):
                 if line.strip() == "" or line.startswith("###"):
                     out_f.write(line + "\n")
                 else:
-                    ls = line.split("\t")
+                    ls = line.split("\t")3
                     tag, sentence = ls[0], ls[1]
                     tokenized = tokenizer.encode(sentence, add_special_tokens=True, max_length=MAX_SEQ_LENGTH)
                     out_f.write(f'{tag}\t{" ".join([str(t) for t in tokenized])}\n')
@@ -27,7 +27,7 @@ def tokenize(dataset):
     tokenizer = BertTokenizer.from_pretrained(BERT_VOCAB, do_lower_case=True)
     
 
-    if "nicta-piboso" in dataset or "pubmed-20k" in dataset or "CSAbstruct" in dataset:
+    if "nicta-piboso" in dataset or "pubmed-20k" in dataset or "CSAbstruct" in dataset or "ART" in dataset or "DRI" in dataset: 
         print(dataset)
         tokenize_file("datasets/" + dataset + "/train_clean.txt", "datasets/" + dataset + "/train_scibert.txt", tokenizer)
         tokenize_file("datasets/" + dataset + "/dev_clean.txt", "datasets/" + dataset + "/dev_scibert.txt", tokenizer)

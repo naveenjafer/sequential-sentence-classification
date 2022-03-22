@@ -53,7 +53,7 @@ def dri_task(train_batch_size, max_docs, folderNameOverride):
     if folderNameOverride != None:
         DRI_TASK = folderNameOverride
     return Task(DRI_TASK, DRI_LABELS,
-                 train_batch_size, 10,  max_docs, short_name="DRI",
+                 train_batch_size, 1,  max_docs, short_name="DRI",
                 labels_pres=DRI_LABELS_PRES)
 
 def art_task(train_batch_size, max_docs, folderNameOverride):
@@ -61,7 +61,7 @@ def art_task(train_batch_size, max_docs, folderNameOverride):
         ART_TASK = folderNameOverride
     # 9-fold cross validation, Accuracy-Metric
     return Task(ART_TASK, ART_LABELS,
-                 train_batch_size, 9,  max_docs,
+                 train_batch_size, 1,  max_docs,
                 dev_metric="acc", short_name="ART", labels_pres=ART_LABELS_PRES)
 
 def art_task_small(train_batch_size,  max_docs, folderNameOverride):
