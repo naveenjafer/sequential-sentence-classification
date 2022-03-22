@@ -17,7 +17,7 @@ def tokenize_file(in_file, out_file, tokenizer):
                 if line.strip() == "" or line.startswith("###"):
                     out_f.write(line + "\n")
                 else:
-                    ls = line.split("\t")3
+                    ls = line.split("\t")
                     tag, sentence = ls[0], ls[1]
                     tokenized = tokenizer.encode(sentence, add_special_tokens=True, max_length=MAX_SEQ_LENGTH)
                     out_f.write(f'{tag}\t{" ".join([str(t) for t in tokenized])}\n')
