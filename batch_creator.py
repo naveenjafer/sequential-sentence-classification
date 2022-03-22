@@ -92,6 +92,7 @@ class BatchCreator:
             attention_mask = [1] * len(tok_ids)
 
             # map label id
+            print(self.labels)
             label_id = self.labels.index(label)
 
             token_ids.append(tok_ids)
