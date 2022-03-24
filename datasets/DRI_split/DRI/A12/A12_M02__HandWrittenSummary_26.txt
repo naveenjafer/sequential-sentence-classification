@@ -1,0 +1,7 @@
+The objective of this paper is to design an animation system that allows users to easily create natural-looking character animation by specifying spatial-temporal constraints throughout the motion. 
+
+The key idea behind the approach proposed in this paper is that motion priors learned from prerecorded motion data can be used to create natural human motion that matches constraints specified by the user. Instead of using the physical laws to generate physically correct animation, the authors rely on statistical models of human motion to generate a statistically plausible motion. The statistical dynamic model is usually lower dimensional than the dynamics model, making the optimization more efficient, less likely to be subject to local minima, and more likely to produce natural motion.
+
+The statistically based optimization approach proposed in this paper complements a physically based optimization approach and offers a few potential advantages. First, using a low-dimensional statistical dynamic model for the constrained optimization might achieve faster convergence and be less subject to local minima. Second, our approach can generate slow and even stylized motions that have proven particularly difficult for physically based optimization. Third, the optimization does not require physical models.
+
+There are two limitations of the approach proposed in this paper: an appropriate database must be available and the user cannot specify such dynamic constraints as ground reaction forces or character mass.

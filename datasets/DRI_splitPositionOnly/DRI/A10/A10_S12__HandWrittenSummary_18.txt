@@ -1,0 +1,6 @@
+In this paper, we present a parallel skinning algorithm suitable for SIMD architectures such as GPUs.
+ The joint weights of each vertex are automatically computed by NNLS and used in the skinning computation for SSD and WPSD.
+
+ Independent per-vertex deformation is parallelized on the GPU using three rendering passes.
+
+ Articulated body skinning using SSD, PSD, and WPSD are efficiently parallelized by our GPU-based method, and on a detailed model, we obtain around 20 times speed-up compared with CPU-based computation

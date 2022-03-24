@@ -1,0 +1,1041 @@
+Approach	Our motion model considers both Newtonian dynamics and contact mechanics for a full-body human figure.
+Challenge	However, specifying such constraints, particularly trajectory constraints and contact constraints, is not trivial for a novice user.
+Approach	We thus preprocess generalized force data as well as joint poses and velocities using physics-based trajectory optimization techniques.
+Approach	The dimensions of the kinematic states ([q t , q  ̇ t ]) in three databases were 19, 22, and 19 respectively.
+Approach	The value of W ii is inversely proportional to the importance of the i-th input dimension.
+Challenge	This paper shows how statistical motion priors can be combined seamlessly with physical constraints for human motion modeling and generation.
+Approach	Let B u and B s denote the subspace matrices for generalized forces u and kinematic states s = [q T , q  ̇ T ] T , respectively.
+FutureWork	One possibility is to learn a probabilistic regression function for force fields using parametric statistical analysis techniques such as the mixture of experts model [Jacobs et al. 1991] or its variants [Jordan 1994].
+Outcome	This section demonstrated the benefits of combining physical constraints and statistical motion priors for human motion generation.
+Challenge	Physics-based motion models could overcome the aforementioned limitations by applying physics to modeling human movements.
+Approach	We also evaluated the importance of force field priors and physical constraints for human motion generation.
+Approach	We model the force field priors using Gaussian process models because GP can efficiently capture nonlinear properties of the force fields and its learning process involves very few manual tuning parameters.
+Approach	We choose to model the force field priors based on generalized forces rather than joint torques because we can conveniently compute the generalized forces from current kinematic motion capture databases (e.g., the CMU online mocap database 2 ).
+Background	” Decades of research in computer animation (e.g., [Witkin and Kass 1988; Cohen 1992; Liu et al. 1994; Fang and Pollard 2003]) introduced numerous performance criteria for human motion modeling, e.g., minimal energy, minimal torque, minimal jerk, minimal joint momentum, minimal joint acceleration, or minimal torque change.
+Background	Accordingly, dynamics equations are often not satisfied precisely.
+Outcome	Such actions are often difficult or even impossible to be synthesized by previous physics-based motion models.
+Approach	The second and third terms impose the “soft” subspace constraints for kinematic states and generalized forces, penalizing them as they deviate from the subspace representations.
+Approach	We computed the eigen-poses using the same set of training data and performed physics-based optimization in a reduced eigen-space similar to Safonova and her colleagues [2004].
+Approach	Given an initial state (q 1 , q  ̇ 1 ), the learned force field priors pr(u|q, q)  ̇ can produce a physically realistic motion sequence by sequentially advancing a Newtonian dynamics model over time ( Figure 3(b) and Figure 3(c) ).
+Approach	However, our approach is different in that we automatically learn nonlinear probabilistic mapping functions from large sets of motion data.
+Approach	In our formulation, we assume Newtonian dynamics equations are disturbed by Gaussian noise of a standard deviation of σ physics : pr physics ∝ pr(q t |q t , q  ̇ t , u t ) ∝ exp − M ( q t ) q  ̈ t +C( q t , q  ̇ 2σ t )+h( 2 q t )−τ t − f c ( q t ,λ t )− f e 2 physics (7) where the standard deviation σ physics shows our confidence of physics-based dynamics models.
+Approach	These equations show that the mean function for the testing output is a linear combination of the training output z, and the weight of each input is directly related to the correlation between the testing input Y ∗ and the training input Y .
+Outcome	This experiment shows that the system can generate physically realistic motion that reacts to changes in physical quantities of human bodies and interaction environments, a capability that has not been demonstrated in previous statistical motion models.
+Approach	However, physical constraints alone are insufficient to model natural-looking human movement because a motion can be physically correct without appearing natural.
+Approach	We ensure the contact forces stay within a basis that approximates the cones with nonnegative basis coefficients.
+Outcome	This experiment shows that we can extend physics-based modeling techniques to stylized walking, detailed walking variations, and heterogeneous human actions with the help of statistical motion priors.
+Approach	For example, when a character is pushed by an external force, e.g., elastic forces in resistance running, the external force in the physics term E physics (see Equation 7) will force the system to modify kinematic motion and joint torques as well as contact forces in order to satisfy Newtonian dynamics and contact mechanics.
+Background	Statistical models are desirable for human motion modeling and synthesis because they are often compact and can be used to generate human motions that are not in prerecorded motion data.
+Outcome	We have observed that the generated motions achieve similar quality to the ground truth motion data.
+Challenge	On the other hand, statistical motion models can rely on physical constraints to generate physically correct human motion that reacts to external forces, satisfies friction limit constraints, and respects physical quantities of human bodies or interaction environments.
+Approach	The parameters of the kernel function θ = [W, σ f , σ n ] can be automatically learned by maximizing the log likelihood of the training outputs given the inputs: θ max = arg max θ log pr(z|Y, θ).
+Background	Physics-based simulation approaches are not appropriate for our task because forward simulation techniques often do not provide accurate control over simulated motions.
+Approach	For each example in our experiments, we reported the total number of animation frames, the types and number of animation constraints, and the computational times spend on the initialization and motion synthesis step.
+Approach	In this step, we evaluated the force field priors in terms of joint torques and contact forces: E f orcef ield (τ, λ) = − ln pr(τ + f c (q 0 , λ) + f e )|q 0 , q  ̇ 0 ).
+Outcome	We can generate an animation that reacts to changes in friction properties of environments.
+Approach	In our experiment, we model the initial kinematic priors pr init with Gaussian mixture models.
+Approach	Based on the dynamics equation defined in Equation (1), the joint pose, joint velocities and generalized forces in the current step should completely determine the joint accelerations in the current step.
+Background	Ye and Liu [2010] used GPLVM to construct a second-order dynamic model for human kinematic data and used them to synthesize kinematic walking motion after a perturbation.
+Approach	Similar to these methods, our system utilizes both motion data and physics for human motion analysis and generation, but there are two important distinctions.
+Outcome	However, the learned force field priors can only predict resultant forces of join torques and contact forces.
+Approach	The third term pr physics measures how well the generated motion satisfies the physical constraints.
+Approach	We describe a full-body character pose with a set of independent joint coordinates q ∈ R 48 , including absolute root position and orientation, and the relative joint angles of 18 joints.
+Approach	To avoid this issue, we choose to perform the optimization in the original configuration space while imposing “soft” subspace constraints on both kinematic states and generalized forces.
+Approach	We evaluated the performance of our algorithm via cross validation techniques.
+Approach	Our system automatically extracts force field priors embedded in prerecorded motion data.
+Approach	The user could also specify a small number of key trajectories to control fine details of a particular human action such as stylized walking.
+Approach	This optimization is subject to foot-ground contact constraints, friction limit constraints, and the discretization of physics constraints determined by a finite difference scheme.
+Approach	We tested the effectiveness of our algorithm for modeling a wide range of walking variations.
+Approach	We generalize this concept by learning a nonlinear probabilistic force field u = g(q, q),  ̇ which maps kinematic states (q, q)  ̇ to generalized forces u.
+Approach	The GP learning times spent on the three training databases were 65 minutes, 138 minutes, and 55 minutes, respectively.
+Background	Nonetheless, the motions generated by statistical motion models are often physically invalid because existing statistical motion models do not consider the forces that cause the motion.
+Approach	We evaluate the performance of our model by comparing with ground truth data as well as alternative techniques.
+Approach	We, therefore, apply Principal Component Analysis techniques to reducing the dimensionality of both kinematic data [q n , q  ̇ n ] and generalized force data u n and employ Gaussian process to model the force fields in reduced subspaces.
+Approach	We construct a physically valid statistical model that leverages both physical constraints and statistical motion priors and utilize it to generate physically realistic human motion that achieves the goals specified by the user.
+Challenge	However, physical laws alone are often insufficient to generate natural human movement because a motion can be physically correct without appearing natural.
+Approach	Briefly, we minimize the deviation from prerecorded kinematic motion data as well as the sum of the squared torques.
+Approach	The key idea of the approach is to learn a nonlinear probabilistic force field function from prerecorded motion data with Gaussian processes and combine it with physical constraints in a probabilistic framework.
+Approach	However, Gaussian process needs to retain all of the training data to make predictions and therefore its computational demands grow as the square and cube respectively of the number of training examples.
+Background	Physics-based motion models could overcome the limitations of statistical motion models by applying physics to modeling human movement.
+Approach	One possible solution to incorporating the force field priors is to perform the optimization in the reduced subspaces.
+Approach	We formulate the constraint-based motion synthesis problem in a spacetime optimization framework.
+Approach	Another attraction of our model is that it learns the mapping from the kinematic states to generalized forces using Gaussian process models.
+Approach	The quantities M (q), C(q, q)  ̇ and h(q) are the joint space inertia matrix, centrifugal/Coriolis and gravitational forces, respectively.
+Approach	Our approach follows the spacetime formulation in computer graphics literature [Witkin and Kass 1988; Cohen 1992].
+Approach	For a long sequence of animation (e.g., Figure 5 ), we need to decompose the entire optimization into a number of spacetime windows, over which subproblems can be formulated and solved using efficient nonlinear optimization techniques.
+Outcome	This experiment demonstrated the importance of physical constraints to our motion model.
+Approach	Therefore, we describe the Newtonian dynamics equations for full-body movement and Coulomb’s friction model for computing the forces caused by the friction between the character and the interaction environment (Section 4).
+Approach	In this example, the user specified the start and end poses as well as foot contacts to create an animation for resistance running ( Figure 1(b) ).
+Approach	We now discuss how to combine force field priors with physicsbased dynamics models in a probabilistic framework and how to apply the proposed framework to generating physically realistic human motion that achieves the goals specified by the user.
+Background	They postulated that an individual would determine a movement in such a way as to reduce the total muscular effort to a minimum, subject to certain constraints.
+Approach	In particular, our nonlinear probabilistic force field functions are conceptually similar to control strategies used for physics-based simulation because both representations aim to map kinematic states to driving forces.
+Background	A force field is a nonlinear probabilistic function u = g(q, q) that maps the kinematic state (q, q)  ̇ to the generalized forces u.
+Approach	Given an initial kinematic state (q 1 , q  ̇ 1 ) of a human figure, a force field can predict how humans move by sequentially advancing a Newtonian dynamics model over time.
+Background	In particular, Ikemoto and her colleagues [2009] learned the kinematic mapping from pose information of the source motion to pose and acceleration information of the target motion and applied them to transferring a new source motion into a target motion.
+Background	In practice, as noted by other researchers [Sok et al. 2007; Muico et al. 2009], dynamics models adopted in physics-based modeling are often inconsistent with observed data because of simplified dynamics/contact models, discretization of physics constraints, and approximate modeling of physical quantities of human bodies such as masses and inertias.
+Challenge	A central goal in human motion modeling and generation is to construct a generative motion model to predict how humans move.
+Outcome	The incorporation of physical constraints into statistical motion models ensures generalized motions are physically plausible, thereby removing noticeable visual artifacts (e.g., unbalanced motions and motion jerkiness) in an output animation.
+Outcome	We have also observed that the motions generated by subspace methods often cannot accurately match the trajectory and contact constraints specified by the user; this might be due to compression errors caused by reduced subspace representation.
+Outcome	In addition, the system is still unable to handle arbitrary external forces because the force field priors prevent the generated motion from moving away from prerecorded motion data.
+Background	Unlike reference trajectories or linear subspace models adopted in previous work, GP models are capable of modeling both stylistic variations within a particular human action and heterogeneous human behaviors.
+FutureWork	In the future, we plan to explore alternative techniques to address the local minimum problem.
+Approach	We evaluated the performance of the subspace optimization technique using the same set of animation constraints, including the start and end poses as well as trajectories of the head and two feet.
+Outcome	Our approach can generate physically-realistic animation for highly stylized human actions.
+Approach	A GP can be thought of as a “Gaussian over functions”.
+Outcome	If both joint torque data and contact force data are available, we could construct more accurate force field priors that explicitly predict joint torques or contact forces.
+Approach	Human muscles generate torques about each joint, leaving global position and orientation of the body as unactuated joint coordinates.
+Outcome	The synthesized motion displayed a wide variety of walking variations such as walking along a straight line, walking with a sharp turn, walking with a big step, walking on a slope, climbing over an obstacle, and transitionings between different walking examples ( Figure 5 ).
+Approach	We evaluated the force field term with respect to joint poses because we can calculate current generalized forces using current joint poses, velocities and accelerations as shown in Equation (3).
+Outcome	We have also shown that the system can generate physically realistic motion for stylized walking such as sneaky walking and for heterogeneous human actions such as running→walking→jumping.
+Approach	According to Bayes’ rule, we can decompose the probabilistic motion model pr(x) into the following three terms: pr(x) = pr(q 1 , q  ̇ 1 ) · pr(u t |q t , q  ̇ t ) · pr(q t+1 , q  ̇ t+1 |q t , q  ̇ t , u t ) t pr init pr f orcef ield pr physics (5) where the first term pr init represents the probabilistic density function of the initial kinematic pose and velocity.
+Challenge	On the one hand, physical models can utilize statistical priors to constrain the motion to lie in the space of natural appearance and more significantly, learn an appropriate performance criterion to model natural-looking human actions.
+Challenge	Therefore, they fail to predict human motion that reacts to external forces or changes in the physical quantities of human bodies and in the interaction environments.
+Approach	In addition, we evaluated the performance of our algorithm by comparing with ground truth data and results obtained by alternative methods.
+Approach	First, we rely on statistical motion models rather than a predefined global performance objective (e.g., minimal muscle usage) to reduce the ambiguity of physics-based modeling.
+Outcome	Our system can react to changes in physical quantities such as masses and inertias of human bodies.
+Background	Statistical motion models are often represented as a set of mathematical equations or functions that describe human motion using a finite number of parameters and their associated probability distributions.
+Approach	The system constructed a single motion model from the training data sets and used it to generate various forms of stylized walking such as “sneaky” walking and “proud” walking (Figure 1(c)).
+Approach	Unlike Safonova and her colleagues [2004], we did not manually select training data to construct a reduced subspace for human poses.
+Approach	Enforcing Newtonian dynamics equations and friction limit constraints would allow us to generate physically correct motion that satisfies friction limit constraints.
+Background	Statistical models are desirable for human motion representation because they can model any human movement as long as relevant motion data are available.
+Approach	For our application, we have y = [q, q]  ̇ and z = u.
+Outcome	This indicates that a global subspace model for kinematic poses is not sufficient to model heterogeneous human actions.
+Background	Gaussian processes (GP) are a powerful, non-parametric tool for regression in high-dimensional space.
+Approach	Note that in the force field modeling step, we performed dimensionality reduction analysis on both kinematic data and generalized joint torques and learned the force field priors in reduced subspaces.
+Approach	More specifically, our GP model learns a nonlinear probabilistic function that predicts the generalized forces based on the joint pose and joint velocity (for details, see Appendix):
+Outcome	Moreover, it enables us to create motions that react to changes in physical parameters.
+Approach	We can edit an animation by changing the gravity of interaction environments.
+FutureWork	In the future, we plan to measure ground-reaction forces with force plates and use them along with the captured kinematic motion data to compute joint torques via inverse dynamics techniques.
+Background	One way to address this limitation is by adopting the “minimal principle” strategy, which was first introduced to the graphics community by Witkin and Kass [1988].
+Approach	The 4 × 1 vector e λ m represents nonnegative basis weights for the m-th contact force.
+Outcome	This comparison shows the importance of force field priors for human motion generation.
+Challenge	Physical motion models and statistical motion models are complementary to each other as they capture different aspects of human movements.
+Approach	More specifically, we pulled out a testing sequence in the training data, used it to extract the start and end poses and foot contact constraints, and applied the synthesis algorithm to generate motion that matches the “simulated” constraints.
+Approach	We follow a standard approach of representing q t and τ t using cubic B-splines.
+Outcome	The accompanying video shows that the simulated character maintained balance by adapting the gait and leaning the body to the right side in order to offset the additional weigh caused by the left shoe.
+Challenge	These heuristics show promise for highly dynamic motions, but it remains challenging to model low-energy motion or highly stylized human actions.
+Approach	Thus far, we have not discussed how to incorporate the learned force field priors into the motion optimization framework.
+Outcome	We observed that the character moved the upper body forward in order to offset the effect of resistance force.
+Approach	This enables us to extend physics-based modeling to stylistic human motions such as “sneaky walking”.
+Background	GP and its invariants (e.g., GPLVM) have recently been applied to modeling kinematic motion for many problems in computer animation, including nonlinear dimensionality reduction for human poses [Grochow et al. 2004], motion interpolation [Mukai and Kuriyama 2005], motion editing [Ikemoto et al. 2009], and motion synthesis [Ye and Liu 2010].
+Approach	We used three different motion databases in our experiments, including walking (5227 frames), stylized walking (7840 frames), and locomotion databases (4571 frames).
+Approach	Such a motion model would allow us to generate an infinite number of physically realistic motion instances.
+Outcome	We found that the initialization process is critical to the success of our optimization.
+Challenge	Despite the efforts, accurate modeling of human motion remains a challenging task.
+Background	Decades of research in computer animation have explored two distinctive approaches for human motion modeling: statistical motion      modeling and physics-based motion modeling.
+Approach	We tested the effectiveness of the physically valid statistical model on heterogeneous human actions.
+Approach	We automatically determined the dimension of the subspace by preserving 95% of the original energy.
+Approach	The joint velocities q  ̇ are computed as a backward difference between current and previous frames.
+Approach	Note that we remove the nonnegative coefficients constraints by representing the basis weights with exponential functions.
+Approach	Our next task is to learn force field priors from the training data sets.
+Approach	Similar to [Chai and Hodgins 2007], the system allows the user to specify various forms of kinematic constraints throughout the motion or at isolated points in the motion.
+Outcome	For example, we generated “moon” walking by setting gravity at 1.62 m/s 2 .
+Approach	To implement the subspace optimization algorithm, we formulated the problem in the spacetime framework and optimized the motion in the reduced subspace.
+Approach	Briefly, we minimized the sum of squared torques and smoothness of the root and joint angle trajectories over time.
+Outcome	The incorporation of physics into probabilistic motion models significantly improves the generalizability of statistical motion models.
+Approach	In our experiment, we created the 3D key frames by using our homegrown data-driven inverse kinematic system [Wei and Chai 2010a].
+Approach	We adopted sparse approximation strategies for Gaussian process modeling [Quinonero-Candela and Rasmussen 2005].
+Approach	To keep the body balanced, contact forces should not require an unreasonable amount of friction and the center of pressure must fall within the support polygon of the feet.
+Challenge	In addition, it is unclear if a single global performance objective such as minimal torque is appropriate to model heterogeneous human actions such as running→walking→jumping.
+Outcome	In addition, we show that a single physically valid statistical model is sufficient to create physically realistic animation for a wide range of style variations within a particular human action such as “sneaky” walking (Figure 1(c)) or transitions between heterogeneous human actions such as running→walking→jumping ( Figure 1(d) ).
+Approach	With the physical term, our model can react to changes in physical parameters.
+Approach	A friction cone is defined to be the range of possible forces satisfying Coulomb’s function model for an object at rest.
+Outcome	With the physics term, the character reacted appropriately to external elastic forces by leaning the body forward to compensate for the resistance forces ( Figure 6(a) ).
+Approach	In our experiment, we set the weights for E c , E init , E f orcef ield and E physics to 1000, 1, 1 and 100, respectively 1 .
+Outcome	Meanwhile, the use of force field priors for human motion modeling not only ensures that generated motions are natural looking but also extends physically-based modeling techniques to stylized and heterogeneous human actions.
+Challenge	Moreover, when motion data are generalized to achieve new goals, the results are often physically implausible and thereby display noticeable visual artifacts such as unbalanced motions, foot sliding, and motion jerkiness.
+Approach	We choose a very large weight for the constraint term because we want to ensure the generated motion can match user constraints accurately.
+Approach	The second term E prior is the prior distribution function defined by our physically valid statistical model in Equation (5).
+Approach	The resistance forces were determined by Hooke’s law of elasticity, ranging from zero to 450N.
+Approach	Because of memory restrictions, we synthesized the whole motion sequence by sequentially computing each example from sparse constraints and stitching them into a long motion sequence.
+Background	These heuristics show promise for highly dynamic motions, but it remains very difficult to model low-energy motions and highly stylized human movements.
+Approach	The contact force Jacobian J m (q) maps the instantaneous generalized joint velocities to the instantaneous world space cartesian velocities at the m-th contact point under the joint pose q.
+Approach	However, without force field priors, the modified motion could be unnatural because there are many ways to adjust a motion so that physical laws are satisfied, and yet only a subset of motions are natural-looking.
+Approach	By accounting for physical constraints and statistical priors simultaneously, we not only instill physical realism into statistical motion models but also extend physics-based modeling to a wide variety of human actions such as stylized walking.
+Approach	We preprocessed the prerecorded motion data using spacetime optimization (Section 5.1).
+Approach	̇ In our implementation, we represent the root translations in the ground plane and the rotations about the up axis at the current frame with respect to the root coordinate system at the previous frame in order to eliminate the effect of absolute positions in the ground plane and the rotations about the up axis.
+Approach	In this paper, we choose the squared exponential function as our kernel function:
+Approach	In particular, we can sample the initial prior distribution pr init to obtain an initial state for joint poses and velocities and sequentially predict joint torques using the force field priors pr f orcef ield to advance the Newtonian dynamics model pr physics over time.
+Approach	Our research draws inspiration from the large body of literature on developing control strategies for physics-based simulation.
+Approach	The testing example was running→walking→jumping.
+Outcome	Each initialization step often took from less than thirty seconds to converge (for details, see Table 1 ).
+Approach	Instead, we used the entire locomotion database (4571 frames), which includes normal walking, running and jumping.
+Approach	More importantly, we can employ the motion model pr(x) to generate physically realistic animation x that best matches the user’s input c.
+Approach	We learned a single generative model from a “walking” database and used it to generate a long walking sequence.
+Approach	We automatically determine the dimensions of subspaces by keeping 95% of the original energy.
+Approach	These joints are the head, thorax, upper neck, lower neck, upper back, lower back, left and right humerus, radius, wrist, femur, tibia, and metatarsal.
+Approach	The diagonal matrix W contains the length scales for each input dimension.
+Approach	One way to address the problem is to define a global performance criterion based on either the smoothness of the movement or the minimization of needed controls or control rates (e.g., minimal muscle usage).
+Approach	Typically, the user can define a sparse set of key frames as well as contact constraints to generate a desired animation.
+Approach	To simplify the visualization, we only show the top two eigen-vectors for the kinematic states (q, q)  ̇ as well as the generalized forces u.
+Approach	We automatically determined the dimension of the subspace (11 dimensions) by preserving 95% of energy of the training data.
+Approach	We show how to combine force field priors with physics-based dynamics models seamlessly in a probabilistic framework and how to use the new motion model to generate physically realistic animation that matches user-defined constraints (Section 6).
+Outcome	As expected, the character did not respond to external forces without the physics term ( Figure 6(b) ).
+Outcome	Our model combines the powers of physics-based motion modeling and statistical motion modeling.
+Background	Thus far, a wide variety of statistical motion models have been developed; their applications include inverse kinematics [Grochow et al. 2004; Chai and Hodgins 2005], human motion synthesis and editing [Li et al. 2002; Chai and Hodgins 2007; Lau et al. 2009; Min et al. 2009], human motion style interpolation and transfer [Brand and Hertzmann 2000; Ikemoto et al. 2009; Min et al. 2010], and so forth.
+Background	In practice, human motion is highly coordinated, the number of dimensions of joint poses, joint velocities, or generalized forces is often much lower than the number of dimensions of the character’ poses.
+Outcome	However, the optimization problem is high-dimensional and highly nonlinear; it might be subject to local minima.
+Challenge	In this paper, we show how statistical modeling techniques can be combined with physics-based modeling techniques to address the limitations of both techniques.
+Approach	In our formulation, a force field function u = g(q, q)  ̇ maps kinematic states (joint poses q and joint velocities q)  ̇ to generalized forces (u).
+Approach	The second term pr f orcef ield represents the force field priors described in Equation (4).
+Approach	The training data sets for stylized walking included normal walking and ten distinct walking styles.
+Approach	We learned a single generative model from a locomotion database and used it to create a long animation sequence consisting of walking, running, jumping, and stopping, as well as their transitions (Figure 1(d)).
+Outcome	In our experiments, we have shown that the system can generate new motions such as “resistance running”, “moon walking”, “walking on slippery surfaces”, and “walking with a heavy foot”, a capability that has never been demonstrated in any previous statistical motion synthesis methods.
+Challenge	A fundamental limitation is that they do not consider the dynamics that cause the motion.
+Approach	The vector u represent the generalized forces, which can be either calculated from kinematic data or resultant forces of join torques, contact forces, and external forces.
+Outcome	The sparse approximation strategy works well for the current size of training data sets (less than 8,000 frames) but might not scale up for use in very large data sets.
+Approach	For a fair comparison, we added the minimal sum of squared joint torques into the objective function because optimizing the motion with the remaining terms (E c and E physics ) is ambiguous–there are an infinite number of physically correct motions that satisfy user constraints.
+Approach	Each optimization often took from ten to thirty minutes to converge without code optimization (for details, see Table 1 ).
+Outcome	Unlike previous statistical motion models, our model can generate physically realistic animations that react to external forces or changes in physical quantities of human bodies and interaction environments.
+Background	However, physics-based motion modeling is a mathematically ill-posed problem because there are many ways to adjust a motion so that physical laws are satisfied, and yet only a subset of motions are natural-looking.
+Approach	The vectors τ , f c , and f e represent joint torques, contact forces, and external forces, respectively.
+Approach	Meanwhile, the uncertainty for every predictive output (i.e. covariance function) is also estimated.
+Outcome	We demonstrate the power and effectiveness of our motion model in constraint-based motion generation.
+Outcome	Such actions are often difficult or even impossible to generate with previous physics-based modeling techniques.
+Outcome	Another limitation of our system is that it cannot generate a motion that is very different from motion examples because our approach is data-driven.
+Background	A number of researchers have recently explored the potential of using prerecorded motion data to improve physics-based optimization methods, including editing motion data with the help of simplified physical models [Popović and Witkin 1999], initializing optimization with reference motion data [Sulejmanpasic and Popović 2005], learning parameters of motion styles from prerecorded motion data [Liu et al. 2005], and reducing the search space for physicsbased optimization [Safonova et al. 2004; Ye and Liu 2008].
+FutureWork	One possibility is the employment of a Markov chain Monte Carlo (MCMC), which comes to its solutions by efficiently drawing samples from the posterior distribution, using a Markov chain based on the Metropolis-Hastings algorithm.
+Challenge	In addition, our goal is different because we aim to generate a desired animation that matches user constraints.
+Approach	We have implemented this idea and found that performing the optimization in the subspaces can hurt the generalization ability of our model and often cannot match user-specified constraints accurately.
+Approach	In addition to keyframes and foot contact constraints, the user specified a sparse number of key trajectories in order to control the fine details of stylized walking.
+Outcome	For example, the walking character did not swing the right arm properly and the walking gait appeared very stiff.
+Background	Therefore, a major challenge in physics-based motion modeling is how to define an appropriate performance criterion for the “minimal principle.
+Challenge	The problem has attracted the attention of a large number of researchers because of both its theoretical and applied consequences.
+Approach	We propose to use Gaussian process model to construct a force field from the training data sets.
+Outcome	We have demonstrated the effectiveness of the new model by generating a wide variety of physically realistic motions that achieve the goals specified by the users.
+Approach	Our dynamics models approximate human motion with a set of rigid body segments.
+Challenge	A generative motion model, for instance, can be used to generate realistic movement for animated human characters or constrain the solution space for modeling 3D human motion in monocular video streams.
+Approach	Therefore, we will focus our discussion on statistical motion modeling and physics-based motion modeling as well as their applications in constraint-based motion synthesis.
+FutureWork	In the future, we are interested in extending our system to searching the positions and timings of contact events as part of the optimization variables, thereby avoiding the necessity of contact constraints required for constraint-based motion synthesis.
+Approach	Given a set of test inputs Y ∗ , one would like to find the predictive output z ∗ .
+Approach	Our approach is different in that we focus on modeling the relationship between kinematic data and generalized forces rather than kinematic motion data itself.
+Outcome	We show that we can create a natural-looking animation that reacts to changes in physical parameters such as masses or inertias of human bodies and friction properties of environments ( Figure 1(a) ) or external forces such as resistance forces ( Figure 1(b) ).
+Approach	Subspace learning not only reduces the memory space for GP modeling but also significantly speeds up the learning and evaluation process of GP models.
+Background	Thus far, researchers in physics-based simulation have explored two approaches for control design, including manually designed control strategies (e.g. [Hodgins et al. 1995]) and tracking a reference trajectory while maintaining balance [Zordan and Hodgins 2002; Sok et al. 2007; Yin et al. 2007; da Silva et al. 2008; Muico et al. 2009].
+Outcome	With the force field priors, our system can successfully generate physically realistic stylized walking motion.
+Approach	We also added a regularization term to penalize the deviation of eigen coefficients from zero.
+Approach	We also included joint torque limits into the optimization.
+Approach	The combined motion models are desirable for human motion generation because they measure both statistical consistency and physical correctness of the motion.
+Approach	The weight for the physical term is much larger than the statistical prior term because physical correctness has a higher priority than statistical consistency in our system.
+Approach	The motion synthesis problem can now be solved by nonlinear optimization methods.
+Approach	In our experiment, we set the weights α 1 and α 2 to 10 and 10, respectively.
+Approach	Constructing force field priors from motion capture data, however, is difficult because current motion capture technologies cannot directly measure generalized forces.
+Approach	All the experiments were run on a 2.5GHz dual core computer with 3GB of RAM.
+Approach	We introduce a probabilistic motion model to model how humans move.
+Approach	We assessed the quality of the generated motions by comparing with ground truth data.
+Approach	The term σ n 2 I introduces Gaussian noise and plays a similar role to that of in Equation (12).
+Approach	To speed up the learning and evaluation process of GP models, we applied PCA to reduce the dimensionality of training data and learned the GP model in a reduced subspace.
+Approach	(16) A Gaussian process is fully described by its mean and covariance functions.
+Outcome	For example, we have constructed a single generative model for modeling a wide variety of physically realistic walking variations such as normal walking, walking with a sharp turn, walking on a slope, walking with a big step, and climbing over an obstacle.
+Approach	Therefore, the joint pose and velocity in the next frame are also fully determined due to finite difference approximation.
+Approach	In addition, we show how to effectively utilize the new model to generate a wide range of natural looking motions that achieve the goals specified by the users.
+Approach	We dropped off the physics term in the objective function and used the remaining terms to optimize the joint poses across the entire motion sequence.
+Approach	To achieve this goal, we precompute the generalized forces u from prerecorded kinematic motion data and apply Gaussian process to modeling the force field priors embedded in training data.
+Approach	The kernel function, k(y, y ), is a measure of the “closeness” between inputs.
+Outcome	We introduce a statistical motion model for human motion analysis and generation.
+Approach	Unlike Safonova and her colleagues [2004], we did not incorporate inverse kinematics as part of optimization in our implementation.
+Approach	Similar to other constraint-based animation systems, our system requires the user to specify a sparse number of constraints, e.g., key frames and contact constraints, to generate a desired animation.
+Approach	The computational time for each data set was reported in Table 2 .
+Approach	We assume both training and testing data points are drawn from the following noisy process:
+Outcome	The performance of our optimization algorithm highly depends on the initialization of the optimization.
+Outcome	It not only speeds up the optimization process but also alleviates the local-minimum problem.
+Approach	In order to evaluate the third term pr physics , we first use backward difference to compute joint velocities and use central difference to compute joint accelerations.
+Approach	With force field priors, our system pushes the modified motions towards regions of high probability density in order to be consistent with force field priors.
+Approach	We automatically extract force field priors from prerecorded motion data (Section 5).
+Background	Another limitation is that they do not react to perturbations (e.g., external forces) or changes in physical quantities such as masses and inertias of human bodies.
+Approach	We compared our system with standard physics-based optimization techniques [Witkin and Kass 1988] by dropping off both force field priors term E f orcef ield and initialization term E init in the objective function defined in Equation (10).
+Approach	Our approach uses Gaussian process to model a nonlinear probabilistic function that maps from kinematic states to generalized forces.
+Approach	We have observed that the generalized forces computed from kinematic motion data are often very noisy because they are related to second derivatives of kinematic poses (see Figure 2 ).
+Approach	Our force field priors are represented by a nonlinear probabilistic function u = g(q, q)  ̇ that maps the kinematic states (q, q)  ̇ to the generalized forces u.
+Approach	As a result, the movement of the global position and orientation is completely determined by contact forces f c and external forces f e .
+Approach	We introduce a physically valid statistical motion model that combines physical laws and statistical motion priors and use it to create physically realistic animation that achieves the goals specified by the user.
+Approach	We choose GP model because it can efficiently model nonlinear property of the force fields and its learning process involves very few manual tuning parameters.
+Approach	The goal of Gaussian processes is to learn a regression function f (·) that finds the predictive output z ∗ using a testing input y ∗ .
+Outcome	In contrast, the GP-based statistical motion priors can accurately model spatial-temporal patterns in heterogeneous human actions and allow for generating physically realistic animation that matches userdefined constraints.
+Approach	The key idea of our motion modeling process is to learn nonlinear probabilistic force field functions from prerecorded motion data with Gaussian Process (GP) models and combine them with physical constraints in a probabilistic framework.
+Approach	We formulate the constraint-based motion synthesis problem in a Maximum A Posteriori (MAP) framework and introduce an efficient gradient-based optimization algorithm to find an optimal solution.
+Approach	Trajectory and contact constraints were either directly modified from reference motion data or rotoscoped from video streams similar to the technique described by Wei and Chai [2010b].
+Background	During ground contact, the feet can only push but not pull on the ground.
+Approach	For example, we changed the mass of the character by simulating a character wearing a 2.5 kilogram shoe.
+Approach	For each example, the user specified the start and end poses of the generated motion as well as foot contact constraints throughout the whole motion sequence.
+Approach	The Newtonian dynamics equations for full-body movement can be described using the following equation [Jazar 2007]:
+Approach	Our solution is to compute generalized forces from prerecorded kinematic poses using the following Newtonian dynamics equation:
+Approach	Given a sparse set of constraints c, the optimization computes joint poses, joint torques, and contact forces by minimizing the following objective function:
+Approach	We implemented the system with C++/Matlab and conducted the optimization with the Matlab optimization toolbox.
+Approach	The joint accelerations q are computed as a central difference between previous frames, current frames, and next frames.
+Approach	We have evaluated the performance of our system by comparing against ground truth motion data and alternative methods.
+Approach	If the standard deviation is small, then the Gaussian probability distribution has a narrow peak, indicating high confidence in the physical constraints; similarly, a large standard deviation indicates low confidence.
+Approach	We solved the optimization problem using sequential quadratic programming (SQP) [Bazaraa et al. 1993], where each iteration solves a quadratic programming subproblem.
+Approach	We use Coulomb’s friction model to compute the forces caused by the friction between the character and the environment.
+Approach	The dimensions of the generalized forces (u) were 8, 10, and 7 respectively.
+
+Approach	This optimization has a closed-form solution:
+Outcome	However, we expect that future motion graphs will be larger mainly because the character will be able to perform more actions.
+Outcome	The principle computational bottleneck in graph construction is locating candidate transitions (Section 3.1).
+Background	This tactic was also used in [Schödl et al. 2000].
+Approach	One might attempt to locate transition points by computing some vector norm to measure the difference between poses at each pair of frames.
+Approach	However, the number of possible graph walks grows exponentially with the average size of a complete graph walk.
+Approach	Moreover, there is no meaningful way to assign fixed weights to these parameters, as the effect of a joint rotation on the shape of the body depends on the current configuration of the body.
+Approach	In real life this would require several seconds for an athlete to perform, and the transition motion looks little like the motions it connects.
+Approach	The generation of transitions is an important part of our approach.
+Challenge	At the same time, realistic animation of human motion is a challenging task, as people have proven to be adept at discerning the subtleties of human movement and identifying inaccuracies.
+Outcome	Directable locomotion is a general enough need that the preceding algorithm has many applications.
+Background	Motion graphs are constructed automatically.
+Outcome	Not only does the character follow the path well, but transitions between action types occur quite close to their specified locations.
+Approach	To demonstrate that it is nonetheless possible to come up with optimization criteria that allow us to solve a real problem, we apply the preceding framework to path synthesis.
+Approach	Our approach involves automatically constructing a graph that encapsulates connections among different pieces of motion in the database and then searching this graph for motions that satisfy user constraints.
+Approach	At the start of a graph walk this transformation is the identity.
+Outcome	That is, for example, having increasing amounts of walking motion isn’t particularly useful once one can direct a character along nearly any path.
+Approach	If we were to have required the character to merely be near the path, then it would have no reason not to alternate between travelling forwards and backwards.
+Approach	Note that s(e i ) depends on the total arc length of w, which is why this equation is a function of w as well as e.
+Approach	For example, one of the character’s feet may slide when it ought to be planted.
+Approach	For this reason it is worthwhile to have a heuristic for ordering the edges we explore out of a particular node.
+Outcome	Our work is different from these efforts in that it involves creating continuous streams of motion, rather than modifying specific clips.
+Outcome	We anticipate that typical graph searches will be restricted to one or two subgraphs, and so we expect that the search will remain practical even for larger graphs.
+Approach	We compute the distance as defined above for every pair of frames in the database, forming a sampled 2D error function.
+Approach	We cast motion extraction as a search problem and use branch and bound to increase the efficiency of this search.
+Approach	A motion is defined only up to a rigid 2D coordinate transformation.
+Approach	A local minimum in the distance function does not necessarily imply a high-quality transition; it only implies a transition better than its neighbors.
+Approach	For example, walking motions have very exacting requirements on the transitions — people have seen others walk nearly every day since birth and consequently have a keen sense of what a walk should look like.
+Approach	As a more detailed example, consider computing an all-pairs shortest graph walk table for the graph.
+Background	Coherency was added to the model by explicitly accounting for correlations between parameters.
+Approach	Typically the user will want all generated motion to be of a single type, such as walking.
+Approach	Given the framework in the previous section, our only tasks are to define an error function g(w, e) and appropriate halting criteria.
+Background	Procedural and physically based synthesis methods have been developed for a few activities such as walking [Multon et al. 1999; Sun and Metaxas 2001] and running [Hodgins et al. 1995; Bruderlin and Calvert 1996].
+Background	However, their system was applied to a simple agent with five degrees of freedom, whereas we generate motion for a far more sophisticated character.
+Challenge	We also need to be able to direct characters who can perform multiple actions, rather than those who are only capable of walking around.
+Approach	From this data we constructed a motion graph and used an algorithm described later in this paper to extract motions that travelled along paths sketched on the ground.
+Approach	The motion graph consists both of pieces of original motion and automatically generated transitions.
+Outcome	While the examples shown in Figure 1 suggest that our technique is viable, it perhaps isn’t surprising that we were able to find accurate fits to the given paths.
+Approach	As in our system, motion capture data is typically represented as vectors of parameters specifying the root position and joint rotations of a skeleton on each frame.
+Approach	Ideally this point cloud is a downsampling of the mesh defining the character.
+Background	Schödl et al. [2000] developed a similar method for synthesizing seamless streams of video from example footage and driving these streams according to high-level user input.
+Outcome	We can use path synthesis techniques to give a user interactive control over a character.
+Background	Rose et al. [1998] used radial basis functions to blend among clips representing the same motion performed in different styles.
+Approach	This can be corrected by using constraint annotations in the original motions.
+Approach	If D( i , ¡ j ) meets the threshold requirements, we create a tran    sition by blending frames i to i+k−1 with frames ¡ j−k+1 to ¡ j , inclusive.
+Approach	Otherwise we allow the search to try both edges of type T 1 and T 2 ; in the latter case we switch to fitting P 2 .
+Approach	We will consider the case of two different motion types; the generalization to higher numbers is trivial.
+Background	One strategy for motion synthesis is to perform multi-target blends among a set of examples, yielding a continuous space of parameterized motion.
+Approach	Since it is unlikely that two pieces of original data are sufficiently similar, we need to create clips expressly for this purpose.
+Challenge	More lifelike characters make for more immersive environments and more believable special effects.
+Background	Work similar to ours has been done in the gaming industry to meet the requirements of online motion generation.
+Approach	We started with a single 12.8second clip of an actor sneaking along the indicated path.
+Approach	g(w, e) is the sum of these errors:
+Approach	First, there are no guarantees that the shortest graph walk is short in an absolute sense.
+Approach	We divide the original path into two smaller adjoining paths, P 1 and P 2 , based on where the transition from type T 1 to type T 2 is to occur.
+Background	This problem is important enough to have received a great deal of prior attention.
+Challenge	Because a character’s path isn’t generally known in advance, synthesis is required.
+Approach	If the character is fitting P 1 , then we check to see if we are a threshold distance from the end of P 1 .
+Outcome	In our work we have tighter guarantees on the quality of generated motion.
+Approach	A seamless transition must account not only for differences in body posture, but also in joint velocities, accelerations, and possibly higher-order derivatives.
+Approach	Our goal is find a complete graph walk w that minimizes f .
+Outcome	More generally, there are two lessons we can draw from this example.
+Approach	In other words, each frame must be transformed by an appropriate 2D rigid transformation.
+Approach	Let P(s) be the point on P whose arc-length distance from the start of P is s.
+Background	Various signal processing operations [Bruderlin and Williams 1995] can be applied to motion data.
+Outcome	First, g should give some sort of guidance throughout the entire motion, as arbitrary motion is almost never desirable.
+Approach	This creates a disconnected graph with 2n nodes, one at the beginning and end of each clip.
+Background	However, move trees are created manually — short motion clips are collected in carefully scripted capture sessions and blends are created by hand using interactive tools.
+Approach	Hence we focus instead on local search methods that try to find a satisfactory graph walk within a reasonable amount of time.
+Approach	For example, the user may decide that within a particular window of time a graph walk may only contain “sneaking” edges.
+Approach	This process continues until a complete graph walk is generated.
+Approach	A trivial motion graph can be created by placing all the initial clips from the database as arcs in the graph.
+Approach	The weights w i may be chosen both to assign more importance to certain joints (e.g., those with constraints) and to taper off towards the end of the window.
+Background	Also, these systems were mainly concerned with appropriately generating individual transitions, whereas we address the problem of generating entire motions (with many transitions) that meet user-specified criteria.
+Background	The user could create motion by selecting keyframe poses, which were connected with a highprobability sequence of states.
+Approach	To maintain continuity we choose the blend weights α (p) according to the conditions that α (p) = 1 for p ≤ −1, α (p) = 0 for p ≥ k, and that α (p) has C 1 continuity everywhere.
+Approach	The first edges on these paths are then stored for later use; they are the best edges to follow given the direction the character is supposed to travel in.
+Approach	Compute the strongly connected components (SCCs) of this subgraph, where an SCC is a maximal set of nodes such that there is a connecting graph walk for any ordered pair of nodes (u, v).
+Approach	Every frame of original data is associated with a (possibly empty) set of labels.
+Outcome	Motion graphs may be used as a practical tool for crowd generation.
+Approach	While we have not encountered this particular problem in practice, it can be countered by requiring at least a small amount of forward progress γ on each frame.
+Outcome	For the walking motion, the total computation time was nearly the same as the length of the generated animation (58.1 seconds of calculation for 54.9 seconds animation).
+Approach	In its current state there are no guarantees that the graph can synthesize motion indefinitely, since there may be nodes (called dead ends) that are not part of any cycle (see Figure 4 ).
+Background	However, while motion capture is a reliable way of acquiring realistic human motion, by itself it is a technique for reproducing motion.
+Approach	For example, while a random graph walk will generate a continuous stream of motion, such an algorithm has little use other than an elaborate screen saver.
+Background	Li et al [2002] generated a two-level statistical model of motion.
+Approach	We retain the first m frames of this graph walk and use the final retained node as a starting point for another search.
+Approach	Branch and bound is most successful when we can attain a tight lower bound early in the search process.
+Outcome	Hence the branching factor in a particular subgraph will remain stationary once that subgraph is sufficiently large.
+Background	These segments were attached using linear interpolation.
+Approach	For this reason we term this process “highlevel” keyframing — the user generates an animation based on what should be happening and where.
+Background	Lee [2000] defined orientation filters that allowed these blending operations to be performed on rotational data in a more principled fashion.
+Approach	Characteristic movements of the original data like sharp turns were automatically used when appropriate, as seen in Figure 1 .
+Challenge	Motion capture data has proven to be difficult to modify, and editing techniques are reliable only for small changes to a motion.
+Background	One common solution to this problem is motion capture.
+Background	Transition probabilities between states were used to drive motion synthesis.
+Challenge	This in particular is a problem for applications that require motion to be synthesized dynamically, such as interactive environments.
+Outcome	While we believe this was sufficient to show the potential of our method, a character with a truly diverse set of actions might require hundreds or thousands of times more data.
+Approach	This mesh is all that is seen, and hence it is a natural focus when considering how close two frames of animation are to each other.
+Approach	The size of the   windows are the same as the length of the transitions, so D( i , ¡ j ) is affected by every pair of frames that form the transition.
+Approach	That is, each point cloud is the composition of smaller point clouds representing the pose at each frame in the window.
+Approach	Say there are n unique sets.
+Approach	One simple heuristic is to order the children greedily — that is, given a set of unexplored children c 1 , . . . , c n , we search the one that minimizes g(w, c i ).
+Approach	However, every graph walk is automatically annotated with constraint information (such as that the foot must be planted).
+Background	Bowden [2000], Galata et al. [2001], and Brand and Hertzmann [2000] all processed motion capture data by constructing abstract “states” which each represent entire sets of poses.
+Approach	Once such a node is entered there is a bound on how much additional motion can be generated.
+Approach	A naıve solution is to use depth-first search to evaluate f for all complete graph walks and then select the best one.
+Outcome	The martial arts motion is 87.7 seconds long and required just 15.0 seconds of computation.
+Approach	In a typical animation, a polygonal mesh is deformed according to the skeleton’s pose.
+Approach	The SCCs can be computed in O(V + E) time using an algorithm due to Tarjan.
+Approach	Second, the goal is probably more specific than necessary.
+Background	This model was used both to generate new motion based on user keyframes and to edit existing motion.
+Approach	We are now in a position to consider the problem of finding motion that satisfies user-specified requirements.
+Challenge	On the other hand, most people are less familiar with ballet motions and would be less likely to detect inaccuracies in such motion.
+Approach	By introducing nodes within the initial clips and inserting transition clips between otherwise disconnected nodes, we can create a wellconnected structure with a wide range of possible graph walks (see Figure 2 ).
+Approach	This process may then be repeated.
+Approach	However, often users will want to set the threshold themselves to pick an acceptable tradeoff between having good transitions (low threshold) and having high connectivity (high threshold).
+Approach	Smooth blends require more information than can be obtained at individual frames.
+Approach	For example, a character currently in a “boxing” motion may have no choice but to transition to a “ballet” motion.
+Approach	This is less useful than it might appear at first.
+Approach	However, for complicated metrics there is typically no simple way of finding the globally optimal graph walk.
+Approach	Also, the user may define a threshold error ε such that if f (w) < ε , then w is considered to be “good enough” and the search is halted.
+Background	Since writing this paper, we have learned of similar work done concurrently by a number of research groups.
+Approach	This example used a database of approximately 6000 frames (200 seconds).
+Outcome	In our experience the necessary amount of storage is approximately proportional to the size of the database.
+Approach	For example, a sharp turn will not cover distance at the same rate as walking straight forward.
+Approach	The i th frame of the graph walk, w i , is at some arc length s(w i ) from the start of P .
+Background	Many companies use move trees [Mizuguchi et al. 2001], which (like motion graphs) are graph structures representing connections in a database of motion.
+FutureWork	This would add flexibility to the search process and potentially allow generated motion to better satisfy user constraints.
+Approach	We were donated 78.5 seconds of motion capture, or about 2400 frames of animation, of a performer randomly walking around with both sharp and smooth turns.
+Challenge	Our goal is to retain the realism of motion capture while also giving a user the ability to control and direct a character.
+Outcome	To make this practical, we can precompute for every node in the graph a sequence of graph walks that fit straight-line paths in a sampling of directions (0 degrees, 30 degrees, .
+Approach	Since the transitions were about one-third of a second apiece, this means there were on average only five or six transitions separating any two of the thousands of nodes.
+Background	While techniques such as these can generate flexible motion paths, the current range of movement styles is limited.
+Approach	In our work we used the method described in [Kovar et al. 2002].
+Background	Also, these methods do not produce the quality of motion attainable by hand animation or motion capture.
+Approach	Sometimes it is useful to have a degree of randomness in the search process, such as when one is animating a crowd.
+Outcome	Note the tradeoff here — guiding the search toward a particular result must be balanced against unduly preventing it from considering all available options.
+Approach	Imagine, for example, creating a transition between a run and a backflip.
+Approach	Our work considers more general and sophisticated sets of constraints.
+Approach	To address this we use a branch and bound strategy to cull branches of the search that are incapable of yielding a minimum.
+Approach	More exactly, we can replace in Equation 9 the function s(e i ) with t(e i ) = max(t(e i−1 ) + s(e i ) − s(e i−1 ),t(e i−1 ) + γ ).
+Approach	That is, the motion is fundamentally unchanged if we translate it along the floor plane or rotate it about the vertical axis.
+Approach	Hence comparing two motions requires identifying compatible coordinate systems.
+Approach	The simplest approach is to only accept local minima below an empirically determined threshold.
+Approach	While arbitrarily long motion may still be generated once a sink is entered, this motion is confined to a small part of the database.
+Approach	What one will receive is a motion like in Figure 5 , where the initial clip is a walking motion and the final clip is a kick.
+Approach	In our implementation we used values of n from 80 to 120 frames (2 3 2 to 4 seconds) and m from 25 to 30 frames (about one second).
+Background	Lee et al. [2002] also constructed a graph and generated motion via three user interfaces: a list of choices, a sketch-based interface similar to what we use for path fitting (Section 5), and a live video feed.
+FutureWork	Finally, we are interested in applying motion graphs to problems other than path synthesis.
+Approach	The first edge on the resulting graph walk is the next clip that will be played.
+Approach	Note that we only allow this switch to occur once on any given graph walk, which prevents the resulting motion from randomly switching between the two actions.
+Approach	For each set, form the subgraph consisting of all edges whose frames have exactly this set of labels.
+Outcome	For example, a standard collision-avoidance algorithm could be used to generate a path for each individual, and the motion graph could then generate motion that conforms to this path.
+Approach	The first step is to apply the appropriate aligning 2D transformation to motion .
+Approach	The start of the graph walk may either be specified by the user or chosen at random.
+Outcome	In this paper we have presented a framework for generating realistic, controllable motion through a database of motion capture.
+Approach	In either case, the user may wish to adjust the transition thresholds (Section 3.2) to give the graph greater connectivity.
+Background	Numerous other researchers have pursued similar strategies.
+Approach	Specifically, in the joint angle representation some parameters have a much greater overall effect on the character than others (e.g., hip orientation vs. wrist orientation).
+Outcome	The character turns around in place several times in an attempt to better line up with the target clip.
+Background	These works have a focus complementary to ours: while they are mainly concerned with generating parameterizations of individual clips, we are concerned with constructing controllable sequences of clips.
+Approach	The motion graph is a directed graph wherein edges contain either pieces of original motion data or automatically generated transitions.
+Approach	If an AI algorithm is used to determine that a character must travel along a certain path or start performing certain actions, the motion graph may be used to “dump” motion on top of the algorithm’s result.
+Outcome	We present a general framework for extracting particular graph walks that meet a user’s specifications.
+Approach	This is dangerous since logical discontinuities may be forced into a motion.
+Approach	These constraints are either specified directly in the original motions or generated as in Section 3.3, depending on whether the frame is original data or a transition.
+Approach	Second, the character is given incentive to make definite progress along the path.
+Approach	Second, there is no control over what happens during the graph walk — we can’t specify what direction the character travels in or where she ends up.
+Approach	For this reason we generate a graph walk incrementally.
+Outcome	This requires comparing every pair of the F frames in the database and therefore involves O(F 2 ) operations.
+Approach	This corresponds to confining the search to the subgraph containing the appropriate set of descriptive labels.
+Approach	In the first section of each path the character is required to walk, in the second it must sneak, and in the third it is to perform martial arts moves.
+Approach	With this in hand we could, for example, generate the motion that connects one clip to another as quickly as possible.
+Approach	Since the motion extracted from the graph is determined by the function g, it is worth considering what sorts of functions are likely to produce desirable results.
+Approach	Other nodes (called sinks) may be part of one or more cycles but nonetheless only be able to reach a small fraction of the total number of nodes in the graph.
+Approach	By labelling these frames as special, we were able to specify that at certain points along the path the character must only use sneaking movements, and at other parts of the motion it must use normal walking motions, as is also shown in Figure 1 .
+Approach	Nodes serve as choice points connecting these clips, i.e., each outgoing edge is potentially the successor to any incoming edge.
+Approach	First, it gives no guidance as to what should be done in the middle of the motion; all that matters is that the final clip be in the right position and orientation.
+Approach	All examples were computed on a 1.3GHz Athlon.
+Approach	A motion graph is a directed graph where all edges correspond to clips of motion.
+Approach	Since the motion was donated, we did not carefully plan out each movement, as the literature suggests is critical to successful application of motion capture data [Washburn 2001].
+Outcome	This allows us to generate complex animations without the tedium of manual keyframing.
+Background	Another popular approach to motion synthesis is to construct statistical models.
+Approach	To make our transition model more compact, we find all the local minima of this error function, thereby extracting the “sweet spots” at which transitions are locally the most opportune.
+Approach	If not, we continue to only consider edges of type T 1 .
+Approach	To motivate it, we note that the skeleton is only a means to an end.
+Approach	These local minima are our candidate transition points.
+Outcome	For example, when the user hits the left arrow key the character might start travelling east.
+Approach	A simple way to determine P is to project the root onto the floor at each frame, forming a piecewise linear curve 1 .
+Approach	One potential problem with this metric is that a character who stands still will never have an incentive to move forward, as it can accrue zero error by remaining in place.
+Challenge	For example, we would like to be able to ask a character to walk around a room without worrying about having a piece of motion data that contains the correct number of steps and travels in the right directions.
+Approach	To stretch this data further, we created a mirror-image motion and then built a motion graph out of the two.
+Approach	It is possible to place additional constraints on the desired motion.
+Approach	Our algorithm involves solving an optimization problem, and so we conclude this section with some general recommendations on how to pose the optimization.
+Approach	At each step we use branch and bound to find an optimal graph walk of n frames.
+Approach	A graph walk satisfying the halting condition is called complete.
+Approach	For a node to have multiple outgoing edges, there must be multiple clips that can follow the clip(s) leading into the node.
+Approach	This problem is simple to state: given a path P specified by the user, generate motion such that the character travels along P. In this section we present our algorithm for path synthesis, present results, and discuss applications of the technique.
+Approach	More generally, the sorts of motions that a user is likely to be interested in probably don’t involve minimizing metrics as simple as total elapsed time.
+Approach	More interestingly, one can require different types of motion on different parts of the path.
+Background	Pullen and Bregler [2000] used kernel-based probability distributions to synthesize new motion based on the statistical properties of example motion.
+Approach	We eliminate from this subgraph (and hence the original motion graph) any edge that does not attach two nodes in the largest SCC.
+Background	Molina-Tanco and Hilton [2000] used a state-based statistical model similar to those mentioned in the previous paragraph to rearrange segments of original motion data.
+Approach	We require g(w, e) to be nonnegative, which means that we can never decrease the total error by adding more edges to a graph walk.
+Background	Pullen and Bregler [2002] keyframed a subset of a character’s degrees of freedom and matched small segments of this keyframed animation with the lower frequency bands of motion data.
+Outcome	Second, g should be no more restrictive than necessary, in order to give the search algorithm more goals to seek.
+Background	Arikan and Forsythe [2002] constructed from a motion database a hierarchical graph similar to ours and used a randomized search algorithm to extract motion that meets user constraints.
+Approach	Different kinds of motions have different fidelity requirements.
+Approach	Once this process is completed for all n label sets, any nodes with no edges are discarded.
+Approach	As we had limited access to data, our largest examples used a database of several thousand frames of motion.
+Approach	This can be done without user intervention.
+Approach	As noted in Section 3.3, the use of linear blends to create transitions can cause artifacts, the most common of which is feet that slide when they ought to be planted.
+Approach	That is, given a suitable metric — say, time elapsed or distance travelled — we can use standard graph algorithms like Floyd-Warshall to find for each pair of nodes u and v the connecting graph walk that minimizes the metric.
+Approach	On the other hand, if two motions are “close” to each other then simple blending techniques can reliably generate a transition.
+Approach	The only issue is to place each piece in the correct location and orientation.
+Approach	A more interesting graph requires greater connectivity.
+Outcome	The first example uses walking motions and the second uses martial arts motions; the latter demonstrates that our approach works even on motions that are not obviously locomotion.
+Approach	Since our system involves motion capture data, rather than procedural or physically based motion, we require different approaches to identifying and generating transitions.
+Background	Realistic human motion is an important part of media like video games and movies.
+Outcome	Hence motion graphs may be used as a back-end for animating non-player characters in video games and interactive environments — the paths and action types can be specified by a high-level process and the motion graph would fill in the details.
+Approach	These constraints may be satisfied using a variety of methods, such as [Gleicher 1998] or [Lee and Shin 1999].
+Approach	This means the character is allowed to do whatever is possible in order to make the final fit, even if the motion is nothing that a real person would do.
+Approach	The necessary modifications to accomplish this are simple.
+Approach	Finally, this metric allows the character to travel at whatever speed is appropriate for what needs to be done.
+Approach	We treat constraints as binary signals: on a given frame a particular constraint either exists or it does not.
+Outcome	For our largest graph (about 6000 frames), approximately twenty-five minutes were needed to compute the locations of all candidate transitions points.
+Approach	Both clips must end up in the specified position and orientation.
+Approach	Also, a warning is given if for any ordered pair of SCCs there is no way to transition from the first to the second.
+Approach	This is not because the graphs were poorly connected.
+Approach	As a result, we allow a user to apply different thresholds to different pairs of motions; transitions among ballet motions may have a higher acceptance threshold than transitions among walking motions.
+Approach	If it doesn’t matter what kick the character does, then it should be allowed to choose a kick that doesn’t require such effort to aim.
+Outcome	However, our algorithm is still useful when the input database is not as rich.
+Challenge	This limits the utility of motion capture  if the data on hand isn’t sufficiently similar to what is desired, then often there is little that can be done other than acquire more data, a time-consuming and expensive process.
+Background	Moreover, these systems did not focus on the satisfaction of high-level constraints.
+Approach	Our basic approach — detecting transitions, constructing a graph, and using graph search techniques to find sequences satisfying user demands — has been applied previously to other problems.
+Approach	We have cast motion extraction as an optimization problem, and we have given some reasons why the formulation of this optimization can be difficult.
+Approach	Unfortunately, creating transitions is a hard animation problem.
+Outcome	This paper presents a method for synthesizing streams of motions based on a corpus of captured movement while preserving the quality of the original data.
+Approach	Transitions are clips designed such that they can seamlessly connect two segments of original data.
+Background	Lamouret and van de Panne [1996] developed a system that used a database to extract motion meeting high-level constraints.
+Approach	For example, we noticed that part of the motion had the character sneaking around.
+Background	While Gleicher [2001] presented a method for editing the path traversed in a clip of motion capture, it did not address the need for continuous streams of motion, nor could it choose which clip is correct to fit a path (e.g. that a turning motion is better when we have a curved path).
+Outcome	The number of edges leaving a node in general grows with the size of the graph, meaning the branching factor in our search algorithm may grow as well.
+FutureWork	One limitation of our approach is that the transition thresholds must be specified by hand, since (as discussed in Section 3.2) different kinds of motions have different fidelity requirements.
+Approach	Descriptive labels attached to the motions are carried along into transitions.
+Approach	For this reason we measure the distance between two frames of animation in terms of a point cloud driven by the skeleton.
+Approach	Motion graphs transform the motion synthesis problem into one of selecting sequences of nodes, or graph walks.
+Background	Also, move trees are typically geared for rudimentary motion planning (“I want to turn left, so I should follow this transition”), as opposed to more complicated objectives.
+Approach	We generate motion by piecing together example motions from a database.
+Challenge	We now present our framework for extracting graph walks that conform to a user’s specifications.
+Background	Early work in this area was done by Perlin [1995], who presented a simple method for smoothly interpolating between two clips to create a blend.
+Approach	To accomplish this, we can use the path fitting algorithm to find the sequence of edges starting from our current location on the graph that best allow the character to travel east.
+Background	Other transition schemes, such as [Rose et al. 1996], may be used in place of this one.
+Approach	Since g(w, e) by assumption never decreases, f (w) is a lower bound on f (w + v) for any v, where w + v is the graph walk composed of v appended to w.
+Approach	We are specifically interested in local minima with small error values.
+FutureWork	Setting thresholds in databases involving many different kinds of motions may be overly laborious, and so we are investigating methods for automating this process.
+Approach	In addition to f and g, the user must also supply a halting condition indicating when no additional edges should be added to a graph walk.
+Approach	This is done as follows.
+Outcome	We then show how this framework can be applied to the specific problem of generating different styles of locomotion along arbitrary paths.
+Approach	To demonstrate the potential of our approach, we introduce a simple example.
+Approach	For the j th frame of e, we calculate the squared distance between P (s(e j )) and P(s(e j )).
+Approach	To calculate the distance D( i , ¡ j ) between two frames i and ¡ j , we consider the point clouds formed over two windows of frames of user-defined length k, one bordered at the beginning by   i and the other bordered at the end by ¡ j .
+Approach	Similarly, an initial clip can be broken into two clips by inserting a node, since the later part of the motion is a valid successor to the earlier part (see Figure 2 ).
+Approach	To understand the issues involved, we consider a simple example.
+Outcome	From these we were able to construct the new motions shown at the bottom of the figure, both of which are themselves approximately 13 seconds in length.
+Background	Faloutsos et al. [2001] used support vector machines to create motion sequences as compositions of actions generated from a set of physically based controllers.
+Approach	The first is to select a start for the search at random.
+Approach	While it’s conceivable that given a larger database we would have found a better motion, the problem here is with the function we passed into the search algorithm.
+Approach	The use of linear blends means that constraints in the original motion may be violated.
+Approach	In our larger test graphs (between a few and several thousand nodes) the average shortest path between any two nodes was on the order of two seconds.
+Approach	Our similarity metric incorporates each of these considerations.
+Outcome	Hence the scalability of our framework bears discussion.
+Outcome	Our main application of motion graphs is to control a character’s locomotion.
+Approach	We define the corresponding point on P as the point at the same arc length, P(s(w i )).
+Approach	Then on frame p of the transition ¡ (0 ≤ p < k) we linearly interpolate the root positions and perform spherical linear interpolation on joint rotations:
+Approach	Given a set of motion capture data, we compile a structure called a motion graph that encodes how the captured clips may be re-assembled in different ways.
+Approach	By this stage we have finished constructing the motion graph.
+Background	Much previous work with motion capture has revolved around editing individual clips of motion.
+Approach	The second is retain the r best graph walks at the end of each iteration of the search and randomly pick among the ones whose error is within some tolerance of the best solution.
+Background	This resulted in sequences of short clips forming complete motions.
+Approach	Because our methods automatically detect and create transitions between motions, users needn’t capture motions specifically designed to connect to one another.
+Outcome	Both motion graphs had approximately 3000 frames (100 seconds) of animation.
+Background	Perlin [1995] and Perlin and Goldberg [1996] used a rulebased system and simple blends to attach procedurally generated motion into coherent streams.
+Approach	In light of this, our strategy is to identify portions of the initial clips that are sufficiently similar that straightforward blending is almost certain to produce valid transitions.
+Approach	A warning is given to the user if the largest SCC for a given set of labels contains below a threshold number of frames.
+Approach	If desired, the user can tune the high-level structure of the motion graph to produce desired degrees of connectivity among different parts.
+Approach	To address the problem of finding coordinate systems for these point clouds (item 2 in the above list), we calculate the minimal weighted sum of squared distances given that an arbitrary rigid 2D transformation may be applied to the second point cloud:
+Outcome	However, this calculation is trivial to parallelize, and distances between old frames needn’t be recomputed if additions are made to the database.
+Approach	There are a couple of easy ways to add randomness to the search process without sacrificing a good result.
+Approach	If we want a character to perform certain actions in a specific sequence and in specific locations, we can draw a path with subsections requiring the appropriate action types.
+Approach	Simple vector norms fail to account for the meanings of the parameters.
+Background	Since these statistical models synthesize motion based on abstractions of data rather than actual data, they risk losing important detail.
+Approach	Since both actions are equally important for accurate path synthesis, it is important that one not be given undue preference over the other.
+Approach	Whenever we exit a transition edge, the current transformation is multiplied by the transformation that aligned the pieces of motion connected by the transition (Section 3.1).
+Outcome	We have applied our framework to the problem of path synthesis.
+Approach	Motion can be generated simply by building walks on the graph.
+FutureWork	A second area of future work is to incorporate parameterizable motions [Wiley and Hahn 1997; Rose et al. 1998] into our system, rather than having every node correspond to a static piece of motion.
+Approach	The nodes then serve as choice points where these small bits of motion join seamlessly.
+Background	Rose et al. [1996] presented a more complex method for creating transitions that preserved kinematic constraints and basic dynamic properties.
+Background	Motion warping [Witkin and Popović 1995] can be used to smoothly add small changes to a motion.
+Outcome	Moreover, we can use the techniques described at the end of Section 4.2 to add randomness to the generated motion.
+Approach	The user supplies a scalar function g(w, e) that evaluates the additional error accrued by appending an edge e to the existing path w, which may be the empty path 0.
+Approach	While branch and bound reduces the number of graph walks we have to test against f , it does not change the fact that the search process is inherently exponential — it merely lowers the effective branching factor.
+Approach	For example, one might want the character to walk along the first half of the path and sneak down the rest.
+Approach	If the character is currently fitting P 2 , then the algorithm is identical to the single-type case.
+Approach	To give the user control over what sorts of motions should be considered in the search, we allow restrictions on what edges may be appended to a given walk w.
+Outcome	It is the exception rather than the rule that two pieces of motion are sufficiently similar that a transition is possible, and hence motion graphs tend to be sparse.
+Approach	After describing exactly how a graph walk can be converted into displayable motion, we will consider the general problem of extracting motion that satisfies user constraints.
+Approach	Given a corpus of motion capture data, we automatically construct a directed graph called a motion graph that encapsulates connections among the database.
+Approach	Finally, some nodes may have incoming edges such that no outgoing edges contain the same set of descriptive labels.
+Background	Wiley and Hahn [1997] used linear interpolation to create parameterizations of walking at various inclinations and reaching to various locations.
+Approach	Hence the problem of automatically creating such a transition is arguably as difficult as that of creating realistic motion in the first place.
+Approach	Since every edge on the motion graph is a piece of motion, a graph walk corresponds to a motion generated by placing these pieces one after another.
+Approach	Blending these signals in analogy to equations 5   and 6 amounts to using the constraints from in the first half of the transition and the constraints from in the second half.
+Outcome	Approximately five minutes of user time were required to select transition thresholds, and it took less than a minute to calculate blends at these transitions and prune the resulting graph.
+Approach	A clip of motion is defined as a regular sampling of the character’s parameters, which consist of the position of the root joint and quaternions representing the orientations of each joint.
+Outcome	In general, in our test cases the duration of a generated motion was either greater than or approximately equal to the amount of time needed to produce it.
+Approach	By drawing upon algorithms from graph theory and AI planning, we can extract graph walks that satisfy certain properties, thereby giving us control over the synthesized motions.
+Background	Retargeting [Gleicher 1998; Lee and Shin 1999] maps the motion of a performer to a character of different proportions while retaining important constraints like footplants.
+Background	At the lower level were linear dynamic systems representing characteristic movements called “textons”, and the higher level contained transition probabilities among textons.
+Approach	To address these problems, we prune the graph such that, starting from any edge, it is possible to generate arbitrarily long streams of motion of the same type such that as much of the database as possible is used.
+Approach	Thus we can keep track of the current best complete graph walk w opt and immediately halt any branch of the search for which the graph walk’s error exceeds f (w opt ).
+Approach	Specifically, if a transition frame is a blend between a frame with a set of labels L 1 and another frame with a set of labels L 2 , then it has the union of these labels L 1 ∪ L 2 .
+Approach	In this ¡ manner each transition is automatically annotated with constraint information, and these constraints may later be enforced as a postprocessing step when motion is extracted form the graph.
+Approach	The use of windows of frames effectively incorporates derivative information into the metric, and is similar to the approach in [Schödl et al. 2000].
+Approach	First, it is efficient to compute, which is important in making the search algorithm practical.
+Outcome	While our discussion so far has focused on a single character, there’s no reason why it couldn’t be applied to several characters in parallel.
+Approach	Imagine we want to lay down two clips on the floor and create a motion that starts at the first clip and ends at the second.
+Approach	It is worth first noting that only very special graph walks are likely to be useful.
+
+Approach	As has been discussed in multiple collisions of rigid bodies, we can think of two ways to solve this multiple cloth collision problem.
+Background	Originally a zone of impact (IZ) is an area where multiple self-collisions occur [ 12 ].
+Approach	So to solve deformable N-body collision resolutions, we propose a new collision resolution method, which groups cloth particles into parts and resolves collisions between parts using the law of momentum conservation.
+Approach	This happens when objects do not move fast enough to penetrate objects outside an IZ, but just fast enough to make the result of collision resolutions penetrate the proximity region of objects outside the IZ.
+Outcome	We propose our cloth collision resolution method which resolves simultaneous collisions while ensuring conservation of momentum as accurately as possible.
+Approach	To have the proper average direction, the CC face normals, N 1 and N 2 , have to be properly signed as N 1 N 2 0 .
+Approach	We find the feasible solution of the linear inequality system, while trying to minimize the energy we introduce into the simulation artificially.
+Approach	Our cloth system is particle-based, as many systems are in other cloth research groups [ 14 , 6 , 12 , 3 ].
+Approach	After resolving these cloth-cloth collisions, we take care of cloth collisions against rigid bodies so that the resolutions against rigid bodies will be done on top of the result of self-collision resolutions.
+Outcome	We present a new collision resolution scheme for cloth collisions.
+Background	Volino et. al. [ 15 ] applied the conjugate gradient method to find the actual particles’ positions where a group of particles are colliding into each other.
+Approach	Hence we divide one CC into parts so that we can find proper collision responses within these parts.
+Approach	This approach serves us well empirically.
+Approach	This whole process is not only computationally expensive but also we have to consider the possibility that the resolution of a collision can create new multiple collisions, which we have to employ another strategy to resolve.
+Approach	So we save all detected collisions in a data structure, i.e. a set of zones of impact [ 12 ] during the collision detection phase.
+Approach	The system of equalities is based on the scheme adapted from the simultaneous resolution method for rigid N-body collisions proposed by Baraff [ 1 ].
+Approach	The staggered collision approach gives us a more physically correct solution than the other.
+Approach	However we can resolve this case by maintaining the barycentric relationship between cloth surfaces and the newly introduced colliding entities.
+Approach	If an IZ has both moving and fixed rigid CCs along with cloth CCs, collision resolutions against rigid bodies are done based on the proximities of particles to the rigid CCs.
+Approach	To our relief, this case appears to be very rare.
+Approach	After we handle each IZ separately, we check whether any new collisions between IZs are introduced by collision resolutions, and handle them if there are any.
+Approach	In the case of the two billiard ball collision, the collision direction is computed by connecting the two ball centers of mass.
+Approach	Connecting these old and new positions of all particles in a face gives us a volume.
+Approach	The system of inequalities with an objective function can be solved using a Linear Programming Method.
+Approach	We call a visitable subset area of an IZ a collision cluster (CC).
+Outcome	Hence with the help of the law of N-body momentum conservation, we found the results of our resolutions are visually acceptable.
+Approach	When two or more such CCs are found, these CCs are merged into one CC connected by .
+Approach	When we have collisions of three or more CCs in an IZ, it is not straightforward to resolve the collisions.
+Approach	An area A is called visitable when, for all particles P 2 A , P can be encountered by traversing from any other particle in A using edges in A .
+Approach	We do not want to handle closely located CCs separately since it might instantly introduce instabilities to the system by allowing closely located CCs to have different velocities.
+Approach	After we resolve it, we march the time step until we find the next collision.
+Approach	An interesting case is where the faces are not actually intersecting but two swept volumes report a intersection anyway.
+Approach	All stored detected collisions will be resolved comprehensively by the rule described in the next section.
+Background	Provot’s method is easy to implement but it cannot give proper visual effect of collisions since we cannot get dynamic interactions between particles once the particles collide into each other.
+Approach	After merging, we still possibly have more than two CCs.
+Background	Collision handling in Computer Graphics has two phases.
+Background	A swept volume is a volume made by two sets of positional entities of a face one at time t and one at time t + t .
+Approach	We use this swept volume approach for cloth and the dynamic rigid body alike, but for the non-moving rigid body only the surface faces are used for collision detection.
+Approach	This merger is performed to prevent undesirable collision resolution.
+Approach	Furthermore, particles separating from the rigid bodies are also ignored.
+Background	For this reason, several approaches have tried to expedite the collision detection processes [ 16 , 3 ].
+Approach	Where N face is the normal of a rigid face, V is a particle velocity, V normal and V tangential are the normal and tangential components of V with respect to the rigid face, particles are considered separating if V normal N face 0 .
+Approach	For some cases, an IZ has only one CC (for example, in the case of extreme bending).
+Approach	This inequality relationship between the relative velocities before and after collision is an artificial relationship set up heuristically, not based on physics.
+Approach	If the rigid CCs in an IZ are all moving, we handle particles as a bundle as long as particles are in the vicinity of moving rigid CCs.
+Approach	An area A is called separable when, for all faces 2 A , does not collide with any face in A .
+Background	Having this characteristic is visually distinctive when cloth surfaces are moving fast and interact with each other.
+Approach	We find the x and the velocity V rigid of a moving rigid CC, where V rigid is defined as the translational velocity of the center of mass of the moving rigid CC.
+Background	This scheme works fine for cloth-rigid collisions and for the special case of cloth-cloth collisions where the dynamic interactions between cloth surfaces in cloth-cloth collisions do not have to be noticeable.
+Approach	Collisions between rigid bodies (rigid-rigid) have to be handled independently from cloth collisions.
+Approach	When CC bodies are considered as vertices, an edge exists between two vertices where the bodies represented by those two vertices collide.
+Approach	This sequence of resolutions is chosen to avoid the case where self-collisions are ignored while collisions against rigid bodies are handled.
+Approach	The face normal of a CC is the average normal of all faces in the CC.
+Background	One is to detect collisions and the other is to resolve collisions.
+Background	Though this physical inaccuracy has been an inherent problem of simultaneous collision resolutions, it appears to give graphically agreeable results.
+Approach	A system of linear equations is built using a scheme adapted from the simultaneous resolution method for rigid N-body collisions [ 1 ].
+Approach	Since we pre-processed a single CC IZ previously, we assume an IZ always has two or more CCs.
+Approach	However, there is an exception.
+Background	Collision resolution is to find the correct next positions and velocities of colliding objects.
+Background	Adjusting particle orientations after collision resolution as suggested by [ 14 ] to sustain the geometrical consistency of colliding faces also does not warrant reasonable dynamic movements of cloth-cloth collisions.
+Approach	In addition to the substantial computational expense and complexity, the visual advantage of those staggered methods is not considered significant compared to that of the simultaneous collision method.
+Approach	When a face-face collision is detected, the entities of each colliding face (the particle and the edges of , and itself) are inserted into a CC, where the CC can be encountered by traversing from the particles in using only edges in .
+Background	By preserving barycentric relationships of collision entities, their method resolves collisions where numerous cloth surfaces are colliding together as a group, which is a novel way to resolve multiple collisions at once.
+Background	This problem can be negligible when the integration time step is very small, so we rarely have those pass-through cases.
+Approach	If we find CCs from rigid bodies in an IZ, we extract them temporarily from the IZ so that only cloth-cloth collisions remain in the IZ.
+Approach	For the special case where we observe cyclic collisions in an IZ, we build a system of linear inequalities based on the collision rela- tionships between grouped particle parts.
+Approach	We call the resultant graph a collision graph.
+Challenge	But they are not directly applicable for deformable N-body collision resolutions, which is the case cloth requires.
+Background	So far, however, no cloth collision resolution method which considers cloth-cloth momentum conservation has been introduced, while we cannot achieve realistic cloth interactions in cloth animation without conserving cloth-cloth momentums.
+Approach	When there is no such CC, becomes a CC.
+Background	Another method for cloth-cloth collisions has been proposed by Provot [ 12 ], which resolves collisions by giving an average velocity to all the particles of collisions.
+Approach	Apparently, in the worst case, this involves repetitious processes as we may introduce other new collisions when we resolve the current collisions.
+Approach	Though this case is not an actual collision, it happens only when two faces are very close.
+Approach	If the rigid CCs in an IZ are all fixed, we handle particles in that IZ individually.
+Background	Cloth-cloth collision resolution is a special case of deformable N-body collision resolution.
+Approach	Collision direction is a direction to which two CCs collide into each other.
+Approach	We choose the collision direction to be the average direction of the two face normals of colliding CCs.
+Approach	We extend Provot’s definition of an IZ to an area where collisions happen, including collisions against bodies and self-collisions.
+Approach	In addition, we add proximity regions to the normal directions of faces of a swept volume to add proximity violation regions.
+Approach	We use classical edge-polygon detection algorithms to detect collisions among swept volumes.
+Approach	An object O is a set of particles, faces, and edges, where faces and edges are defined based on the positions of particles by the rule comprising cloth surface.
+Approach	But in cloth-cloth collisions, connecting two centers of CC masses is not a proper way to decide the collision direction.
+Approach	Since the particles in that CC will stick together after resolution, the movements of cloth would not be natural and satisfactory.
+Background	One way of resolving these multiple collisions is to handle them as staggered collisions [ 11 , 10 ]; the other way is to handle them as simultaneous collisions [ 1 ].
+Approach	When an IZ has only one CC, we cannot handle the particles in that CC as a bundle as usual.
+Approach	Otherwise, the area A is non-visitable.
+Approach	An area A is a subset of O such that all the particles and edges constituting a face in A are members of A .
+Approach	Segmenting one CC into parts is performed by identifying border edges.
+Approach	In the desynchronized staggered collision method, we identify groups of collisions, and redefine the integration front-end by allowing time desynchronization.
+Background	However his original inequality relationships between relative velocities before and after collisions are purely heuristic, which may not be physically correct.
+Approach	The new particle velocity V new is , C e V normal + C f V tangential , where C e is an elastic coefficient and C f is a frictional coefficient.
+Approach	Since the velocities of CCs after collision are computed based on this collision direction, finding the correct collision direction is important to achieve proper visual effect of collisions.
+Approach	We do not want to handle closely located CCs separately except for the case where the bending is significant (CCs are considered to be closely located heuristically when they can be connected using at most two edges which are not members of both CCs).
+Background	Cloth resolution methods so far compute non-penetrating positions, velocities or accelerations of particles [ 14 , 3 , 15 ], which work fine for the collisions against fixed bodies.
+Approach	In the synchronized staggered collision method, we have to find the first collision among multiple collisions.
+Approach	By definition, an IZ is a set of CCs.
+Approach	Hence we resort to the collision report of this case, since we consider this case as a violation of the proximity law.
+Approach	This inequality relationship, first used for rigid body multiple collisions [ 1 ], appears to serve the graphical purpose well.
+Challenge	Using these methods, however, we cannot achieve visually satisfying dynamics of cloth-cloth collisions.
+Approach	A border edge is an edge where we identify a “significant” bending between two faces adjoining in that edge.
+Background	Numerous approaches [ 14 , 12 , 3 , 15 ] have been introduced for cloth collision resolution: the correct next positions and velocities of colliding cloth particles.
+Approach	If CCs are closely located, it means the cloth patches represented by these CCs are closely located.
+Approach	When an IZ has rigid CCs, collision responses are different based on whether rigid CCs are moving or fixed or a mixture of both.
+Approach	The velocity of a CC is defined as the average velocity of all particles in that CC.
+Challenge	Our main concern is to find dynamically convincing resolutions, i.e. positions and velocities of cloth elements, for any kinds of collisions occuring in cloth simulation (cloth-cloth, cloth-rigid, and cloth-cloth-rigid).
+Approach	For the special case where we can find cyclic relationships in collisions, we solve a system of linear inequalities derived from the collision relationships.
+Challenge	Though detected collisions are reported as pairs of face-face, we cannot respond to each collision individually since these individual responses may introduce another new collision or one face may possibly be related to several other collisions.
+Background	In cloth collision detection, the computation time to detect collisions is not negligible because the number of geometrical entities (nodes, faces, edges) the collision detection algorithm has to handle is considerable (over 10,000 particles for regular attire).
+Outcome	To solve deformable N-body collision resolutions, we propose a new collision resolution method which gives a visually reasonable response by ensuring the conservation of N-body momentums.
+Approach	An area A is called colliding when, for all faces 2 A , collides with at least one face in A .
+Approach	Particles are ignored if they are not in the vicinity of a face in fixed rigid CCs, where the size of vicinity is the thickness of cloth.
+Approach	To resolve collisions, we solve a system of linear equations derived from the collision relationships.
+Background	A widely used method for detecting cloth collisions is to put small repellent proximity forces between the cloth surface and the rigid or cloth surface [ 4 , 14 , 3 ] while the actual collisions are tested with pairs of particle-face or face-face of the current positions.
+Approach	Hence the candidates of the CC merger are the CCs closely located, where we do not witness any significant bending between the CCs.
+Background	Handling collisions in an IZ as a bundle, proposed by Provot [ 12 ], also does not give a proper visual effect.
+Background	However it does not conserve the momentum of cloth surfaces in cloth-cloth collisions.
+Approach	The important part of the collision resolution of these multiple CCs is to find the proper directions of collisions.
+Background	The simultaneous collision handling method, proposed by Baraff [ 1 ], resolves multiple rigid body collisions by solving a system of linear inequalities, where the system of linear inequalities is based on the colliding relationships between rigid objects.
+Background	The simultaneous collision approach treats multiple collisions as simultaneous collisions within a time-step.
+Background	The staggered collision approach handles multiple collisions as a series of single collisions [ 11 ] or desynchronized groups of collisions [ 10 ].
+Approach	However a problem arises when collision resolutions of an IZ create new collisions against objects around the IZ.
+Approach	Cloth collision resolutions against rigid CCs will be computed based on the closest rigid CC.
+Approach	Then we solve the whole system using the law of N-body momentum conservation.
+Approach	All our simulations were done on SGI Octane with R10000 CPU and R10010 FPU.
+Approach	When the collision graph of an IZ has a loop, we call the collisions in the IZ cyclic.
+Approach	Since simultaneous resolution does not blindly resolve a collision without considering neighboring collisions within an IZ, we do not introduce any new collisions while resolving a collision.
+Approach	In an IZ, we first check whether it has CCs from rigid bodies.
+Approach	Then we repeat the same procedure.
+Background	For rigid N-body collisions by graphics and robotics groups [ 11 , 1 , 10 , 9 ] and for flexible-rigid collision resolution [ 2 ], several approaches have been suggested.
+Approach	In case we do not find any CCs from rigid bodies, the collisions in that IZ are categorized as cloth-cloth collisions.
+Background	When objects are moving fast, however, these preventive proximity forces cannot prevent collisions since a particle can pass through the proximity violation region during one integration time step.
+Challenge	Cloth-cloth collision resolution is a special case of deformable N-body collision resolution.
+Approach	To resolve collisions, we first divide the colliding particles into parts and build a system of linear equations based on the collision relationships between these parts.
+Approach	We handle a CC as a sphere mass where the diameter of the sphere reflects the minimum proximity region.
+Background	Cloth resolution methods so far have found non-penetrating positions, velocities and accelerations of cloth surface particles [ 14 , 3 , 15 ].
+Approach	For numerical integration, we used the CG method proposed by Baraff [ 3 ].
+Approach	Then the positions of all particles we have to handle will be incremented by x and the velocities of the particles will be updated as V rigid .
+Approach	When an IZ has three or more CCs, we reduce the total number of CCs by merging closely located CCs.
+Approach	If an IZ has CCs from rigid bodies (rigid CCs) along with CCs from cloth (cloth CCs), the collision resolutions against rigid bodies are performed after cloth-cloth collisions are resolved.
+Approach	Bending between CCs is considered significant in the same way as in the case of bending between faces.
+Approach	When we find a significant bending between these closely located CCs, we have to resolve collisions between these CCs by handling them separately.
+Approach	An IZ is a separable colliding area.
+Approach	Our collision resolution method finds appropriate next positions and velocities of particles by conserving the particles’ momentums as accurately as possible.
+Approach	We define our cloth surface as connected faces of mass particles where each particle is controlled by its internal energy functions.
+Background	Any collision happening within an integration time step always can be detected by this swept volume method, unless the motions of faces are highly rotational.
+
+Approach	Consider the ICD timestep, which treats potential forces explicitly 1 : v n+1 = v n − hM −1 ∇V (x n ) + ∇C(x n+1 ) T λ n+1 , x n+1 = x n + hv n+1 , C(x n+1 ) = 0 .
+Approach	Q2 ∇C(x n+1 j ) and ∇C(x n ) T are both full-rank, yet SHAKE fails since ∇C(x n+1 j )M −1 ∇C(x n ) T is singular; FP uses ∇C(x n+1 j )M −1 ∇C(x n+1 j ) T , and ICD uses ∇C(x n+1 j )D∇C(x n+1 j ) T , where D is a symmetric full-rank matrix; in both cases this product is not singular.
+Background	While simple to implement, this approach suffers from poor convergence since each displacement may stretch other incident springs.
+Outcome	Note that there exists considerable difficulty in setting spring coefficients a priori to satisfy a given strain limit.
+Approach	For SHAKE, we use the acceleration suggested in [Barth et al. 1994] to rebuild the matrix once per step or when it fails to converge.
+Approach	In the method we refer to as SAP, we write the projection of the unconstrained point onto the constraint manifold as x n+1 0 + δ x n+1 , so that the projected point extremizes the objective function W ( δ x n+1 , λ n+1 ) = 1 ( δ x n+1 ) T M( δ x n+1 ) + C(x n+1 ) T λ n+1 , 2h 2 with respect to the free variables δ x n+1 and λ n+1 .
+Background	Bridson et al. [2002; 2003] used Provot’s approach in conjunction with strain rate limiting, bounding the rate of change of spring length per timestep to 10% of the current length.
+Outcome	Practically, we observe that this drawback does not cause artifacts in our simulation, for several reasons: first, we execute collision-handling last, to avoid glaring collision artifacts, yet we assert that empirically our strain remains negligible, as required.
+Background	For brevity, we review work on stretch resistance; for broad surveys on cloth simulation see [House and Breen 2000; Choi and Ko 2005].
+Background	Both of these approaches enforce inextensibility only for strain exceeding 10%.
+Approach	Compare a sequence of fast projection iterations to ICD/SAP’s sequence of Newton iterations.
+Challenge	Unfortunately, for many popular cloth solvers, a reduction of permissible stretching is synonymous with degradation in performance: for tractable simulation times one may settle for an unrealistic 10% or more strain (compare 1% and 10%, Figure 1 ).
+Approach	Then the choice ( δ x n+1 ) T M( δ x n+1 ) corresponds to the L 2 norm of the mass-weighted displacement of the mesh as it moves from x 0 n+1 to x n+1 .
+Background	In this light, it is not surprising that for finely-discretized quasi-inextensible fabrics, iterative constraint enforcement requires a prohibitive number of iterations (see §5).
+Outcome	Our method shows asymptotically better performance as permissible strain vanishes (see Figure 4a ).
+Approach	Substituting (5) into (6), we eliminate δ x j+1 and solve a linear system in δ λ j+1 :
+Approach	We use · to denote the Euclidean norm in R 3 .
+Background	Drift may be attenuated using constraint-restoring springs, but the authors reported difficulty in adjusting the spring coefficients.
+Outcome	With Constrained Lagrangian Mechanics as our alternative point of departure, we demonstrate a straightforward filter, with good convergence behavior, for enforcing inextensibility.
+Approach	In §4.3, we develop an approximation to ICD that addresses these drawbacks without sacrificing constraint accuracy or robustness.
+Approach	Define x 0 n+1 =x n +hv n −h 2 M −1 ∇V (x n ), i.e., x n+1 0 is the position at the end of an unconstrained timestep; define δ x n+1 = x n+1 − x 0 n+1 , i.e., δ x n+1 is the correction of the unconstrained step.
+Outcome	We prove that the implicit method’s nonlinear equations correspond to a minimization problem (§4.2): this result motivates a fast projection method for enforcing inextensibility (§4.3).
+Background	Müller et al. [2006] used a non-linear Gauss-Seidel approach to enforce inextensibility on each constraint separately.
+Approach	Given a quadrilateral mesh with n vertices and m edges, the numerical integration algorithm for constrained dynamics can be developed directly from the augmented Lagrange equation [Marsden 1999], L(x, v) = 1 v T Mv −V (x) − C(x) T λ , 2 where x(t) is the time-varying 3n-vector of vertex positions, v(t) = x(t) is its time derivative, M is the 3n × 3n mass matrix, and V (x) is the stored energy (e.g., bending, shear, and gravity).
+Approach	Solving for an ICD step is costly, because there are many unknowns (≈ 5n), and each Newton step requires the solution of an indefinite linear system, whose matrix is costly to assemble.
+Outcome	The velocity filter paradigm enables the design of modular systems with mix-and-match flexibility.
+Outcome	We describe an implementation of fast projection as a simple and efficient velocity filter, as part of a framework that decouples timestepping, inextensibility, and collision passes (§4.4).
+Background	For example, the work of Bergou et al. [2006] assumes inextensibility in order to accelerate bending computation.
+Approach	With this simple formulation of inextensibility constraints in place, what is needed is an efficient method for enforcing constraints.
+Outcome	All CLM methods scale equally well, asymptotically better than the strain limiting approach, with the fast projection being the fastest.
+Approach	Formally, the ( j + 1) th step of fast projection, x j+1 = x j + δ x j+1 , extremizes the objective function        W ( δ x j+1 , δ λ j+1 ) = 2h 1 2 ( δ x j+1 ) T M( δ x j+1 ) + C(x j+1 ) T δ λ j+1 ,        with respect to the step increment, δ x j+1 , and the auxiliary variable δ λ j+1 .
+Background	Since the constituent yarn is often quasi-inextensible, the material’s warp and weft directions do not stretch perceptibly.
+Approach	Take M as the physical mass matrix (usually arising from a finite-basis representation of x and a surface mass density).
+Background	Eberhardt [2000] and Boxerman et al. [2003] adopted implicit-explicit (IMEX) formulations, which treat only a subset of forces implicitly.
+Approach	The setup consists of draping a cloth over a polygonal model of a sphere.
+Approach	Referring to the Corollary, we conclude that fast projection exactly solves C = 0 while it approximates F = 0.
+Outcome	ICD is able to use larger timesteps than SHAKE and still converge, however, since each timestep is substantially more expensive than a SHAKE step, the overall time is higher.
+Background	The most general approach is to treat cloth as an elastic material [Terzopoulos et al. 1987; Breen et al. 1994; Eberhardt et al. 1996; Baraff and Witkin 1998; Choi and Ko 2002].
+Approach	For simulation, we must discretize (3) and (4) in time using one of various schemes, each with benefits and drawbacks.
+Approach	This figure is a reproduction from [Barth et al. 1994], which discusses these drawbacks in SHAKE but does not offer a solution.
+Outcome	This explains why spring methods are often treated with strain-limiting procedures.
+Outcome	In adopting the velocity-filtering viewpoint, we gain speed, simplicity, and software modularity—all key to a practical and maintainable implementation.
+Approach	Q1 SHAKE’s force ∇C(x n ) T λ n+1 cannot reduce the single edge’s length back to l; our force ∇C(x n+1 j ) T λ n+1 can reduce that edge’s length back to l.
+Background	House et al. later encountered difficulties in handling collision response within the proposed framework [2000].
+Background	These works, and many of their sequels, improved performance by allowing some perceptible stretch of the fabric.
+Approach	To verify this claim, we measured F throughout the ballet dancer sequence.
+Approach	With GaussSiedel, we apply a random permutation to reduce bias resulting from the particular edge ordering.
+Background	In the smooth setting, the penalty-force and constraint-based approaches are equivalent in the limit of an infinitely stiff penalty term [Bercovier and Pat 1984].
+Outcome	The first iteration of these methods is identical.
+Outcome	Consequently, the fast projection method easily incorporates with a code’s existing bending, damping, and collision models, to yield accelerated performance (§5).
+Approach	Numerically, for (Q2)–(Q4) this observation manifests as a singular Jacobian in Newton’s method.
+Outcome	Additional fast projection iterations seek C → 0, and since C ∈ O(h 2 ), increments in x are O(h 2 ), therefore F remains in O(h 2 ).
+Approach	Furthermore, under general mesh positions, the constraints are linearly independent, with a full-rank Jacobian treatable by a direct solver (§4).
+Approach	We implement fast projection as a velocity filter, enabling easy integration into our existing cloth simulation system; refer to Algorithm 1.
+Approach	Step 3 requires solving a sparse symmetric positive definite linear system; we use the PARDISO [Schenk and Gärtner 2006] solver.
+Outcome	Likewise, our algorithm exhibits favorable performance as mesh resolution increases (see Figure 4b ).
+Outcome	As recorded in Figure 3 , the first iteration of the fast projection method eliminates first-order error.
+Approach	To implement ICD, we solve for the roots of F and C up to a desired tolerance using Newton’s method.
+Approach	The physical setup consists of a chain pinned at the top node and released to free fall under gravity.
+Background	The Lagrange multiplier approach alleviates the difficulties associated with poor numerical conditioning and artificial damping.
+Approach	Next, eliminate v n+1 by rewriting the above system as two equations, F( δ x n+1 , λ n+1 ) = 0 and C(x n+1 ) = 0, in the free variables δ x n+1 and λ n+1 , keeping in mind that x n+1 is a linear function in δ x n+1 , and defining F( δ x n+1 , λ n+1 ) = δ x n+1 + h 2 M −1 ∇C(x n+1 ) T λ n+1 .
+Approach	We briefly explain why ICD and fast projection (FP) are not troubled by configurations (Q1), (Q2), and (Q4), and are resilient to (Q3).
+Approach	Consider evaluating the constraint direction, −∇C(x) T , at the end of the timestep.
+Background	Bridson et al. observed that iterative strain limiting algorithms behave essentially as Jacobi or Gauss-Seidel solvers.
+Background	Hong et al. [2005] used a linearized implicit formulation in order to improve stability of constrained dynamics.
+Background	We postulate that one reason for their difficulties with drift was consequent to the linearization of the constraint equation, which permitted higher order errors to accumulate over time.
+Approach	The solver builds on a framework of Constrained Lagrangian Mechanics (CLM) [Marsden 1999].
+Approach	Our method is closely related to the IMEX approach, in the sense that stretching forces are singled out for special treatment.
+Approach	Consider for a moment an alternative approach to constrained integration in two steps: (a) step forward only the potential forces to arrive at the unconstrained position, x n+1 0 ; (b) enforce the constraints by projecting onto the constraint manifold M = {x n+1 |C(x n+1 ) = 0}.
+Approach	The term −∇C(x) T λ may be viewed as the constraint-maintaining force, where the factors −∇C(x) T and λ determine the direction and scaling for the force, respectively.
+Outcome	However, this comes at a theoretical cost: there is no longer an efficient way to perfectly enforce both ideal inextensibility and ideal collision handling, since one filter must execute before the other, and both ideals correspond to sharp constraints.
+Challenge	Many textiles do not noticeably stretch under their own weight.
+Outcome	We propose a method to obtain very low strain along the warp and weft direction using Constrained Lagrangian Mechanics and a novel fast projection method.
+Approach	Q3 ICD and FP may fail if ∇C(x n+1 j ) is rank-deficient; for sufficiently small timestep, h, this case is always avoidable.
+Approach	In the case of a quadrangulation, O(n) DOFs remain, and we see that in a flat configuration they correspond to the normal direction at each vertex.
+Background	One important fact is that most fabrics do not stretch under their own weight.
+Outcome	In addition to the direct benefit of fast projection on computation times, further benefits can be reaped from the resulting inextensibility.
+Outcome	The consequent numerical difficulties are then addressed by a combination of (a) relaxing realism by allowing 10% strain, and (b) adopting simple iterative strain and strain-rate algorithms that have poor convergence behavior.
+Outcome	We provide one immediate and pragmatic approach to fast and realistic fabric simulation using CLM, and we hope that it will spur a renaissance of activity along this direction.
+Approach	We observe (and prove in Appendix A) that this resolves (Q1), (Q2) and (Q4); (Q3) remains, but is automatically remedied by decreasing the timestep.
+Outcome	We present numerical evidence supporting the observation that a constraint-based method is inherently well-suited to operate in the quasi-inextensible regime.
+Outcome	Our work alleviates this problem by introducing a numerical solver that excels at timestepping quasi-inextensible surfaces (stretching below 1%).
+Approach	Since shearing modes excite only a mechanical interaction of warp and weft, and not a stretching of yarn, fabric does indeed shear perceptibly.
+Outcome	As a consequence, the algorithm requires extremely small timesteps to converge, but each timestep is relatively inexpensive, as matrix re-assembly and re-factoring is infrequent.
+Approach	We can interpret these roots from the SAP view as follows: C(x n+1 ) = 0 corresponds to finding some point on the constraint manifold.
+Approach	F( δ x n+1 , λ n+1 ) and C(x n+1 ) are the residuals of the discretization of (3) and (4), respectively.
+Approach	Since the linear system matrix involves M −1 , the assembly of this system is most efficient for diagonal (e.g., lumped) mass matrices.
+Outcome	Using 80 vertices and 1% strain, the fast projection method achieves a 25× speedup.
+Outcome	As we refine the resolution, and allow strain of 1% ( Figure 5b ), the fast projection method outperforms the other methods.
+Background	Woven fabrics are not a continuous material, rather they are a complex mechanical network of interleaving yarn [Breen et al. 1994].
+Approach	By building on the velocity-filter paradigm, our method handles both inextensibility and complex collisions.
+Background	Warp and weft, the perpendicular sets of strands that make up a textile, are prohibited from stretching by enforcing constraint equations, not by integrating spring forces.
+Approach	We evaluate how the spatial discretization and permissible strain affect performance of these four algorithms.
+Approach	The complete model of in-plane deformation is compatible with an existing code’s quador triangle-based treatment of bending and collisions.
+Approach	We observe the scaling of computational cost as a function of (a) permissible strain and (b) mesh resolution.
+Approach	The simple 1D chain resists stretching, but not bending.
+Background	In the quasiinextensible regime, however, implicit methods encounter numerical limitations [Volino and Magnenat-Thalmann 2001; Boxerman 2003; Hauth et al. 2003]: the condition number of the implicit system grows with the elastic material stiffness, forcing iterative solvers to perform many iterations; additionally, timestepping algorithms such as Backward Euler and BDF2 introduce undesirable numerical damping when the system is stiff [Boxerman 2003].
+Approach	Observe that F ∈ O(h 2 ) is considered acceptable in many contexts, e.g., [Baraff and Witkin 1998; Choi and Ko 2002] halt the Newton process after a single iteration.
+Background	Facts about the behavior of SHAKE are taken from [Barth et al. 1994].
+Approach	In this didactic example, timings refer to MATLAB’s (sparse) direct solver.
+Challenge	Unfortunately, for better performance many cloth solvers disregard this fact.
+Background	Our eyes are very sensitive to the behavior of fabrics, to the extent that we can identify the kind of fabric simply from its shape and motion [Griffiths and Kulke 2002].
+Approach	C(x) is the m-vector of constraints, with the i th entry corresponding to the violation of inextensibility of the i th edge, as computed by (1); λ is the m-vector of Lagrange multipliers.
+Approach	Finally, we compute the increment (5) to obtain x j+1 = x j + δ x j+1 .
+Approach	C measures the deviation from the constraint manifold (in our case, the extensibility of the material).
+Approach	As with ICD/SAP, a fast projection step requires a linear solve.
+Approach	∇C(x) is a rectangular matrix whose dimensions are m × 3n.
+Approach	These four cases correspond to rapid change in edge length or orientation; in practice, they occur often.
+Background	Recently, Tsiknis [2006] proposed triangle-based strain limiting together with a global stitching step for stable constraint enforcement.
+Background	In contrast, for this regime spring-based methods are known to experience a range of difficulties, leading to the adoption of various strain limiting [Provot 1995] and strain rate limiting algorithms.
+Approach	Our method does not linearize the constraint equations, and therefore it is not subject to drift.
+Background	Given a stiff differential equation, an alternative to implicit integration is to reduce the stiff component and reformulate it as a constraint [Hairer et al. 2002].
+Approach	Our experiments focus on measuring the performance of enforcing inextensibility using CLM compared to strain limiting and stiff springs.
+Approach	Subtracting constraints from positional DOFs leaves nearly zero DOFs for a triangulation.
+Background	To address the stiffness of the resulting differential equations, Baraff and Witkin [1998] proposed implicit integration, allowing for large, stable timesteps; adaptive timestepping was required to prevent over-stretching.
+Approach	The right-hand side, C(x n+1 j ), is given by (1).
+Background	Therefore, Provot’s method is used in cases where tight tolerances are not required, e.g., [Desbrun et al. 1999; Meyer et al. 2001; Fuhrmann et al. 2003].
+Approach	As a result it is considerably cheaper to evaluate, assemble, and solve than its ICD/SAP counterpart.
+Background	This allowed for larger timesteps and reduced the need for springs to maintain the cloth on the constraint manifold.
+Approach	We describe several experiments comparing various stretchenforcement methods.
+Background	One widely-used family of discretizations includes SHAKE and RATTLE, which extend the (unconstrained) Verlet scheme [Hairer et al. 2002] by considering a constraint force direction, −∇C(x) T , evaluated at the beginning of the timestep.
+Outcome	Second, unlike constraint-enforcement approaches such as [Witkin et al. 1990], the inextensibility filter does not assume that the constraint is maintained at the beginning of the timestep and errors are not accumulated during the simulation.
+Background	In imposing inextensibility on all edges of a triangle mesh, one quickly runs into parasitic stiffness in the bending modes, or locking [Zienkiewicz and Taylor 1989], since locally-convex regions of a triangle mesh are rigid under isometry.
+Approach	If the constraint direction, −∇C(x) T , is evaluated at the beginning of the timestep, x n , as in SHAKE, then no scaling, λ , of the constraint direction yields a satisfied end-of-timestep constraint, C(x n+1 ) = 0.
+Background	Methods of this form are known as manifold-projection methods [Hairer et al. 2002].
+Approach	Simply put, we choose the point on the constraint manifold closest to x n+1 0 .
+Approach	However, fast projection’s system, (7), is smaller (≈ 2n × 2n compared to ≈ 5n × 5n), positive definite (compared to indefinite) and sparser.
+Outcome	At the end of this first iteration, F, C ∈ O(h 2 ).
+Approach	Therefore, we omit the superscripts (n + 1), which refer to time, in order to emphasize the subscripts, j, which refer to a specific iteration of fast projection, e.g., we write the input position, x n+1 0 , as x 0 , and progressively closer approximations to the constrained position as x 1 , x 2 , .
+Approach	To define a specific method, we must choose a projection operator.
+Approach	For the strain limiting algorithms (both Jacobi and Gauss-Siedel), we iterate until strain is in the permissible range.
+Approach	Q4 ∇C(x n ) is rank-deficient, so SHAKE fails; ICD and FP do not use ∇C(x n ).
+Approach	Each row of ∇C(x n+1 j ) corresponds to one edge, and is computed using (2).
+Approach	All timings are with reference to a single process on a 2.66GHz Intel Core 2 Duo.
+Approach	C(x n+1 ) = 0 with F( δ x n+1 , λ n+1 ) = 0 corresponds to finding the closest point on the constraint manifold.
+Approach	One important question is whether the fast projection’s error in F is acceptable.
+Approach	Fast projection finds a manifold point, x n+1 , that is close, but not closest, to the unconstrained point, x 0 n+1 .
+Approach	To solve SAP, one might extremize W ( δ x n+1 , λ n+1 ) using Newton’s method: each iteration would improve upon a guess for the shortest step, δ x n+1 that projects x n+1 0 onto the constraint manifold.
+Approach	Instead, we consider warpweft aligned quadrilateral meshes with a sparse number of triangles (quad-dominant meshes).
+Approach	To define closest, we need a measure of distance.
+Outcome	The remaining iterations perturb F only to higher-order (often decreasing the error further).
+Approach	One may choose differing explicit or implicit schemes for the potential and the constraint forces (similarly, potential forces are split and separately discretized in [Ascher et al. 1997]).
+Background	House et al. formulated constraints as in [Witkin et al. 1990], which is subject to numerical drift that may be exacerbated by the discontinuities introduced during collision response.
+Outcome	To enforce both perfectly would require combining them in a single pass, an elegant and exciting prospect from the standpoint of theory, but one which is likely to introduce considerable complexity and convergence challenges.
+Outcome	The resulting algorithm acts as a velocity filter that easily integrates into existing simulation code.
+Background	In summary, when the tolerance for stretching is very small, modeling stretch response with spring-based or strain-limiting approaches is costly and even intractable; constraint-based methods present a promising alternative.
+Approach	Fast projection starts at x n+1 0 , and takes a sequence of steps, δ x n+1 j , j = 1, 2, . . ., toward the constraint manifold, with each step as short as possible.
+Background	To reduce visible stretching, elastic models typically adopt large elastic moduli or stiff springs, degrading numerical stability [Hauth et al. 2003].
+Approach	Unfortunately, enforcing length-preserving constraints with SHAKE fails for four common geometric configurations, which we refer to as (Q1)–(Q4) and depict in Figure 2 .
+Background	We are motivated by the work of Bridson et al. [2002], who viewed strain limiting as one of multiple velocity filtering passes (another being collision handling).
+Approach	We measure strain before the collision reaction pass.
+Outcome	For settings more pragmatic than a simple chain, such as the following draping experiment, we are unable (despite considerable effort) to set spring coefficients that achieve a prescribed small strain.
+Approach	Therefore, we model shear using non-stiff stretch springs applied on both diagonals of each quad.
+
+Approach	All of the images were rendered with a standard Newtoniteration based ray marching algorithm implemented in the open source renderer Pixie developed by Okan Arikan.
+Approach	(Outside this section we denote elastic strain as simply .
+Approach	The fourth term of Equation (1) computes acceleration due to elastic forces and it requires knowing the elastic strain throughout the fluid.
+Background	They do not include plasticity and they store all quantities at cell centers.
+Approach	If we had an explicit deformation function then we could use its spatial derivatives to compute strain.
+Outcome	This paper describes a technique for animating the behavior of viscoelastic fluids, such as mucus, liquid soap, pudding, toothpaste, or clay, that exhibit a combination of both fluid and solid characteristics.
+Approach	The authors note that the method is susceptible to volume loss, and we found this behavior to be problematic for some of our examples that involve fixed, small amounts of fluid.
+Background	This approach ignores the elastic behavior demonstrated by many materials.
+Approach	Like velocity or any other fluid property, the elastic strain must be advected with the fluid.
+Background	Similar approaches using different particle formulations have appeared in [Desbrun and Gascuel, 1995], [Desbrun and Cani, 1996], [Cani and Desbrun, 1997], and [Stora et al., 1999].
+Background	Furthermore, many fluid methods assume incompressibility and most solid methods assume that volume changes will be negligible.
+Background	The result is an object that behaves somewhat like a water balloon.
+Background	As evidenced by their widespread use, these methods can efficiently produce results that are realistic enough for applications in the demanding visual effects industry.
+Background	Some recent examples of fluid simulation outside the graphics literature that involve elastic forces include [Gerritsma, 1996], [Tomé et al., 2002], and [ Bonito et al., 2003 ].
+Approach	Instead, we use a semi-Lagrangian method to advect field values.
+Outcome	This occurs because, while the particle level-set method does a nice job modeling moderately thick volumes of fluids, very thin surfaces, or strands, still have a tendency to vanish.
+Outcome	Additionally, the surfaces of the viscoelastic examples retain evidence of the impact even after motion has stopped.
+Background	A detailed analysis of two-dimensional simulations of viscoelastic fluids on staggered rectilinear grids appears in [Gerritsma, 1996].
+Approach	The symbol denotes the vector of difT ferential operators = [∂/∂x, ∂/∂y, ∂/∂z] , and we have implicitly assumed that μ v and μ e are constant throughout the material.
+Approach	By omitting elastic and viscous terms relating to dilation, we have also assumed that the fluid is incompressible.
+Background	Nevertheless, they do generate nice results for highly viscous fluids, and they describe an implicit integration method for coping with stability issues arising from very high viscosities.
+Approach	The second component is a function whose levelset at zero locates the boundaries of the fluid.
+Approach	The elastic terms are computed by integrating and advecting strain-rate throughout the fluid.
+Background	In [ Bonito et al., 2003 ] a combination of rectilinear grids and finite elements are used with a volume-of-fluid method to model three-dimensional fluids with elastic properties.
+Approach	This framework consists of two primary components which work together to produce useful results.
+Approach	We use the same yield condition of von Mises, but we do not assume that plastic flow occurs instantaneously.
+Background	By varying the elastic properties of the materials, this method could model a range of behaviors, but without plasticity, it could not model materials, like clay, that flow into a new configuration and then resist changes from that configuration.
+Approach	Our work builds directly on previous grid-based, Eulerian methods for animating fluids with free surfaces.
+Outcome	For the fluids we show in our examples, this behavior is a desirable feature.
+Approach	The particles and grid values evolve based on the motion of the fluid.
+Approach	For example, the xy components are stored on the edges parallel to the z axis.
+Approach	These elastic terms require computing the material strain throughout the fluid.
+Background	However, they opt to map the continuum between fluids and solids to varying viscosity.
+Background	Like a solid, these materials can bounce and jiggle, but they will also flow like a fluid.
+Approach	This scheme places level-set grid centers on the cell centers, face centers, edge centers, and nodes of the fluid grid.
+Approach	The first is a rectilinear grid that stores the values that define the fluid’s state.
+Approach	Because we do not wish to model a perfectly elastic material, we also require rules concerning how the elastic strain changes due to plastic yielding.
+Background	The three-dimensional method we use for storing rank-two tensor quantities on a staggered grid is a generalization of their two-dimensional method.
+Approach	Most of these examples were selected to illustrate some interesting aspect of viscoelastic fluid behavior.
+Background	Details on these methods can be found in [Foster and Metaxas, 1996], [Stam, 1999], [Foster and Fedkiw, 2001], and [Enright et al., 2002].
+FutureWork	If it became an issue, that difficulty could be ameliorated somewhat with an implicit integration scheme.
+Approach	We use the same semi-Lagrangian advection scheme that we use for the fluid velocities, and we update the elastic strain using Equation (9) after our advection step.
+Approach	The function is represented using a combination of particles and values defined on a second rectilinear grid.
+Background	We suggest the following references for a more complete description of this simulation methodology: [Foster and Metaxas, 1996], [Stam, 1999], [Foster and Fedkiw, 2001], and [Enright et al., 2002].
+Outcome	A simply viscous fluid would merely flow out to fill the container.
+Background	While the mechanics describing the behaviors exhibited by solids and fluids may seem distinct, they are actually quite similar.
+Approach	The general approaches we use for introducing elastic forces into the Navier-Stokes equations, and integrating and advecting strain are not completely novel.
+Outcome	For example, one of the falling cube examples on a 40 3 grid requires about half an hour of computation per second of animation on a single 3 GHz Pentium 4 processor.
+Approach	When the limit is exceeded, flow occurs at a rate proportional to the amount the limit has been exceeded by.
+Background	In the field of computer graphics, the technique described in [Carlson et al., 2002] is perhaps closest in intent to the method we describe here.
+Approach	Just as velocity components are stored separately on faces, the different components of the strain tensor are stored at different locations.
+Background	Both [Terzopoulos and Fleischer, 1988a] and [Terzopoulos and Fleischer, 1988b] describe transition to plastic flow based on von Mises’s yield condition, and [O’Brien et al., 2002] used a similar plasticity model for ductile fracture behavior.
+Approach	We first separate the total strain into an elastic and a plastic component so that          Tot Elc Plc = + .
+Background	However, as processor speeds have increased, particle-based methods have been able to achieve increasingly impressive results.
+Background	Like us, they were interested in modeling materials with properties intermediate between solids and fluids using an Eulerian grid-based fluid simulation method.
+Approach	Behavior of the viscoelastic fluid is governed by a modified version of the Navier-Stokes equations that includes an additional term for elastic stress.
+Outcome	Furthermore, we found that once we already had a working fluid simulation, adding the elastoplastic terms was fairly easy.
+Background	Perhaps the greatest limitation on the level of realism achievable by these particle methods was the relatively small number of particles used.
+Background	We refer the reader to the texts [Fung, 1965], [Han and Reddy, 1999], and [ Bird et al., 1987 ] for detailed descriptions of several different models for viscoelastic and elastoplastic materials.
+Outcome	The material can be made to adhere to or slip off of boundary surfaces by adjusting the velocity or pressure constraints enforced along closed boundaries.
+Approach	Transition from elastic resistance to viscous flow is controlled by von Mises’s yield condition, and subsequent behavior is then governed by a quasi-linear plasticity model.
+Approach	We have implemented this method for modeling viscoelastic behavior and used it to generate several example animations.
+Background	As the material would become more fluid-like, the springs would weaken, and eventually disappear.
+Background	When the elastic limit is set to a high value, the material behaves like a solid, when it is zero the material behaves like a fluid, and intermediate values correspond to materials like mucus, liquid soap, toothpaste, or clay.
+Approach	Note that Equation (9) does not take into account the movement of the material through space.
+Approach	The values on the grid change as forces act on the fluid, and they also change as the fluid moves through the space delineated by the grid.
+Approach	Additionally, we do not use the first term of Equation (1) (the advection term) directly.
+Approach	This condition is enforced by adjusting the pressure field at each integration step.
+Approach	The framework we use for fluid simulation is based on the method described in [Enright et al., 2002].
+Approach	Instead we use a more complex model that accommodates phenomena such as creep.
+Background	In [Terzopoulos et al., 1989] the authors modeled melting thermoelastic materials.
+Background	The physical reasons for why they conserve volume may differ, but the mathematical expressions capturing the behaviors are essentially the same.
+Outcome	Again, the behavior of simple and viscoelastic fluids differ substantially.
+Background	In their system a solid is simply a fluid with very high viscosity.
+Approach	However, with the Eulerian formulation we are using there is no deformation function available.
+Background	They surround a fluid simulation with an elastic membrane.
+Background	Additionally, these prior methods used Lagrangian meshes with largely fixed topology, and so they would have encountered “tangling” difficulties, such as inverting elements, for large amounts of plastic flow.
+Background	The particles exerted cohesive, viscous, and volume-preserving forces on their neighbors.
+Background	Other properties such as damping/viscosity, density, and elastic stiffness are largely orthogonal.
+Approach	We were able to ameliorate this problem somewhat by using a level-set grid with twice the fluid grid’s resolution, and that is staggered with respect to the fluid grid.
+Approach	The off-diagonal entries are stored at the center of edges perpendicular to the component directions.
+Outcome	The fluid retains its momentum, generating the resulting spinning and stretching motion.
+Background	First, both resist changes to their volume.
+Background	Other graphics researchers have used particle-based methods for modeling highly viscous fluids and for modeling fluids with some form of elasticity.
+Background	Another, rather interesting, approach to combining solid and fluid behaviors appears in [Nixon and Lobb, 2002].
+Approach	Our method computes viscoelastic fluid behavior by supplementing the basic Navier-Stokes equations with additional terms for elastic body forces.
+Approach	Because the fluid simulations do not make use of an explicit reference configuration, strain is computed by integrating strain-rate and advecting the results.
+Approach	Instead we compute strain by integrating strain-rate.
+Approach	Similarly, the plastic strain is given by integrating plastic flow.
+Approach	In particular, our work essentially extends [Enright et al., 2002] to include the behavior of viscoelastic fluids.
+Approach	The technique builds upon prior Eulerian methods for animating incompressible fluids with free surfaces by including additional elastic terms in the basic Navier-Stokes equations.
+Background	While solid, each particle was connected to a fixed set of neighbors using elastic springs.
+FutureWork	To a large extent, our method for incorporating elastoplastic terms does not depend on the underlying fluid simulation method, and one could easily adapt the method to other fluid simulation techniques such as smoothed-particle hydrodynamics.
+Outcome	Finally, we note that while the method we present can model a wide range of phenomena, many real materials can demonstrate behaviors not captured by this model.
+Background	Although both of these recent methods focus on strictly liquid behavior, they could be extended along lines similar to what we propose here.
+Background	Often referred to as viscoelastic fluids, these materials initially respond to strain elastically like a solid, but when subjected to increasingly large stresses they flow like a fluid.
+Background	The continuous variable that spans the space between solid and fluid materials is this limit on how much stress can be tolerated before flow occurs.
+Approach	This approach is a generalization of the 2D method described in [Gerritsma, 1996], and they describe its merits in detail.
+FutureWork	While ray marching produces nice results we think they might be improved using the method described in [Heckbert, 1987].
+Approach	So long as the magnitude (Frobenius norm) of the strain deviation remains below the yield point, γ, no plastic flow occurs.
+Background	These intermediate materials are often referred to as viscoelastic fluids or as elastoplastic solids, depending on whether their behavior is closer to that of an ideal fluid or ideal solid.
+Approach	A full description of this type of system is beyond the scope of this paper, so we focus on the changes we make to accommodate viscoelastic behavior.
+Outcome	Close examination shows that the spheres slightly anticipate their collision.
+Approach	We are using an explicit integration method for the viscous and elastic forces, so very high viscous or elastic coefficients would probably cause stability problems and force smaller time steps.
+Outcome	It is difficult to say if this behavior is a deficiency in our implementation or a limitation of the surface tracking method.
+Outcome	However, for non-sticky materials, like cold gelatin, it would be undesirable.
+Background	Outside the graphics field, viscoelastic materials have been studied extensively.
+Approach	The technique we present builds on prior Eulerian methods for animating incompressible fluids with free surfaces.
+Background	Biological fluids, such as blood, can exhibit many interesting effects that arise from their microscopic structure.
+Background	The method appearing in [Desbrun and Gascuel, 1995] used elastic forces with dynamically determined neighbors to allow behavior that is similar to plastic flow.
+Outcome	The motion of the pure fluid example differs substantially from the viscoelastic examples.
+Background	The transition from elastic resistance to viscous flow is controlled by von Mises’s yield condition, and subsequent behavior is then governed by a quasi-linear plasticity model.
+Background	Second, the internal damping force for a solid and the viscous force for a fluid are not just similar, they are identical.
+Outcome	These effects are particularly noticeable visually when the fluid is moving in orderly fashion, as opposed to splashing about chaotically.
+Approach	Furthermore, the large deformation and flow experienced by the material makes tracking deformation impractical.
+Background	Although they use a staggered grid for the velocity field, they still store their tensor values at cell centers.
+Approach	The diagonal entries are stored at the cell centers.
+Background	For others, such as liquid soap, the elastic behavior manifests less obviously as predominately fluid behavior that differs subtly from that of a simply viscous fluid.
+Outcome	Even relatively simple polymer suspensions can demonstrate behavior that can only be roughly captured with this model.
+Background	A tremendous variety of materials exhibit this type of behavior, and a few common examples include: mucus, egg white, dough, gelatin, unset cement, liquid acrylic, toothpaste, gels, clay, and liquid soap.
+Approach	However in addition to scalars (e.g. pressure) and rank-one tensors (e.g. velocity), we also need to store the elastic strain, a rank-two tensor, on the simulation grid.
+Outcome	The speed of this simulation method is approximately the same with and without the addition of elastic forces.
+Background	The marker-andcell based method in [Tomé et al., 2002] is another example solving viscoelastic free-surface flows.
+Challenge	The key difference between an ideal solid and an ideal fluid is the presence or absence of an elastic term that attempts to restore the material to its original shape.
+Approach	We use a particle-level-set method for tracking the fluid’s free surface as described in [Enright et al., 2002], but with the substantially faster, though less accurate, method detailed in [Enright et al., 2004].
+Background	We refer the reader to [Stam, 1999] and [Foster and Fedkiw, 2001] for a discussion on efficiently modeling the above equations.
+Approach	In addition to helping to prevent volume loss by locating level-set values where velocity boundary constraints are enforced, the higher resolution also benefits the rendered surfaces.
+Outcome	This error occurs because the surfaces begin to interact through shared ghost cells.
+Background	For some of these materials, such as egg white or clay, the combination of elastic and fluid behavior is quite apparent.
+Outcome	When the spheres collide, their level-set surfaces merge so that they adhere.
+Outcome	However, in our current implementation all fluids will stick to each other because different surface components merge when they collide.
+Outcome	Some of our examples suffer from noticeable volume loss.
+Background	They address issues relating to elastic-stress based boundary conditions at rigidbody and free-surfaces.
+Background	Some methods for modeling solids have dealt with limited amounts of plastic flow.
+Outcome	The examples with high yield strain, i.e. large γ, behave like deformable solids and bounce.
+Approach	We use von Mises’s criterion for determining when plastic flow should occur.
+Background	Compelling real-time results for modestly sized systems appear in [Müller et al., 2003], and [Premo ze et al., 2003] demonstrates off-line results that are comparable to the current best grid-based methods.
+
+

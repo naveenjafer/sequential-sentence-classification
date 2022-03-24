@@ -1,0 +1,12 @@
+Skinning is an important part of realistic articulated body animation and is an important topic of computer graphics and animation.
+
+This paper begins by discussing how important the topic (Skinning) is: "Skinning is an important part of realistic articulated body animation and is an important topic of computer graphics and animation".  
+The author then goes on to say what will be mentioned in the paper: "In this paper, we present a parallel skinning algorithm suitable for SIMD architectures such as GPUs
+
+There is some criticism mentioned: " Although widely used, simple algorithmic skinning schemes cannot capture the complexity and subtlety of real skin deformation, and revised approaches will be required to increase character animation realism."
+
+A specific type of skinning is spoken about "Physically-based skinning is based on the biomechanics of skin deformation arising from the motions of muscles and tendons".  As compared to what the author has developed themselves: "We developed parallel skinning using the GPU fragment processors and demonstrate our method using three rendering passes".
+
+Another method of skinning mentioned: "Weighted pose space deformation (WPSD) is an example based skinning method that generates high quality skinning with a limited number of sample poses".  Also its disadvantages: "it can generate an accurate skinning, it requires more computation than the original pose space deformation (PSD) [LCF00], since joint distances are computed independently for each vertex."
+
+Finally the paper is summarized, the testing process is discussed We tested our methods using upper arm models consisting of four joints (collar, shoulder, elbow, and wrist).

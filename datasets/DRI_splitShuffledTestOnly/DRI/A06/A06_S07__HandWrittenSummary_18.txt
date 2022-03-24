@@ -1,0 +1,5 @@
+In this paper we have presented dynamic morph targets, posedependent elastic models that allow an artist to easily author and control the geometry and elastic behavior of dynamic characters.
+ Dynamic morph targets avoid complex rigging requirements of purely geometric methods, and complex musculoskeletal modeling of purely physically-based methods.
+ By extending our basic framework to support modal reduction, we also achieve high runtime performance.
+
+Although our method is physically based, we avoid expensive modeling of musculature or tendon influences, and instead rely on physical constitutive models of deformable material to minimize skin pinching artifacts and bypass complex rigging requirements that are common to purely geometric approaches.

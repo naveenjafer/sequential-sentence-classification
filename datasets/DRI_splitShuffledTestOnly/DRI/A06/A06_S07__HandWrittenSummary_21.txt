@@ -1,0 +1,12 @@
+The author's approach in this paper aims to bridge the gap between geometric example based methods and physically based approaches, by introducing dynamic morph targets, i.e. predefined and possibly artist-authored physical descriptors of skin deformations and elastic material properties.
+
+Main advantages of the method over previous approaches are three-fold: quality of deformations, dynamic behavior and computational efficiency.
+Noting that their method is physically based, that author states that they "avoid expensive modeling of musculature or tendon influences, and instead rely on physical constitutive models of deformable material to minimize skin pinching artifacts and bypass complex rigging requirements that are common to purely geometric approaches".
+
+Comparing previous methods to their own to address the problems of linear blend skinning, such as inserting additional joints tuned from examples or employing blending of transformations instead of weights; the author states the difference in the method proposed in this paper is the "support of pose-dependent elastic properties and its performance is highly dependent on the resolution of the sculpted deformations".
+
+Advantages such as being suitable for real-time applications and being the first to provide shape and surface behavior control of dynamic reduced models are mentioned when proposing the method featured in this paper. 
+
+The use of skeletal pose is mentioned, but the concept of pose can easily be extended beyond the skeletal sense; in fact any notion of state of a character can be used, such as emotional state, velocity state, contact state, or muscle activation.
+
+Extending the framework to support modal reduction,  high run-time performance is also achieved.

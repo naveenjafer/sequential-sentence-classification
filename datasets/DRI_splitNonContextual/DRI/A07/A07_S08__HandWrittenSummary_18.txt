@@ -1,0 +1,8 @@
+In this paper, we introduce a novel method called curve skeleton skinning, to overcome the persisting drawbacks of joint skeleton skinning.
+The basic idea is to represent the relationship between the skeletal movements and the skin deformation in a non-linear continuous fashion.
+
+Using our technique, the animator is able to work without digressing from the familiarity of the current joint-based system, but at the same time achieves maximum visual realism in terms of skin deformation.
+
+The main advantage of this technique is its consistency with the current animation production practice and the ability to overcome the undesirable drawbacks of skeleton-driven skinning.
+ Through a combination of existing practices and newly designed ones, we have successfully created a fusion, which maximizes the efficiency of surface deformation during animation.
+Our current implementation allows both skin and muscle deformation to be modeled within a unified framework.

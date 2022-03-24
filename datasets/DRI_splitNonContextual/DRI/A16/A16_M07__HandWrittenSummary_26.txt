@@ -1,0 +1,7 @@
+Despite great advances in recent years, creating effective tools for synthesis of realistic human motion remains an open problem in computer animation.
+
+We adapt a single motion sequence several times to synthesize a family of motions that preserve physics constraints. Motions created in this manner can satisfy an animator’s exact specifications with a minimum of deviation from the initial motion sequence. Ideally, we would like to use a minimal source of motion data, perhaps a single captured movement, to create a wide range of additional motions. Our system is based on an optimization algorithm that can transform the captured motion to satisfy high-level user constraints while preserving physical realism.
+
+The primary contribution of this work is a new momentum-based method for adaptation of ballistic character movement. In contrast to previous dynamic-based adaptation methods, our framework can produce an wide range of motions that are significantly different from the original motion. Our method does not require model reduction, or a reduced motion space. Because we do not solve for the generalized forces for each joint angle, our method is also significantly faster than other physics-based transformation methods. We also show how the same framework can be adapted for inverse control.  
+
+Naturally, our framework does not handle all realistic character motions. It specifically applies to highly-dynamic motions with ballistic stages. We suspect that momentumbased approach would not be well suited for less energetic motions such as walking.

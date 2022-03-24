@@ -1,0 +1,10 @@
+This paper is based on Spherical Blend Skinning: specifically A Real-time Deformation of Articulated Models.  The author is not biased of their work, they are quite critical in some areas: "the system is by no means perfect; it cannot compete with complex, layered models.   However, the SBS algorithm offers reasonable price for elimination of the notorious LBS artifacts.  The time and memory complexity of both algorithms is comparable".
+The paper has comparisons to other methods: "In contrast to other methods, the SBS does not need any additional information, such as the example skins".
+
+The aurthor then goes on to talk about the tools the use to gather the data and how: "to perform computations, we use the LAPACK software [Anderson et al. 1999].
+We compare the shape of the deformed skin on the model of woman, because the human eye is most sensitive to the deformations of human body.
+When it comes to Real time Deformation aspects such as the amount of artists work necessary to design the model."
+
+When using mathematical equation to collate the data "the only displayed element is a skin, a 3D polygonal mesh, usually equipped with normal and texture data.
+As a result, the linear blend skinning is still widely used in many applications, in spite of the artifacts."
+The paper is summarized by sugguesting which method of skinning is preferable: "there are many methods correcting the problems of LBS, but none of them is superior to LBS in all aspects".

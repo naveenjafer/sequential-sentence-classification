@@ -1,0 +1,8 @@
+Our solution, termed pose space deformation, provides a uniform and expressive approach to both facial skin deformation and skeleton-driven deformation.
+ It addresses the previously drawbacks of shape interpolation and SSD while retaining the simplicity and performance associated with these techniques.
+The algorithm introduced in this paper removes the need for layered fix-it approaches and permits direct specification of the desired deformations.
+the algorithm has clear advantages with respect to simplicity and generality, direct manipulation, real-time synthesis, and other criteria listed in the introduction.
+The crux of the approach is the identification of an appropriate space for defining deformations.
+PSD unifies and improves upon two techniques that have been common graphics practice for more than a decade.
+ This relatively simple algorithm uniformly handles a variety of deformation situations ranging from a simple elbow to secondary animation.
+The setup cost of the algorithm is insignificant, and the synthesis cost is only slightly more than that of shape interpolation, so real-time synthesis is possible at effective resolutions on current hardware.

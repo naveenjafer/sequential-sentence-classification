@@ -1,0 +1,14 @@
+We observed that the artifacts of LBS are caused by the straightforward, linear interpolation of vertex positions.
+
+Our basic idea is to change the interpolation domain: we interpolate transformations itself instead of transformed vertex positions.
+
+We justify both theoretically and experimentally that this solution is appropriate for our task (and probably for many others).
+
+Resolving those problems, we obtain a skin animation algorithm that deforms the mesh in much more plausible way then LBS.
+
+Because we change only the interpolation domain and not the input data, our program works with exactly the same models as LBS.
+The proposed algorithm improves a deformed shape even of models that have been designed and carefully tuned for LBS.
+
+Considering the high speed and low memory demands of SBS, it provides an attractive alternative to classic LBS.
+The overhead of replacing an existing LBS implementation by SBS is minimal, because the input data, as well as the internal data structures, are the same.
+ In contrast to other methods, the SBS does not need any additional information, such as the example skins.

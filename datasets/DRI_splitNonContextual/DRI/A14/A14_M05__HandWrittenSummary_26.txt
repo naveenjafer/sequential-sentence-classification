@@ -1,0 +1,8 @@
+Authoring human motion is difficult for computer animators, as humans are exceptionally sensitive to the slightest of errors. This process involves an animator providing a control specification which is mapped to a target motion by some means. To learn indirect mappings, we adopt a memory-based approach which implicitly encodes the desired mapping using a database of semantically meaningful example instances. These instances store segments of synchronized control and target motion, which provide examples of how the mapping should be applied to input control motions.
+We use dynamic programming to select a sequence that balances the quality of interpretation with the continuity of the induced target motion. Our dynamic programming algorithm uses segments of motion along with an objective function that accounts for both the quality of control interpretation and the continuity of the target motion to generate visually and semantically correct motions. The semantic accuracy of the generated motion was evaluated in the setting of partner dance, where the follower’s motion is generated from the leader’s motion.
+
+Our dance motions often kept in nearly perfect phase with the source. For a wide variety of user inputs, our method was capable of generating highly realistic walking motion.
+
+Our segment similarity metric is effective
+for our experiments.However, we acknowledge the fact that other metrics may be more appropriate for different types of motion and believe that it is a promising direction for future research.
+We believe that segmental approaches like ours hold great promise for real-time performance-driven animation, and consider it a promising area of future research.

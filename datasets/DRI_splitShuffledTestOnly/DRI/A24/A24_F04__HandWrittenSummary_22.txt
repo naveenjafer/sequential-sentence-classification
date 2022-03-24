@@ -1,0 +1,7 @@
+This paper shows Back and Forth Error Compensation and Correction (BFECC) can reduce dissipation and diffusion significantly, thus can be used to improve the simulation of fluids. 
+
+There are four forms of advection encountered in fluid simulation: velocity, smoke density, image and level set advections. BFECC improves the damping in the first order semi-Lagrangian implementation of velocity advection and creates physically correct fluctuations in a coarser grid. The dissipation of colored smoke is significantly reduced with BFECC.  BFECC also reduces volume loss significantly when applied to level set evolution and obtain sufficiently realistic fluid animation. This paper 
+demonstrates the benefits of this approach on the image advection and on the simulation of smoke, of bubbles in water, and of a highly dynamic interaction between water, a solid, and air.
+
+BFECC can be implemented easily on top of the first order upwinding or semi-Lagrangian integration of advection equations, while providing second order accuracy both in space and time. 
+Once the simple first order up-winding or semi-Lagrangian steps for velocity, smoke density, image or level set advections are implemented, BFECC can be added with a trivial amount of code. The author shows that this simple extension yields significant enhancements in reducing diffusion and dissipation in velocity, smoke, image advection and in preserving volume under various situations including two-phase flows and rigid bodies. The fluid visualization is believed to be achieved in future work.

@@ -1,0 +1,8 @@
+In this paper, we present an automated method to build character skins that are fast to compute and compactly represented from a set of examples.
+This technique allows artists to use any skin authoring tools they like while producing characters that meet the performance demands and work with the computation models used in interactive systems.
+We present a framework for extending linear blend skinning that allows us to capture these detailed skin deformations.
+The key to our success is that since vertices choose weighted sums of transformations, if any linear scaling of an added joint is beneficial it may be used.
+ We emphasize that this is a framework for obtaining better deformations and the joints we choose to add are based on our observations of characters.
+
+While our technique works well for a wide variety of character skins, it has limitations.
+Despite these limitations, our method produces high-quality yet fast and compact skinned characters that work with existing game engines, graphics hardware and other runtime systems.

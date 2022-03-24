@@ -1,0 +1,12 @@
+The aim of this paper is to introduce a method for extending SSD that enhances its range of modelling capabilities at very little cost, and in a manner optimized for real time graphics hardware.
+The author presents a practical technique which overcomes all aforementioned SSD problems, and can be achieved using a memory-efficient linear correction to the traditional SSD method.  It being "extremely popular for its simplicity and plausibility, and is also widely supported by graphics hardware accelerators".
+
+The method is illustrated by "rendering a very large finite element model (which took several hundred hours to compute) at interactive rates on a PC with negligible cost to the main CPU".
+
+Rendering of complex physical deformation models for character animation remains a significant hurdle for interactive applications, but one that has been largely overcome for off-line animation.
+
+Currently, most real time character animation, e.g., for video games, is done using a very common linear transform blending technique called (among other things) Skeletal-Subspace Deformation (SSD) [Magnenat-Thalmann et al. 1988].
+
+The method proposed "allows subtle character deformations for skin and clothing, such as those derived from highly realistic artist-drawn poses, measurements from the real world, or laboriously computed anatomically and physically-based models".
+
+Instead of storing displacement fields for each key pose and then interpolating between them at runtime, as in Pose Space Deformation (PSD) [Lewis et al. 2000], the author uses Principal Component Analysis (PCA) to construct an error-optimal eigendisplacement basis for representing this potentially large set of pose corrections.

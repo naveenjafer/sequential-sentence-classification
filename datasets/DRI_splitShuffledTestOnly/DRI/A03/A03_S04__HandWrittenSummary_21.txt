@@ -1,0 +1,11 @@
+The aim of this paper  is describe a way to make animating simple for "novices and children".  In a conventional skeletal animation package, the user must rig the character manually, this paper suggests the authors method is easier to comprehend, creating animation that would take a large amount of time and detail, at the click of a button.  
+
+This paper states: "Combined with a system for motion synthesis [Arikan et al. 2003], this would allow users to begin interacting with their creations."
+
+"We have several ideas for improving Pinocchio that we have not yet tried".The author mentions their own system, which is used to aid the skinning process.
+
+Pre-animation this paper makes a point of saying: " The character must be given in approximately the same orientation and pose as the skeleton...as well having the same proportions".
+
+We also believe that some of our techniques, such as finding LBS weights and using examples to learn the weights of a linear combination of penalty functions, can be useful in other contexts.
+
+In the testing stage of the paper results showed the algorithm "computed a good rig for all but 3 of these characters".  This was an essential outcome which promotes why their method could be useable.

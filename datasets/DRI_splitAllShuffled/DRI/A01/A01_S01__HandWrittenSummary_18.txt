@@ -1,0 +1,14 @@
+Our goal is to incorporate example based skinning into a system having a variety of other skinning and deformation operations, and to be able to invert these operations regardless of their nature.
+
+we propose a unified skinning framework by applying minimization theory with respect to other basic skinning schemes.
+
+By formulating the inverse process as a minimization problem we propose a unified model not only for SSD but also for other skinning schemes, into which shape interpolation can be incorporated.
+
+Inverse skinning integrates SSD and shape interpolation more firmly than its forward rival.
+
+We demonstrate the direction of deformed vertex in inverse skinning is linearly proportional to joint rotations in a simplified example, while the forward PSD does not incorporate the direction information.
+
+
+For a simplified condition where only one joint rotation and two example poses are considered, we demonstrate this inverse strategy has a better performance than the same framework without it.
+
+Therefore the inverse approach presents better performance and more consistent interpolation

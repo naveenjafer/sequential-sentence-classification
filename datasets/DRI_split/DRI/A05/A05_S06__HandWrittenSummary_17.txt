@@ -1,0 +1,7 @@
+This paper presents a method for building fast to evaluate, compact representations that produce accurate approximations of deforming characters.  They present a method for building fast to evaluate, compact representations that produce accurate approximations of deforming characters.  The representations are built automatically from example poses of the character.  The characters may be rigged using any available tool since the system only requires static deformed meshes paired with skeletal configurations as input.  
+
+The method extends linear blend skinning by adding extra joints to the character that are simply related to the existing joints.  The new joints are designed in such a way to capture richer deformations than the standard linear blend skinning model.  Joints are added which will help resolve the linear blend artifacts.  The framework for extending the linear blend model allows the capture of more interesting deformations while retaining its efficiency.  The results demonstrate that the resulting skins generalize well to new poses.
+
+Another application of the system is to map a character originally attached to one skeleton onto a different underlying skeleton; the user just exports a set of example meshes deformed by the original skeleton but paired with corresponding poses of the new skeleton. 
+
+Since the skins are computed in the same manner as linear blend skins, existing software infrastructure can make use of them with little or no changes.  Also, since each vertex is solved independently, the algorithm is trivial to parallelize.

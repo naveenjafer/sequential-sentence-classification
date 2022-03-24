@@ -1,0 +1,4 @@
+In this paper we present a new skinning technique for the deformation of computer-animated characters.
+The principle idea of the proposed bar-net driven deformation technique is to regard the deformable area of an animated creature as a network, which deforms under an acting force.
+ Our technique can achieve similar results to those of the anatomy-based techniques, but in an interactive manner.
+We have implemented this technique into prototype program in a form of a plug-in for the Autodesk Maya software .

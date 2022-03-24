@@ -1,0 +1,10 @@
+The technique presented for this paper is known as "curve skeleton based skinning".  "The curve nature of a skeleton makes it easier to manipulate it with a great order of flexibility", Looking at the author's technique of using a curve skeleton which takes "full advantage of the non-linearity of the skeleton-skin relationship.
+
+"A realistic and visually accurate character animation necessitates proper skin deformation of the character models", which is what the the author aims to deliver.
+
+As "skin deformation owes a large part to proper rigging of the characters", the virtual skeleton spoken about in the paper "forms the interface by which the animator can pose or animate the characters".  An advantage of this technique is its consistency with the current animation production practice and the ability to overcome the undesirable drawbacks of skeleton-driven skinning.
+
+Common skinning methods in interactive systems are known by the following nomenclatures: sub-space deformation (SSD), smooth skinning, linear blend skinning and enveloping were mentioned, as compared to the author's method which aims to allow the animator is  to work without digressing from the familiarity of the current joint-based system, but at the same time achieves maximum visual realism in terms of skin deformation.
+
+With the curve skeleton technique, muscle deformation can be fully integrated where the muscles are driven and animated by our curve skeletons.
+"The current implementation allows both skin and muscle deformation to be modeled within a unified framework". Future work plans include further improvement of the skinning realism by adding the fat effect.

@@ -1,0 +1,15 @@
+The main focus for this paper is PSD (Pose Space Deformation).  The author makes a comparison with other methods with what is proposed in the paper.
+The animation of human and creature skin deformation is arguably the most common and important application of free form deformation in computer graphics.
+
+The author targets a conventional animator-controlled work process rather than an approach based on automatic simulation.
+
+This requires animators be able to visualize the interaction of a reasonably high-resolution model with an environment in real time (with ‘high resolution’ defined in accord with current expectations).
+
+The author's solution, termed pose space deformation, provides a uniform and expressive approach to both facial skin deformation and skeleton-driven deformation.
+A focus is specifically on milestones in the surface deformation models and necessarily omit other important contributions.  "In common situations such as shoulders and elbows the desired deformation does not lie in this subspace, hence no amount of adjusting the algorithm weights will produce good results".
+
+An aim in this paper was to directly sculpt the desired deformation at various points in the parameter space, rather than working in a more abstract space such as the coefficients on various coordinate frames as required by the SSD algorithm.
+
+The author's approach is the identification of an appropriate space for defining deformations.
+
+The method proposed (PSD) unifies and improves upon two techniques that have been common graphics practice for more than a decade.  It was expected that this algorithm will be a useful complement to current techniques.

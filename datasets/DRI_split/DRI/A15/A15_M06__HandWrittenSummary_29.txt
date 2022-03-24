@@ -1,0 +1,1 @@
+RATE: 5.0: In this paper, we describe a technique that cuts and pastes bits and pieces of example motions together to create such a motion. we present a framework that allows synthesis of new motion data meeting a wide variety of constraints. We have presented a framework that allows interactive synthesis of natural looking motions that adhere to user specified constraints.

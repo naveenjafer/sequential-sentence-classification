@@ -1,0 +1,15 @@
+The paper is based on the representation of a framework for extending linear blend skinning that allows detailed skin deformations to be captured.
+The author aims to show how they can fit the parameters of their skinning model using a sampling of an arbitrarily rigged character’s deformations, by extending the traditional linear blend skinning model; adding a relatively small number of joints that are simply related to the original skeletal parameters and fit using them.
+
+Looking at the limitations of Linear Blending lead  to a discussion of the author's framework for extending a skinning model.
+Obtaining a good sampling of the character’s skin deformations to fit the underlying model is essential during this process.  To do so, the character is posed to exercise all the joints fully and include its extreme poses.
+
+Using this set of examples, the system first determines the set of joints that should influence each vertex, and then solves a bi-linear least-squares problem to fit the parameters of the underlying skinning model.  
+
+The author's approach to modelling the skin includes modelling skin substructure such as muscles and tendons to drive the skin geometry.
+
+The system is configured to add extra joints automatically to characters, however users are able to fine tune the specific set of extra joints if they wish.
+
+The technique allows artists to use any skin authoring tools they like while producing characters that meet the performance demands and work with the computation models used in interactive systems.
+
+Throughout the paper  results and applications of the authors' technique are presented.
