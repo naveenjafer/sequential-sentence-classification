@@ -1,296 +1,2322 @@
-objective	0background	1background	2method	3result	4
-background	1background	2objective	3method	4method	5method	6method	7method	8method	9method	10
-background	1objective	2result	3result	4
-background	1objective	2objective	3other	4result	5result	6result	7result	8result	9other	10
-background	1background	2background	3background	4background	5other	6other	7
-background	1objective	2method	3method	4method	5
-background	1background	2background	3method	4objective	5other	6background	7result	8result	9background	10
-background	1background	2method	3method	4result	5other	6other	7
-background	1objective	2method	3method	4result	5
-background	1background	2background	3background	4background	5objective	6method	7method	8method	9method	10
-background	1background	2background	3method	4other	5other	6
-objective	1method	2method	3method	4result	5result	6
-background	1result	2background	3background	4
-background	1background	2method	3method	4result	5result	6
-background	1background	2background	3objective	4objective	5result	6method	7method	8method	9result	10
-background	1background	2background	3background	4method	5method	6background	7result	8
-background	1objective	2objective	3method	4method	5result	6
-background	1background	2method	3method	4result	5
-objective	1method	2method	3result	4
-background	1background	2background	3background	4background	5objective	6method	7result	8
-background	1result	2background	3objective	4method	5result	6method	7method	8objective	9method	10
-background	1background	2background	3objective	4result	5result	6
-background	1method	2method	3method	4result	5
-background	1background	2method	3method	4result	5
-background	1background	2objective	3method	4objective	5
-objective	1method	2method	3method	4method	5result	6result	7method	8other	9
-background	1background	2method	3background	4objective	5
-background	1objective	2objective	3method	4method	5result	6result	7
-background	1background	2background	3method	4method	5
-objective	1method	2method	3method	4
-background	1method	2method	3background	4objective	5method	6method	7method	8other	9
-background	1background	2background	3objective	4method	5method	6result	7
-background	1method	2method	3method	4method	5result	6
-background	1background	2method	3method	4result	5result	6
-background	1background	2background	3background	4background	5background	6objective	7method	8result	9
-background	1background	2method	3method	4method	5
-background	1background	2method	3
-background	1background	2objective	3method	4method	5result	6
-background	1background	2background	3method	4method	5result	6
-background	1background	2background	3background	4method	5method	6
-background	1background	2background	3method	4method	5method	6result	7result	8
-method	1method	2method	3
-background	1background	2result	3result	4
-objective	1result	2method	3result	4
-background	1background	2background	3background	4background	5objective	6method	7method	8method	9method	10
-background	1background	2method	3method	4method	5method	6method	7method	8method	9result	10
-background	1background	2background	3background	4background	5objective	6result	7
-background	1objective	2background	3result	4result	5
-background	1background	2method	3result	4
-background	1background	2method	3method	4method	5method	6objective	7
-background	1background	2objective	3method	4method	5method	6result	7method	8background	9
-background	1background	2background	3background	4background	5background	6objective	7method	8objective	9method	10
-background	1background	2method	3other	4result	5method	6result	7result	8
-background	1method	2method	3method	4result	5
-background	1background	2method	3method	4result	5result	6
-background	1background	2background	3method	4method	5objective	6result	7result	8
-background	1objective	2background	3background	4background	5method	6
-background	1background	2background	3background	4background	5background	6objective	7objective	8
-background	1result	2method	3method	4method	5method	6result	7
-background	1background	2background	3method	4method	5result	6
-background	1background	2method	3method	4method	5result	6
-background	1background	2background	3objective	4method	5result	6other	7
-background	1method	2method	3method	4result	5
-background	1background	2method	3method	4objective	5method	6result	7other	8result	9result	10
-background	1background	2background	3background	4method	5method	6result	7result	8method	9result	10
-background	1background	2method	3method	4method	5result	6
-background	1background	2background	3method	4method	5background	6background	7background	8result	9result	10
-background	1background	2background	3method	4method	5method	6method	7result	8result	9
-background	1method	2method	3result	4method	5result	6result	7result	8result	9other	10
-background	1background	2background	3background	4objective	5method	6result	7
-background	1background	2background	3background	4background	5method	6method	7method	8method	9method	10
-background	1method	2objective	3background	4method	5result	6result	7result	8other	9
-objective	1method	2method	3method	4method	5method	6result	7
-background	1background	2background	3background	4objective	5objective	6
-background	1background	2objective	3objective	4objective	5method	6
-background	1background	2objective	3method	4method	5result	6result	7
-background	1background	2background	3background	4method	5method	6method	7result	8
-background	1method	2background	3method	4method	5result	6result	7
-background	1other	2method	3other	4other	5method	6method	7result	8result	9other	10
-background	1objective	2background	3method	4method	5method	6method	7result	8
-background	1background	2objective	3method	4method	5method	6method	7
-background	1background	2background	3objective	4objective	5method	6method	7method	8method	9result	10
-background	1background	2background	3objective	4result	5result	6
-background	1background	2background	3objective	4objective	5method	6result	7
-background	1background	2objective	3method	4result	5result	6result	7
-background	1background	2method	3objective	4objective	5result	6
-objective	1result	2method	3result	4
-background	1background	2background	3method	4result	5
-background	1objective	2background	3method	4method	5method	6result	7
-background	1method	2result	3method	4method	5objective	6method	7result	8result	9result	10
-background	1objective	2method	3
-background	1background	2background	3objective	4result	5result	6
-background	1background	2background	3objective	4method	5result	6result	7result	8result	9result	10
-background	1background	2objective	3method	4result	5method	6result	7other	8other	9
-background	1other	2objective	3result	4method	5other	6result	7
-background	1background	2background	3objective	4method	5method	6method	7
-objective	1background	2background	3method	4result	5result	6result	7result	8other	9
-background	1background	2method	3method	4method	5method	6result	7
-background	1background	2objective	3method	4method	5result	6result	7
-background	1background	2background	3method	4background	5objective	6result	7result	8
-background	1background	2objective	3method	4objective	5
-background	1method	2method	3method	4method	5result	6
-background	1objective	2result	3
-background	1background	2method	3background	4result	5
-objective	1method	2result	3
-background	1background	2method	3method	4result	5result	6other	7
-background	1objective	2method	3method	4result	5
-background	1background	2background	3objective	4method	5
-background	1background	2method	3method	4result	5result	6result	7
-background	1background	2background	3background	4method	5result	6
-background	1background	2background	3method	4result	5method	6result	7result	8
-background	1background	2background	3background	4method	5result	6result	7method	8
-background	1background	2background	3method	4objective	5result	6result	7
-background	1background	2background	3background	4method	5method	6method	7result	8other	9other	10
-background	1background	2objective	3result	4
-objective	1method	2method	3method	4method	5result	6result	7method	8
-objective	1method	2method	3result	4result	5result	6
-background	1background	2method	3background	4method	5method	6method	7
-background	1background	2objective	3objective	4objective	5result	6
-background	1background	2objective	3objective	4objective	5method	6method	7method	8method	9
-background	1background	2objective	3method	4
-objective	1objective	2objective	3objective	4result	5result	6result	7result	8
-background	1background	2method	3
-background	1objective	2method	3background	4result	5
-objective	1background	2background	3background	4background	5background	6result	7
-background	1objective	2objective	3method	4result	5method	6result	7result	8result	9result	10
-background	1background	2background	3method	4method	5method	6method	7result	8method	9
-background	1background	2objective	3result	4
-background	1objective	2method	3method	4method	5result	6result	7result	8
-background	1objective	2method	3
-background	1background	2background	3result	4objective	5result	6result	7
-background	1background	2objective	3objective	4method	5method	6result	7result	8
-background	1background	2method	3result	4result	5
-background	1background	2background	3method	4method	5result	6result	7
-background	1background	2objective	3method	4other	5
-background	1background	2method	3result	4
-background	1result	2method	3result	4method	5result	6result	7
-background	1background	2background	3background	4background	5objective	6method	7method	8
-background	1background	2background	3method	4result	5
-background	1background	2background	3background	4method	5method	6method	7method	8result	9result	10
-background	1background	2objective	3objective	4objective	5background	6result	7
-background	1objective	2objective	3result	4
-background	1background	2background	3background	4background	5objective	6
-objective	1objective	2objective	3other	4background	5result	6method	7method	8other	9other	10
-background	1background	2background	3method	4objective	5
-background	1background	2background	3objective	4result	5objective	6
-background	1objective	2method	3method	4
-background	1background	2objective	3method	4method	5method	6other	7result	8
-method	1background	2method	3method	4background	5method	6method	7result	8
-objective	1background	2objective	3objective	4method	5method	6method	7method	8method	9method	10
-background	1background	2objective	3objective	4method	5method	6background	7result	8result	9result	10
-background	1background	2background	3background	4background	5objective	6result	7method	8
-background	1background	2background	3result	4result	5
-objective	1objective	2method	3
-background	1method	2method	3result	4
-background	1background	2objective	3method	4method	5result	6result	7result	8
-background	1background	2objective	3objective	4objective	5result	6
-background	1method	2method	3
-background	1background	2method	3objective	4objective	5result	6other	7
-background	1background	2method	3method	4method	5method	6method	7result	8result	9result	10
-background	1objective	2method	3method	4result	5
-background	1background	2background	3background	4background	5background	6objective	7background	8background	9other	10
-background	1objective	2method	3result	4result	5
-background	1background	2background	3method	4background	5objective	6objective	7objective	8method	9method	10
-background	1background	2method	3objective	4
-background	1background	2method	3method	4method	5result	6result	7result	8result	9result	10
-objective	1background	2method	3method	4method	5result	6method	7method	8method	9result	10
-background	1background	2method	3method	4method	5method	6
-background	1background	2objective	3method	4method	5result	6result	7
-background	1background	2background	3method	4method	5method	6method	7
-background	1background	2background	3background	4objective	5objective	6method	7method	8result	9
-background	1method	2method	3background	4method	5method	6result	7
-background	1background	2background	3method	4
-background	1objective	2method	3method	4method	5result	6
-background	1background	2objective	3method	4method	5method	6result	7result	8result	9
-background	1background	2background	3method	4method	5method	6method	7method	8method	9result	10
-background	1background	2method	3objective	4other	5
-background	1background	2objective	3method	4method	5method	6result	7result	8
-objective	1background	2method	3method	4result	5result	6
-background	1background	2background	3method	4method	5method	6result	7
-background	1method	2objective	3objective	4background	5result	6
-background	1method	2method	3objective	4
-background	1background	2background	3background	4method	5
-objective	1objective	2method	3method	4result	5result	6
-background	1method	2method	3method	4method	5
-background	1method	2objective	3method	4method	5method	6result	7result	8result	9
-background	1background	2background	3method	4result	5
-background	1background	2method	3method	4result	5
-background	1background	2objective	3method	4method	5result	6result	7result	8other	9
-background	1background	2background	3objective	4method	5method	6result	7result	8result	9
-background	1background	2background	3method	4background	5objective	6result	7method	8result	9result	10
-background	1background	2background	3background	4method	5method	6result	7
-background	1background	2objective	3method	4method	5result	6result	7result	8
-objective	1background	2background	3method	4method	5method	6result	7
-background	1background	2background	3background	4background	5result	6method	7method	8background	9result	10
-background	1objective	2method	3method	4result	5
-background	1background	2background	3objective	4result	5
-background	1background	2method	3method	4result	5
-background	1background	2objective	3method	4result	5
-background	1background	2objective	3method	4method	5result	6
-other	1objective	2method	3method	4method	5method	6method	7
-objective	1result	2result	3result	4result	5result	6
-background	1background	2background	3method	4method	5method	6method	7result	8other	9
-background	1method	2method	3method	4method	5method	6
-background	1background	2background	3objective	4background	5result	6result	7result	8result	9
-objective	1method	2result	3result	4result	5result	6background	7method	8result	9
-background	1objective	2objective	3method	4result	5
-background	1background	2background	3method	4method	5result	6method	7result	8result	9
-background	1background	2method	3method	4result	5
-objective	1method	2method	3result	4result	5
-background	1background	2method	3result	4result	5method	6result	7
-background	1background	2method	3method	4method	5result	6
-background	1background	2background	3objective	4objective	5background	6objective	7result	8
-method	1method	2method	3objective	4method	5
-background	1background	2objective	3objective	4objective	5result	6
-objective	1objective	2method	3result	4
-background	1background	2background	3background	4background	5background	6objective	7method	8method	9result	10
-objective	1objective	2method	3method	4method	5method	6method	7result	8result	9result	10
-background	1background	2background	3method	4method	5method	6method	7result	8
-background	1background	2background	3background	4background	5other	6objective	7
-background	1background	2background	3method	4method	5result	6method	7other	8background	9method	10
-background	1result	2method	3result	4
-objective	1objective	2result	3method	4method	5method	6method	7result	8
-objective	1objective	2method	3method	4method	5result	6
-background	1background	2background	3objective	4method	5method	6method	7result	8
-background	1background	2method	3method	4result	5
-background	1objective	2method	3method	4objective	5method	6method	7other	8other	9
-background	1method	2method	3method	4result	5
-background	1background	2method	3result	4method	5method	6method	7result	8method	9
-background	1background	2objective	3method	4result	5
-background	1result	2method	3method	4background	5result	6
-objective	1objective	2objective	3method	4method	5method	6method	7method	8result	9
-background	1background	2objective	3
-background	1background	2background	3background	4objective	5method	6method	7result	8result	9
-background	1background	2background	3result	4objective	5result	6result	7result	8result	9
-background	1background	2background	3result	4result	5result	6result	7result	8result	9objective	10
-background	1background	2background	3method	4result	5
-objective	1background	2background	3background	4background	5method	6method	7result	8result	9
-background	1background	2background	3result	4other	5other	6result	7result	8result	9result	10
-background	1other	2result	3method	4method	5method	6result	7
-other	1other	2other	3other	4background	5background	6method	7method	8method	9other	10
-background	1background	2result	3
-background	1background	2objective	3method	4method	5method	6result	7
-background	1background	2objective	3method	4method	5method	6method	7method	8method	9background	10
-background	1background	2result	3
-background	1background	2background	3objective	4objective	5result	6result	7other	8
-background	1background	2background	3objective	4method	5method	6method	7result	8
-background	1background	2background	3objective	4method	5result	6method	7method	8
-background	1objective	2result	3method	4result	5result	6
-objective	1method	2method	3result	4
-background	1background	2background	3method	4method	5result	6result	7
-background	1background	2background	3objective	4result	5
-background	1background	2background	3method	4method	5background	6other	7other	8
-background	1background	2background	3background	4background	5method	6objective	7method	8result	9result	10
-background	1background	2objective	3method	4method	5method	6method	7result	8result	9result	10
-other	1other	2other	3background	4result	5background	6objective	7method	8result	9other	10
-background	1objective	2method	3method	4result	5
-background	1method	2method	3method	4result	5
-background	1method	2method	3method	4result	5result	6
-background	1method	2method	3method	4method	5result	6
-background	1background	2objective	3objective	4
-background	1objective	2method	3method	4method	5result	6result	7
-background	1background	2background	3method	4result	5
-objective	1method	2method	3method	4
-other	1other	2other	3result	4result	5method	6method	7method	8method	9result	10
-background	1background	2objective	3method	4method	5method	6method	7result	8
-objective	1background	2method	3method	4method	5method	6method	7objective	8method	9other	10
-background	1background	2background	3background	4objective	5method	6other	7other	8
-background	1background	2background	3objective	4result	5
-background	1background	2background	3background	4method	5background	6method	7method	8
-background	1background	2background	3background	4objective	5background	6method	7result	8
-method	1method	2method	3method	4other	5
-background	1method	2method	3method	4
-background	1background	2method	3result	4result	5
-background	1background	2background	3background	4method	5method	6method	7result	8
-background	1objective	2objective	3objective	4method	5method	6method	7method	8result	9method	10
-background	1background	2background	3background	4background	5method	6method	7result	8
-background	1background	2method	3background	4background	5result	6result	7result	8other	9
-method	1objective	2background	3result	4result	5
-background	1background	2background	3background	4objective	5method	6method	7method	8result	9background	10
-background	1background	2background	3method	4result	5result	6other	7
-background	1result	2background	3method	4method	5result	6result	7result	8
-background	1objective	2method	3method	4result	5result	6
-background	1background	2background	3background	4objective	5method	6result	7result	8
-objective	1method	2result	3
-background	1background	2background	3background	4background	5objective	6method	7method	8
-background	1background	2background	3objective	4method	5method	6method	7result	8result	9
-objective	1method	2result	3
-background	1background	2background	3background	4background	5method	6result	7
-background	1method	2method	3result	4result	5
-background	1background	2background	3objective	4method	5objective	6result	7method	8result	9
-background	1background	2objective	3result	4result	5result	6
-background	1background	2objective	3objective	4method	5method	6result	7result	8result	9
-background	1method	2background	3method	4background	5method	6method	7method	8result	9
-background	1background	2background	3background	4objective	5objective	6result	7
+objective	0
+background	1
+background	2
+method	3
+result	4
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+method	8
+method	9
+method	10
+
+background	1
+objective	2
+result	3
+result	4
+
+background	1
+objective	2
+objective	3
+other	4
+result	5
+result	6
+result	7
+result	8
+result	9
+other	10
+
+background	1
+background	2
+background	3
+background	4
+background	5
+other	6
+other	7
+
+background	1
+objective	2
+method	3
+method	4
+method	5
+
+background	1
+background	2
+background	3
+method	4
+objective	5
+other	6
+background	7
+result	8
+result	9
+background	10
+
+background	1
+background	2
+method	3
+method	4
+result	5
+other	6
+other	7
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+method	7
+method	8
+method	9
+method	10
+
+background	1
+background	2
+background	3
+method	4
+other	5
+other	6
+
+objective	1
+method	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+result	2
+background	3
+background	4
+
+background	1
+background	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+objective	5
+result	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+background	7
+result	8
+
+background	1
+objective	2
+objective	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+objective	1
+method	2
+method	3
+result	4
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+method	7
+result	8
+
+background	1
+result	2
+background	3
+objective	4
+method	5
+result	6
+method	7
+method	8
+objective	9
+method	10
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+result	6
+
+background	1
+method	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+objective	3
+method	4
+objective	5
+
+objective	1
+method	2
+method	3
+method	4
+method	5
+result	6
+result	7
+method	8
+other	9
+
+background	1
+background	2
+method	3
+background	4
+objective	5
+
+background	1
+objective	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+method	5
+
+objective	1
+method	2
+method	3
+method	4
+
+background	1
+method	2
+method	3
+background	4
+objective	5
+method	6
+method	7
+method	8
+other	9
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+result	7
+
+background	1
+method	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+background	4
+background	5
+background	6
+objective	7
+method	8
+result	9
+
+background	1
+background	2
+method	3
+method	4
+method	5
+
+background	1
+background	2
+method	3
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+result	7
+result	8
+
+method	1
+method	2
+method	3
+
+background	1
+background	2
+result	3
+result	4
+
+objective	1
+result	2
+method	3
+result	4
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+method	7
+method	8
+method	9
+method	10
+
+background	1
+background	2
+method	3
+method	4
+method	5
+method	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+result	7
+
+background	1
+objective	2
+background	3
+result	4
+result	5
+
+background	1
+background	2
+method	3
+result	4
+
+background	1
+background	2
+method	3
+method	4
+method	5
+method	6
+objective	7
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+result	7
+method	8
+background	9
+
+background	1
+background	2
+background	3
+background	4
+background	5
+background	6
+objective	7
+method	8
+objective	9
+method	10
+
+background	1
+background	2
+method	3
+other	4
+result	5
+method	6
+result	7
+result	8
+
+background	1
+method	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+objective	6
+result	7
+result	8
+
+background	1
+objective	2
+background	3
+background	4
+background	5
+method	6
+
+background	1
+background	2
+background	3
+background	4
+background	5
+background	6
+objective	7
+objective	8
+
+background	1
+result	2
+method	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+result	6
+other	7
+
+background	1
+method	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+method	3
+method	4
+objective	5
+method	6
+result	7
+other	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+result	7
+result	8
+method	9
+result	10
+
+background	1
+background	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+background	6
+background	7
+background	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+result	8
+result	9
+
+background	1
+method	2
+method	3
+result	4
+method	5
+result	6
+result	7
+result	8
+result	9
+other	10
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+method	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+background	5
+method	6
+method	7
+method	8
+method	9
+method	10
+
+background	1
+method	2
+objective	3
+background	4
+method	5
+result	6
+result	7
+result	8
+other	9
+
+objective	1
+method	2
+method	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+objective	6
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+method	6
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+method	2
+background	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+other	2
+method	3
+other	4
+other	5
+method	6
+method	7
+result	8
+result	9
+other	10
+
+background	1
+objective	2
+background	3
+method	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+
+background	1
+background	2
+background	3
+objective	4
+objective	5
+method	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+objective	5
+method	6
+result	7
+
+background	1
+background	2
+objective	3
+method	4
+result	5
+result	6
+result	7
+
+background	1
+background	2
+method	3
+objective	4
+objective	5
+result	6
+
+objective	1
+result	2
+method	3
+result	4
+
+background	1
+background	2
+background	3
+method	4
+result	5
+
+background	1
+objective	2
+background	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+method	2
+result	3
+method	4
+method	5
+objective	6
+method	7
+result	8
+result	9
+result	10
+
+background	1
+objective	2
+method	3
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+result	6
+result	7
+result	8
+result	9
+result	10
+
+background	1
+background	2
+objective	3
+method	4
+result	5
+method	6
+result	7
+other	8
+other	9
+
+background	1
+other	2
+objective	3
+result	4
+method	5
+other	6
+result	7
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+method	7
+
+objective	1
+background	2
+background	3
+method	4
+result	5
+result	6
+result	7
+result	8
+other	9
+
+background	1
+background	2
+method	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+background	5
+objective	6
+result	7
+result	8
+
+background	1
+background	2
+objective	3
+method	4
+objective	5
+
+background	1
+method	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+objective	2
+result	3
+
+background	1
+background	2
+method	3
+background	4
+result	5
+
+objective	1
+method	2
+result	3
+
+background	1
+background	2
+method	3
+method	4
+result	5
+result	6
+other	7
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+
+background	1
+background	2
+method	3
+method	4
+result	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+result	5
+method	6
+result	7
+result	8
+
+background	1
+background	2
+background	3
+background	4
+method	5
+result	6
+result	7
+method	8
+
+background	1
+background	2
+background	3
+method	4
+objective	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+method	7
+result	8
+other	9
+other	10
+
+background	1
+background	2
+objective	3
+result	4
+
+objective	1
+method	2
+method	3
+method	4
+method	5
+result	6
+result	7
+method	8
+
+objective	1
+method	2
+method	3
+result	4
+result	5
+result	6
+
+background	1
+background	2
+method	3
+background	4
+method	5
+method	6
+method	7
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+result	6
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+method	6
+method	7
+method	8
+method	9
+
+background	1
+background	2
+objective	3
+method	4
+
+objective	1
+objective	2
+objective	3
+objective	4
+result	5
+result	6
+result	7
+result	8
+
+background	1
+background	2
+method	3
+
+background	1
+objective	2
+method	3
+background	4
+result	5
+
+objective	1
+background	2
+background	3
+background	4
+background	5
+background	6
+result	7
+
+background	1
+objective	2
+objective	3
+method	4
+result	5
+method	6
+result	7
+result	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+result	8
+method	9
+
+background	1
+background	2
+objective	3
+result	4
+
+background	1
+objective	2
+method	3
+method	4
+method	5
+result	6
+result	7
+result	8
+
+background	1
+objective	2
+method	3
+
+background	1
+background	2
+background	3
+result	4
+objective	5
+result	6
+result	7
+
+background	1
+background	2
+objective	3
+objective	4
+method	5
+method	6
+result	7
+result	8
+
+background	1
+background	2
+method	3
+result	4
+result	5
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+objective	3
+method	4
+other	5
+
+background	1
+background	2
+method	3
+result	4
+
+background	1
+result	2
+method	3
+result	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+method	7
+method	8
+
+background	1
+background	2
+background	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+method	7
+method	8
+result	9
+result	10
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+background	6
+result	7
+
+background	1
+objective	2
+objective	3
+result	4
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+
+objective	1
+objective	2
+objective	3
+other	4
+background	5
+result	6
+method	7
+method	8
+other	9
+other	10
+
+background	1
+background	2
+background	3
+method	4
+objective	5
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+objective	6
+
+background	1
+objective	2
+method	3
+method	4
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+other	7
+result	8
+
+method	1
+background	2
+method	3
+method	4
+background	5
+method	6
+method	7
+result	8
+
+objective	1
+background	2
+objective	3
+objective	4
+method	5
+method	6
+method	7
+method	8
+method	9
+method	10
+
+background	1
+background	2
+objective	3
+objective	4
+method	5
+method	6
+background	7
+result	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+result	7
+method	8
+
+background	1
+background	2
+background	3
+result	4
+result	5
+
+objective	1
+objective	2
+method	3
+
+background	1
+method	2
+method	3
+result	4
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+result	8
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+result	6
+
+background	1
+method	2
+method	3
+
+background	1
+background	2
+method	3
+objective	4
+objective	5
+result	6
+other	7
+
+background	1
+background	2
+method	3
+method	4
+method	5
+method	6
+method	7
+result	8
+result	9
+result	10
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+background	5
+background	6
+objective	7
+background	8
+background	9
+other	10
+
+background	1
+objective	2
+method	3
+result	4
+result	5
+
+background	1
+background	2
+background	3
+method	4
+background	5
+objective	6
+objective	7
+objective	8
+method	9
+method	10
+
+background	1
+background	2
+method	3
+objective	4
+
+background	1
+background	2
+method	3
+method	4
+method	5
+result	6
+result	7
+result	8
+result	9
+result	10
+
+objective	1
+background	2
+method	3
+method	4
+method	5
+result	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+method	3
+method	4
+method	5
+method	6
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+objective	6
+method	7
+method	8
+result	9
+
+background	1
+method	2
+method	3
+background	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+
+background	1
+objective	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+result	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+method	3
+objective	4
+other	5
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+result	7
+result	8
+
+objective	1
+background	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+method	2
+objective	3
+objective	4
+background	5
+result	6
+
+background	1
+method	2
+method	3
+objective	4
+
+background	1
+background	2
+background	3
+background	4
+method	5
+
+objective	1
+objective	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+method	2
+method	3
+method	4
+method	5
+
+background	1
+method	2
+objective	3
+method	4
+method	5
+method	6
+result	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+method	4
+result	5
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+result	8
+other	9
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+result	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+method	4
+background	5
+objective	6
+result	7
+method	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+result	7
+result	8
+
+objective	1
+background	2
+background	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+background	3
+background	4
+background	5
+result	6
+method	7
+method	8
+background	9
+result	10
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+objective	3
+method	4
+result	5
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+result	6
+
+other	1
+objective	2
+method	3
+method	4
+method	5
+method	6
+method	7
+
+objective	1
+result	2
+result	3
+result	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+result	8
+other	9
+
+background	1
+method	2
+method	3
+method	4
+method	5
+method	6
+
+background	1
+background	2
+background	3
+objective	4
+background	5
+result	6
+result	7
+result	8
+result	9
+
+objective	1
+method	2
+result	3
+result	4
+result	5
+result	6
+background	7
+method	8
+result	9
+
+background	1
+objective	2
+objective	3
+method	4
+result	5
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+method	7
+result	8
+result	9
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+objective	1
+method	2
+method	3
+result	4
+result	5
+
+background	1
+background	2
+method	3
+result	4
+result	5
+method	6
+result	7
+
+background	1
+background	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+objective	5
+background	6
+objective	7
+result	8
+
+method	1
+method	2
+method	3
+objective	4
+method	5
+
+background	1
+background	2
+objective	3
+objective	4
+objective	5
+result	6
+
+objective	1
+objective	2
+method	3
+result	4
+
+background	1
+background	2
+background	3
+background	4
+background	5
+background	6
+objective	7
+method	8
+method	9
+result	10
+
+objective	1
+objective	2
+method	3
+method	4
+method	5
+method	6
+method	7
+result	8
+result	9
+result	10
+
+background	1
+background	2
+background	3
+method	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+background	2
+background	3
+background	4
+background	5
+other	6
+objective	7
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+method	7
+other	8
+background	9
+method	10
+
+background	1
+result	2
+method	3
+result	4
+
+objective	1
+objective	2
+result	3
+method	4
+method	5
+method	6
+method	7
+result	8
+
+objective	1
+objective	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+background	2
+method	3
+method	4
+result	5
+
+background	1
+objective	2
+method	3
+method	4
+objective	5
+method	6
+method	7
+other	8
+other	9
+
+background	1
+method	2
+method	3
+method	4
+result	5
+
+background	1
+background	2
+method	3
+result	4
+method	5
+method	6
+method	7
+result	8
+method	9
+
+background	1
+background	2
+objective	3
+method	4
+result	5
+
+background	1
+result	2
+method	3
+method	4
+background	5
+result	6
+
+objective	1
+objective	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+method	8
+result	9
+
+background	1
+background	2
+objective	3
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+method	6
+method	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+result	4
+objective	5
+result	6
+result	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+result	4
+result	5
+result	6
+result	7
+result	8
+result	9
+objective	10
+
+background	1
+background	2
+background	3
+method	4
+result	5
+
+objective	1
+background	2
+background	3
+background	4
+background	5
+method	6
+method	7
+result	8
+result	9
+
+background	1
+background	2
+background	3
+result	4
+other	5
+other	6
+result	7
+result	8
+result	9
+result	10
+
+background	1
+other	2
+result	3
+method	4
+method	5
+method	6
+result	7
+
+other	1
+other	2
+other	3
+other	4
+background	5
+background	6
+method	7
+method	8
+method	9
+other	10
+
+background	1
+background	2
+result	3
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+result	7
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+method	8
+method	9
+background	10
+
+background	1
+background	2
+result	3
+
+background	1
+background	2
+background	3
+objective	4
+objective	5
+result	6
+result	7
+other	8
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+result	6
+method	7
+method	8
+
+background	1
+objective	2
+result	3
+method	4
+result	5
+result	6
+
+objective	1
+method	2
+method	3
+result	4
+
+background	1
+background	2
+background	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+
+background	1
+background	2
+background	3
+method	4
+method	5
+background	6
+other	7
+other	8
+
+background	1
+background	2
+background	3
+background	4
+background	5
+method	6
+objective	7
+method	8
+result	9
+result	10
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+result	8
+result	9
+result	10
+
+other	1
+other	2
+other	3
+background	4
+result	5
+background	6
+objective	7
+method	8
+result	9
+other	10
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+
+background	1
+method	2
+method	3
+method	4
+result	5
+
+background	1
+method	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+method	2
+method	3
+method	4
+method	5
+result	6
+
+background	1
+background	2
+objective	3
+objective	4
+
+background	1
+objective	2
+method	3
+method	4
+method	5
+result	6
+result	7
+
+background	1
+background	2
+background	3
+method	4
+result	5
+
+objective	1
+method	2
+method	3
+method	4
+
+other	1
+other	2
+other	3
+result	4
+result	5
+method	6
+method	7
+method	8
+method	9
+result	10
+
+background	1
+background	2
+objective	3
+method	4
+method	5
+method	6
+method	7
+result	8
+
+objective	1
+background	2
+method	3
+method	4
+method	5
+method	6
+method	7
+objective	8
+method	9
+other	10
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+method	6
+other	7
+other	8
+
+background	1
+background	2
+background	3
+objective	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+method	5
+background	6
+method	7
+method	8
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+background	6
+method	7
+result	8
+
+method	1
+method	2
+method	3
+method	4
+other	5
+
+background	1
+method	2
+method	3
+method	4
+
+background	1
+background	2
+method	3
+result	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+method	5
+method	6
+method	7
+result	8
+
+background	1
+objective	2
+objective	3
+objective	4
+method	5
+method	6
+method	7
+method	8
+result	9
+method	10
+
+background	1
+background	2
+background	3
+background	4
+background	5
+method	6
+method	7
+result	8
+
+background	1
+background	2
+method	3
+background	4
+background	5
+result	6
+result	7
+result	8
+other	9
+
+method	1
+objective	2
+background	3
+result	4
+result	5
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+method	6
+method	7
+method	8
+result	9
+background	10
+
+background	1
+background	2
+background	3
+method	4
+result	5
+result	6
+other	7
+
+background	1
+result	2
+background	3
+method	4
+method	5
+result	6
+result	7
+result	8
+
+background	1
+objective	2
+method	3
+method	4
+result	5
+result	6
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+method	6
+result	7
+result	8
+
+objective	1
+method	2
+result	3
+
+background	1
+background	2
+background	3
+background	4
+background	5
+objective	6
+method	7
+method	8
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+method	6
+method	7
+result	8
+result	9
+
+objective	1
+method	2
+result	3
+
+background	1
+background	2
+background	3
+background	4
+background	5
+method	6
+result	7
+
+background	1
+method	2
+method	3
+result	4
+result	5
+
+background	1
+background	2
+background	3
+objective	4
+method	5
+objective	6
+result	7
+method	8
+result	9
+
+background	1
+background	2
+objective	3
+result	4
+result	5
+result	6
+
+background	1
+background	2
+objective	3
+objective	4
+method	5
+method	6
+result	7
+result	8
+result	9
+
+background	1
+method	2
+background	3
+method	4
+background	5
+method	6
+method	7
+method	8
+result	9
+
+background	1
+background	2
+background	3
+background	4
+objective	5
+objective	6
+result	7
+
 
