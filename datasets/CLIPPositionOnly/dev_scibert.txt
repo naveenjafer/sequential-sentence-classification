@@ -1,92 +1,2456 @@
-Medication	102 244 4253 103
-Lab	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Appointment	102 158 2588 9134 103
-Appointment	102 158 1462 1944 225 103
-Medication	102 158 2588 9134 103
-Appointment	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Other	102 158 2588 9134 103
-Medication	102 158 7900 6772 103
-Appointment	102 158 2588 9134 103
-Procedure	102 158 23383 221 103
-Lab	102 158 1462 1944 225 103
-Medication	102 158 2588 9134 103
-Appointment	102 158 1462 1944 225 103
-Medication	102 158 23383 221 103
-Lab	102 158 2588 9134 103
-Lab	102 158 4253 103
-Appointment	102 158 7900 6772 103
-Appointment	102 158 1462 1944 225 103
-Appointment	102 158 1462 1944 225 103
-Appointment	102 158 15909 103
-Patient instructions	102 158 1462 1944 225 103
-Patient instructions	102 158 7900 6772 103
-Lab	102 158 1462 1944 225 103
-Medication	102 158 2588 9134 103
-Patient instructions	102 158 7900 6772 103
+Medication	102 244 103
+Lab	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Procedure	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Lab	102 493 103
+Patient instructions	102 514 103
+Lab	102 566 103
+Patient instructions	102 1021 103
+Other	102 760 103
+Patient instructions	102 1041 103
+Medication	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+
+
 Medication	102 158 103
-Imaging	102 158 2588 9134 103
-Appointment	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Lab	102 158 4253 103
-Lab	102 158 4253 103
-Lab	102 158 2588 9134 103
-Patient instructions	102 158 7900 6772 103
-Procedure	102 158 23383 221 103
-Other	102 158 1115 103
-Appointment	102 158 2588 9134 103
-Lab	102 158 2588 9134 103
+Medication	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+
+
 Appointment	102 158 103
-Medication	102 158 1115 103
-Procedure	102 158 23383 221 103
-Medication	102 158 15909 103
-Medication	102 158 2588 9134 103
-Imaging	102 158 15909 103
-Appointment	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Patient instructions	102 158 1462 1944 225 103
-Patient instructions	102 158 7900 6772 103
-Appointment	102 158 1462 1944 225 103
-Medication	102 158 1115 103
-Appointment	102 158 7900 6772 103
-Lab	102 158 7900 6772 103
-Lab	102 158 4253 103
-Medication	102 158 2588 9134 103
-Patient instructions	102 158 1462 1944 225 103
-Appointment	102 158 1115 103
-Patient instructions	102 158 7900 6772 103
-Other	102 158 1462 1944 225 103
-Medication	102 158 4253 103
-Lab	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Appointment	102 158 1115 103
-Other	102 158 2588 9134 103
-Appointment	102 158 1462 1944 225 103
-Appointment	102 158 4253 103
-Medication	102 158 2588 9134 103
-Medication	102 158 1462 1944 225 103
-Procedure	102 158 4253 103
-Medication	102 158 4253 103
-Medication	102 158 1462 1944 225 103
-Lab	102 158 2588 9134 103
-Patient instructions	102 158 7900 6772 103
-Medication	102 158 4253 103
-Lab	102 158 2588 9134 103
-Imaging	102 158 2588 9134 103
-Lab	102 158 4253 103
-Appointment	102 158 4253 103
-Procedure	102 158 2588 9134 103
-Patient instructions	102 158 7900 6772 103
-Other	102 158 1462 1944 225 103
-Appointment	102 158 1462 1944 225 103
-Medication	102 158 2588 9134 103
-Medication	102 158 7900 6772 103
-Lab	102 158 4253 103
-Medication	102 158 1462 1944 225 103
-Medication	102 158 1462 1944 225 103
-Medication	102 158 2588 9134 103
-Lab	102 158 2588 9134 103
-Medication	102 158 2588 9134 103
-Lab	102 158 2588 9134 103
-Procedure	102 158 4253 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Imaging	102 1041 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Appointment	102 1540 103
+Appointment	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Medication	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+
+
+Appointment	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Medication	102 371 103
+Other	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Medication	102 2107 103
+Other	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Medication	102 2532 103
+Other	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Medication	102 3154 103
+Patient instructions	102 2638 103
+Patient instructions	102 3204 103
+Patient instructions	102 2659 103
+Appointment	102 3357 103
+Patient instructions	102 4133 103
+Appointment	102 1921 103
+Patient instructions	102 5220 103
+Appointment	102 4637 103
+Patient instructions	102 4734 103
+Appointment	102 3894 103
+Patient instructions	102 3044 103
+Appointment	102 4486 103
+Patient instructions	102 4574 103
+Appointment	102 2954 103
+Patient instructions	102 5069 103
+Patient instructions	102 1539 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Imaging	102 286 103
+Imaging	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Medication	102 514 103
+Patient instructions	102 566 103
+Medication	102 1021 103
+Patient instructions	102 760 103
+Medication	102 1041 103
+Patient instructions	102 1128 103
+Medication	102 884 103
+Patient instructions	102 1107 103
+Medication	102 1557 103
+Appointment	102 1178 103
+Appointment	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Medication	102 1931 103
+Patient instructions	102 2107 103
+Medication	102 1540 103
+Patient instructions	102 1552 103
+Medication	102 2381 103
+Patient instructions	102 2532 103
+Medication	102 2317 103
+Patient instructions	102 2583 103
+Medication	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Patient instructions	102 3154 103
+Patient instructions	102 2638 103
+Patient instructions	102 3204 103
+Patient instructions	102 2659 103
+Patient instructions	102 3357 103
+Patient instructions	102 4133 103
+
+
+Other	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Procedure	102 286 103
+Appointment	102 305 103
+Medication	102 370 103
+Other	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Procedure	102 566 103
+Appointment	102 1021 103
+Medication	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Lab	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Appointment	102 3877 103
+Patient instructions	102 3291 103
+Appointment	102 3307 103
+Patient instructions	102 3154 103
+Appointment	102 2638 103
+Patient instructions	102 3204 103
+Appointment	102 2659 103
+Appointment	102 3357 103
+Appointment	102 4133 103
+Appointment	102 1921 103
+Appointment	102 5220 103
+Appointment	102 4637 103
+Appointment	102 4734 103
+Appointment	102 3894 103
+Appointment	102 3044 103
+Appointment	102 4486 103
+Appointment	102 4574 103
+Appointment	102 2954 103
+Appointment	102 5069 103
+Appointment	102 1539 103
+Appointment	102 5789 103
+Appointment	102 5645 103
+Appointment	102 5393 103
+Appointment	102 4881 103
+Appointment	102 4023 103
+Appointment	102 4924 103
+Appointment	102 5309 103
+Appointment	102 4878 103
+Appointment	102 5275 103
+Appointment	102 2242 103
+Appointment	102 7610 103
+Appointment	102 7139 103
+Appointment	102 6729 103
+Appointment	102 5421 103
+Appointment	102 4747 103
+Appointment	102 7107 103
+Appointment	102 7319 103
+Appointment	102 7079 103
+Appointment	102 7751 103
+Appointment	102 3509 103
+Appointment	102 8621 103
+Appointment	102 5433 103
+Appointment	102 8095 103
+Appointment	102 7667 103
+Appointment	102 4710 103
+Appointment	102 8116 103
+Appointment	102 7466 103
+Appointment	102 7898 103
+Appointment	102 8455 103
+Appointment	102 2833 103
+
+
+Medication	102 158 103
+Patient instructions	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+
+
+Appointment	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Appointment	102 286 103
+Appointment	102 305 103
+Appointment	102 370 103
+Appointment	102 450 103
+
+
+Procedure	102 158 103
+Procedure	102 170 103
+Procedure	102 239 103
+Procedure	102 286 103
+Appointment	102 305 103
+Lab	102 370 103
+Procedure	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Lab	102 566 103
+Patient instructions	102 1021 103
+Other	102 760 103
+Procedure	102 1041 103
+Patient instructions	102 1128 103
+Procedure	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+
+
+Lab	102 158 103
+Appointment	102 170 103
+Medication	102 239 103
+Lab	102 286 103
+Other	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Medication	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+Appointment	102 3877 103
+Patient instructions	102 3291 103
+Appointment	102 3307 103
+Patient instructions	102 3154 103
+Patient instructions	102 2638 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+
+
+Medication	102 158 103
+Procedure	102 170 103
+Lab	102 239 103
+Medication	102 286 103
+Lab	102 305 103
+Medication	102 370 103
+Other	102 450 103
+Other	102 493 103
+Other	102 514 103
+Medication	102 566 103
+Appointment	102 1021 103
+Appointment	102 760 103
+Medication	102 1041 103
+Medication	102 1128 103
+Lab	102 884 103
+Medication	102 1107 103
+Lab	102 1557 103
+Medication	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Lab	102 1540 103
+Patient instructions	102 1552 103
+Lab	102 2381 103
+Patient instructions	102 2532 103
+Procedure	102 2317 103
+Patient instructions	102 2583 103
+Other	102 1339 103
+Patient instructions	102 3877 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Appointment	102 370 103
+Appointment	102 450 103
+Appointment	102 493 103
+Appointment	102 514 103
+
+
+Appointment	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Appointment	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Other	102 239 103
+Other	102 286 103
+Other	102 305 103
+Other	102 370 103
+Appointment	102 450 103
+Medication	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Appointment	102 3204 103
+Patient instructions	102 2659 103
+Appointment	102 3357 103
+Patient instructions	102 4133 103
+Appointment	102 1921 103
+Patient instructions	102 5220 103
+Appointment	102 4637 103
+Patient instructions	102 4734 103
+Appointment	102 3894 103
+Patient instructions	102 3044 103
+Appointment	102 4486 103
+Patient instructions	102 4574 103
+Appointment	102 2954 103
+Patient instructions	102 5069 103
+Patient instructions	102 1539 103
+Patient instructions	102 5789 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Appointment	102 305 103
+
+
+Appointment	102 158 103
+Imaging	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Procedure	102 305 103
+
+
+Patient instructions	102 158 103
+Appointment	102 170 103
+Patient instructions	102 239 103
+Medication	102 286 103
+Procedure	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Procedure	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Appointment	102 3307 103
+Patient instructions	102 3154 103
+Procedure	102 2638 103
+Appointment	102 3204 103
+Patient instructions	102 2659 103
+Appointment	102 3357 103
+Patient instructions	102 4133 103
+Appointment	102 1921 103
+Patient instructions	102 5220 103
+Patient instructions	102 4637 103
+Procedure	102 4734 103
+Patient instructions	102 3894 103
+Procedure	102 3044 103
+Patient instructions	102 4486 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Medication	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Medication	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+
+
+Lab	102 158 103
+Appointment	102 170 103
+Other	102 239 103
+Other	102 286 103
+Appointment	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Appointment	102 1931 103
+Appointment	102 2107 103
+Appointment	102 1540 103
+Appointment	102 1552 103
+Appointment	102 2381 103
+Appointment	102 2532 103
+Appointment	102 2317 103
+Appointment	102 2583 103
+Appointment	102 1339 103
+Appointment	102 3877 103
+Appointment	102 3291 103
+Appointment	102 3307 103
+Appointment	102 3154 103
+Appointment	102 2638 103
+Appointment	102 3204 103
+Appointment	102 2659 103
+Appointment	102 3357 103
+Appointment	102 4133 103
+Appointment	102 1921 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Other	102 1041 103
+Patient instructions	102 1128 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+
+
+Medication	102 158 103
+
+
+Imaging	102 158 103
+Medication	102 170 103
+Procedure	102 239 103
+Procedure	102 286 103
+Appointment	102 305 103
+Imaging	102 370 103
+Medication	102 450 103
+Lab	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Procedure	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Procedure	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+Appointment	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Imaging	102 3154 103
+
+
+Appointment	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Other	102 286 103
+Lab	102 305 103
+Medication	102 370 103
+Other	102 450 103
+Lab	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Other	102 1128 103
+Medication	102 884 103
+Medication	102 1107 103
+Appointment	102 1557 103
+Lab	102 1178 103
+Medication	102 371 103
+Other	102 1012 103
+Appointment	102 2337 103
+Lab	102 1931 103
+Medication	102 2107 103
+Other	102 1540 103
+Appointment	102 1552 103
+Lab	102 2381 103
+Medication	102 2532 103
+Other	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Patient instructions	102 3154 103
+Patient instructions	102 2638 103
+Patient instructions	102 3204 103
+Patient instructions	102 2659 103
+Patient instructions	102 3357 103
+Patient instructions	102 4133 103
+Patient instructions	102 1921 103
+Medication	102 5220 103
+Other	102 4637 103
+Patient instructions	102 4734 103
+Patient instructions	102 3894 103
+Patient instructions	102 3044 103
+Medication	102 4486 103
+Patient instructions	102 4574 103
+Patient instructions	102 2954 103
+Patient instructions	102 5069 103
+Appointment	102 1539 103
+Patient instructions	102 5789 103
+Appointment	102 5645 103
+Patient instructions	102 5393 103
+Appointment	102 4881 103
+Patient instructions	102 4023 103
+Appointment	102 4924 103
+Patient instructions	102 5309 103
+Appointment	102 4878 103
+Patient instructions	102 5275 103
+Appointment	102 2242 103
+Patient instructions	102 7610 103
+Appointment	102 7139 103
+Patient instructions	102 6729 103
+Appointment	102 5421 103
+Patient instructions	102 4747 103
+Appointment	102 7107 103
+Appointment	102 7319 103
+Appointment	102 7079 103
+Appointment	102 7751 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Procedure	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Appointment	102 884 103
+Appointment	102 1107 103
+Appointment	102 1557 103
+Appointment	102 1178 103
+Appointment	102 371 103
+Appointment	102 1012 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+
+
+Procedure	102 158 103
+Procedure	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Procedure	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Procedure	102 1012 103
+
+
+Other	102 158 103
+Other	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Patient instructions	102 3154 103
+
+
+Appointment	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Procedure	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Appointment	102 884 103
+Appointment	102 1107 103
+Appointment	102 1557 103
+Imaging	102 1178 103
+Appointment	102 371 103
+Imaging	102 1012 103
+Appointment	102 2337 103
+Appointment	102 1931 103
+Imaging	102 2107 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Other	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Medication	102 1128 103
+Medication	102 884 103
+Medication	102 1107 103
+Medication	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Lab	102 2381 103
+Patient instructions	102 2532 103
+Other	102 2317 103
+Patient instructions	102 2583 103
+Other	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Patient instructions	102 3204 103
+
+
+Appointment	102 158 103
+
+
+Medication	102 158 103
+Other	102 170 103
+Other	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+
+
+Procedure	102 158 103
+Procedure	102 170 103
+Procedure	102 239 103
+Appointment	102 286 103
+Procedure	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Appointment	102 1540 103
+Appointment	102 1552 103
+
+
+Medication	102 158 103
+Imaging	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Medication	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Medication	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Medication	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Procedure	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Imaging	102 2532 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Lab	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Lab	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+
+
+Imaging	102 158 103
+Imaging	102 170 103
+Medication	102 239 103
+
+
+Appointment	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Lab	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Lab	102 514 103
+Medication	102 566 103
+Lab	102 1021 103
+Medication	102 760 103
+Lab	102 1041 103
+Medication	102 1128 103
+Lab	102 884 103
+Medication	102 1107 103
+Other	102 1557 103
+Lab	102 1178 103
+Other	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Medication	102 1339 103
+Medication	102 3877 103
+Medication	102 3291 103
+Lab	102 3307 103
+Medication	102 3154 103
+Medication	102 2638 103
+Medication	102 3204 103
+Lab	102 2659 103
+Medication	102 3357 103
+Medication	102 4133 103
+Lab	102 1921 103
+Medication	102 5220 103
+Lab	102 4637 103
+Medication	102 4734 103
+Lab	102 3894 103
+Medication	102 3044 103
+Appointment	102 4486 103
+Patient instructions	102 4574 103
+Appointment	102 2954 103
+Patient instructions	102 5069 103
+Appointment	102 1539 103
+Patient instructions	102 5789 103
+Patient instructions	102 5645 103
+Imaging	102 5393 103
+Appointment	102 4881 103
+Patient instructions	102 4023 103
+Appointment	102 4924 103
+Patient instructions	102 5309 103
+Appointment	102 4878 103
+Patient instructions	102 5275 103
+Patient instructions	102 2242 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Medication	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+
+
+Patient instructions	102 158 103
+Appointment	102 170 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Appointment	102 239 103
+Patient instructions	102 286 103
+Appointment	102 305 103
+Patient instructions	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Appointment	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Other	102 760 103
+Patient instructions	102 1041 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+
+
+Medication	102 158 103
+Other	102 170 103
+Appointment	102 239 103
+Medication	102 286 103
+Lab	102 305 103
+Appointment	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+
+
+Appointment	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Imaging	102 2583 103
+Patient instructions	102 1339 103
+
+
+Lab	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Appointment	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Lab	102 239 103
+Lab	102 286 103
+Lab	102 305 103
+Appointment	102 370 103
+Imaging	102 450 103
+Appointment	102 493 103
+Appointment	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Imaging	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Imaging	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Appointment	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Appointment	102 3204 103
+Patient instructions	102 2659 103
+Appointment	102 3357 103
+Patient instructions	102 4133 103
+Appointment	102 1921 103
+Patient instructions	102 5220 103
+Appointment	102 4637 103
+Patient instructions	102 4734 103
+Appointment	102 3894 103
+Patient instructions	102 3044 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Imaging	102 286 103
+Medication	102 305 103
+Appointment	102 370 103
+Appointment	102 450 103
+Medication	102 493 103
+Lab	102 514 103
+Medication	102 566 103
+Other	102 1021 103
+Lab	102 760 103
+Medication	102 1041 103
+Other	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Medication	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Imaging	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Imaging	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Imaging	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Imaging	102 3291 103
+Patient instructions	102 3307 103
+
+
+Patient instructions	102 158 103
+Appointment	102 170 103
+Patient instructions	102 239 103
+Appointment	102 286 103
+Patient instructions	102 305 103
+Medication	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+
+
+Appointment	102 158 103
+Other	102 170 103
+Appointment	102 239 103
+Other	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+
+
+Other	102 158 103
+Appointment	102 170 103
+Imaging	102 239 103
+Appointment	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+
+
+Medication	102 158 103
+Lab	102 170 103
+Imaging	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Medication	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Lab	102 286 103
+Other	102 305 103
+Lab	102 370 103
+Other	102 450 103
+Lab	102 493 103
+Other	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Lab	102 1540 103
+Medication	102 1552 103
+Other	102 2381 103
+Appointment	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+Appointment	102 3877 103
+Patient instructions	102 3291 103
+Appointment	102 3307 103
+Patient instructions	102 3154 103
+Appointment	102 2638 103
+Patient instructions	102 3204 103
+Patient instructions	102 2659 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Appointment	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Imaging	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+
+
+Appointment	102 158 103
+Other	102 170 103
+Other	102 239 103
+Appointment	102 286 103
+Appointment	102 305 103
+Appointment	102 370 103
+Appointment	102 450 103
+Other	102 493 103
+Appointment	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Appointment	102 1931 103
+Appointment	102 2107 103
+Appointment	102 1540 103
+Appointment	102 1552 103
+Appointment	102 2381 103
+Appointment	102 2532 103
+
+
+Other	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Lab	102 239 103
+Other	102 286 103
+Other	102 305 103
+Other	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Lab	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Lab	102 1931 103
+Appointment	102 2107 103
+Lab	102 1540 103
+Appointment	102 1552 103
+Lab	102 2381 103
+Appointment	102 2532 103
+Appointment	102 2317 103
+Appointment	102 2583 103
+Appointment	102 1339 103
+Appointment	102 3877 103
+Appointment	102 3291 103
+
+
+Appointment	102 158 103
+Lab	102 170 103
+Appointment	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+
+
+Medication	102 158 103
+Appointment	102 170 103
+Appointment	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Medication	102 1128 103
+Medication	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Medication	102 3307 103
+Patient instructions	102 3154 103
+Appointment	102 2638 103
+Patient instructions	102 3204 103
+Patient instructions	102 2659 103
+Appointment	102 3357 103
+Patient instructions	102 4133 103
+Appointment	102 1921 103
+Patient instructions	102 5220 103
+Appointment	102 4637 103
+Patient instructions	102 4734 103
+Appointment	102 3894 103
+Patient instructions	102 3044 103
+Appointment	102 4486 103
+Patient instructions	102 4574 103
+Appointment	102 2954 103
+Patient instructions	102 5069 103
+Appointment	102 1539 103
+Patient instructions	102 5789 103
+Appointment	102 5645 103
+Patient instructions	102 5393 103
+Appointment	102 4881 103
+Patient instructions	102 4023 103
+Appointment	102 4924 103
+Patient instructions	102 5309 103
+Appointment	102 4878 103
+Patient instructions	102 5275 103
+Appointment	102 2242 103
+Patient instructions	102 7610 103
+Appointment	102 7139 103
+Patient instructions	102 6729 103
+Appointment	102 5421 103
+Patient instructions	102 4747 103
+Appointment	102 7107 103
+Patient instructions	102 7319 103
+
+
+Procedure	102 158 103
+Lab	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Medication	102 370 103
+Appointment	102 450 103
+Patient instructions	102 493 103
+Procedure	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Procedure	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Procedure	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Medication	102 1012 103
+Appointment	102 2337 103
+Appointment	102 1931 103
+Appointment	102 2107 103
+Appointment	102 1540 103
+Appointment	102 1552 103
+Appointment	102 2381 103
+Appointment	102 2532 103
+Appointment	102 2317 103
+
+
+Medication	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Medication	102 371 103
+Patient instructions	102 1012 103
+Other	102 2337 103
+Patient instructions	102 1931 103
+Medication	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+
+
+Medication	102 158 103
+Appointment	102 170 103
+Lab	102 239 103
+Other	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Patient instructions	102 2583 103
+Patient instructions	102 1339 103
+Patient instructions	102 3877 103
+Patient instructions	102 3291 103
+Patient instructions	102 3307 103
+Patient instructions	102 3154 103
+Patient instructions	102 2638 103
+Medication	102 3204 103
+Patient instructions	102 2659 103
+Patient instructions	102 3357 103
+Appointment	102 4133 103
+Patient instructions	102 1921 103
+Appointment	102 5220 103
+Patient instructions	102 4637 103
+Appointment	102 4734 103
+Patient instructions	102 3894 103
+Appointment	102 3044 103
+Patient instructions	102 4486 103
+Lab	102 4574 103
+Patient instructions	102 2954 103
+Other	102 5069 103
+Patient instructions	102 1539 103
+Other	102 5789 103
+Appointment	102 5645 103
+Patient instructions	102 5393 103
+Lab	102 4881 103
+Appointment	102 4023 103
+Patient instructions	102 4924 103
+Lab	102 5309 103
+Appointment	102 4878 103
+Patient instructions	102 5275 103
+Appointment	102 2242 103
+Patient instructions	102 7610 103
+Appointment	102 7139 103
+Patient instructions	102 6729 103
+Patient instructions	102 5421 103
+Patient instructions	102 4747 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Lab	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Medication	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Lab	102 2107 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+
+
+Medication	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Medication	102 514 103
+Patient instructions	102 566 103
+Medication	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Medication	102 305 103
+Lab	102 370 103
+Medication	102 450 103
+Lab	102 493 103
+Medication	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Lab	102 371 103
+Patient instructions	102 1012 103
+Lab	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+
+
+Imaging	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Appointment	102 286 103
+Lab	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Lab	102 760 103
+Medication	102 1041 103
+Other	102 1128 103
+Patient instructions	102 884 103
+Other	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Lab	102 239 103
+Appointment	102 286 103
+Medication	102 305 103
+Appointment	102 370 103
+Medication	102 450 103
+Lab	102 493 103
+Other	102 514 103
+Lab	102 566 103
+Other	102 1021 103
+Lab	102 760 103
+Other	102 1041 103
+Appointment	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Medication	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Appointment	102 3291 103
+Patient instructions	102 3307 103
+
+
+Appointment	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Lab	102 305 103
+Medication	102 370 103
+Other	102 450 103
+Other	102 493 103
+Other	102 514 103
+Lab	102 566 103
+Other	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Patient instructions	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Lab	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Medication	102 1339 103
+Patient instructions	102 3877 103
+Appointment	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Appointment	102 3204 103
+Appointment	102 2659 103
+Appointment	102 3357 103
+Appointment	102 4133 103
+Lab	102 1921 103
+Other	102 5220 103
+Other	102 4637 103
+Other	102 4734 103
+Appointment	102 3894 103
+Other	102 3044 103
+Other	102 4486 103
+
+
+Procedure	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Procedure	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Appointment	102 1557 103
+Patient instructions	102 1178 103
+Appointment	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Procedure	102 2381 103
+
+
+Patient instructions	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Appointment	102 286 103
+Patient instructions	102 305 103
+Appointment	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Lab	102 2337 103
+Lab	102 1931 103
+Patient instructions	102 2107 103
+
+
+Other	102 158 103
+Appointment	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Appointment	102 566 103
+Appointment	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Appointment	102 1128 103
+Patient instructions	102 884 103
+Appointment	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Appointment	102 1012 103
+Patient instructions	102 2337 103
+Appointment	102 1931 103
+Patient instructions	102 2107 103
+Appointment	102 1540 103
+Patient instructions	102 1552 103
+Appointment	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Appointment	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Appointment	102 3204 103
+Patient instructions	102 2659 103
+Patient instructions	102 3357 103
+Patient instructions	102 4133 103
+
+
+Appointment	102 158 103
+Appointment	102 170 103
+Medication	102 239 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+
+
+Medication	102 158 103
+Patient instructions	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Appointment	102 760 103
+Patient instructions	102 1041 103
+Medication	102 1128 103
+Patient instructions	102 884 103
+Lab	102 1107 103
+Patient instructions	102 1557 103
+Lab	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Imaging	102 3291 103
+Appointment	102 3307 103
+Patient instructions	102 3154 103
+Imaging	102 2638 103
+Appointment	102 3204 103
+Patient instructions	102 2659 103
+Patient instructions	102 3357 103
+Patient instructions	102 4133 103
+
+
+Lab	102 158 103
+Lab	102 170 103
+Lab	102 239 103
+Lab	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Medication	102 514 103
+Other	102 566 103
+Imaging	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Medication	102 1128 103
+Medication	102 884 103
+Medication	102 1107 103
+Medication	102 1557 103
+Medication	102 1178 103
+Medication	102 371 103
+Patient instructions	102 1012 103
+Patient instructions	102 2337 103
+Patient instructions	102 1931 103
+Patient instructions	102 2107 103
+Patient instructions	102 1540 103
+Patient instructions	102 1552 103
+Patient instructions	102 2381 103
+Patient instructions	102 2532 103
+Patient instructions	102 2317 103
+Appointment	102 2583 103
+Patient instructions	102 1339 103
+
+
+Medication	102 158 103
+Appointment	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Medication	102 370 103
+Medication	102 450 103
+Medication	102 493 103
+Lab	102 514 103
+Medication	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Appointment	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+
+
+Medication	102 158 103
+Appointment	102 170 103
+Appointment	102 239 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Appointment	102 239 103
+Appointment	102 286 103
+Appointment	102 305 103
+Appointment	102 370 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Lab	102 239 103
+Medication	102 286 103
+Medication	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Medication	102 1128 103
+Patient instructions	102 884 103
+Medication	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+
+
+Medication	102 158 103
+Medication	102 170 103
+Medication	102 239 103
+Appointment	102 286 103
+Appointment	102 305 103
+Lab	102 370 103
+Patient instructions	102 450 103
+Patient instructions	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Patient instructions	102 1021 103
+Patient instructions	102 760 103
+Patient instructions	102 1041 103
+Patient instructions	102 1128 103
+Patient instructions	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Appointment	102 1178 103
+Patient instructions	102 371 103
+Patient instructions	102 1012 103
+Appointment	102 2337 103
+Patient instructions	102 1931 103
+Appointment	102 2107 103
+Patient instructions	102 1540 103
+Appointment	102 1552 103
+
+
+Lab	102 158 103
+Medication	102 170 103
+Patient instructions	102 239 103
+Patient instructions	102 286 103
+Patient instructions	102 305 103
+Patient instructions	102 370 103
+Patient instructions	102 450 103
+Appointment	102 493 103
+Patient instructions	102 514 103
+Patient instructions	102 566 103
+Appointment	102 1021 103
+Appointment	102 760 103
+Appointment	102 1041 103
+Appointment	102 1128 103
+Appointment	102 884 103
+Appointment	102 1107 103
+
+
+Procedure	102 158 103
+Lab	102 170 103
+Medication	102 239 103
+Medication	102 286 103
+Imaging	102 305 103
+Medication	102 370 103
+Lab	102 450 103
+Medication	102 493 103
+Lab	102 514 103
+Medication	102 566 103
+Medication	102 1021 103
+Medication	102 760 103
+Medication	102 1041 103
+Patient instructions	102 1128 103
+Appointment	102 884 103
+Patient instructions	102 1107 103
+Patient instructions	102 1557 103
+Medication	102 1178 103
+Patient instructions	102 371 103
+Lab	102 1012 103
+Medication	102 2337 103
+Patient instructions	102 1931 103
+Lab	102 2107 103
+Medication	102 1540 103
+Patient instructions	102 1552 103
+Lab	102 2381 103
+Medication	102 2532 103
+Appointment	102 2317 103
+Patient instructions	102 2583 103
+Appointment	102 1339 103
+Patient instructions	102 3877 103
+Appointment	102 3291 103
+Patient instructions	102 3307 103
+Appointment	102 3154 103
+Patient instructions	102 2638 103
+Patient instructions	102 3204 103
+Imaging	102 2659 103
+Patient instructions	102 3357 103
+Patient instructions	102 4133 103
+Patient instructions	102 1921 103
+
+
