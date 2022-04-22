@@ -1,0 +1,1752 @@
+Medication	Insulin Regimen Insulin SC Sliding Scale
+Lab	Fingerstick q6hrs -- Breakfast Lunch Dinner Bedtime
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call your doctor or return to the emergency room if you have any of the following :
+Patient instructions	Followup Instructions :
+Patient instructions	A polypoid lesion on the anterior wall of the gastric fundus was noted on your CT scan .
+Appointment_Patient instructions	You have a follow-up appointment with Dr. Jones on 04-05 at 1PM .
+Appointment_Patient instructions	Cardiology Building , USNV Taylor FPO AA 00181 .
+Appointment_Patient instructions	Assumption Community Hospital .
+Patient instructions	Please call with questions .
+Patient instructions	874-670-2386
+Appointment_Patient instructions	Please follow-up with your psychiatrist Dr. Price following discharge .
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Calderon MD 98057
+Patient instructions	Completed by:2007-04-12
+
+Lab	He was arranged to have INR monitoring by the Banner Lassen Medical Center Clinic , with MWF lab draws .
+Medication	1 . Warfarin 1 mg Tablet Sig : One ( 1 ) Tablet PO once a day : The transplant clinic will call you if your dose needs to be adjusted .
+Patient instructions	Discharge Instructions :
+Patient instructions	-Please call the transplant clinic at 738-525-8233 for fever , chills , nausea , vomiting , diarrhea , constipation , increased abdominal pain , pain over the graft or other concerning symptoms .
+Patient instructions	-Monitor for signs of bleeding to include nose bleed , bright red blood per rectum , dark/tarry stool , increased length of time to stop bleeding , easy bruising .
+Patient instructions	You should shave with an electric razor .
+Patient instructions_Lab	-You are to have labs drawn starting on Monday 06-20 to include INR with your regular transplant labs .
+Patient instructions_Lab	Thereafter , you will need to have labs Monday , Wednesday , and Friday to follow your INR .
+Patient instructions_Other	Results should be faxed to Michelle Barnes at the transplant clinic at 105-89-3338 .
+Patient instructions_Medication	The transplant clinic will call you with any dosage adjustments .
+Patient instructions	-No heavy lifting .
+Patient instructions	No driving if taking narcotic pain medication
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Michael Navarro DDS Nguyen , M.D . Phone:400-21-4511
+Appointment_Patient instructions	Date/Time:1971-04-20 1:20
+
+Medication	Levofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 2 weeks .
+Medication	Nystatin 100,000 unit/mL Suspension Sig : Five ( 5 ) ML PO QID ( 4 times a day ) as needed for 2 weeks : while on Levofloxacin .
+Patient instructions	Discharge Instructions :
+Patient instructions	Call with fever , redness or drainage from incision or weight gain more than 2 pounds in one day or five in one week .
+Patient instructions	Shower , no baths , no lotions , creams or powders to incisions .
+Patient instructions	No lifting more than 10 pounds or driving until follow up with surgeon .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr. Acevedo 2 weeks Dr. Bell 1 months Dr. Strickland 2 weeks
+Patient instructions	Completed by:1978-05-07
+
+Appointment	He was restarted on his outpatient medications and discharged with instructions to follow up with Dr. Heather and Dr. Wilson
+Medication	Start morning of 2003-12-15
+Medication	Start morning of 2003-12-15
+Medication	Start morning of 2003-12-15
+Patient instructions	( The 2 medications listed above ( Lisinopril and Hydrochlorothiazide together are called Zestoretic )
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 . You have an appointment this Friday with Dr. Wilson to have your blood pressure checked
+Appointment_Patient instructions	2 . Call Dr. Heather to schedule an appointment in 2 months .
+
+Appointment	It was discussed with patient that he would be given a new prescription for this with refills upon discharge but that he should follow up with his primary care doctor within the next couple of weeks .
+Appointment	He is being discharged to home on HD # 3 and will follow up in Acute Care Clinic in 03-20 weeks and with his PCP for ongoing management of his blood pressure .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the hospital after a trauma where you sustained injury to your liver requiring that you undergo a procedure to stop the bleeding in the ateries within the liver .
+Patient instructions	You were monitored closely in the intensive care unit where your blood counts were followed to insure that there was no further bleeding .
+Patient instructions	As your blood counts stabilized you were transferredto the regular surgical unit .
+Patient instructions	GO TO THE NEAREST EMERGENCY ROOM IMMEDIATELY IF YOU SUDDENLY BECOME DIZZY , LIGHTHEADED AS IF GOING TO PASS OUT .
+Patient instructions	THESE CAN BE SIGNS OF INTERNAL BLEDING AND WILL REQUIRE PROMPT EVALUATION .
+Patient instructions	AVOID any contact sports of any kind for the next 8 weeks as this can cause re-injury and bleeding to your liver .
+Patient instructions	You may resume your usual home medications as prescribed .
+Patient instructions	If you are taking narcotics for pain control do not take other narcotics along with these , avoid alcohol and/or other illicit drugs while taking these medications .
+Patient instructions	It is also advisable that you do not drive while taking narcotics .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Department : GENERAL SURGERY/Wyoming Behavioral Health
+Appointment_Patient instructions	When : TUESDAY 1997-01-17 at 2:00 PM
+Appointment_Patient instructions	With : ACUTE CARE CLINIC 577-366-8915
+Appointment_Patient instructions	Building :
+Appointment	LM Cardiology Bldg ( Harper ) Unit 9632 Box 7884 DPO AE 98311
+Appointment	Campus :
+Appointment	WEST Best Parking : Cardiology Garage
+Appointment	Follow up with your primary care doctor in the next 2-3 weeks for a general physical .
+Patient instructions	You will need to call for an appointment .
+
+Medication	9. vancomycin 250 mg Capsule Sig : Two ( 2 ) Capsule PO Q6H ( every 6 hours ) for 2 weeks : 500 mg q6hours for 10 more days ( through 11-27 ) .
+Medication	11. vancomycin 250 mg Capsule Sig : One ( 1 ) Capsule PO every six ( 6 ) hours for 7 days : To start 10-13 .
+Medication	1 tab daily for 7 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. West ,
+Patient instructions	It was a pleasure taking care of you during your hospitalization .
+Patient instructions	You were admitted to the hospital after developing severe diarrhea .
+Patient instructions	During your hospitalization , we determined that your diarrhea was most likely secondary to a Clostridium Difficile ( C.diff ) infection .
+Patient instructions_Medication	You were hydrated and started on an oral antibiotic , vancomycin .
+Patient instructions_Medication	We recommend continuing this antibiotic for a total of 3 weeks .
+Appointment_Patient instructions	Your diarrhea has improved and we recommend that you follow up with Dr. Rhodes in 2 weeks after discharge .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow up with Dr. Rhodes in 2 to 3 weeks after discharge .
+Patient instructions	Please see below for the dates of your next appointment :
+Appointment_Patient instructions	Provider : Katie Pacheco West Gables Rehabilitation Hospital CLINIC Phone:894-331-6828
+Appointment_Patient instructions	Date/Time:2007-07-19 10:40
+Appointment_Patient instructions	Provider : Katie Pacheco West Gables Rehabilitation Hospital CLINIC Phone:894-331-6828
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	1984-09-12 10:00
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Shaffer MD , 69555
+Patient instructions	Completed by:1971-06-17
+
+Appointment_Medication	She was continued on steroids ( 5mg and 10mg alternating days ) and will receive her next dose of Taxol per Dr. Krause ( scheduled for follow up with him on 09-26 ) . .
+Medication	She was continued on nebulizers and steroids , to be tapered per Dr. Krause as an outpatient . .
+Medication	6 . Prednisone 5 mg Tablet Sig : 1-2 Tablets PO once a day for 14 days : Please alternate between 10mg ( two tablets ) and 5mg ( 1 tablet ) every other day for 14 days .
+Medication	Disp : *21 Tablet ( s ) * Refills : *0*
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted for evaluation and treatment of shortness of breath .
+Patient instructions	You symptoms were due to the accumulation of fluid on your lungs .
+Patient instructions	This fluid was drained and your symptoms improved .
+Patient instructions	You continue to require 6L of oxygen . .
+Patient instructions	During this hospitalization , you received Taxol , a chemotherapy for the treatment of your melanoma .
+Patient instructions	You have tolerated this treatment well .
+Appointment_Patient instructions	You have been scheduled for a follow up appointment with Dr. Krause on Monday , 09-26 , at 11:00 am .
+Patient instructions	Please be sure to attend this appointment . .
+Patient instructions	We have made several changes to your medications .
+Patient instructions	We have increased your pain medication to a new dose for better pain control .
+Patient instructions	You will recieve a prescription for this at discharge . .
+Patient instructions	To help with your breathing , we are sending you home with a prescription for albuterol and ipratroprium inhalers .
+Patient instructions	You can take these medications every 6 hours as needed for wheezing/shortness of breath .
+Patient instructions_Medication	You will need to complete a 2 week taper of prednisone .
+Patient instructions	Please take this and all medications as directed . .
+Patient instructions	Please call your doctor or seek medical attention if you develop a fever higher than 100.3 , increased shortness of breath , chest pain , coughing up blood , nausea , vomiting , abdominal pain , diarrhea or any other symptom of concern .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Clark .
+Appointment_Patient instructions	Brandon Gilbert
+Appointment_Patient instructions	Phone :
+Appointment_Patient instructions	( 61-354-8353
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	Monday , 2006-01-17:00 am
+Patient instructions	Completed by:1993-02-14
+
+Medication	It is postulated that perhaps , Flolan and Bosentan together would provide subjective improvement in his dyspnea .
+Medication	He will likely try this regimen as an outpatient .
+Medication	He will likely restart an ACE inhibitor as an outpatient .
+Imaging	Initial read of the chest CT demonstrated persistent ground-glass opacities .
+Imaging	Further followup will be required to determine if this due to residual interstitial edema or early alveolitis .
+Patient instructions	The patient was educated on the importance of the low sodium diet and the importance of maintaining it while as an outpatient .
+Patient instructions	Of note , the patient 's home scale was 3 pounds lighter than the hospital scale .
+Patient instructions	His discharge instructions were to modify to account for this difference .
+Medication	As an outpatient , he will be maintained on Bumex 4 mg p.o . b.i.d. , spironolactone 25 mg p.o . q.d . as well as metolazone sliding scale based on his weights .
+Patient instructions_Medication	He was instructed to weigh himself daily and follow the sliding scale accordingly .
+Patient instructions_Medication	6 . Potassium chloride 80 mEq p.o . b.i.d . Patient is also instructed to take an additional 40 mEq of potassium on days that he takes Zaroxolyn .
+Patient instructions_Medication	He is to dose metolazone as follows based on his weight on his home scale : If his weight is less than 150 pounds , he should not take any metolazone .
+Patient instructions_Medication	If his weight is between 150-153 pounds , he should take metolazone 2.5 mg p.o . q.d . If his weight is greater than 153 pounds , he is to call Dr. Barr and Dr. Barr , and notify him of his increased weight and likely increased fluid retention .
+Appointment	1 . Dr. Ashley Hensley on 2016-04-02 at 9 a.m. in the Oncology Clinical Center .
+Appointment	2 . Pulmonary function testing on 2016-04-02 at 8:45 a.m. in the Oncology Clinical Center .
+Appointment	3 . Dr. Stephanie Hensley on 1978-05-28 at 10 a.m. in the Oncology Clinical Cardiac Services Center .
+Patient instructions_Medication	DISCHARGE INSTRUCTIONS :
+Patient instructions_Medication	In addition , he was instructed to weigh himself every morning .
+Patient instructions_Medication	If his weight was less than 150 pounds , he was not to take metolazone .
+Patient instructions_Medication	If his weight was between 150-153 pounds , he was to take one metolazone tablet
+Patient instructions_Medication	2.5 mg p.o . q.d . If his weight was greater than 153 pounds , he was to call Dr. Barr and Dr. Barr .
+Patient instructions	He was instructed to adhere to the 2-gram sodium diet as well as a 1500 cc a day fluid restriction .
+Patient instructions	He was educated on the use of ice packs as instructed with his Flolan in order to increase his efficacy .
+Patient instructions	He is also instructed to call Drs .
+Patient instructions	Barr ,
+Patient instructions	[ **Name5 ( PTitle ) ** ] ,
+Patient instructions	[ **Name5 ( PTitle ) ** ] Brown if he experienced any worsening shortness of breath , chest pain , dizziness , lightheadedness , fainting , fevers , chills , or any other worrisome symptoms .
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ]
+Patient instructions	[ **Initial ( NamePattern1 ) ** ] Hensley , M.D . 5977
+Patient instructions	Dictated By :
+
+Other	Accordingly , it is recommended that celexa and similar agents be avoided in the future .
+Medication	Modafanil was started to help with mental activation .
+Medication	( This can be discontinued if it adversely affects heart rate . ) .
+Procedure	Mr. Decker is scheduled to participate in an outpatient sleep study to further evaluate pulmonary and sleep physiology . .
+Appointment_Medication	Anticoagulation should be discussed at the patient 's next cardiology visit .
+Other	Accordingly , it is recommended that celexa and similar agents be avoided in the future .
+Medication	Modafanil was started to help with mental activation .
+Medication	( This can be discontinued if it adversely affects heart rate . ) .
+Procedure	Mr. Decker is scheduled to participate in an outpatient sleep study to further evaluate pulmonary and sleep physiology . .
+Appointment_Medication	Anticoagulation should be discussed at the patient 's next cardiology visit .
+Patient instructions	Discharge Instructions :
+Patient instructions	You presented to the Parmer Medical Center after a change in mental status .
+Patient instructions	Physical examination revealed a large bruise in the area of the right flank and thigh .
+Patient instructions	Your hematocrit was also found to be low enough to require transfusions .
+Patient instructions	Fortunately , there was no evidence of continued bleeding after the transfusiuons .
+Patient instructions	Please note that the coumadin and lovenox were stopped in the setting of the bleeding .
+Patient instructions	On the day of discharge aspirin 81 mg po daily was restarted . .
+Patient instructions	In the course of the hospitalization , you had several episodes where you did not respond to verbal , tactile or noxious stimulation ( for as long as six hours ) .
+Patient instructions	Of note , these episodes did not recur after your blood count came up and the citalopram was discontinued .
+Patient instructions	We think that anemia , hypoxia , and medication effects were contributing to the episodes .
+Patient instructions	There was no clear evidence of seizure , infection , or structural change to explain the syndrome . .
+Patient instructions_Lab	It will be important to continue to monitor vital signs , hematocrit , and the appearance of the hematoma . .
+Patient instructions	* Please take all medications as prescribed .
+Patient instructions	* Please attend all follow-up appointments .
+Patient instructions	* Please seek medical attention for symptoms you consider concerning .
+Patient instructions	Followup Instructions :
+Patient instructions	* Please attend appointments with the following providers :
+Appointment_Patient instructions	- Neurologist Kathryn Cook Manning , M.D . ( Phone:980-855-2825 ) on 1995-08-17 at 3:00 pm . .
+Appointment_Patient instructions	Department : SURGICAL SPECIALTIES
+Appointment_Patient instructions	When :
+Appointment	[ **Date Range ** ] 1986-09-09 at 11:30 AM
+Appointment	With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Robbins , MD 373-781-6112
+Appointment	Building :
+Appointment	[ **Street Address ( 2 ) 3001** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA ) 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638
+Appointment	Campus :
+Appointment	OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department :
+Appointment	Sjrh - Park Care Pavilion HEALTHCARE OF 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638
+Appointment	When :
+Appointment	8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2012-08-11 at 9:00 AM
+Appointment	With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Robbins , MD 373-781-6112 Building : [ **Street Address ( 2 ) 3001** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA ) 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : Sjrh - Park Care Pavilion HEALTHCARE OF 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2012-08-11 at 9:00 AM With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Jackson , MD , MPH 587-431-9178
+Appointment	Building :
+Appointment	[ **Street Address ( 2 ) 8172** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA ) Ground
+Appointment	Campus :
+Appointment	OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : SURGICAL SPECIALTIES When :
+Appointment	[ **Date Range ** ] 1986-09-09 at 11:30 AM With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Robbins , MD 373-781-6112 Building : [ **Street Address ( 2 ) 3001** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA ) 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : Sjrh - Park Care Pavilion HEALTHCARE OF 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2012-08-11 at 9:00 AM With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Jackson , MD , MPH 587-431-9178 Building : [ **Street Address ( 2 ) 8172** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA )
+Appointment	Ground Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : CARDIAC SERVICES
+Appointment	When :
+Appointment	8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2015-08-04 at 9:20 AM
+Appointment	With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Robbins , MD 373-781-6112 Building : [ **Street Address ( 2 ) 3001** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA ) 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : Sjrh - Park Care Pavilion HEALTHCARE OF 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2012-08-11 at 9:00 AM With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Jackson , MD , MPH 587-431-9178 Building : [ **Street Address ( 2 ) 8172** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA )
+Appointment	Ground Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : CARDIAC SERVICES When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2015-08-04 at 9:20 AM With : Robert Bethany Vang , M.D . 386-109-7072
+Appointment	Building :
+Appointment	SC Cardiology Clinical Ctr 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638
+Appointment	Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : Sjrh - Park Care Pavilion HEALTHCARE OF 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2012-08-11 at 9:00 AM With :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Jackson , MD , MPH 587-431-9178 Building : [ **Street Address ( 2 ) 8172** ] ( 68753 Chad Square Alexandriaborough , NV 15595-5706 , MA )
+Appointment	Ground Campus : OFF CAMPUS Best Parking : Parking on Site .
+Appointment	Department : CARDIAC SERVICES When : 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 2015-08-04 at 9:20 AM With : Robert Bethany Vang , M.D . 386-109-7072 Building : SC Cardiology Clinical Ctr 8329 Nicole Gateway Suite 609 Lake Heather , RI 47638 Campus : EAST Best Parking : Cardiology Garage
+Appointment	Provider :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Robbins , MD Phone:373-781-6112
+Appointment	Date/Time:1986-09-09 11:30
+
+Medication	5 . Amiodarone 200 mg Tablet Sig : One ( 1 ) Tablet PO twice a day for 7 days : then drop to 200mg daily .
+Patient instructions	Please hold for heart rate less than 60 .
+Medication	8 . Furosemide 40 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 7 days : Then titrate accordingly to preoperative weight of 65kg .
+Medication	9 . Potassium Chloride 20 mEq Tab Sust .
+Medication	Rel .
+Medication	Particle/Crystal Sig : Two ( 2 ) Tab Sust .
+Medication	Rel .
+Medication	Particle/Crystal PO once a day for 7 days : Take with Lasix .
+Medication	Titrate accordingly .
+Patient instructions	Discharge Instructions :
+Patient instructions	Call with fever , redness or drainage from incision or weight gain more than 2 pounds in one day or five in one week .
+Patient instructions	Shower , no baths , no lotions , creams or powders to incisions .
+Patient instructions	No lifting more than 10 pounds or driving until follow up with surgeon .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr. Thompson 2 weeks - call for appt Dr. Bray 4 weeks - call for appt Dr. Katherine Moore 2 weeks - call for appt
+Patient instructions	Completed by:2009-11-27
+
+Appointment	The patient 's blood sugar did normalize and the patient was discharged to home on postoperative day number six with VNA services to help monitor her blood sugar as well as continue physical therapy .
+Medication	3 . Potassium Chloride 20 meq p.o . twice a day times seven days .
+Appointment	DIAlexanderE INSTRUCTIONS :
+Appointment	The patient is to follow-up with her cardiologist in one to two weeks .
+Appointment	Continuation of diuresis will be addressed at that time .
+Appointment	The patient should follow-up with Dr. [ **Last Name ( Prefixes ) ** ] in four weeks .
+Appointment	The patient should also follow-up with Dr. Jacqueline of Stark for treatment of her diabetes mellitus .
+
+Procedure	The patient 's respiratory failure was felt secondary to his obstructive sleep apnea and recommended that the patient undergo a polysomnogram in the future to be evaluated for CPAP during the evenings .
+Procedure	He will likely need a split night study , with brief diagnostic PSG , followed by CPAP titration , both with trach capped .
+Procedure	If he benefits from CPAP in sleep lab , he will need CPAP trial at home .
+Procedure	Depending how he does with CPAP ( with trach capped ) , he will then need reevaluation of what to do with trach ( question of decanulation ) .
+Appointment	Suggest referral to Sleep Disorders Center ( 728-509-1777 ) when improved , for evaluation and assistence with this .
+Lab	Mr. Mitchell will require repeat blood counts as an outpatient to ensure that his anemia is resolving .
+Procedure	We recommend a repeat evaluation as his mental status continues to improve and the C spine collar has been removed .
+Patient instructions	DISCHARGE INSTRUCTIONS :
+Patient instructions_Lab	The patient should continue with CBC and Chem-7 three times a week until stable .
+Patient instructions_Procedure	Recommend patient to have a polysomnogram to evaluate for positive pressure during sweep .
+Appointment_Patient instructions	This is to be scheduled per the patient 's primary care physician .
+Patient instructions	DISCHARGE DIAGNOSES :
+
+Lab	The insulin and C-peptide were still pending at the time of discharge but his cortisol stimulation test was completely normal .
+Appointment_Medication	He was instructed not to take insulin and to follow up with Rice Memorial Hospital clinic for future management of his diabetes .
+Lab_Other	The final diagnosis depends on the C-peptide and Insulin levels but we strongly suspected factitious disease .
+Patient instructions	Discharge Instructions :
+Patient instructions	You had low blood sugars so please do not take any insulin products .
+Patient instructions	Please take Metformin to manage your diabetes .
+Appointment_Patient instructions	Please follow up with Rice Memorial Hospital clinic for future management of your diabetes .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Kelly Follow Up .
+Appointment_Patient instructions	Please call if questions
+Appointment_Patient instructions	( 867-340-9005 : 1992-12-19 - 2:00 PM - Eye exam 1992-12-19 - 2:30 PM - Appointment with Dr. Sanchez 1992-12-19 - 3:30 PM - Appointment with Nurse educator .
+
+Medication	HD 6 patient was discharged to rehab in stable condition with T tube clamped and 3 months of meds for GI ulcer per GI team .
+Medication	2 . Protonix 40 mg Tablet , Delayed Release ( E.C . ) Sig : One ( 1 ) Tablet , Delayed Release ( E.C . ) PO twice a day for 3 months .
+Medication	Disp : *180 Tablet , Delayed Release ( E.C . ) ( s ) * Refills : *0*
+Patient instructions	Discharge Instructions :
+Patient instructions	Please seek medical attention if you experience fever > 101.5 , severe nausea , vomiting , pain or melena .
+Patient instructions	Please take medications as directed on discharge sheet .
+Patient instructions	Please keep T tube clamped .
+Patient instructions	Please follow current diet regimen .
+Patient instructions_Medication	Resume anticoagulation for atrial fibrillation ONLY once the patient is no longer a fall risk and no longer a risk of GI bleeding .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	James Bean , Holly Newman
+Appointment_Patient instructions	[ **Name Initial ( NameIs ) ** ] . 14-929-1525 Call to schedule appointment
+Appointment_Patient instructions	Provider : James Bean , Holly Newman
+Appointment_Patient instructions	[ **Name Initial ( NameIs ) ** ] . 14-929-1525 Call to schedule appointment
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Harmon , MD Phone:427-732-4390
+Appointment_Patient instructions	Date/Time:2004-11-08 1:30
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	James Bean , Melanie
+Appointment_Patient instructions	[ **Name Initial ( NameIs ) ** ] . 955-518-9304 Call to schedule appointment in 1 - 2 weeks .
+Patient instructions	Completed by : [ **0-0-0** ]
+
+Appointment	He was D/C on HD # 7 in stable condition and should F/U in Plastic Surgery clinic this Friday .
+Appointment	Pt should also F/U with occuloplastics for right eye enucleation and prosthesis placement .
+Medication	5 . Clindamycin HCl 300 mg Capsule Sig : Two ( 2 ) Capsule PO Q8H ( every 8 hours ) for 3 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the hospital for multiple facial trauma .
+Patient instructions	You should call your doctor or return to the ER should you experience any of the following : Severe increase in drainage or redness at incision sites Severe Increase in pain from incision sites Fever > 101 Severe pain to face Numbness/Tingling/Paralysis Severe Dizziness Nausea/Vomiting Severe Chest Pain/SOB Any other symptoms that worry you .
+Patient instructions	You were admitted to the hospital for multiple facial trauma .
+Patient instructions	You should call your doctor or return to the ER should you experience any of the following : Severe increase in drainage or redness at incision sites Severe Increase in pain from incision sites Fever > 101 Severe pain to face Numbness/Tingling/Paralysis Severe Dizziness Nausea/Vomiting Severe Chest Pain/SOB Any other symptoms that worry you .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow-up with Dr. Jason of Eye Plastic Surgery in 02-20 weeks .
+Appointment_Patient instructions	You should call
+Appointment_Patient instructions	( 695-339-8122 to schedule an appointment .
+Appointment_Patient instructions	Please follow-up in Plastic Surgery Clinic on Friday 2013-09-16 .
+Appointment_Patient instructions	Please call
+Appointment_Patient instructions	( 765-809-9707 to schedule an appointment .
+Appointment_Patient instructions	Please follow-up with your primary care doctor .
+Patient instructions	Completed by:1978-08-30
+
+Medication	These erosions were thought to have been the cause for patient 's melena and the GI Consult Service advised keeping patient on Protonix 40 mg p.o . twice a day times one week , then 40 mg p.o . q. day for 60 days .
+Procedure	Polypectomy was recommended at a future date and follow-up when gastrointestinal bleeding and cardiac issues resolved .
+Lab_Medication	His history of atrial fibrillation had prompted use of anti-coagulants in the past , but given the acute episodes of gastrointestinal bleeding his Coumadin was initially held , but when his hematocrit stabilized , his Coumadin was restarted and should be continued with goal INR of 2.0 to
+Lab_Medication	3.0 .
+Other	His physical examination and chest x-ray findings were consistent with congestive heart failure and the patient has been restarted on his Lasix and his angiotensin receptor blocker for treatment of this with subsequent improvement in his hypoxia .
+Other	It is anticipated that with further therapy , his O2 requirements will resolve .
+Other	He will need continued monitoring of his daily weights and intakes and outputs until his hypoxia resolved and his cardiovascular status becomes stable .
+Medication	He was started on Regular insulin sliding scale and was on fingersticks while in the hospital and may benefit from started an oral Higgins if he continues to have periodic elevated blood sugars .
+Appointment	5 . Deconditioning : After a prolonged hospital stay , the patient was deconditioned and after Physical Therapy evaluation was felt to be someone who could benefit from Physical Therapy in a Rehabilitation setting .
+Appointment	8 . Colon polyps ; needs GI follow-up for polypectomy once gastrointestinal bleeding issues and cardiovascular status stabilize .
+Medication	1 . Protonix 40 mg p.o . twice a day times two weeks , then change to 40 mg p.o . q. day times 60 days .
+Medication	2 . Metoprolol 25 mg p.o . twice a day ; continue to monitor heart rate and blood pressure and adjust for rate control .
+Lab_Medication	5 . Warfarin 4 mg p.o . q. day ; adjust to goal INR of 2.0 to
+Lab_Medication	3.0 .
+Patient instructions	DISCHARGE INSTRUCTIONS :
+Patient instructions	1 . The patient will be discharged to Rehabilitation .
+Appointment_Patient instructions	2 . He will need follow-up with his primary care physician on an ongoing basis .
+Patient instructions_Lab	3 . He will INR checked two days following discharge and adjust Coumadin to goal INR of 2.0 to 3.0 .
+Patient instructions_Lab	4 . The patient will also need to follow-up monitoring of his hematocrit to insure stability , given history of gastrointestinal bleeding .
+Patient instructions_Procedure	5 . The patient will also need follow-up colonoscopy for polypectomy given findings of transverse colon polyps during hospital stay .
+Patient instructions_Other	6 . Discharge diet , cardiac , two gram salt .
+Patient instructions	CONDITION ON DISCHARGE :
+
+Lab_Medication	The benefits of an ACE inhibitor were discussed with her primary care physician who will follow her renal function as an outpatient , and the patient may be started on an ACE inhibitor at that point .
+Medication	However , in the future , it may be considered beneficial starting anticoagulation .
+Appointment_Medication	The patient was to follow up with her primary care physician , Laura Dougherty which time a decision can be made whether to start an ACE inhibitor .
+Medication	She was started on a 7-day course of ciprofloxacin for complicated urinary tract infection secondary to indwelling Foley catheter .
+Medication	5 . Ciprofloxacin 500 mg p.o . q.d . ( for a 7-day course ) .
+Patient instructions	DISCHARGE INSTRUCTIONS/FOLLOWUP :
+Appointment_Patient instructions	The patient was to follow up in the Cardiology Clinic .
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Anderson , M.D . 90998
+Patient instructions	Dictated By :
+
+Lab	Blood cultures drawn on 1994-01-13 , were negative .
+Lab	Pro insulin and ACTH levels were pending at the time of discharge .
+Medication	5 . Pulmonary - The patient 's cough persisted , though decreased in intensity during her hospitalization .
+Medication	The ace inhibitor should be considered as a possible etiology of the patient 's cough .
+Medication	Consideration should be made to change to an angiotensin receptor blocking Schwartz .
+Appointment	2 . Contact primary care physician , Rowland .
+Appointment	Brown , for a follow-up visit in one to two weeks .
+Appointment	3 . Call infectious disease physician , Rowland .
+Appointment	Tran , for a follow-up appointment in two weeks .
+
+Appointment	Will follow-up as outpatient .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the ICU for post procedure monitoring after your elective procedure with interventional radiation .
+Patient instructions	Please call your doctor if you have any fever , chills , nausea , vomiting , bleeding from site , lightheadedness , black tarry stools , or any other concerning symptoms .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Veronica Dixon , MD Phone:233-81-7013 Date/Time:1979-03-21 11:00
+Appointment_Patient instructions	Provider : Veronica Dixon , MD Phone:233-81-7013 Date/Time:1979-03-21 11:00 Provider :
+Appointment_Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Atkinson , MD Phone:233-81-7013
+Appointment_Patient instructions	Date/Time:1979-03-21 11:00 Provider :
+Appointment_Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Atkinson , MD Phone:233-81-7013 Date/Time:1979-03-21 11:00
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Brian Reynolds SCAN Phone:914-570-418 Date/Time:1991-02-17 1:00
+Appointment_Patient instructions	Please make an appointment to follow-up with your primary doctor .
+Patient instructions	Completed by:1984-06-22
+
+Appointment	PICC was placed for TPN , and f/u for further discussion of options arranged with Dr. Castillo of Onc . and Dr. Owens of Surgery . .
+Appointment	Staples will be removed at follow-up appointment with Dr. Owens on 2016-07-03 .
+Other	He has been urinating adequate amounts , but has been dribbling urine .
+Other	He has been wearing an undergarment .
+Other	No BM since surgery .
+Other	Bowel sounds present , but hypoactive .
+Appointment_Medication	He will follow-up with Dr. Castillo ( Heme/Onco ) on 1999-07-19 to start chemotherapy at that time .
+Appointment	Once his is ready for discharge home , VNA services with eventual bridge to hospice should be arranged .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call your doctor or return to the ER for any of the following : * You experience new chest pain , pressure , squeezing or tightness .
+Patient instructions	* New or worsening cough or wheezing .
+Patient instructions	* If you are vomiting and can not keep in fluids or your medications .
+Patient instructions	* You are getting dehydrated due to continued vomiting , diarrhea or other reasons .
+Patient instructions	Signs of dehydration include dry mouth , rapid heartbeat or feeling dizzy or faint when standing .
+Patient instructions	* You see blood or dark/black material when you vomit or have a bowel movement .
+Patient instructions	* Your pain is not improving within 8-12 hours or not gone within 24 hours .
+Patient instructions	Call or return immediately if your pain is getting worse or is changing location or moving to your chest or
+Patient instructions	back .
+Patient instructions	*Avoid lifting objects > 5lbs until your follow-up appointment with the surgeon .
+Patient instructions	*Avoid driving or operating heavy machinery while taking pain medications .
+Patient instructions	* You have shaking chills , or a fever greater than 101.5 ( F ) degrees or 38 ( C ) degrees .
+Patient instructions	* Any serious change in your symptoms , or any new symptoms that concern you .
+Patient instructions	* Please resume all regular home medications and take any new meds as ordered .
+Patient instructions	* Continue to ambulate several times per day . .
+Appointment_Patient instructions	Incision Care :
+Appointment	-Your staples will be removed at your follow-up appointment with the surgeon , and steri strips will be applied .
+Patient instructions	-Your steri-strips will fall off on their own .
+Patient instructions	Please remove any remaining strips 7-10 days after surgery .
+Patient instructions	-You may shower , and wash surgical incisions .
+Patient instructions	-Avoid swimming and baths until your follow-up appointment .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 . Please follow-up appointment with Dr. Owens
+Appointment_Patient instructions	( 18-165-1512 on 2016-07-03 at 1:15pm for removal of your staples .
+Appointment_Patient instructions	2 . You have follow-up appointment with Dr. [ **First Name11 ( Name Pattern1 ) ** ] Gonzalez , MD
+Appointment_Patient instructions	Phone:940-27-7912 Date/Time:1999-07-19 11:00 , and chemotherapy at
+Appointment_Patient instructions	Provider : Matthew Christian Holly Preston , RN
+Appointment_Patient instructions	Phone :
+Appointment_Patient instructions	940-27-7912 Date/Time:1999-07-19 12:00
+Appointment_Patient instructions	3 . Provider : Matthew Christian , Kimberly Branch APG ( SB ) Phone:438-264-9051 Date/Time:1990-04-04 10:10
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Cook MD 75797
+Patient instructions	Completed by:1976-03-12
+
+Appointment	They recommended home physical therapy at discharge .
+Appointment	She was instructed to follow-up with Dr. Moore in the office in one to two weeks for surgical staple removal .
+Medication	1 . Lisinopril 10 mg p.o . q day , to be restarted at home .
+Medication	2 . Lipitor 20 mg p.o . q h.s , to be restarted when home .
+Appointment	DISPOSITION : Home with VNA services .
+
+Appointment	I would recommend vigorous physical therapy to prevent contractures , and improve strength from deconditioning .
+Imaging	She should have another MRI of her C-spine ( the last one had too much motion artifact to actually determine the contribution it may have on her presentation ) .
+Medication	She is currently on a Statin , you may want to consider an alternative Smith .
+Appointment_Procedure	Further evaluation of her myopathy could require a muscle biopsy , would recommend she follow up with the neuromuscular department as an outpatient to consider this possibility .
+
+Patient instructions	On 1978-03-05 , ENT was consulted and the recommendations included to initiate CSF leak precautions ( HOB elevation , stool softeners , sneeze with mouth open , no nose blowing ) .There was no need for systemic antibiotics .
+Medication	Discharge Medications :
+Medication	1. ciprofloxacin 0.3 % Drops Sig : One ( 1 ) Drop Ophthalmic QID ( 4 times a day ) .
+Medication	2. dexamethasone 0.1 % Drops , Suspension Sig : One ( 1 ) Drop Ophthalmic QID ( 4 times a day ) .
+Medication	Disp : *60 Tablet ( s ) * Refills : *0*
+Medication	6. levetiracetam 500 mg Tablet Sig : as directed PO DAILY ( Daily ) : 500 mg PO/NG DAILY Duration : 5 Days then 500 mg po bid x 5 days , then 1000mg am/500mg PM x 5days , then 1000mg po bid .
+Patient instructions	Discharge Instructions :
+Patient instructions	General Instructions
+Patient instructions	Per Mass . law , you are not allowed to drive for 6 months following a seizure .
+Patient instructions	? ? ? ? ? ? Take your pain medicine as prescribed .
+Patient instructions	? ? ? ? ? ? Exercise should be limited to walking ; no lifting , straining , or excessive bending .
+Patient instructions	? ? ? ? ? ? Increase your intake of fluids and fiber , as narcotic pain medicine can cause constipation .
+Patient instructions	We generally recommend taking an over the counter stool softener , such as Docusate ( Colace ) while taking narcotic pain medication .
+Patient instructions	? ? ? ? ? ? Unless directed by your doctor , do not take any anti-inflammatory medicines such as Motrin , Aspirin , Advil , or Ibuprofen etc . ***** You have been discharged on Keppra ( Levetiracetam ) , you will not require blood work monitoring .
+Patient instructions	CALL YOUR SURGEON IMMEDIATELY IF YOU EXPERIENCE ANY OF THE FOLLOWING
+Patient instructions	? ? ? ? ? ? New onset of tremors or seizures .
+Patient instructions	? ? ? ? ? ? Any confusion , lethargy or change in mental status .
+Patient instructions	? ? ? ? ? ? Any numbness , tingling , weakness in your extremities .
+Patient instructions	? ? ? ? ? ? Pain or headache that is continually increasing , or not relieved by pain medication .
+Patient instructions	? ? ? ? ? ? New onset of the loss of function , or decrease of function on one whole side of your body .
+Patient instructions	Followup Instructions :
+Patient instructions	Follow-Up Appointment Instructions
+Patient instructions	You do NOT need to be seen in the neurosurgery clinic as you will be seen in the Vail Valley Medical Center clinic .
+Patient instructions	If they have concerns from a surgical standpoint they will direct you to see us in the clinic .
+Patient instructions	If you have any questions for Dr. Katherine or need tocontact us - our phone number is 141-581-8125
+Appointment_Patient instructions	While in the hospital you were seen the the ENT service for the fluid draining from your right ear .
+Appointment_Patient instructions	They are requesting that you be seen in their clinic in one month at
+Appointment_Patient instructions	( 138-781-4410
+Patient instructions_Procedure	You will also need to schedule an out patient hearing test .
+Patient instructions_Procedure	This can be scheduled when you call their office .
+Patient instructions	Completed by:2001-06-18
+
+Patient instructions	Discharge Instructions :
+Patient instructions	Call Dr.Roberts office 204-615-9661 if experience : -Fever > 101 or chills .
+Patient instructions	-Increased shortness of breath , cough or chest pain .
+Patient instructions	-Incision develops drainage .
+Patient instructions	No driving while taking narcotics .
+Patient instructions	Take stool softners with narcotics .
+Patient instructions	You may take motrin for pain .
+Patient instructions	Take with food and water
+Appointment_Patient instructions	Call Dr.Owensboro Health Regional Hospital clinic office at 204-615-9661 to arrange for follow up .
+Appointment_Patient instructions	Please call Dr.Lisa Rose clinic office at 870-680-5086 to arrange for follow-up in your area for your vocal chords .
+Patient instructions	Completed by:1992-12-10
+
+Lab	Blood Cultures : NGTD
+Appointment	She was continued on NAC infusion until 10-15 and was stopped once her ALT & ALT < 1000 and INR was < 1.5 . She improved and was scheduled for follow-up with Liver Clinic and her PCP .
+Other	Michael Chapman , the patient left AMA before she could be given her discharge paperwork with her follow-up appointments .
+Other	Her mother , who was listed as her emergency contact , was called and informed of her upcoming appointments and asked to have the patient call to confirm her follow-up .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	*** Please call for outpatinet psychiatry intake appointment at 1-800-981-HELP .
+Appointment_Patient instructions	You will need to call yourself to make the appointment .
+Appointment_Patient instructions	Department : Houston Methodist San Jacinto Hospital
+Appointment_Patient instructions	When : MONDAY 1996-01-29 at 11:00 AM
+Appointment_Patient instructions	With : Lee , Daniel Robertson MD .
+Appointment_Patient instructions	[ **Company 191** ] POST Palms West Hospital CLINIC 183-98-1537
+Appointment_Patient instructions	Building :
+Appointment	SC ICU Clinical Ctr 030 Nelson Knolls Apt . 582 East Debbie , OK 03437
+Appointment	Campus :
+Appointment	EAST Best Parking : ICU Garage * This appointment is with a hospital-based doctor as part of your transition from the hospital back to your primary care provider .
+Appointment	Paula Carlson this visit , you will see your regular primary care doctor in follow up .
+Appointment	Department : Houston Methodist San Jacinto Hospital When : MONDAY 1996-01-29 at 11:00 AM With : Lee , Daniel Robertson MD .
+Appointment	[ **Company 191** ] POST Palms West Hospital CLINIC 183-98-1537 Building : SC ICU Clinical Ctr 030 Nelson Knolls Apt . 582 East Debbie , OK 03437 Campus : EAST Best Parking : ICU Garage * This appointment is with a hospital-based doctor as part of your transition from the hospital back to your primary care provider .
+Appointment	Paula Carlson this visit , you will see your regular primary care doctor in follow up .
+Appointment	Department : LIVER CENTER
+Appointment	When : MONDAY 1996-01-29 at 11:00 AM With : Lee , Daniel Robertson MD .
+Appointment	[ **Company 191** ] POST Palms West Hospital CLINIC 183-98-1537 Building : SC ICU Clinical Ctr 030 Nelson Knolls Apt . 582 East Debbie , OK 03437 Campus : EAST Best Parking : ICU Garage * This appointment is with a hospital-based doctor as part of your transition from the hospital back to your primary care provider .
+Appointment	Paula Carlson this visit , you will see your regular primary care doctor in follow up .
+Appointment	Department : LIVER CENTER When : WEDNESDAY 1988-11-30 at 11:40 AM
+Appointment	With : Lee , Daniel Robertson MD .
+Appointment	[ **Company 191** ] POST Palms West Hospital CLINIC 183-98-1537 Building : SC ICU Clinical Ctr 030 Nelson Knolls Apt . 582 East Debbie , OK 03437 Campus : EAST Best Parking : ICU Garage * This appointment is with a hospital-based doctor as part of your transition from the hospital back to your primary care provider .
+Appointment	Paula Carlson this visit , you will see your regular primary care doctor in follow up .
+Appointment	Department : LIVER CENTER When : WEDNESDAY 1988-11-30 at 11:40 AM With : Benjamin Daniel Robertson , MD 581-903-2294
+Appointment	Building :
+Appointment	LM Cardiology Bldg ( Myers ) 463 Kent Unions Suite 641 Lake Thomaston , KY 16399-4282
+Appointment	Campus :
+Appointment	WEST Best Parking : Cardiology Garage
+
+Medication	Her outpatient PCP at [ **Name9 ( PRE ) 15303** ] rehab was contactShelley Ross and it was recommended that anticoagulation be initiated for atrial fibrillation .
+Medication	He will investigate why this was not previosuly done and consider starting .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the hospital with shortness of breath .
+Patient instructions	Your symptoms were secondary to an exacerbation of congestive heart failure .
+Patient instructions	We made the following changes to your medications .
+Patient instructions	1 . Lasix from 40mg twice daily to 60mg twice daily
+Patient instructions	Please return to the ER or call your primary care doctor if you have worsening shortness of breath , chest pain , worsening leg edema , fever , chills , or any other concerning symptoms .
+Patient instructions	You should weigh yourself every day and call your primary care doctor if you have weight gain of more than 2lbs daily .
+Patient instructions	You should adhere to a low sodium diet .
+Patient instructions	Followup Instructions :
+Patient instructions_Other	Please follow up with your primary care physician as needed .
+Patient instructions	Completed by:2000-03-04
+
+Patient instructions	Discharge Instructions :
+Patient instructions_Medication	DO NOT miss a dose of Plavix unless speaking with your cardiologist first .
+Patient instructions_Medication	It is imperative that you take this medication every day .
+Patient instructions	If you have symptoms of CP or SOB , please return to the hospital .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please make an appointment with your cardiologist , Dr. Garrison .
+Appointment_Patient instructions	Please make an appointment with your primary care doctor .
+
+Medication	6 . Methicillin-sensitive Staphylococcus aureus pneumonia treated with Vancomycin and Ceftazidime , started no 10-20 , planned for seven days .
+
+Imaging	Followup chest radiographs are recommended for further evaluation .
+Medication	Levo and flagyl were started on 1979-06-16 for a 10 day course .
+Procedure	She will have a repeat ERCP in 03-08 wks to remove stent and remnant CBD stones .
+Procedure	She should have an elective cholecystectomy soon after cholangitis and pneumonia have resolved completely .
+Appointment	She will follow-up with Dr. Cruz in surgery to evaluate for this .
+Imaging	She will follow-up in clinic in 3 weeks for repeat CXR .
+Medication	She was covered with sliding scale insulin and lantus , which will be tapered over the next 2 weeks .
+Lab	Her hemoglobin A1C of 6.6 suggests borderline diabetes which can be monitored as an outpatient .
+Medication	4 . HTN - normotensive off of anti-hypertensives . held in the setting of recent infection . will consider re-starting as outpatient .
+Medication	9 . Levofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 4 days .
+Medication	Prednisone 10 mg Tablets , Dose Pack Sig : see instructions Tablets , Dose Pack PO once a day : 40mg ( 4tabs ) x3days , 30mg ( 3tabs ) x3days , 20mg ( 2tabs ) x3days , 10mg ( 2tabs ) x3days , Stop .
+Medication	Lantus 100 unit/mL Solution Sig : see instructions Subcutaneous at bedtime for 2 weeks : 8 Units/night x 1 week,6 Units/night x 1 week , then stop .
+Medication	Nystatin 100,000 unit/mL Suspension Sig : Five ( 5 ) ml PO three times a day for 2 doses : while on prednisone .
+Patient instructions	Discharge Instructions :
+Patient instructions	If you develop fevers , abdominal pain , yellow skin or eyes contact your physician immediately or go the emergency room .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Contact Dr. Angie Juan Flores at 149-477-6667 or the ERCP/ gastroenterology clinic to schedule a follow up appointment within 2 weeks after you are discharged .
+Patient instructions_Procedure	You will need to have another ERCP in 03-08 weeks from the time that the stent was placed in your common bile duct .
+Appointment_Patient instructions	Dr. Sheri Smith will be your new primary care doctor .
+Appointment_Patient instructions	You have an appointment in Joan Glancy Memorial Hospital clinic on 1996-11-27 at 1:30pm .
+Appointment_Patient instructions	Call to confirm your appt at 954-916-8810 .
+Appointment_Patient instructions	Dr. Willis will refer you for follow-up in Pulmonary clinic for your COPD at that time .
+Patient instructions_Imaging	You need a repeat Chest X-ray ( Dr. Willis can arrange ) in 03-08 weeks to ensure your pneumonia has completely cleared and your lungs are normal in appearance .
+
+Appointment	- Patient 's mental status improved significantly over 36 hours , and was communicating appropriately , AOx3 at time of discharge - Carotid dopplers showed < 40 % stenosis bilaterally - He will follow up with Neurology in clinic . .
+Medication	When it was determined that he did not have a stroke , we aggressively attempted to manage his BP , and it was eventually well-controlled on lisinopril 40 and atenolol 75 qd .
+Medication	Please titrate meds as necessary . .
+Medication	3 . Triamcinolone Acetonide 0.1 % Cream Community Medical Center Of Izard County : One ( 1 ) Appl Topical Community Medical Center Of Izard County ( 2 times a day ) for 2 weeks .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please take all your medicines as prescribed . .
+Patient instructions	Please return to the hospital if you experience fevers , chills , night sweats , vomiting , chest pain or shortness of breath . .
+Patient instructions	Please keep all of your follow-up appointments .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please call 863-334-5079 to make an appointment with Dr. Fisher in neurology as soon as possible . .
+Appointment_Patient instructions	Please make a follow-up appointment with your primary care doctor as soon as possible .
+
+Medication	5 . Amiodarone HCl 200 mg Tablet Sig : Two ( 2 ) Tablet PO BID ( 2 times a day ) : 400mg Granville Health System x 1wk then 400mg QDx 1 wk then 200mg QD .
+Medication	Ciprofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q12H ( every 12 hours ) for 10 days .
+Medication	Ceftazidime-Dextrose ( Iso-osm ) 1 g/50 mL Piggyback Sig : One ( 1 ) gm Intravenous Q8H ( every 8 hours ) for 10 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	keep wounds clean and dry .
+Patient instructions	OK to shower , no bathing or swimming .
+Patient instructions	Take all medications as prescribed Call for any fever , redness or drainage of wounds
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr Adam in 04-06 weeks Dr Mayer in 04-06 weeks Dr Mills in 6 weeks
+Patient instructions	Completed by:2015-09-16
+
+Lab	02-27 Blood cultures- pending 02-27 Urine culture- No growth 05-21 Blood cultures- pending 05-21 CVL tip culture- pending
+Lab	Iron studies were sent ( pending on discharge ) with anemia and hyperdynamic LV .
+Medication	Day # 2 of 4 day course of colchine on day of discharge .
+Medication	Will complete two more days of colchine at rehab to be completed on 1974-01-02. .
+Medication	Atenolol restarted , however verapamil and diovan were held on dc due to stable pressures and BP .
+Medication	Would recommend re-starting as an outpatient if needed for hemodynamic control . .
+Medication	# ) Asympotamic bacteruria with a foley : Foley was replaced for urinary retention and started on 7 day course of Bactrim DS once a day to be completed on 2015-09-10 .
+Other	Would recommend voiding trial at discharge .
+Medication	Colchicine 0.6 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) for 4 days : STOP 1992-03-07 .
+Medication	Sulfamethoxazole-Trimethoprim 400-80 mg Tablet Sig : One ( 1 ) Tablet PO DAILY ( Daily ) for 7 days : STOP 2015-09-10 .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the hospital with diarrhea and right hip pain .
+Patient instructions	CT scan showed a fracture of your right femur .
+Patient instructions	This fracture was repaired in the operating room with an intramedullary nail .
+Patient instructions	The surgery was complicated by a little bit of bleeding- you were briefly transferred to the medical intensive care unit to monitor your blood pressure .
+Patient instructions	Your diarrhea was evaluated with blood tests and cultures of your stool .
+Patient instructions	We found no signs of serious bacterial infection .
+Patient instructions	You were given IV fluids while you were in the hospital and your symptoms resolved on their own . .
+Patient instructions	You were found to have left knee pain which was thought to be due to gout .
+Patient instructions	Your pain resolved with colchicine . .
+Patient instructions	You were found to have urinary tract infection .
+Patient instructions	We have made the following changes to your medications : STOP ATENOLOL 100 MG in the morning .
+Patient instructions	Continue atenolol 50 mg at night .
+Patient instructions_Medication	STOP DIOVAN 320 mg daily STOP VERAPAMIL 480 mg daily START BACTRIM DS once a day for total of 7 days to be completed on 2015-09-10 CONTINUE COLCHICINE 0.6 MG ONCE A DAY for two days to be completed on 1974-01-02 .
+Patient instructions	Please continue taking your other medications as you were previously .
+Patient instructions	It was a pleasure taking care of you at the Mountain Vista Medical Center , Lp .
+Patient instructions	We wish you a speedy recovery .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow up with Timothy Steele in Orthopaedics in 2 months .
+Appointment_Patient instructions	You can call 243-313-131 to make that appointment . .
+Appointment_Patient instructions	Please follow up with your primary care physician in six weeks .
+Appointment_Patient instructions	Department : RHEUMATOLOGY
+Appointment_Patient instructions	When : TUESDAY 1977-08-08 at 10:00 AM
+Appointment_Patient instructions	With : Jennifer Steele , MD 663-778-1899
+Appointment_Patient instructions	Building :
+Appointment	LM Edward Hospital 5558 Hoffman Throughway North Gregory , NY 71044
+Appointment	Campus :
+Appointment	WEST Best Parking : Andrew .
+Appointment	GARAGE
+
+Lab	1988-03-07 10:47PM GLUCOSE-157* UREA N-16 CREAT-1.4* SODIUM-142 POTASSIUM-4.5 CHLORIDE-102 TOTAL CO2-13* ANION GAP-32* 1988-03-07 10:47PM CALCIUM-8.0* PHOSPHATE-1.4* # MAGNESIUM-1.3* 1988-03-07 10:47PM WBC-6.6 RBC-3.08* HGB-11.5* HCT-31.2* MCV-101* MCH-37.3* MCHC-36.8* RDW-15.2 1988-03-07 10:47PM PLT COUNT-71* 1988-03-07 08:48PM LACTATE-2.1* 1988-03-07 08:48PM O2 SAT-97 1988-03-07 08:48PM freeCa-1.12 1988-03-07 03:03PM HGB-11.9* calcHCT-36 1988-03-07 02:50PM GLUCOSE-145* UREA N-17 CREAT-1.4* SODIUM-141 POTASSIUM-4.8 CHLORIDE-102 TOTAL CO2-12* ANION GAP-32* 1988-03-07 02:50PM IRON-129 1988-03-07 02:50PM OSMOLAL-328* 1988-03-07 02:50PM URINE HOURS-RANDOM 1988-03-07 02:50PM URINE HOURS-RANDOM 1988-03-07 02:50PM URINE UHOLD-HOLD 1988-03-07 02:50PM URINE bnzodzpn-NEG barbitrt-NEG opiates-NEG cocaine-NEG amphetmn-NEG mthdone-NEG 1988-03-07 02:50PM HGB-11.2* HCT-31.5* 1988-03-07 12:20PM TYPE-ART TEMP-37.3 PO2-118* PCO2-21* PH-7.23* TOTAL CO2-9* BASE XS -- 16 1988-03-07 12:20PM LACTATE-7.2* 1988-03-07 12:05PM URINE COLOR-Yellow APPEAR-Clear SP Wilson-1.015 1988-03-07 11:00AM ACETONE-LARGE OSMOLAL-359* 1988-03-07 11:00AM [ **Year/Month/Day ** ] -NEG ETHANOL-184* ACETMNPHN-NEG bnzodzpn-NEG barbitrt-NEG tricyclic-NEG 1988-03-07 11:00AM CK-MB-NotDone 1988-03-07 11:00AM LIPASE-47 1988-03-07 11:00AM ALT ( SGPT ) -112* AST ( SGOT ) -109* CK ( CPK ) -58 ALK PHOS-74 AMYLASE-61 TOT BILI-1.4 1988-03-07 11:00AM ALT ( SGPT ) -112* AST ( SGOT ) -109* CK ( CPK ) -58 ALK PHOS-74 AMYLASE-61 TOT BILI-1.4 . 1986-10-23 Stool Culture : C. Dif negative , fecal culture and campylobacter culture pending upon discharge .
+Lab	Stool Culture was sent on 1986-10-23 , C. Dif was negative and fecal and campylobacter culture were pending upon discharge .
+Procedure	They recommended EGD and sig or colonoscopy once pt is discharged .
+Medication	11.8 . Will need f/u as outpt regarding need for oral hypoglycemics . .
+Patient instructions	Discharge Instructions :
+Patient instructions	1 ) Please take all medications as prescribed 2 ) Please call your doctor or return to the ER for bloody emesis , bloody stool , feeling faint , dizziness , chest pain , shortness of breath , or any other concerning symptoms 3 ) Please follow up with the Healthsouth Rehabilitation Hospital Of Manati outpatient program
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 ) Please call to make an appointment for follow up with Dr. Montgomery for within 1 week after discharge ( 778-891-9959 ) 2 ) Please call the number given to you by case management for the Healthsouth Rehabilitation Hospital Of Manati outpatient program
+
+Lab	. FUNGAL CULTURE ( Preliminary ) : NO FUNGUS ISOLATED .
+Medication	On discharge , she will continue loveonox for 3 more weeks until her flouroquinalone/bactrim course is completed , in case she needs more procedures , and then she should be switched to coumadin after 3 weeks . .
+Appointment_Medication	Pt would continue on bactrim/flouroquinolone for three weeeks , and follow up with Dr. Suzanne from infectious disease and Dr. Wright from surgery in four weeks -- already scheduled . .
+Medication	Per ID recommendations , she would be on flagyl for 2 weeks after the Zosyn was stopped .
+Medication	Her last dose would be on 1976-10-06. .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please take all medication as prescribed .
+Patient instructions	Keep all appointment listed below .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	PRIMARY CARE :
+Appointment	Sullivan , Joshua C. 397-56-3218 Please call Dr. Barry to make a followup appointment as soon as possible .
+Appointment	INFECTIOUS DISEASE :
+Appointment	Dr. Cory Castaneda :
+Appointment	Monday 1986-12-04 at 11:30AM Vibra Hospital Of Mahoning Valley Medical Office Building Cobb 525-659-8771
+Appointment	GENERAL SURGERY :
+Appointment	Dr. Amanda Castaneda 1986-12-04 , 2PM Vibra Hospital Of Mahoning Valley Medical Office Building Reid Hospital-er
+Appointment	( 300-919-3006 *** PLEASE CALL DR .
+
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call your doctor or return to the ER for any of the following : * You experience new chest pain , pressure , squeezing or tightness .
+Patient instructions	* New or worsening cough or wheezing .
+Patient instructions	* If you are vomiting and can not keep in fluids or your medications .
+Patient instructions	* You are getting dehydrated due to continued vomiting , diarrhea or other reasons .
+Patient instructions	Signs of dehydration include dry mouth , rapid heartbeat or feeling dizzy or faint when standing .
+Patient instructions	* You see Hosp De La Concepcion or dark/black material when you vomit or have a bowel movement .
+Patient instructions	* Your pain is not improving within 8-12 hours or not gone within 24 hours .
+Patient instructions	Call or return immediately if your pain is getting worse or is changing location or moving to your chest or
+Patient instructions	back .
+Patient instructions	*Avoid lifting objects > 5lbs until your follow-up appointment with the surgeon .
+Patient instructions	*Avoid driving or operating heavy machinery while taking pain medications .
+Patient instructions	* You have shaking chills , or a fever greater than 101.5 ( F ) degrees or 38 ( C ) degrees .
+Patient instructions	* Any serious change in your symptoms , or any new symptoms that concern you .
+Patient instructions	* Please resume all regular home medications and take any new meds as ordered .
+Patient instructions	* Continue to ambulate several times per day .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Michael Caldwell , RN , MS,63494:502-203-4379
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	1986-11-02 10:30
+Appointment_Patient instructions	Call Dr. Miller ( Surgery ) for follow-up appointment in 08-18 weeks .
+Appointment_Patient instructions	See Dr. Miller ( Infectious Disease ) on 11-25 at 9:30 am in Suite GB , St. Mary - Rogers Memorial Hospital .
+Patient instructions	Phone is 180-231-9020 .
+Appointment_Patient instructions	Call Dr. Miller ( Gastroenterology ) at 335-465-9403 for appointment in 08-18 weeks .
+
+Procedure	The patient will need a repeat colonoscopy for bx/polypectomy while off plavix .
+Procedure	This was restarted prior to discharge , but the patient will need to have a repeat colonoscopy off plavix as an outpatient .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were hospitalized with a GI bleed .
+Patient instructions	You likely had bleeding from diverticulosis , but this resolved on its own .
+Patient instructions	You also were found to have polyps , which were not removed because you were recently on plavix .
+Patient instructions_Procedure	You will need a repeat colonoscopy as an outpatient , off plavix , to address this .
+Patient instructions	You should eat a high-fiber diet .
+Patient instructions	You should resume taking all of your usual home medications .
+Patient instructions	We have not made any changes .
+Patient instructions	If you have recurrent rectal bleeding , fever , chills , chest pain , shortness of breath , abdominal pain , or any other concerning symptoms , please call your doctor or return to the emergency room .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please make an appointment to followup with your primary care physician , Cole .
+Appointment_Patient instructions	Davis , within a week .
+Patient instructions_Procedure	Please discuss the need for a repeat colonoscopy with him .
+
+Other	These are to continue until PO intake is improved .
+Other	Foley remains in place , this can be taken out at your discretion .
+Medication	Discharge Medications : 1. heparin ( porcine ) 5,000 unit/mL Solution Sig : One ( 1 )
+Medication	Injection TID ( 3 times a day ) :
+Medication	until ambulatory .
+Medication	One ( 1 )
+Medication	One ( 1 )
+Medication	PICC Heparin Flush ( 10 units/ml ) 2 mL IV PRN line flush PICC , heparin dependent : Flush with 10mL Normal Saline followed by Heparin as above daily and PRN per lumen .
+Medication	Pleasse pull after last dose of cefepine
+Medication	14. cefepime 2 gram Recon Soln Sig : One ( 1 ) Recon Soln Injection Q12H ( every 12 hours ) for 2 days : Please stop on 01-27 , then pull PICC line .
+Patient instructions	Discharge Instructions :
+Patient instructions	Division of Vascular and Endovascular Surgery
+Patient instructions	Abdominal Aortic Aneurysm ( AAA ) Surgery Discharge Instructions
+Patient instructions	What to expect when you go home :
+Appointment	? ? ? ? ? ? No heavy lifting , pushing or pulling ( greater than 5 pounds ) until your post op visit ? ? ? ? ? ? You may shower ( let the soapy water run over incision , rinse and pat dry ) ? ? ? ? ? ? Your incision may be left uncovered , unless you have small amounts of drainage from the wound , then place a dry dressing over the area that is draining , as needed ? ? ? ? ? ? Take all the medications you were taking before surgery , unless otherwise directed ? ? ? ? ? ? Take one full strength ( 325mg ) enteric coated aspirin daily , unless otherwise directed ? ? ? ? ? ? Call and schedule an appointment to be seen in 2 weeks for staple/suture removal
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Brett Lee SCAN Phone:365-817-964 Date/Time:1983-09-11 11:00
+Appointment_Patient instructions	Provider : Brett Lee SCAN Phone:365-817-964 Date/Time:1983-09-11 11:00
+Appointment_Patient instructions	Provider : [ **First Name11 ( Name Pattern1 ) 275** ] Davis , M.D . Phone:257-576-1999
+Appointment_Patient instructions	Date/Time:1983-09-11 11:00
+Appointment_Patient instructions	Provider : [ **First Name11 ( Name Pattern1 ) 275** ] Davis , M.D . Phone:257-576-1999 Date/Time:1984-08-11 11:30
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Kelly Wise MRI Phone:365-817-964 Date/Time:1984-08-11 1:40
+Patient instructions	Dr Brewer 1980-11-02 hrs .
+Patient instructions	LMOB 7
+Patient instructions	Completed by:2009-07-13
+
+Appointment_Medication	She was discharged with oncologic follow-up and planned for consolidation chemotherapy .
+Appointment_Procedure	She was discharged with surgical follow-up for biliary stent removal .
+Patient instructions	Discharge Instructions :
+Patient instructions	1 ) Please contact the on-call oncologist at 743-512-6151 , your doctor or come to the Temple University Hospital emergency room if you have any nausea , vomiting , increased abdominal pain , bleeding , fevers , chills , or any other concerning symptoms .
+Patient instructions	2 ) Please take your medications as instructed .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 ) Please see Dr. Andrew Lynch ( 88-283-2167 ) in the St Alexius Medical Center Nix Community General Hospital Of Dilley Texas Clinic on Tuesday , 1985-04-04 .
+Appointment_Patient instructions	Please call to confirm or change your appointment :
+Appointment	[ **First Name11 ( Name Pattern1 ) ** ] Wheeler , MD Where : Lee Regional Medical Center HEMATOLOGY/BMT
+Appointment	Phone :
+Appointment	88-283-2167 Date/Time:1985-04-04 2:30
+Appointment_Imaging	2 ) Please arrive at 4:00PM for the following radiology appointment for a CAT scan on the same day as your appointment with Dr. Brown :
+Appointment_Imaging	CAT SCAN Where : Lee Regional Medical Center RADIOLOGY Phone:474-888-8612
+Appointment	Date/Time:1985-04-04 2:30
+Appointment_Imaging	2 ) Please arrive at 4:00PM for the following radiology appointment for a CAT scan on the same day as your appointment with Dr. Brown : CAT SCAN Where : Lee Regional Medical Center RADIOLOGY Phone:474-888-8612 Date/Time:1985-04-04 5:00
+
+Medication	5 . Warfarin 5 mg Tablet Sig : One ( 1 ) Tablet PO ONCE ( Once ) : take 1 tablet ( 5 mg ) daily for 2 days , then as directed by Barnes-jewish Hospital - Psychiatric Support Center Health Care Center
+Medication	( 11-843-8094 .
+Medication	Disp : *30 Tablet ( s ) * Refills : *0*
+Medication	6 . Furosemide 40 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 10 days .
+Medication	7 . Potassium Chloride 20 mEq Tab Sust .
+Medication	Rel .
+Medication	Particle/Crystal Sig : Two ( 2 ) Tab Sust .
+Medication	Rel .
+Medication	Particle/Crystal PO once a day for 10 days .
+Medication	Rel .
+Medication	8 . Amiodarone 200 mg Tablet Sig : Two ( 2 ) Tablet PO once a day : Please take two 200mg tablets once daily for 7days .
+Medication	Then one 200mg once daily until stopped by cardiologist .
+Medication	Disp : *60 Tablet ( s ) * Refills : *2*
+Medication	Cephalexin 500 mg Capsule Sig : One ( 1 ) Capsule PO Q6H ( every 6 hours ) for 5 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	1 ) Please shower daily .
+Patient instructions	No baths .
+Patient instructions	Pat dry incisions , do not rub .
+Patient instructions	2 ) Avoid creams and lotions to surgical incisions .
+Patient instructions	3 ) Call for redness or drainage from surgical wounds 4 ) No lifting more than 10 lbs for at least 10 weeks from surgical date .
+Patient instructions	5 ) No driving for at least one month .
+Patient instructions_Lab	6 ) Monitor PT/INR every Mon , Wed , and Friday until INR stablizes .
+Patient instructions_Other	Carolinas Hospital System Marion Health Clinic will manage Coumadin dosing as outpatient .
+Patient instructions_Other	VNA should call or fax results to clinic .
+Patient instructions	Goal INR is between
+Patient instructions	2.0 - 3.0 .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Barnes-jewish Hospital - Psychiatric Support Center Health Care Center for INR check/Coumadin dosing on Weds 06-30 at 10:00 am Dr. Salas in 02-23 weeks , call for appt Dr. Gomez 2-3 weeks , call for appt Dr. Jesus , call for appt
+Patient instructions	Completed by:1999-09-17
+
+Appointment	He was also given two follow-up appointments , one with Dr. Smith Cynthia Carroll in the Mayo Clinic Health System-oakridge Inc Clinic and one in the Peace Harbor Hospital Clinic .
+
+Medication	She will be continued on keflex for an additional ten days .
+Other	She can be continued on a stage V diet .
+Other	Her Right internal jugular central line was also removed just prior to discharge .
+Medication	3 . Cephalexin 500 mg Capsule Sig : One ( 1 ) Capsule PO Q6H ( every 6 hours ) for 10 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call doctor Jaclyn Ramirez greater than 101 , nasuea/vomiting , inability to eat , wound redness/warmth/swelling/foul smelling discharge , abdominal pain not controlled by pain medications or any otehr concerns .
+Patient instructions	Resume taking all medications as taken prior to this surgery and pain medications and stool softner as prescribed .
+Patient instructions	Please follow up as directed .
+Patient instructions	No heavy lifting for 6 wke .
+Patient instructions	04 leave wound open to air please leave steri-strips intact until they fall off .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please call Dr. Hoover for a follow up appointment . ( 995-381-120
+
+Procedure	- 1977-02-20 EEG : Report PENDING **
+Procedure	- 1984-08-21 EEG : Report PENDING **
+Procedure	- 1980-12-16 EEG : Report PENDING **
+Appointment	He will continue on Keppra and has neurology followup .
+Procedure	Final EEG 6789 Alexander Parks Apt . 879 Victortown , CT 98393 was pending on discharge .
+Medication	His insulin regimen was later switched to 18 units of humalog Pampa Regional Medical Center with a sliding scale .
+Medication	He will likely need further titration based on nutritional requirements .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted because you were found unresponsive .
+Patient instructions	You required mechanical ventilation to help you breath .
+Patient instructions	You were found to have injuries to your brain from low oxygen and subsequent sub-clinical seizures .
+Patient instructions	You also had a problem with your kidneys called renal failure , which started to recover at the end of your hospitalization .
+Patient instructions	You also had a pneumonia and urinary tract infection which were treated with antibiotics . .
+Patient instructions	Your medications have changed : -start pantoprazole -stop omeprazole -stop oxycodone -stop lasix -stop doxazosin -stop glipizide -start humalog insulin
+Patient instructions	Followup Instructions :
+Patient instructions	You have the following appointments scheduled : .
+Appointment_Patient instructions	Physician : Matthew Todd , Megan Barber MD , neurology
+Appointment_Patient instructions	Date/Time : 2015-01-21 at 1:30 pm
+Appointment_Patient instructions	Location :
+Appointment	Cardiology Building , 154 Ross Hollow Apt . 355 Lake Georgemouth , NY 82963 neurology , Sparta Community Hospital , 35117 Robbins Trafficway Suite 859 Melvinhaven , NV 58848 , 506 Danielle Canyon South George , HI 40570-1886 , 31588bdd-3932-1b58-9e20-eaf9157a8c31
+Appointment	Phone :
+Appointment	( 532-172-1719
+
+Medication	Following the procedure , she was briefly heparin loaded while her coumadin was restarted with goal INR of 01-18.5 . Inr on d/c was 2.2 . Amiodarone was held as transaminases were up and can be restarted as outpt . .
+Imaging	As she will be anticoagulated with regard to the atrial fibrillation , the MRI was deferred to an outpatient evaluation . .
+Medication	5 . Levofloxacin 250 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 4 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Call Dr. Gilmore or return to the hospital if you experience abdominal pain , nausea , vomitting , fevers , chills , inability to eat , or any other symptoms that concern you .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	You will follow up with Dr. Gilmore
+Appointment_Patient instructions	( 621-65-5125 on 1987-04-01 @ 2:15pm .
+Appointment_Patient instructions	( 296-325-6021 to set up an appointment to have the biliary stent removed in 05-04 weeks .
+Patient instructions_Imaging	You should have an outpatient MRI done to evaluate for stroke .
+
+Medication	- IV metoprolol was given , and changed to PO on discharge -atorvastatin 80mg daily - pt should be started on an ACE inhibitor in the near future ( once he is shown to be hemodynamically stable for several days s/p GI bleedd ) .
+Medication	# h/o meniere 's - held meclizine in house , can be restarted if symptoms recur as an outpatient . .
+Medication	8 . Levofloxacin 250 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 7 days .
+Lab	9 . Outpatient Lab Work please have your hematocrit checked this Monday .
+Patient instructions	Have the results faxed to Dr.Long .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please seek medical attention immediately if you experience chest pain , shortness of breath , fevers , chills , nausea , vomiting , or lightheadedness .
+Patient instructions	Please take all medications as prescribed .
+Patient instructions	Please attend all follow-up appointments .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	please follow-up with your PCP , Castro .
+Appointment_Patient instructions	Long , in the next 04-30 weeks .
+Patient instructions	His office number is 966-356-2302 .
+Patient instructions_Lab	Please have your hematocrit checked this Monday , and have results faxed to Dr.Joshua Graves office .
+Patient instructions	Provider :
+Appointment_Patient instructions	Jamie Wilson CLINIC Phone:507-529-2703 Date/Time:1981-06-05 9:00
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Woods MD , 19728
+Patient instructions	Completed by:2005-11-20
+
+Imaging	He was initially planned for a MRA of his carotid vessels given the recent stent placement .
+Imaging	This procedure will be deferred as an outpatient .
+Medication	Carvedilol 6.25 mg p.o . b.i.d . Diovan 40 mg p.o . q.d . Aspirin 325 mg p.o . q.d . Plavix 75 mg p.o . q.d . Prednisone to be tapered down , starting at 2.5 mg q.d for 14 days then 2.5 mg q.o.d . then stop .
+
+Appointment	- Thoracic surgery recs - F/u as outpatient , appointment made for 2017-05-12 .
+Medication	# METASTATIC BREAST CANCER - faslodex 500mg IM was given to the patient on 1976-05-02 .
+Medication	Her next dose is due on 2006-07-21 .
+Medication	18. fulvestrant 250 mg/5 mL Syringe Sig : Two ( 2 ) Intramuscular ONCE ON 2006-07-21 for 1 months : GIVE ON 2006-07-21 ( last dose given 1976-05-02 ) .
+Lab	Outpatient Lab Work 1970-11-22 : CBC , Chem 7 , Vanco Trough 7/28.2003 : CBC , Chem 7 , Vanco trough
+Medication	21. albumin , human 25 % 25 % Parenteral Solution Sig : Twenty Five ( 25 ) g Intravenous Hansen Family Hospital ( 2 times a day ) : Please take this one hour before receiving furosemide .
+Medication	22. furosemide 10 mg/mL Solution Sig : Ten ( 10 ) mg Injection Hansen Family Hospital ( 2 times a day ) : Please take this 10mg furosemide IV twice daily .
+Medication	Please take one hour after receiving albumin .
+Lab_Medication	23. vancomycin 1,000 mg Recon Soln Sig : One ( 1 ) Intravenous Q 24H ( Every 24 Hours ) : Please adjust dose according to vancomycin trough .
+Lab_Medication	Pt 's trough should have a blood level between 15 and 20 .
+Lab_Medication	Pt will need to be on vancomycin through 1979-07-20 .
+Lab	Outpatient Lab Work Once a week Labs : CBC with diff , chem 7 , BUN/Cr , Vanco trough .
+Other	Fax results to : Dr Tara Wolf from infectious disease 294-400-1543
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. Frye , It was a pleasure being able to participate in your medical care at Torrance State Hospital .
+Patient instructions	You were treated here for a port line infection and bilateral empyemas ( lung infections ) .
+Patient instructions	We wish you well in your continued recovery at Hampstead Hospital .
+Patient instructions	Activity -Shower daily .
+Patient instructions	Wash chest incisions with mild soap and water , rinse pat dry -No tub bathing swimming or hot tubs until incision healed .
+Patient instructions	-No lotion or creme applied to incisions -No lifting greater than 10-24 pounds .
+Patient instructions	Your wounds from the port infection on the upper-left side of your chest must have clean dressing changes once daily ( apply 4x4 to infected area and cover with clean gauze and skin tape . Change every day . )
+Patient instructions	We have made numerous changes to your medications during your stay with us .
+Patient instructions	Please take the following medications as described :
+Medication	Post-Discharge Medications :
+Medication	Albumin :
+Medication	Please take 25g IV twice daily .
+Lab_Medication	( this will be titrated base on renal function and fluid state )
+Medication	Furosemide :
+Medication	Please take 10mg IV twice daily , one hour after receiving albumin .
+Lab_Medication	( this will be titrated base on renal function and fluid state )
+Medication	fulvestrant 250 mg/5 mL Syringe : Two ( 2 ) Intramuscular one time per month .
+Lab_Medication	Vancomycin 1000 mg IV Q 24H ( every 24 hours ) .
+Lab_Medication	Please adjust the dose according to the vancomycin trough , which should be between 15 and 20 .
+Lab_Medication	Pt will need vancomycin until 1979-07-20 .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Shirley Black Rebecca Webb , MD Phone : [ **0-0-** ] 2017-05-12 4:00 on the Neurology Oncology Clinical Center 829 Todd Plains Suite 285 Christopherhaven , WY 38507-0635 of Torrance State Hospital .
+Patient instructions_Imaging	Chest X-Ray 513 Wilson Lane Apt . 691 Joneston , MS 15305-6385 Radiology 30 minutes before your appointment
+Appointment_Patient instructions	Please see Dr. Murphy at 11:30am on 1974-08-24 .
+Appointment_Patient instructions	The address is 7990 Darren Dam Suite 998 Whitakerborough , IL 06362-7480 , 276 Walsh Loaf Suite 404 Christopherhaven , IN 94671 .
+Appointment_Patient instructions	680-652-448
+Patient instructions	Completed by:1996-12-23
+
+Medication	The medication protocol for Chi St Lukes Health Memorial San Augustine will be left to the discretion of the palliative care team there and their discussions with the family . .
+Medication	7 . Flagyl 500 mg Tablet Sig : One ( 1 ) Tablet PO every eight ( 8 ) hours for 14 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted with worstening fluid overload due to your chronic CHF .
+Patient instructions	While you were here , we were unable to take this fluid off of you .
+Patient instructions	You and your family have decided to send you back to Community Hospital Of Anderson And Madison County Rehab with hospice care .
+Patient instructions	You also got C difficile infection while you were here and were started on flagyl for treatment of this on 11-18 .
+Patient instructions_Medication	We are sending you out with comfort- oriented meds to be changed as needed by the palliative care team at Community Hospital Of Anderson And Madison County Rehab .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow up with Physicians at Community Hospital Of Anderson And Madison County Rehab for further diuresis and comfort measures .
+Patient instructions	[ **Initials ( NamePattern4 ) ** ] James Laura Chan MD 88599
+
+Patient instructions	Patient needs to be maintained on a salt restricted diet with less than 2 grams of salt per day .
+Appointment	Additionally , please change in her follow up appointment that the patient 's appointment at the Device Clinic is on Tuesday , 2006-05-25 at 1:30 PM .
+
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call your doctor or go to the emergency room if you experience any chest pressure/pain or any symptomes concerning for a heart attack .
+Appointment_Patient instructions	Please make an appointment with your primary care doctor in the next week .
+Appointment_Patient instructions	Please follow up with your cardiologist .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow up with your primary care doctor and cardiologist .
+Patient instructions_Other	Cardiac rehabilitation .
+Patient instructions	Completed by:2016-06-10
+
+Appointment	DISCHARGE PLAN :
+Appointment	Return to clinic to see Dr. Rivera in 2 weeks .
+
+Medication	On 1996-12-06 infectious disease recommended continuing six week course of Vancomycin which started on 01-24 .
+Other	Recommendations were that she had angioedema symptoms with Zestril and avoid ACE inhibitors , patient can be on ARBs if indicated .
+Appointment	Patient was discharged to home and she would follow up with Dr. Randall in two weeks' time or sooner if indicated .
+Medication	She would continue her IV antibiotics for a total of six weeks and this will be done at Marilyn Parker on an outpatient basis .
+Lab	She should have weekly complete blood count , BUN , creatinine , and peak and troph levels done .
+Appointment	The patient should follow up in two weeks ' time with Dr. Randall .
+Medication	2 . Diflucan 150 mg q day times a total of 17 days , this was done on 05-04 .
+Medication	This should be discontinued on 02-19 .
+Medication	4 . Vancomycin 1 gram q 24 hours ; this was started on 01-24 and this will continue for a total of six weeks .
+
+Appointment	He was discharged home on 2016-07-31 and will follow up in the San Diego County Psychiatric Hospital Clinic in 2 weeks .
+Patient instructions	Discharge Instructions :
+Patient instructions	* You were admitted to the hospital with multiple injuries following your accident including broken bones and internal injuries .
+Patient instructions	* Your injury caused multiple bilateral rib fractures which can cause severe pain and subsequently cause you to take shallow breaths because of the pain .
+Patient instructions	* You should take your pain medication as directed to stay ahead of the pain otherwise you wo n't be able to take deep breaths .
+Patient instructions	If the pain medication is too sedating take half the dose and notify your physician .
+Patient instructions	* Pneumonia is a complication of rib fractures .
+Patient instructions	In order to decrease your risk you must use your incentive spirometer 4 times every hour while awake .
+Patient instructions	This will help expand the small airways in your lungs and assist in coughing up secretions that pool in the lungs .
+Patient instructions	* You will be more comfortable if you use a cough pillow to hold against your chest and guard your rib cage while coughing and deep breathing .
+Patient instructions	* Symptomatic relief with ice packs or heating pads for short periods may ease the pain .
+Patient instructions	* Narcotic pain medication can cause constipation therefore you should take a stool softener twice daily and increase your fluid and fiber intake if possible .
+Patient instructions	* Do NOT smoke
+Patient instructions	* Return to the Emergency Room right away for any acute shortness of breath , increased pain or crackling sensation around your ribs
+Patient instructions	( crepitus ) .
+Patient instructions	* Continue to take your Lovenox twice daily as directed by the Orthopedic service .
+Patient instructions	* Your weight bearing status is weight bearing as tolerated for both lower extremities as reviewed by the Physical Therapist .
+Patient instructions	* Wear your air cast boot on your right leg .
+Patient instructions	* The free care pharmacy has given you 2 weeks of free prescriptions but anything over the counter like Tylenol or stool softeners will need to be paid out of pocket .
+Patient instructions	* If you have any new symptoms that concern you please call the Acute Care Clinic .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Call the San Diego County Psychiatric Hospital Clinic at 740-698-9576 for a follow up appointment in 2 weeks
+Appointment_Patient instructions	Call the Acute Care Clinic at 928-968-7677 for a follow up appointment in 10-10 weeks .
+Patient instructions	Completed by:2016-07-31
+
+Lab	On discharge his Cre was 1.4 . He was restarted on PO lasix on discharge and will have his renal functioned rechecked in 1 week .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please shower daily including washing incisions , no baths or swimming Monitor wounds for infection - redness , drainage , or increased pain Report any fever greater than 101 Report any weight gain of greater than 2 pounds in 24 hours or 5 pounds in a week No creams , lotions , powders , or ointments to incisions No driving for approximately one month No lifting more than 10 pounds for 10 weeks Please call with any questions or concerns 489-777-3285
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr. Wilson ( cardiac surgery ) in 4 weeks
+Appointment_Patient instructions	( 518-695-7030 .
+Appointment_Patient instructions	Dr. Collins ( cardiology ) in 04-04 weeks .
+Appointment_Patient instructions	Dr. Ferguson
+Appointment_Patient instructions	( 615-356-8387 in 09-24 weeks .
+Patient instructions	Completed by:2014-02-07
+
+Lab	FUNGAL CULTURE ( Preliminary ) : NO FUNGUS ISOLATED .
+Lab	FLUID CULTURE ( Preliminary ) : NO GROWTH .
+Lab	1972-08-25 11:55 pm BLOOD CULTURE Site : ARM 4 bottles ; no growth to date
+Lab	Infectious disease consult was obtained and while in the ICU , treatment with IV ceftriaxone and IV ampicillin was recommended for pneumonia and sinusitis .
+Lab	All culture data ( CSF , urine , stool , and blood ) has been negative to date .
+Appointment_Imaging	She is recommended to follow up with her primary care physician next week for a repeat chest x ray and exam to ensure resolution of the pulmonary effusion that was likely the result of aggressive fluid rehydration with 9L nasal saline in the ED .
+Appointment	Additionally , the patient plans to follow up with her immunologist to continue diagnostic work-up for an underlying cause for susceptibility to infection .
+Appointment	She plans to follow up with her regular doctor next week .
+Medication	1 . Levofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 13 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please take all medications as prescribed .
+Patient instructions	Please call your doctor or go to the ED for severe headache , fever , chills , cough , shortness of breath , or other worrisome symptoms .
+Appointment_Patient instructions	Please follow up with your immunologist Dr. Buchanan Jason Morris .
+Appointment_Patient instructions	Please call 109-453-784 to make an appointment .
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	[ **Name Initial ( NameIs ) ** ]
+Appointment_Patient instructions	Where : SC
+Appointment_Patient instructions	Neurology CENTER SURGICAL SPECIALTIES Phone:208-360-8884
+Appointment_Patient instructions	Date/Time:2001-11-23 8:45
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	[ **Name Initial ( NameIs ) ** ] Where : SC
+Appointment_Patient instructions	Neurology CENTER SURGICAL SPECIALTIES Phone:208-360-8884 Date/Time:2001-11-23 8:45
+Appointment_Patient instructions	Provider : Gabriel Hernandez , RD Where : Lifecare Behavioral Health Hospital MEDICAL
+Appointment_Patient instructions	SPECIALTIES Phone:208-360-8884 Date/Time:2001-11-23 8:45
+Appointment_Patient instructions	Provider : Gabriel Hernandez , RD Where : Lifecare Behavioral Health Hospital MEDICAL SPECIALTIES Phone:772-660-3113 Date/Time:1999-11-13 9:30
+
+Medication	She is discharged on 80 mg PO Lasix Providence Hood River Memorial Hospital until re-evaluation in clinic .
+Medication	She was continued on ASA 81 at rehab and atorvastatin is on hold until clinic .
+Appointment_Imaging	She should follow-up with Dr. Ross in 8 weeks with CT L-spine ( 144-317-6082 to schedule ) ********** Patient received orthotopic liver 645-196-4913 on 1987-12-14 .
+Medication	While on steroids she does not need to be restarted on mesalamine , however this should be reconsidered when the steroid taper is complete .
+Appointment	Patient is also requesting follow up with ortho as an outpatient for pre-existing issues .
+Appointment	This should be arranged in the outpatient setting .
+Medication	2. prednisone 5 mg Tablet Sig : Four ( 4 ) Tablet PO DAILY ( Daily ) : Per Providence Hood River Memorial Hospital clinic taper .
+Patient instructions	Lasix 80 mg Tablet Sig : One ( 1 ) Tablet PO twice a day : Follow daily weights .
+Patient instructions	Discharge Instructions :
+Patient instructions	You will be transferring to East Louisiana State Hospital-greenwell Springs Please call the Largo Medical Center - Indian Rocks Office 34-697-179 if patient has any of the following : fever , chills , nausea , vomiting , jaundice , inability to take medications , increased abdominal pain or distension , bleeding , incision redness/bleeding .
+Patient instructions	Please weigh patient daily and report gain or loss of greater than 3 pounds in a day or 5 pounds in a week .
+Patient instructions_Medication	Is currently on lasix and will likely require dosage adjustment in the future 20 shower , no tub baths or swimming No heavy lifting
+Patient instructions	Completed by:1976-10-30
+
+Patient instructions	DISCHARGE INSTRUCTIONS :
+Appointment_Patient instructions	1 . Follow-up - The patient should follow-up with Doctor Rivera in two weeks and call for an appointment .
+Patient instructions	2 . Activity as tolerated .
+Patient instructions	3 . Diet is as tolerated .
+Patient instructions	4 . Medications : a .
+Patient instructions	Vicodin one to two p.o . q4hours p.r.n . b .
+Patient instructions	Insulin 19 units NPH subcutaneous q.a.m. , and 9 units subcutaneous q.p.m . c .
+Patient instructions	Nephrocaps one p.o . t.i.d . d .
+Patient instructions	PhosLo two p.o . t.i.d . e .
+Patient instructions	Lopressor 150 milligrams p.o . b.i.d . f .
+Patient instructions	Vasotec 20 milligrams p.o . b.i.d . g .
+Patient instructions	Blood pressure medications are to be held for low blood pressure . h .
+Patient instructions	Resume taking his Prilosec .
+Patient instructions	Denise Sims Michelle Robertson , M.D . 98746
+Patient instructions	Dictated By :
+
+Appointment	He will need to follow up with Dr. Mclaughlin in 2 weeks .
+Other	He was taken to the operating room on 03-12 for repair of his lumbar spine injuries ; his cervical spine injuries were nonoperative ; he will need to remain in a hard collar for 4 more weeks .
+Appointment	Follow up with Dr. Buck in 4 weeks for repeat spine injuries .
+Other	He was also fitted for a TLSO brace which must be worn at all times when out of bed .
+Patient instructions	Discharge Instructions :
+Patient instructions	You may partially weight bear on your right lower extremity and weight bear as tolerated on your left lowere extremity .
+Patient instructions	You must continue to wear your hard collar for the next 4 weeks .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Follow up with Dr. Buck , Orthopedic Spine surgery in 4 weeks , call 383-445-8246 for an appointment .
+Appointment_Patient instructions	Follow up with Orthopedics in 2 weeks , call the clinic to schedule an appointment , 327-744-6046 .
+Patient instructions	Completed by:2005-12-05
+
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted with a urinary tract infection .
+Patient instructions	You were treated with antibiotics for this .
+Patient instructions	You also had acute kidney failure , but this resolved with IV fluids .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Catherine Walton SCAN Phone:911-740-6874 Date/Time:1998-08-14 10:15
+Appointment_Patient instructions	Provider : Catherine Walton SCAN Phone:911-740-6874 Date/Time:1998-08-14 10:15 Provider : Huerta .
+Appointment_Patient instructions	Daniel Yang Phone:287-967-4222
+Appointment_Patient instructions	Date/Time:1998-08-14 10:15 Provider : Huerta .
+Appointment_Patient instructions	Daniel Yang Phone:287-967-4222 Date/Time:2003-11-18 10:30
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Catherine Walton RM 1 Catherine Walton-PREADMISSION TESTING Date/Time:2003-11-18 11:30
+
+Other	Neurosurgery was consulted and this injury was non-operatively managed with a hard cervical collar that should be worn at all times for a total of 6 weeks .
+Appointment_Imaging	After this the patient will have repeat x-rays and follow up with Dr. Perkins to determine further care .
+Appointment	The patient was referred to Dr. Mueller of vascular surgery and will follow up as an outpatient for further monitoring of his AAA .
+Patient instructions	Discharge Instructions :
+Appointment_Patient instructions	You need to wear your hard cervical neck collar AT ALL TIMES until you follow up with Dr. Perkins from neurosurgery .
+Patient instructions	You may take all of your regular medications prescribed by your regular primary care doctor .
+Patient instructions	Victoria Murphy MD for temp > 101 , persistent pain , nausea or vomiting , headache , numbness , tingling , or weakness in your arms or legs , or any other questions .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Follow up with Dr. Perkins in neurosurgery in 6 weeks .
+Appointment_Patient instructions	Call tomorrow morning to schedule an appointment .
+Appointment_Patient instructions	The phone number is 705-69-2903 .
+Appointment_Patient instructions	You should also follow up with Dr. Ruiz , vascular surgeon , for your aortic anuerysm .
+Appointment_Patient instructions	Please call 675-992-2570 for an appointment .
+Appointment_Patient instructions	Follow up with your regular primary care physician by the end of this week .
+Appointment_Patient instructions	Call today to schedule an appointment .
+
+Medication	She began her chemotherapy regimen which is to be continued as an outpatient . .
+Lab	This is likely related to the mass in her lung and biopsies are pending . .
+Imaging	The patient is also to have an echo done as an outpatient . .
+Medication	5. fluconazole 100 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 3 days : Last dose thursday 1973-07-21 .
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. Davis , .
+Patient instructions	You were admitted to the hospital because you were having fevers , fatigue , and persistent cough after your last treatment for pneumonia .
+Patient instructions	We think the reason that your pneumonia continued is because you had a mass in your lung which was making it difficult for your lungs to clear out the infected mucus . .
+Patient instructions	A bronchoscopy was performed to evaluate this mass , and the results of the biopsy showed adenocarcinoma .
+Patient instructions	You were given antibiotics for treatment of the pneumonia , and you were transferred to the oncology floor for further management of your cancer .
+Patient instructions	While there , you were started on your chemotherapy regimen .
+Patient instructions	A pleurex a placed for palliative purposes .
+Patient instructions	Your chemotherapeutic regimen was terminated . .
+Patient instructions	The following changes were made to your medications :
+Medication	- STOP taking levofloxacin - STOP taking penicillin - STOP taking nifedipine - START metoprolol - START albuterol and ipratropium - START fluconazole which you will take for 2 more days
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	PSC 7288 , Box 0490 APO AP 70223 St. Elizabeth Medical Center Building - HEM ONC 3:30 PM on 1987-11-03 Dr. Bell
+Patient instructions	Completed by:2014-05-07
+
+Lab_Medication	First INR draw to be done Mon 02-24 with results to be called to Dr. Craig Brown at 528-689-9551 or faxed to 486-785-2080 for further instructions for coumadin dosing .
+Medication	Coumadin 5 mg Tablet Sig : One ( 1 ) Tablet PO once a day : dosing per the office of Dr. Orozco . .
+Lab_Other	Outpatient Lab Work INR to be drawn on 2002-09-26 with results sent to the offie of Dr. Orozco .
+Lab_Other	Fax number
+Lab_Other	( 222-133-6380
+Patient instructions	Discharge Instructions :
+Patient instructions	1 ) Monitor wounds for signs of infection .
+Patient instructions	These include redness , drainage or increased pain .
+Patient instructions	In the event that you have drainage from your sternal wound , please contact the [ **Name2 ( NI ) 5059** ] at ( 576-524-5740 . 2 ) Report any fever greater then 100.5 . 3 ) Report any weight gain of 2 pounds in 24 hours or 5 pounds in 1 week .
+Patient instructions	4 ) No lotions , creams or powders to incision until it has healed .
+Patient instructions	You may shower and wash incision .
+Patient instructions	Gently pat the wound dry .
+Patient instructions	Please shower daily .
+Patient instructions	No bathing or swimming for 1 month .
+Patient instructions	Use sunscreen on incision if exposed to sun .
+Patient instructions	5 ) No lifting greater then 10 pounds for 10 weeks from date of surgery .
+Patient instructions	6 ) No driving for 1 month or while taking narcotics for pain .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow-up with Dr. Orozco in 1 month .
+Appointment_Patient instructions	( 576-524-5740 Please follow-up with Dr. Davis Rebecca Green in 05-30 weeks
+Appointment_Patient instructions	( 776-916-3213 Please follow-up with Dr. Orozco in 2 weeks .
+Appointment_Patient instructions	769-24-4273 Please call all providers for appointments .
+Patient instructions	Completed by:2015-11-12
+
+Medication	Ciprofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) for 8 days .
+Medication	Argatroban 100 mg/mL Solution Sig : 0.5-2 mcg/kg/min
+Medication	Intravenous INFUSION ( continuous infusion ) :
+Medication	Please titrate to aPTT 60-80secs
+Medication	**Currently at 2.5mcg/kg for 24hr*** .
+Patient instructions	Discharge Instructions :
+Patient instructions	? ? ? ? ? ? Do not smoke .
+Patient instructions	? ? ? ? ? ? Keep your wound clean / No tub baths or pool swimming until seen in follow up .
+Patient instructions	? ? ? ? ? ? No pulling up , lifting more than 10 lbs. , or excessive bending or twisting .
+Patient instructions	? ? ? ? ? ? Limit your use of stairs to 2-3 times per day .
+Patient instructions	? ? ? ? ? ? Have your incision checked daily for signs of infection .
+Patient instructions	? ? ? ? ? ? Take your pain medication as instructed ; you may find it best if taken in the morning when you wake-up for morning stiffness , and before bed for sleeping discomfort .
+Patient instructions	? ? ? ? ? ? Do not take any anti-inflammatory medications such as Motrin , Advil , Aspirin , and Ibuprofen etc . for 3 months .
+Patient instructions	? ? ? ? ? ? Increase your intake of fluids and fiber , as pain medicine ( narcotics ) can cause constipation .
+Patient instructions	We recommend taking an over the counter stool softener , such as Docusate ( Colace ) while taking narcotic pain medication .
+Patient instructions	CALL YOUR SURGEON IMMEDIATELY IF YOU EXPERIENCE ANY OF THE
+Patient instructions	FOLLOWING :
+Appointment	You will be going to rehab with your foley catheter , you will follow up with your urologist for further follow up and treatment .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr. Morris will also need to see you in 6 weeks .
+Appointment_Patient instructions	Please call for an appointment .
+Appointment_Patient instructions	323-651-4088 .
+Patient instructions_Imaging	You will also need xrays at this appt .
+Appointment_Patient instructions	Follow up with Urology ( pt . has a pre-existing appointment with Dr. Johnny Lewis on 03-14 ) .
+Patient instructions	Completed by:2009-06-24
+
+Appointment	He was seen by ophthalmology who determined that he likely had superficial irritation and recommended artificial tears and a follow up appointment in 2 weeks to document resolution of his eye findings .
+Other	TRANSITIONAL CARE ISSUES :
+Other	He normally takes care of his wife at home , so services will need to be set up to ensure that both Mr. Dixon and his wife have adequate care .
+Appointment	FOLLOW UP APPOINTMENTS :
+Appointment	- Neurology : Dr. Bruce in stroke clinic .
+Appointment	- Ophthalmology : to be scheduled to follow-up on the superficial irritation of the sclera in his right eye .
+Appointment	He was seen by ophthalmology who determined that he likely had superficial irritation and recommended artificial tears and a follow up appointment in 2 weeks to document resolution of his eye findings .
+Other	TRANSITIONAL CARE ISSUES : He normally takes care of his wife at home , so services will need to be set up to ensure that both Mr. Dixon and his wife have adequate care .
+Appointment	FOLLOW UP APPOINTMENTS : - Neurology : Dr. Bruce in stroke clinic .
+Appointment	- Ophthalmology : to be scheduled to follow-up on the superficial irritation of the sclera in his right eye .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the Doctors ' Community Hospital Medical center .
+Patient instructions	Imaging tests revealed that you had a stroke .
+Patient instructions	You were monitored closely over several days .
+Patient instructions	You were evaluated by physical therapy who determined that you will benefit from rehabilitation .
+Patient instructions	You were noted to have eye irritation that was seen by ophthalmology but not thought to be of concern .
+Patient instructions	They recommended that he continue artificial tears for eye irritation ,
+Patient instructions	You will be transfered to an outside facility to complete your rehabilitation .
+Patient instructions	Please note the following medication changes .
+Patient instructions	START :
+Appointment	Followup Instructions : You will have a follow up with Neurology and Ophthalmology
+Appointment	When : TUESDAY 1988-05-26 at 1:30 PM
+Appointment	With : Lisa Molina Ryan Perez , M.D . 93-522-1887
+Appointment	Building :
+Appointment	Mclaren Port Huron USS Mendoza FPO AP 11298
+Appointment	Campus :
+Appointment	EAST Best Parking : ICU Garage
+
+Other	He will need to have that left radial fracture immobilized for a total of 6 weeks .
+Medication	He will need a total course of cipro for 14 days .
+Medication	4 . Methadone 10 mg Tablet Cardenas : One ( 1 ) Tablet PO BID ( 2 times a day ) : For Pain for his injuries as pain resolves then we can slowly wean the methadone .
+Medication	Ciprofloxacin 750 mg Tablet Cardenas : One ( 1 ) Tablet PO Q12H ( every 12 hours ) for 1 weeks .
+Medication	Warfarin 2.5 mg Tablet Cardenas : One ( 1 ) Tablet PO 3X/WEEK ( MO , WE , FR ) as needed for Mechanical valve .
+Medication	13 .
+Medication	Warfarin 5 mg Tablet Cardenas : One ( 1 ) Tablet PO 4X/WEEK ( Mary , TU , TH , SA ) .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were evaluated and cared for in the ICU after sustaining a major trauma from a crush injury .
+Patient instructions	You are being discharged in stable condition to a rehabilitation facility .
+Patient instructions	You are being treated for pneumonia and urinary tract infection .
+Patient instructions	Please call your surgeon if you develop chest pain , shortness of breath , fever greater than 101.5 , foul smelling or colorful drainage from your incisions , redness or swelling , severe abdominal pain or distention , persistent nausea or vomiting , inability to eat or drink , or any other symptoms which are concerning to you .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 . Please follow up with plastics hand clinic for the radial fracture .
+Patient instructions	Please call 924-897-2251 to make an appointmentin 2 weeks .
+Appointment_Patient instructions	2 . Please follow up with Orthopediacs for the pelvic fracture and the left acetabular fracture .
+Patient instructions	Please call 100-427-4830 for follow up appointment in 01-13 weeks .
+Appointment_Patient instructions	3 . Please follow up with Plastics Surgery for possible skin graft placement on the left upper arm and right lower extremity .
+Patient instructions	Please call 518-299-3282 for an appointment in 2 weeks .
+Appointment_Patient instructions	4 . Please follow up with Dr Cardenas in 01-23 weeks for follow up of your trauma .
+Patient instructions	Please call
+Patient instructions	( 960-309-7490 to make an appointment .
+Patient instructions	Completed by:1972-02-01
+
+Appointment	She was then transitioned to her home dose of oral torsemide with initiation of metolazone with acceptable urine output , and discharged home w/PT & VNA .
+Appointment_Lab	She will have close follow up with her outpatient cardiology providers within one week of discharge to monitor her fluid status , electrolytes , and renal function .
+Other	After transfer to the floor her Cr began to increase and it was 2.0 upon discharge .
+Other	Activity Status :
+Other	Ambulatory - requires assistance or aid ( walker or cane )
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted due to decompensated heart failure and fluid overload .
+Patient instructions	The fluid was removed both by intravenous diuretics and then ultrafiltration was required .
+Patient instructions	After significant fluid removal , you were close to your baseline , and discharged home .
+Patient instructions	Please be sure to take your medications exactly as prescribed to help avoid further medical problems in the past .
+Patient instructions	The following changes have been made to your medications : - START metolazone 2.5 mg daily - CONTINUE torsemide , however ensure you are taking 40 mg TWICE A DAY - STOP Hydrochlorothiazide ( HCTZ ) 25 mg
+Patient instructions	No other changes were made .
+Patient instructions	Please be sure to follow diet recommendations to avoid fluid retention , including limiting your fluid intake to 1500 mL ( 1.5 Liters ) a day , and restricting your salt to less than 2 grams day .
+Patient instructions	Please be sure to weigh yourself every morning , call Dr.Mrs . Patricia Ramos DDS office if weight goes up more than 3 lbs in one day .
+Patient instructions	Followup Instructions :
+Patient instructions	Please be sure you attend your follow up appointments :
+Appointment_Lab	1 ) Cardiology : You have an appointment with Thomas Logan , NP , on 2009-06-12 at 3:00 PM .
+Appointment_Lab	The phone number for the office is 244-962-6665 .
+Appointment_Lab	You will need to have blood work done at this appointment .
+Appointment	2 ) Primary care : Dr. Webb Kim , on 1980-09-02 , at 2:00 PM .
+Appointment	The phone number for his office is
+Appointment	( 428-898-915 .
+Appointment	3 ) Gastroenterology : Dr. [ **First Name11 ( Name Pattern1 ) ** ]
+Appointment	[ **Initial ( NamePattern1 ) ** ] . Hernandez , on 1997-11-16 , at 11:40 AM .
+Appointment	The phone number for his office is 735-12-4560 .
+
+Appointment	The patient will be discharged with home oxygen as well as VNA services . .
+Lab	Biopsy results are pending .
+Appointment	She is followed by interventional pulmonology for continued management . .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted to the Blackfeet Community Hospital hospital for surgical debridement of a tracheal nodule that was contributing to your difficulty breathing .
+Patient instructions	You underwent this procedure with the interventional pulmonologists .
+Patient instructions	After surgery you were found to have difficulty breathing and decreased oxygen levels that were thought to be a result of both the paralytic Vasquez used during surgery as well as the possibility that you aspirated fluids into your trachea/lungs during surgery .
+Patient instructions	As such , you were intubated and transferred to the medical intensive care unit ( MICU ) for respiratory care and support .
+Patient instructions	In the MICU , your blood oxygen levels improved over the course of a day on supplemental oxygen and you were transitioned from a face-mask to a face-tent to a nasal cannula on supplementary oxygen .
+Patient instructions	When your oxygen levels stabilized , you were transferred to the inpatient floor , where you were eventually weaned off of supplementary oxygen .
+Patient instructions	You were breathing stable at your baseline blood oxygen levels on the inpatient floor at rest , but were found to be significantly short of breath with activity .
+Patient instructions	As such , physical therapy has recommended home oxygen , as well as instructed you to walk with a walker .
+Patient instructions	We have set up visiting nursing to assist you with your home oxygen , as well as evaluating you for home safety and continued physical therapy .
+Patient instructions	The following changes were made to your at-home medications : 1 ) Added Home oxygen .
+Patient instructions	2 ) Added Albuterol-Ipratropium inhaler .
+Patient instructions	Please take 1-2 PUFFs every 4-6 hours as needed for shortness of breath or wheezing .
+Patient instructions	No other changes were made to your at-home medications .
+Patient instructions	Please continue taking them as instructed .
+Patient instructions	3 ) Decreased your metoprolol to 50 mg twice a day from 150 mg
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow-up with your primary care physician 7-10 days following discharge .
+Patient instructions	Completed by:2017-09-29
+
+Medication	At the time of discharge , her cefepime was discontinued , but the Ciprofloxacin was extended to complete a total 10 day course .
+Medication	8 . Prednisone 20 mg Tablet Sig : Two ( 2 ) Tablet PO DAILY ( Daily ) for 3 days : for three days .
+Medication	9 . Prednisone 10 mg Tablet Sig : Three ( 3 ) Tablet PO DAILY ( Daily ) for 1 days : for two days .
+Medication	Ciprofloxacin 250 mg Tablet Sig : One ( 1 ) Tablet PO twice a day for 7 days .
+Medication	Prednisone 10 mg Tablet Sig : Two ( 2 ) Tablet PO once a day for 2 days : for two days .
+Medication	Prednisone 1 mg Tablet Sig : One ( 1 ) Tablet PO once a day : after prednisone taper , please continue to take 10 mg every day .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call your doctor or return to the emergency room if you experience significant weakness , dizziness , confusion , chest pain , or difficulty breathing .
+Patient instructions	Take your medications as prescribed .
+Patient instructions	Follow up as previously scheduled and outlined below .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 ) Dennis James , RNC AND DR .
+Appointment_Patient instructions	Lopez ( NEUROLOGY )
+Appointment_Patient instructions	Where : University Of Wi Hospitals & Clinics Authority NEUROLOGY Phone:36-377-5916 Date/Time:1994-08-13 10:00 AM
+Appointment_Patient instructions	2 ) Rebecca Murray Thomas Williams , RN Where : St. Rose Dominican Hospitals - San Martin Campus HEMATOLOGY/ONCOLOGY
+Appointment_Patient instructions	Phone :
+Appointment_Patient instructions	386-637-1989 Date/Time:1970-11-03 9:00
+Appointment_Patient instructions	3 ) [ **First Name11 ( Name Pattern1 ) 640** ] Peterson , MD Where : St. Rose Dominican Hospitals - San Martin Campus HEMATOLOGY/ONCOLOGY
+Appointment_Patient instructions	Phone :
+Appointment_Patient instructions	386-637-1989 Date/Time:1970-11-03 9:00
+Patient instructions	Completed by:1994-10-18
+
+Medication	She will continue tapering by 4mg daily to complete a 10 day dexamethasone taper course .
+Appointment	She is discharged to a rehab facility and is schedualed for out patient suture removal and neurosurgery follow-up . .
+Appointment_Medication	Patient is interested in further treatments and will follow up with her out pnt oncologist for this purpose . .
+Medication	18. dexamethasone 4 mg Tablet Sig : 1.5 Tablets PO QID ( 4 times a day ) for 1 days .
+Medication	Disp : *6 Tablet ( s ) * Refills : *0*
+Medication	19. dexamethasone 2 mg Tablet Sig : 2.5 Tablets PO QID ( 4 times a day ) for 1 days .
+Medication	Disp : *10 Tablet ( s ) * Refills : *0*
+Medication	20. dexamethasone 4 mg Tablet Sig : One ( 1 ) Tablet PO QID ( 4 times a day ) for 1 days .
+Medication	Disp : *4 Tablet ( s ) * Refills : *0*
+Medication	21. dexamethasone 2 mg Tablet Sig : 1.5 Tablets PO QID ( 4 times a day ) for 1 days .
+Medication	Disp : *6 Tablet ( s ) * Refills : *0*
+Medication	22. dexamethasone 2 mg Tablet Sig : One ( 1 ) Tablet PO QID ( 4 times a day ) for 1 days .
+Medication	Disp : *4 Tablet ( s ) * Refills : *0*
+Medication	23. dexamethasone 0.5 mg Tablet Sig : Two ( 2 ) Tablet PO QID ( 4 times a day ) for 1 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. Valdez ,
+Patient instructions	It was a pleasure taking care of you here at Naval Health Clinic ( john Henry Balch ) .
+Patient instructions	You were admitted because of uncontrolled pain .
+Patient instructions	Your pain was treated with medications and radiotherapy treatment .
+Patient instructions	You were then noted to have progressive weakness in your legs .
+Patient instructions	This was due to the cancer spread in your back bones , and you underwent surgery for it .
+Patient instructions	You tolerated the surgery well and regained some function in the legs .
+Patient instructions	You were then discharged to a rehab facility where you can continue physical therapy . . .
+Patient instructions	The following chanages were made to your medications : - STOPPED hydromorphone ( dilaudid ) - STARTED senna 8.6 mg Tablet Sig : Two ( 2 ) Tablet PO HS ( at bedtime ) to prevent constipation .
+Patient instructions	- STARTED lactulose 10 gram/15 mL Syrup Sig : Thirty ( 30 ) ML PO Q8H ( every 8 hours ) as needed for constipation .
+Patient instructions	- STARTED morphine 30 mg Tablet Sig : One ( 1 ) Tablet PO Q4H ( every 4 hours ) as needed for pain .
+Patient instructions	THIS MEDICATION SHOULD BE TAKEN AS NEEDED FOR BREAKTHROUGH PAIN .
+Patient instructions	- STARTED morphine 30 mg Tablet Sustained Release Sig : Two ( 2 ) Tablet Sustained Release PO Q12H ( every 12 hours ) .
+Patient instructions	THIS MEDICATION SHOULD BE TAKEN REGULARLY FOR PAIN PREVENTION .
+Patient instructions	- STARTED alum-mag hydroxide-simeth ( maalox ) 200-200-20 mg/5 mL
+Patient instructions	Suspension Sig :
+Medication	- STARTED Dexamethasone 6mg four times a day for 1 day , then 5mg four times a day for 1 day , then 4mg four times a day for 1 day , then 3mg four times a day for 1 day , then 2mg four times a day for 1 day , then 1mg four times a day for 1 day , then stop . .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please follow up for suture removal on 06-27 at 11:00AM in the Memorial Hospital , The clinic on the 50645 Hanna Freeway Micheleborough , PA 59175-7093 of the Coastal Behavioral Health . .
+Patient instructions	Also keep the following appointment :
+Appointment_Patient instructions	Department : NEUROLOGY
+Appointment_Patient instructions	When : MONDAY 2015-04-13 at 11:30 AM
+Appointment_Patient instructions	With : [ **First Name11 ( Name Pattern1 ) 640** ] Soto , MD 216-425-8584
+Appointment_Patient instructions	Building :
+Appointment_Patient instructions	Tennova Healthcare - Lebanon Mcfarland Campus 583 Hayes Skyway Apt . 878 Jenniferfort , OH 43248-6327
+Appointment_Patient instructions	Campus :
+Appointment_Patient instructions	EAST Best Parking : ICU Garage .
+Appointment_Patient instructions	Please call your oncologist Dr. Stevens to make an appointment in 08-28 weeks .
+Appointment_Patient instructions	Name : Martinez , Anthony M. MD
+Appointment_Patient instructions	Location : Naval Health Clinic ( john Henry Balch ) -DIVISION OF HEMATOLOGY/ONCOLOGY
+Appointment_Patient instructions	Address :
+Appointment_Patient instructions	6524 Michael Streets Derrickburgh , IN 89899-2755 , Emergency Department 9 , 6524 Michael Streets Derrickburgh , IN 89899-2755,4bd9e25e-3ec3-5739-6378-9b03b1f7be31
+Appointment_Patient instructions	Phone : [ **0-0-** ]
+Appointment_Patient instructions	Fax :
+Appointment_Patient instructions	294-85-5290
+
+Procedure	Patient was planned to get capsule endoscopy as outpatient .
+Lab	Please follow up blood cultures from this hospitalization . .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please call if you have chest pain or shortness of breath
+Patient instructions_Medication	WE ARE HOLDING YOUR HYDRALAZINE , AND PLAVIX
+Appointment_Patient instructions	Please follow up with Dr. Miller within 2 weeks 172-648-7756
+Appointment	Provider : Crystal Anderson Benjamin Ramirez , MD Phone:287-720-463
+Appointment	Date/Time:1980-06-08 2:00
+Appointment	Provider :
+Appointment	Tamara Mcmahon STUDY Phone:777-126-2004 Date/Time:1971-03-30 11:00
+Appointment	Provider :
+Appointment	Tamara Mcmahon , Ann Anderson Unit 1476 Box 4411 DPO AP 96130 PRACTICE ( 897 Angelica Spurs Brittanyside , UT 55456 )
+Appointment	Date/Time :
+Appointment	1974-07-19 10:00
+
+Medication	Pt discharged on antibiotic course of levofloxacin and flagyl to complete on 2007-07-06 .
+Lab	Will monitor to ensure downward trend . .
+Medication	Levofloxacin in D5W 250 mg/50 mL Piggyback Sig : Fifty ( 50 ) mL Intravenous Q24H ( every 24 hours ) : End date 2007-07-06 .
+Medication	18 .
+Medication	Metronidazole in NaCl ( Iso-os ) 500 mg/100 mL Piggyback Sig : One Hundred ( 100 ) mL Intravenous Q8H ( every 8 hours ) : End date 2007-07-06 .
+Medication	19 .
+Medication	Insulin NPH Human Recomb 100 unit/mL Cartridge Sig : Five ( 5 ) units Subcutaneous twice a day : at 8 am and 8 pm .
+Medication	If dose to be increased , please increase with caution .
+Medication	Humalog 100 unit/mL Cartridge Sig : Three ( 3 ) units Subcutaneous four times a day : Please give 3 units humalog 15 minutes before tube feedings .
+Medication	If need to increase dose , please increase cautiously .
+Medication	Insulin Goal blood sugar is 140-180 .
+Medication	Titrate up humalog and NPH ONE unit at a time to acheive this goal .
+Appointment_Patient instructions	Discharge Instructions :
+Appointment_Patient instructions	Please continue hemodialysis on Monday , Wednesday , Friday schedule .
+Patient instructions	Please continue dilantin therapy .
+Patient instructions_Medication	Please continue antibiotic therapy for total of two weeks , end date 2007-07-06 .
+Patient instructions_Other	Please continue to use CONSERVATIVE blood glucose management given episode of hypoglycemia .
+Patient instructions_Medication	Goal blood glucose eventually 100-150 , cautiously increase dose of humalog and/or NPH .
+Patient instructions	Followup Instructions :
+Patient instructions	Extended care in rehabilitation facility .
+Patient instructions	Jason Park MD 25818
+
+Medication	We continued to try to taper her off her tizanidine as this appears to be causing her episodes of hypotension .
+Appointment_Lab	Patient was to continue with Physical therapy as deconditioning can worsen postural tachycardia Follow up with Cardiology , Neuro-autonomics with Dr. Jessica , follow up with her Stroke Neurologist Dr. Baker . follow up with her primary care physician for post hospitalization follow up and repeat SPEP ( lab test ) in 05-04 weeks
+Other	Patient was instructed that she requires 24 hour assistance at home and if this becomes not possible a facility arrangement will need to be arranged .
+Medication	7 . Tizanidine 2 mg Tablet Sig : 0.5 Tablet PO BID ( 2 times a day ) as needed for pain .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were transferred from Georgiana Medical Center Regions Hospital Medical Center on 07-26 for further management of your intracerebral hemorrhage .
+Patient instructions	first part of your summary from records prior to coming to Salina Surgical Hospital You had been initally found to have an increase in your white blood cells ( 29.4 ) .
+Patient instructions	Your blood cultures were negative but her urine culture grew streptococus agalactiae ( 75,000 cfu ) .
+Patient instructions	You were therefore treated with linezolid ( an antibiotic ) for 2 days .
+Patient instructions	You had no fevers since then .
+Patient instructions	Throughout her admission , you have been experiencing a labile blood pressure .
+Patient instructions	At times it was as high as 220/130 's and associated with diffuse ST depressions but no chest pain .
+Patient instructions	You were treated with IV labetalol and then transferred to the step down unit .
+Patient instructions	You were diagnosed with hypertensive urgency and was treated with labetalol and your midodrine was held .
+Patient instructions	Her blood pressure remained labile during your hospitalization and you were treated with BB and ACEI .
+Patient instructions	She also had an episode of hypotension associated with somnolence and you was treated with IVF and Trendelenburg after which she were transferred to the ICU .
+Patient instructions	You were then then found to have a troponin leak with a max troponin of 0.95 ( cardiac enzyme ) .
+Patient instructions	You had some ECG changes and underwent a cardiac catheterization and the EF was measured at 60 % and your vessels were remarkable for mid LAD stenosis of 25 % as well as basal anterior wall and LV akinetic .
+Patient instructions	You were therefore started on Plavix and Lovenox .
+Patient instructions	After the cath you developed a hematoma at the cath site .
+Patient instructions	After the cath you reported feeling fatigued and weak and recalls having had a headache .
+Patient instructions	You therefore underwent an MRI of the brain which revealed a right capsular intraparenchymal hemorrhage with minimal edema and no mass effect .
+Patient instructions	Your Plavix and Lovenox were therefore held and she was transferred to William Landmann-jungman Memorial Hospital Kau Hospital Hospital .
+Patient instructions	Since arival , your blood pressures have been mostly hypertensive
+Patient instructions	( 100-160 's but has had 2 hypotensive readings : at 1 am she had a Blood Pressure of 62/31 with a HR of 81 .
+Patient instructions	You were briefly given phenylephrine ( to raise blood pressure ) for a few minutes along with IV fluids ( 2 Liters ) .
+Patient instructions	You then had another episode of hypotension at 10 am of 80/59 with a HR of 91 which resolved without intervention .
+Patient instructions	You were seen by neuro-autonomics with Dr. Jessica and psychiatry .
+Patient instructions	Cardiology was contactBarry Summers regarding your cardiac functioning .
+Patient instructions	Your echocardiogram demonstrated a vigorous global and regional biventricular systolic function . mild diastolic LV dysfunction .
+Patient instructions	You remained having a sinus tachycardia at baseline .
+Patient instructions	Your thyroid was checked an found to be normal .
+Patient instructions	Your electrolytes were normal , and a CTA of your chest did not demonstrate at pulmonary embolism .
+Patient instructions_Medication	We continued to try to taper you off your tizanidine as this appears to be causing your episodes of hypotension .
+Patient instructions	on 2009-07-02 a follow up head CT demonstrated right basal ganglia/external capsule hemorrhage and associated mild edema that was unchanged since the earlier study .
+Patient instructions	No new hemorrhage or infarction was detected .
+Appointment_Patient instructions	You should continue with Physical therapy as deconditioning can worsen postural tachycardia
+Appointment_Patient instructions	Follow up with Cardiology , Neuro-autonomics with Dr. Jessica ,
+Appointment_Patient instructions	follow up with your Stroke Neurologist Dr. Baker .
+Patient instructions_Other	You require 24 hour assistance at home .
+Patient instructions_Other	If this becomes not possible a facility arrangement will need to be arranged .
+Appointment_Patient instructions	Follow up with Cardiology
+Appointment_Patient instructions	Neuro-autonomics with Dr. Jessica ,
+Appointment_Patient instructions	follow up with your neurologist Dr. Matthews .
+Patient instructions	Brittany Ellis Daniel Brown MD , 34929
+Patient instructions	Completed by:2007-04-26
+
+Lab	2004-11-25 C. diff : negative 1996-10-03 Blood cultures , two sets : GNR 1996-10-03 Urine cultures : pending
+Medication	She will need to remain on total 2 week course of antibiotics
+Medication	( Meropenem started 12-10 so should complete course 09-30 .
+Appointment	She will need outpatient urology follow up .
+Lab	Please check lytes in am .
+Medication	Meropenem 500 mg Recon Soln Sig : One ( 1 ) Recon Soln
+Medication	Intravenous Q12H ( every 12 hours ) :
+Medication	Last dose 7/28 am .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted with an infection in your urine and your blood that required IV antibiotics .
+Patient instructions	You had a kidney stone and had a stent placed .
+Patient instructions_Medication	You will need to remain on IV antibiotics for a total of 14 days .
+Appointment_Patient instructions	Follow- up with Dr. Brown in urology on 08-23 at 8:30am .
+Patient instructions	Return to Select Specialty Hospital-zanesville Inc emergency for fever , chills , nausea , abdominal or flank pain .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1 . Urology Provider : Dickson .
+Appointment_Patient instructions	Teresa Schroeder Phone:636-286-6322 or 568-458-8780 Date/Time:2017-07-24 8:30
+Patient instructions_Lab	2. electrolytes on 09-21
+
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. West ,
+Patient instructions	You were admitted to Aspirus Keweenaw Hospital on 1983-08-06 with drooping of the right side of your face and difficulty speaking .
+Patient instructions	You were found to have a stroke in the left side of your brain caused by a blood clot in the left middle cerebral artery .
+Patient instructions	You received tPA , a clot busting medication , and then underwent a procedure to try to remove the clot which was unfortunately unsuccessful .
+Patient instructions	You were monitored in the intensive care unit and then transferred to the neurology floor .
+Patient instructions	On the morning of 09-05 a repeat CT scan showed bleeding in your right frontal lobe , on the opposite side from your stroke .
+Patient instructions	Per discussion with your family the decision was made to pursue comfort care measures .
+Patient instructions	If you experience any of the below listed danger signs , please call your doctor or go to the nearest Emergency Department .
+Patient instructions	It was a pleasure taking care of you during your hospital stay .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Samantha Collins Rebecca Johnson , MD Phone:418-114-8012
+Patient instructions	Date/Time:2003-08-03 1:00
+
+Medication	# . UTI : Treated with ciprofloxacin , urine culture sensitivities enterobacter pan sensitive - cont Cipro x7days . .
+Lab	Blood and urine cultures were pending .
+Medication	Started Cipro for UTI and followed up cultures .
+Medication	4 . Ciprofloxacin 250 mg Tablet Sig : Two ( 2 ) Tablet PO Q12H ( every 12 hours ) for 3 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Weigh yourself every morning , Kevin Mcintyre MD if weight > 3 lbs .
+Patient instructions	Adhere to 2 gm sodium diet
+Patient instructions_Medication	Please finish your course of Ciprofloxacin for your urinary tract infection .
+Patient instructions_Medication	Do not take your Aspirin or Plavix until you follow up with your primary care doctor .
+Patient instructions	Please call you doctor or return to the ER with any signs of bleeding , increased fatigue , lightheadedness/dizziness , or fainting .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Follow-up with Dr. Kevin Chavez on Thurs 08-26 at 2:30pm .
+Appointment_Patient instructions	Phone : 856-884-9669
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	Shawn Robinson , MD Where : Ministry Door County Medical Center Mclaren Bay Region Phone:856-884-9669 Date/Time:1996-10-22 3:30
+Patient instructions	Shawn James Chavez MD , 91442
+Patient instructions	Completed by:2004-10-28
+
+Lab	A follow-up SPEP in 11-28 months is recommended to monitor for progression .
+Medication	INR at the time of discharge was 2.1 and he is to be given 5 mg Coumadin on 04-27 with further dosing to be determined for an INR goal of 2.0-3.0 . Final gram stain of sternal tissue was negative the IV vancomycin was stopped on 1988-10-10 .
+Medication	The need to start an oral diabetic medication is to be further evaluated by his PCP once his is out of the post operative period .
+Appointment	Rehab was recommended upon discharge and he was transferred on post operative day # 21 in stable condition .
+Medication	10 .
+Lab_Medication	Coumadin 2.5 mg Tablet Sig : One ( 1 ) Tablet PO once a day : Dose for INR goal 2.0-3.0 .
+Lab_Medication	13 .
+Medication	Lasix 40 mg Tablet Sig : One ( 1 ) Tablet PO once a day for 10 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	Please shower daily including washing incisions gently with mild soap , no baths or swimming , and look at your incisions .
+Patient instructions	Please NO lotions , cream , powder , or ointments to incisions .
+Patient instructions	Each morning you should weigh yourself and then in the evening take your temperature , these should be written down on the chart .
+Patient instructions	No driving for approximately one month until follow up with surgeon No lifting more than 10 pounds for 10 weeks Please call with any questions or concerns 20-892-9456 .
+Patient instructions	While you were here we incidentally found a small abnormality in your labs called a monoclonal gammopathy of undetermined significance ( MGUS ) .
+Patient instructions	This is most likely completely benign , but in a small number of people with MGUS ( approximately 1 % per year ) this can progress to a more serious condition .
+Patient instructions_Lab	You should also have your serum electrophoresis followed up in 11-28 months .
+Patient instructions_Lab	You should arrange to have this followed up with repeat labs in 11-28 months .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Please call to schedule appointments : Surgeon Dr. Cabrera ( 20-892-9456 ) 02-10 at 1:30 PM Primary Care Dr. Reyes in 07-14 weeks Cardiologist Dr. Pratt or Stewart in 07-14 weeks Wound check appointment - Emergency Department 6 ( 918-94-4989 ) - your nurse will schedule Remove staples in 3 weeks ( 01-14 ) and place steri strips
+Patient instructions	Completed by:2019-12-08
+
+Imaging	Given that the patient was ineligible for magnetic resonance imaging given a pacemaker , it was decided that she may qualify for a follow-up ultrasound as an outpatient for further evaluation of possible renal artery stenosis and re-evaluation of hydronephrosis .
+Medication	She was instructed to continue on calcium carbonate 1000 mg three times per day as an outpatient .
+Appointment	She was due for a laboratory check status post discharge to assess whether or not she should resume her hydrochlorothiazide .
+Appointment_Lab	She was scheduled to be evaluated as an outpatient one to two days status post discharge for additional blood pressure measurements and electrolyte checks to determine whether it would be safe to resume her hydrochlorothiazide at this point .
+Patient instructions	It was recommended that the patient continue on wet-to-dry Regranex dressings twice per day .
+Patient instructions	DISCHARGE INSTRUCTIONS/FOLLOWUP :
+Appointment_Patient instructions	1 . The patient was instructed to follow up with her primary care physician
+Patient instructions_Other	2 . The patient was also to go home with Central Hospital Of Bowie services for her wound care .
+Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Cox , M.D .
+Patient instructions	Dictated By :
+
+Lab	Urine culture : E.coli sensitive to CTX Blood cultures ( 08-01 ) E. coli sensitive to CTX Blood cultures ( 05-15 ) no growth to date
+Lab	Repeat blood cultures were drawn on 05-15 and are no growth to date .
+Lab	He will have weekly CBC with diff , LFT , and BUN/Creatinine .
+Appointment_Medication	He will continue on the ceftriaxone until his follow up with Dr. Brown on 2016-11-30 .
+Appointment	He will follow up with Dr. Gibbs in 2 weeks .
+Medication	4 . Ceftriaxone-Dextrose ( Iso-osm ) 2 gram/50 mL Piggyback Sig : Two ( 2 ) grams Intravenous Q24H ( every 24 hours ) for 4 weeks .
+Lab_Other	7 . Outpatient Lab Work Please draw CBC with diff , LFTs , and Bun/Creatinine Nguyen on Mondays and fax the results to Dr. Brown @
+Lab_Other	( 581-926-4757
+Lab_Other	8 . Condom catheter Sig : One ( 1 ) catheter once a day .
+Appointment	Facility :
+Appointment	0694 Pearson Vista Apt . 829 Wrightville , NV 21025 Home Health Services
+Patient instructions	Discharge Instructions :
+Patient instructions	Call your surgeon if you experience : - fever > 101.5 - chills - increasing pain not relieved by your medication - inability to eat or drink - no urine output
+Patient instructions	Resume all of your home medications .
+Appointment_Patient instructions	Followup Instructions : Follow up with Dr. White in 2 weeks .
+Appointment_Patient instructions	Call his office at
+Appointment_Patient instructions	( 538-414-3046 to schedule your appointment .
+Appointment_Patient instructions	Provider :
+Appointment_Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Jones , MD MPH48605:519-292-6626
+Appointment_Patient instructions	Date/Time:2016-11-30 10:30
+
+Other	# SC nodule : pt was noted to have a small subcutaneous nodule very low in LLQ .
+Other	Pt stated that it had been present for many years ( though pt is variable historian ) .
+Other	Management deferred to primary care provider .
+Lab_Other	4 . Outpatient Lab Work Please check Hematocrit Clark , 03-26 and send results to Dr. Sarah Greer at [ **0-0-** ] .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted for bleeding for bloody bowel movements .
+Patient instructions	You had a colonoscopy which showed out-pouchings of your colon ( called diverticulosis ) without active bleeding or polyps .
+Patient instructions	The bleeding initially probably came from one of those outpouchings but we could not tell which one .
+Patient instructions	After your colonoscopy , you started having bleeding in your stool again .
+Patient instructions	This time the bleeding slowed down considerably .
+Patient instructions	Your blood levels remained stable .
+Patient instructions	It was felt the minimal blood in your stool was residual blood from your previous bleed .
+Patient instructions_Lab	You should follow up with your outpatient doctor for a re-check of your blood level .
+Patient instructions	You also had some difficulty with shortness of breath .
+Patient instructions	A CT scan was performed that did not show any acute concerning causes of shortness of breath .
+Patient instructions	This may be due to underlying lung disease .
+Patient instructions	Your oxygen levels were normal while walking .
+Appointment_Patient instructions	You should follow up with your doctor for further managment .
+Patient instructions	When you go home please continue your home medications with the following changes :
+Appointment_Medication	3 . HOLD Aspirin 81 mg daily ****These two medications should be re-adjusted at your follow up visit on Henry J. Carter Specialty Hospital .
+Patient instructions	Followup Instructions : You have the following appointment arranged for you :
+Appointment_Patient instructions	Name : White , Robert B .
+Appointment_Patient instructions	Appointment :
+Appointment	Reyes , 05-22 , at 3:00 PM at Location : CARDIOLOGY ASSOCIATES OF GREATER 630 Kathy Island Lake Ryan , NV 61860-2171
+Appointment	Address :
+Appointment	[ **Street Address ( 2 ) ** ] , 630 Kathy Island Lake Ryan , NV 61860-2171,4e427e0f-d19e-008d-b2b8-739e593db20f
+Appointment	Phone :
+Lab_Other	[ **0-0-** ]
+Other	The GI doctors [ **Name5 ( PTitle ) 2985** ] they did not need to follow up with you .
+Other	If you ever need to see them in the future the number to call
+Appointment	Phone :
+Other	447-193-2008 .
+Other	The doctor you saw in the hospital was Sarah Wolfe , MD .
+
+Procedure	An outpatient EGD was recommended to evaluate for Barrett 's . .
+Medication	Heparin ( Porcine )
+Medication	5,000 unit/mL Solution Sig : One ( 1 ) 5000
+Medication	Units Injection TID ( 3 times a day ) :
+Medication	if not regularly ambulatory .
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted for aspirin overdose .
+Patient instructions	You required intubation for airway protection and hemodialysis to remove the salicylate from your blood .
+Patient instructions	You had mild liver injury which is healing on its own .
+Patient instructions	You had mild blood loss likely as a result of chronic GERD and mild gastritis made worse by aspirin ingestion .
+Patient instructions	You were transfused one unit of red blood cells for this , and placed on a medication to protect the lining of your stomach .
+Patient instructions_Procedure	As explained to your by GI team , you will need an outpatient endoscopy to fully evaluate your stomach and esophagus for continue gastritis or precancerous changes which can occur with chronic GERD .
+Patient instructions	You are being discharged to an inpatient psychiatric facility to further address your psychiatric issues of depression and suicidal ideation .
+Patient instructions	You should refrain from any aspirin or NSAID products .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Provider : Holly Howell Brooks , DPM Phone:401-936-8387
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	2010-11-30 9:10
+Appointment_Patient instructions	You need to follow-up with your PCP ( Dr David with Dr. Wilkinson at [ **Company 191** ] Tyler Continue Care Hospital ) when you are discharged from psychiatric inpatient care .
+Patient instructions_Procedure	You will need an upper endoscopy .
+
+Patient instructions	Discharge Instructions :
+Patient instructions	Please shower daily including washing incisions gently with mild soap , no baths or swimming , and look at your incisions Please NO lotions , cream , powder , or ointments to incisions Each morning you should weigh yourself and then in the evening take your temperature , these should be written down on the chart No driving for approximately one month and while taking narcotics , will be discussed at follow up appointment with surgeon when you will be able to drive No lifting more than 10 pounds for 10 weeks Please call with any questions or concerns 523-453-3440 **Please call cardiac surgery office with any questions or concerns 523-453-3440 .
+Patient instructions	Answering service will contact on call person during off hours**
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Cardiac Surgery , Provider : Darryl Benjamin , MD Phone:523-453-3440
+Appointment_Patient instructions	Date/Time : 523-453-3440 Date/Time:1990-10-27 3:00 in the Naval Health Clinic ( john Henry Balch ) Benjamin
+Appointment_Patient instructions	Cardiology , Provider : Brian Morris Katrina Duke , MD Phone:749-486-480
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	749-486-480 Date/Time:1978-01-16 2:00 Cardiology ICU Clinical Center PSC 5066 , Box 5134 APO AP 80008-6190
+Appointment_Patient instructions	Follow-up with Renal for HD on Tues-Jones-Sat .
+Appointment_Patient instructions	Please call to schedule the following : Electrophysiology , Dr. Richardson in 1 month 749-486-480 Primary Care Dr. Cline , Brittany D. 885-385-8323 in 12-18 weeks
+Patient instructions_Lab	Labs :
+Lab	PT/INR Coumadin for a-fib Goal INR 08-04 First draw 1989-04-19 Then please do INR checks Monday , Wednesday , and Friday for 2 weeks then decrease as directed by MD
+Patient instructions	**Please call cardiac surgery office with any questions or concerns 523-453-3440 .
+
+Other	PT discharged home with services and on supplemental pulsed oxygen .
+Appointment	Follow-up appointment with Dr. Kennedy and Pulmonology arranged .
+Patient instructions	Discharge Instructions :
+Patient instructions	General :
+Patient instructions	* Your pain is not improving within 8-12 hours or not gone within 24 hours .
+Patient instructions	Call or return immediately if your pain is getting worse or is changing location or moving to your chest or
+Patient instructions	back .
+Patient instructions	*Avoid lifting objects > 5lbs until your follow-up appointment with the surgeon .
+Patient instructions	* Continue to ambulate several times per day . .
+Appointment	Incision Care :
+Appointment	-Your staples will be removed at your follow-up appointment with Dr. Fowler .
+Patient instructions	-You may shower , and wash surgical incisions .
+Patient instructions	-Avoid swimming and baths until your follow-up appointment .
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	1.Follow up with Dr. Fowler 894-278-7857 in 09-08 weeks
+Appointment_Patient instructions	2.Provider : Pamela Leon , RN Phone:802-499-2210
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	1990-05-10 11:00
+Appointment_Patient instructions	3 . Provider : Todd Jermaine Lindsey , MD , PHD68520:802-499-2210
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	1990-05-10 11:00
+Appointment_Patient instructions	4 . Provider :
+Appointment_Patient instructions	[ **First Name11 ( Name Pattern1 ) ** ] Wood , MD Phone:802-499-2210
+Appointment_Patient instructions	Date/Time :
+Appointment_Patient instructions	1990-05-10 11:00
+Patient instructions	NEITHER DICTATED NOR READ BY ME
+Patient instructions	Completed by:1992-07-22
+
+Appointment	She was to follow up with her hematologist/oncologist .
+Appointment	Dr. Allen in clinic on King , 02-24 , at 11 AM .
+Medication	It was considered to start Ambicor prior to discharge but it was decided to hold off on this and have Dr. Allen decide when to start this medication if at all .
+
+Medication	UCx revealed Enterococci ( Sensitive to Ampicillin , Nitrofurantoin , Vancomycin ; Resistant to Tetracycline ) , so he was begun on a 7-day course of Amoxicillin , beginning on 12-26 .
+Medication	Patient discharged to hopsice with 3 day course of amoxicillin .
+Medication	9 . Amoxicillin 250 mg Capsule Sig : Two ( 2 ) Capsule PO Q12H ( every 12 hours ) for 3 days .
+Patient instructions	Discharge Instructions :
+Patient instructions	You have been treated for a gastroentestinal bleed during your hospital stay with IV fluids and blood and embolization of an artery in your stomach .
+Patient instructions	You experience no further bleeding episodes after this point .
+Patient instructions	During your stay you also had a rapid irregular heart beat that was complicated by low blood pressure .
+Patient instructions	You were treated with diltiazem with resolution of your rapid heart rate .
+Patient instructions	Please call your physician if you have any concerns about sustaining comfort care .
+Patient instructions	Followup Instructions :
+Patient instructions	Please call your physician to arrange follow up as needed .
+Patient instructions	Benjamin Brown Carol Bradshaw MD 46312
+
+Medication	1 . Ciprofloxacin HCl 250 mg PO Q12H RX *ciprofloxacin 250 mg 1 tablet ( s ) by mouth every twelve ( 12 ) hours Disp # *6 Tablet Refills : *0
+Patient instructions	Discharge Instructions :
+Patient instructions	? ? ? ? ? ? Take your pain medicine as prescribed if needed .
+Patient instructions	You do not need to take it if you do not have pain .
+Patient instructions	? ? ? ? ? ? Exercise should be limited to walking ; no lifting , straining , or excessive bending .
+Patient instructions	? ? ? ? ? ? Increase your intake of fluids and fiber , as narcotic pain medicine can cause constipation .
+Patient instructions	We generally recommend taking an over the counter stool softener , such as Docusate ( Colace ) while taking narcotic pain medication .
+Patient instructions	? ? ? ? ? ? DO not take any anti-inflammatory medicines such as Motrin , Aspirin , Advil , or Ibuprofen etc . until follow up .
+Patient instructions_Medication	? ? ? ? ? ? You should follow up with your primary care physician regarding need for coumadin .
+Patient instructions	You are not prescribed coumadin at this time .
+Patient instructions_Lab	? ? ? ? ? ? ***You have been prescribed Dilantin ( Phenytoin ) , take it as prescribed and follow up with laboratory blood drawing in one week .
+Patient instructions_Lab	This can be drawn at your PCP ? ? ? ? ? ? s office , but please have the results faxed to 21-823-1729 .
+Patient instructions	? ? ? ? ? ? Do not drive until your follow up appointment .
+Patient instructions	CALL YOUR SURGEON IMMEDIATELY IF YOU EXPERIENCE ANY OF THE FOLLOWING
+Patient instructions	? ? ? ? ? ? New onset of tremors or seizures .
+Patient instructions	? ? ? ? ? ? Any confusion , lethargy or change in mental status .
+Patient instructions	? ? ? ? ? ? Any numbness , tingling , weakness in your extremities .
+Patient instructions	? ? ? ? ? ? Pain or headache that is continually increasing , or not relieved by pain medication .
+Patient instructions	? ? ? ? ? ? New onset of the loss of function , or decrease of function on one whole side of your body .
+Patient instructions	Followup Instructions :
+Patient instructions	Follow-Up Appointment Instructions
+Appointment_Patient instructions	? ? ? ? ? ? Please call
+Appointment_Patient instructions	If you have any problems booking this appointment please ask for Ryan Morrison .
+Patient instructions	April Rich Trevor Mcmahon MD 12791
+Patient instructions	Completed by:1998-01-11
+
+Lab	Blood Culture , Routine ( Preliminary ) : STAPHYLOCOCCUS , COAGULASE NEGATIVE .
+Lab	blood cultures from 1970-01-12 and 1994-09-27 still pending as of 2017-05-08
+Lab	FUNGAL CULTURE ( Preliminary ) : NO FUNGUS ISOLATED .
+Lab	FUNGAL CULTURE ( Preliminary ) : YEAST .
+Medication	Antibiotics were subsequently tailored to ceftriaxone and flagyl from Vancomycin and zosyn .
+Medication	Trach site cellulitis improving , vancomycin and fluconazole for trach site cellulitis should finish on 2011-05-11 .
+Medication	Antibiotics were transitioned from Vancomycin and Zosyn to ceftriaxone and flagyl based on sensitivities .
+Medication	Vanc and fluconazole as noted above .
+Medication	Patient will continue on ceftriaxone and Flagyl .
+Other	Expect the drain can be removed in coming days after outpt approaches zero for 24 hours .
+Imaging_Medication	Ceftriaxone and Flagyl should be continued , and consideration given to repeat CT abdomen/pelvis to ensure continued resolution of right peri-nephric abscess .
+Medication	Anticoagulation was discussed with his PCP , Rita Cooper given his recent fall , hematoma , infection , and long hospital course , decision was made to defer restarting anti-coagulation at this time .
+Medication	3 . CeftriaXONE 1 gm IV Q24H
+Medication	7 . Fluconazole 400 mg PO Q24H Duration : 3 Days
+Medication	8 . FoLIC Acid 1 mg PO DAILY
+Medication	11 .
+Medication	MetRONIDAZOLE ( FLagyl ) 500 mg IV Q8H
+Medication	Vancomycin 1000 mg IV Q 12H
+Patient instructions	Discharge Instructions :
+Patient instructions	You were transferred from another hospital for management of fever .
+Patient instructions	You underwent a bronchoscopy that did not show any lung infection .
+Patient instructions	CT scan of your abdomen showed fluid abscesses around your kidney and liver .
+Patient instructions	A drain was placed , and you were placed on antibiotics .
+Patient instructions	Your fever improved .
+Patient instructions	You also had a tracheostomy and stomach tube placed because of the length of time you were on the ventilator and to help improve your nutrition .
+Patient instructions	You also received antibiotics to treat a skin infection around you tract site .
+Patient instructions	You will continue your recovery from your long hospitaliztion at Monroe Hospital Lewis , Jacob acute rehab facility .
+Appointment_Patient instructions	Followup Instructions : You will follow up with your PCP after discharge from rehab .
+
+Medication	7 . Amiodarone 200 mg Tablet Sig : Two ( 2 ) Tablet PO once a day : Please take 400mg daily for 7 days .
+Appointment_Medication	Then 200mg qd until stopped by Cardiologist .
+Medication	8 . Potassium Chloride 10 mEq Capsule , Sustained Release Sig : Two ( 2 ) Capsule , Sustained Release PO once a day for 1 weeks .
+Medication	Disp : *14 Capsule , Sustained Release ( s ) * Refills : *0*
+Medication	9 . Ranitidine HCl 150 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) .
+Medication	Furosemide 40 mg Tablet Sig : One ( 1 ) Tablet PO BID ( 2 times a day ) for 1 weeks .
+Medication	Disp : *14 Tablet ( s ) * Refills : *0*
+Lab_Medication	Warfarin 1 mg Tablet Sig : Three ( 3 ) Tablet PO ONCE ( Once ) for 2 days : Check INR 10-27 with results to Dr. Martin office .
+Patient instructions	Discharge Instructions :
+Patient instructions	28 shower , no baths or swimming No creams , lotions , powders , or ointments to incisions No driving for approximately one month No lifting more than 10 pounds for 10 weeks Monitor wounds for infection - redness , drainage , or increased pain Report any fever greater than 101 Report any weight gain of greater than 2 pounds in 24 hours or 5 pounds in a week Please call with any questions or concerns
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Dr. Lutz in 4 weeks Dr. Hunter in 05-10 weeks Dr. Hunter in 09-22 weeks
+Patient instructions	Completed by:1990-09-29
+
+Medication	Lipitor 10 mg q.d. , Lopressor 50 mg b.i.d. , Captopril 150 mg t.i.d. , aspirin 81 mg q.d. , Amiodarone 400 mg b.i.d . x 7 days the q.d . thereafter x 1 month .
+Appointment	The patient is to be discharged home with VNA .
+Appointment	The patient 's followup is to be in the Mission Hospital Laguna Beach Clinic in two weeks and with Dr. Sims in four weeks as well as with his primary care physician in three to four weeks .
+
+Medication	2 . Lasix 20 mg p.o . twice a day for ten days .
+Medication	9 . Potassium Chloride 20 mEq p.o . twice a day for ten days .
+Appointment	FOLLOW-UP PLANS :
+Appointment	Please follow-up with Dr. Thomas in six weeks .
+Appointment	Please follow-up with primary care physician in one to two weeks .
+Appointment	Please follow-up with cardiologist in one to two weeks .
+
+Lab	She should have a repeat hematocrit checked in 04-24 days .
+Medication	She was started on Cipro 500mg po bid for 7 days ( day 1 = 05-11 ) .
+Lab	Her culture preliminarily grew Pseudomonas , sensitivitites pending at the time of discharge .
+Medication	Ciprofloxacin 500 mg Tablet Moore : One ( 1 ) Tablet PO Q12H ( every 12 hours ) for 5 days : Last day 02-12 .
+Medication	Disp : *10 Tablet ( s ) * Refills : *0*
+Patient instructions	Discharge Instructions :
+Patient instructions	Dear Ms. Bartlett ,
+Patient instructions	It was a pleasure caring for you in the hospital .
+Patient instructions	You were admitted because of weakness .
+Patient instructions	Your blood count ( hematocrit ) was found to be low .
+Patient instructions	You were transfused 1 unit of blood , and your blood count came back to your normal level .
+Patient instructions	You were also found to have a urinary tract infection .
+Patient instructions_Medication	We treated you with an antibiotic called Ciprofloxacin for this .
+Patient instructions_Medication	You will need a total of 7 days of this antibiotic ( day 1 = 05-11 , last day 02-12 ) .
+Patient instructions	Other than the Ciprofloxacin , no other changes were made to your medications .
+Appointment_Patient instructions	Followup Instructions : Please follow up with your doctors at the facility .
+
+Medication	Vancomycin in Dextrose 1 gram/200 mL Piggyback Brown : One ( 1 ) Intravenous Q 12H ( Every 12 Hours ) for 4 days .
+Medication	Piperacillin-Tazobactam-Dextrs 4.5 gram/100 mL Piggyback
+Medication	Brown : One ( 1 ) Intravenous Q8H ( every 8 hours ) for 4 days .
+Appointment	Outpatient Physical Therapy Patient with deconditioning and requiring help in building strength/stability
+Appointment	22 .
+Lab	Outpatient Lab Work Patient should have chemistry ( sodium , postassium , chloride , bicarbonate , creatinine , BUN ) and CBC checked in PM of 2013-02-27 and AM of 2017-04-25 and as directed by rehab physicians thereafter
+Patient instructions	Discharge Instructions :
+Patient instructions	You were admitted with confusion and fevers .
+Patient instructions	We discovered that you had a pneunomia , considered healthcare associated .
+Patient instructions	We worried about aspiration pneumonia , so we ordered a video swallow test that showed you could tolerate purees and thin liquids .
+Patient instructions	We treated you for this .
+Patient instructions	We also transfused you with blood given your low blood count .
+Patient instructions	Your gastric tube was leaking , so we asked surgery and gastroenterology to help us manage it .
+Patient instructions	Eventually , you started bleeding from a large vessel around the tube and this required an operation .
+Patient instructions	After the operation you went back and forth between the ICU and the floor because we were worried about your breathing .
+Patient instructions	You had a good deal of secretions in your lung but also extra fluid because your heart was overloaded .
+Patient instructions	You were discharged to a rehab facility .
+Appointment_Patient instructions	appointments Davis , Samuel 110-731-5924 Davis
+Patient instructions	Return to the hospital if you develop confusion , fever or any other symptoms that concern you
+Appointment_Patient instructions	Followup Instructions :
+Appointment_Patient instructions	PCP :
+Appointment	Monica Cochran , Paula Flores 110-731-5924 Oncologist Davis
+
+Lab	Follow-up with Dr Vincent within 1 week for pathology report .
+Medication	- The patient was instructed to hold ASA and refrain from NSAIDs for 2 weeks .
+Patient instructions	Discharge Instructions :
+Patient instructions	You had bleeding at the site of your polyp removal .
+Patient instructions	Please avoid Aspirin and all other anti-inflammatory medications ( Ibuprofen , Motrin , Aleve , etc ) for 2 weeks .
+Patient instructions	If you develop repeat bleeding from below , chest pain , shortness of breath , dizziness , passing out , or any other worrisome symptoms , please call your doctor or report to the nearest ER .
+Patient instructions	Followup Instructions :
+Appointment_Patient instructions	Call Dr. Horton office at 23-193-5769 to schedule a follow up appointment 03-12 weeks after discharge .
+Patient instructions	Your previously scheduled appointments :
+Appointment	Provider : Jill Montoya Shannon Stokes , M.D . Phone:870-40-9438
+Appointment	Date/Time:2011-08-29 10:20
+Appointment	Provider : Jill Montoya Shannon Stokes , M.D . Phone:870-40-9438 Date/Time:2011-08-29 10:20 Provider : [ **Name Initial ( NameIs ) 10081** ] /EXERCISE LAB Phone:452-582-5400
+Appointment	Date/Time:2011-08-29 10:20 Provider : [ **Name Initial ( NameIs ) 10081** ] /EXERCISE LAB Phone:452-582-5400 Date/Time:2007-09-10 1:45
+Appointment	Provider : Jill Montoya Shannon Stokes , M.D . Phone:870-40-9438 Date/Time:2011-08-29 10:20 Provider : [ **Name Initial ( NameIs ) 10081** ] /EXERCISE LAB Phone:452-582-5400 Date/Time:2007-09-10 1:45 Provider : Jared Cobb XRAY ( SCC 2 ) Phone:851-946-8515
+Appointment	Date/Time:2011-08-29 10:20 Provider : [ **Name Initial ( NameIs ) 10081** ] /EXERCISE LAB Phone:452-582-5400 Date/Time:2007-09-10 1:45 Provider : Jared Cobb XRAY ( SCC 2 ) Phone:851-946-8515 Date/Time:2012-12-25 2:05
+
+Procedure	Repositing of the skull by neurosurgery should be planned for in 05-09 wks after the craniotomy ( see follow up appointment ) .
+Lab_Medication	In addition , she is on seizure prophylaxis ( dilantin ; goal 15-20 ; please follow level regularly taking into account her albumin level ) .
+Medication	She will need to be on prophylaxis for a few years .
+Imaging	An MRI/MRA should be scheduled in 05-09 weeks to look for a possible underlying cause of the stroke .
+Medication	Aspirin may be restarted for secondary stroke prophylaxix in 4 weeks . .
+Lab_Medication	Further adjustments to the NPH should be made depending on her FSBS . .
+Lab	Final results of the cultures are pending .
+Medication	Levaquin to be continued for 4 more days . .
+Medication	Levofloxacin 500 mg Tablet Sig : One ( 1 ) Tablet PO Q24H ( every 24 hours ) for 4 days .
+Medication	17 .
+Medication	Insulin NPH Human Recomb 300 unit/3 mL Insulin Pen Sig : One ( 1 ) 10 untis Subcutaneous twice a day : Please monitor FSBS closely and adjust dose if needed ; Have RISS in place for corrections until NPH dose is adequate .
+Patient instructions	Discharge Instructions :
+Appointment_Patient instructions	-trach : continue care ; try to wean -PEG : continue care -PICC line placed 06-04 : fine for use ; care per protocol -s/p R-craniotomy : do not touch/press her R-head -note that skull is stored in her abdomen -Please provide PT , prevent contractures in her neck and L extremities .
+Patient instructions_Medication	-FSBS , continue ISS , FSBS ; adjust NPH further -continue seizure prophylaxis
+Appointment_Patient instructions	Please follow up with neurosurgery : Office appointment 08-27 at 10.30 . Please call d9525c9b-d750-96dd-7711-01822b3c55d8 to confirm the appointment , to get further instructions and information , or to re-schedule the appointment if needed . .
+Appointment_Patient instructions	Please follow up at the Effingham Hospital Clinic with Dr. Wilkerson/Dr .
+Appointment_Patient instructions	Wilkerson in 3 months .
+Appointment_Patient instructions	Please call 2aa55e21-bc89-de67-89d0-3bf8b6555294 to schedule an appointment and to receive instructions . .
+Patient instructions_Imaging	Please schedule a MRI-MRA of the head for follow up .
+Patient instructions	This can be done when she is seen at the Norton Audubon Hospital Clinic .
+Patient instructions	Nicholas Colon Crystal Hancock MD , 45735
+Patient instructions	Completed by:2007-10-04
